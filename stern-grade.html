@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aktivierungs-System (★ / ★★) — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html" class="active"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Aktivierung · aktuell spielbar</span>
+      <h1>Aktivierungs-System ★ / ★★</h1>
+      <p class="lead">Das TW-live Upgrade-System, mit dem Monster-Drop-Waffen zu ★ und ★★ hochgestuft, und klassische Rüstungen mit Enchant-Slots ausgestattet werden. Plus: das zukünftige kRO Stern-Grade-System (D/C/B/A) weiter unten.</p>
+    </div>
+
+    <section>
+      <span class="source-note">Offizielle Quelle: roz.gnjoy.com.tw · News ID 217787 (28.08.2025, seither mehrfach erweitert)</span>
+
+      <h2>⭐ Was ist Aktivierung?</h2>
+      <p><strong>Aktivierung</strong> ist das TW-live System, mit dem du ausgewählte <em>Monster-Drop-Ausrüstung</em> durch Material-Einreichung auf die <strong>★- oder ★★-Stufe</strong> hebst. Bestehende Karten, Enchants und Zufalls-Optionen bleiben dabei erhalten — der Refine-Wert wird jedoch reduziert.</p>
+
+      <p>Was sich konkret ändert: Die Waffe erhält eine <strong>komplett neue Stat-Zeile</strong> — typischerweise ein Paket aus Bonus und initialem Malus (z.&nbsp;B. ATK+20 / MDEF−20). Dazu kommen <strong>Refine-gestaffelte Boni</strong>, die bei +3, +7 und +9 freischalten. Ab ★★ greifen weitere Schwellen ab +11, +13 und höher. Außerdem werden ★-Waffen für die speziellen <a href="stern-waffen-optionen.html">★-Waffen Random Options</a> freigeschaltet — Enchants, die normale Tier-2-Waffen nicht erhalten können. Initiale Malus-Werte gleichen sich mit steigendem Refine schrittweise aus.</p>
+
+      <p>Es gibt drei Aktivierungs-Zweige:</p>
+      <ul>
+        <li><strong>Stufe-2 ★ Waffen</strong> — neue Stat-Zeile, Refine −7, enchant-fähig</li>
+        <li><strong>Stufe-2 ★★ Waffen</strong> — zweite Stufe auf Basis einer bereits aktivierten ★-Waffe (seit Patch 23.03.2026), Refine −3</li>
+        <li><strong>Klassische Rüstungen</strong> — zwei Varianten: „Stabil" (Refine −3) und „Intensiv" (Refine −7)</li>
+      </ul>
+
+      <div class="info-box note">
+        <strong>Stern-Regel (seit März 2026):</strong> Bei Refine ≥ <strong>+11</strong> schaltet jeder <strong>+2 Refine-Schritt</strong> eine zusätzliche Fähigkeit frei. Bei <strong>+19</strong> werden initiale negative Effekte vollständig kompensiert.
+      </div>
+    </section>
+
+    <section>
+      <span class="source-note">Offizielle Quelle: roz.gnjoy.com.tw · News ID 217505</span>
+
+      <h2>🔨 Refine — die Grundlage</h2>
+      <p>Bevor wir zur Aktivierung kommen: das Refine-System ist die Voraussetzung für fast alles. In <em>RO Zero</em> findest du in jeder größeren Stadt einen <strong>Schmiede-Werkstatt</strong>-NPC, der Waffen und Rüstungen refinen kann. Der Refine-Wert gibt entsprechende Stat-Boni, und viele Endgame-Items entfalten ihre Fähigkeiten erst <strong>ab einer bestimmten Refine-Stufe</strong>.</p>
+
+      <h3>🎲 Erfolgsraten (offizielle Tabellen, Stand 24.03.2026)</h3>
+
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die benötigten Materialien, Erfolgschancen und Konsequenzen bei Misserfolg für die Verstärkung von Waffen der Stufen 1 und 2 in Ragnarok Zero.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Refine</th><th>Tier 1 Waffe Material</th><th>Menge</th><th>Chance</th><th>Tier 2 Waffe Material</th><th>Menge</th><th>Chance</th><th>Bei Misserfolg</th><th>Blacksmith Blessing</th></tr></thead>
+<tbody>
+<tr><td>0~1</td><td>Weapon Refine Ore - Lv1</td><td>1</td><td>90%</td><td>Weapon Refine Ore - Lv2</td><td>1</td><td>90%</td><td>Equip destroyed</td><td>-</td></tr>
+<tr><td>1~2</td><td>Weapon Refine Ore - Lv1</td><td>1</td><td>90%</td><td>Weapon Refine Ore - Lv2</td><td>1</td><td>90%</td><td>Equip destroyed</td><td>-</td></tr>
+<tr><td>2~3</td><td>Weapon Refine Ore - Lv1</td><td>1</td><td>90%</td><td>Weapon Refine Ore - Lv2</td><td>1</td><td>90%</td><td>Equip destroyed</td><td>-</td></tr>
+<tr><td>3~4</td><td>Weapon Refine Ore - Lv1</td><td>1</td><td>90%</td><td>Weapon Refine Ore - Lv2</td><td>1</td><td>90%</td><td>Equip destroyed</td><td>-</td></tr>
+<tr><td>4~5</td><td>Weapon Refine Ore - Lv1</td><td>1</td><td>90%</td><td>Weapon Refine Ore - Lv2</td><td>1</td><td>90%</td><td>Equip destroyed</td><td>-</td></tr>
+<tr><td>5~6</td><td>Weapon Refine Ore - Lv1</td><td>1</td><td>90%</td><td>Weapon Refine Ore - Lv2</td><td>1</td><td>80%</td><td>Equip destroyed</td><td>-</td></tr>
+<tr><td>6~7</td><td>Weapon Refine Ore - Lv1</td><td>1</td><td>80%</td><td>Weapon Refine Ore - Lv2</td><td>1</td><td>60%</td><td>Equip destroyed</td><td>-</td></tr>
+<tr><td>7~8</td><td>Weapon Refine Ore - Lv1 / Enriched Oridecon</td><td>1</td><td>60% / 90%</td><td>Weapon Refine Ore - Lv2 / Enriched Oridecon</td><td>1</td><td>40% / 70%</td><td>Equip destroyed / Refine-1</td><td>Blacksmith Blessing *1</td></tr>
+<tr><td>8~9</td><td>Weapon Refine Ore - Lv1 / Enriched Oridecon</td><td>1</td><td>40% / 70%</td><td>Weapon Refine Ore - Lv2 / Enriched Oridecon</td><td>1</td><td>20% / 40%</td><td>Equip destroyed / Refine-1</td><td>Blacksmith Blessing *2</td></tr>
+<tr><td>9~10</td><td>Weapon Refine Ore - Lv1 / Enriched Oridecon</td><td>1</td><td>19% / 30%</td><td>Weapon Refine Ore - Lv2 / Enriched Oridecon</td><td>1</td><td>19% / 30%</td><td>Equip destroyed / Refine-1</td><td>Blacksmith Blessing *4</td></tr>
+<tr><td>10~11</td><td>Bradium / High Density Bradium</td><td>1</td><td>18%</td><td>Bradium / High Density Bradium</td><td>1</td><td>18%</td><td>Refine-3 or Equip destroyed / Refine-1</td><td>Blacksmith Blessing *7</td></tr>
+<tr><td>11~12</td><td>Bradium / High Density Bradium</td><td>1</td><td>18%</td><td>Bradium / High Density Bradium</td><td>1</td><td>18%</td><td>Refine-3 or Equip destroyed / Refine-1</td><td>Blacksmith Blessing *11</td></tr>
+<tr><td>12~13</td><td>Bradium / High Density Bradium</td><td>1</td><td>18%</td><td>Bradium / High Density Bradium</td><td>1</td><td>18%</td><td>Refine-3 or Equip destroyed / Refine-1</td><td>Blacksmith Blessing *16</td></tr>
+<tr><td>13~14</td><td>Bradium / High Density Bradium</td><td>1</td><td>18%</td><td>Bradium / High Density Bradium</td><td>1</td><td>18%</td><td>Refine-3 or Equip destroyed / Refine-1</td><td>Blacksmith Blessing *22</td></tr>
+<tr><td>14~15</td><td>Bradium / High Density Bradium</td><td>1</td><td>18%</td><td>Bradium / High Density Bradium</td><td>1</td><td>18%</td><td>Refine-3 or Equip destroyed / Refine-1</td><td>-</td></tr>
+<tr><td>15~16</td><td>Bradium / High Density Bradium</td><td>1</td><td>17%</td><td>Bradium / High Density Bradium</td><td>1</td><td>17%</td><td>Refine-3 or Equip destroyed / Refine-1</td><td>-</td></tr>
+<tr><td>16~17</td><td>Bradium / High Density Bradium</td><td>1</td><td>17%</td><td>Bradium / High Density Bradium</td><td>1</td><td>17%</td><td>Refine-3 or Equip destroyed / Refine-1</td><td>-</td></tr>
+<tr><td>17~18</td><td>Bradium / High Density Bradium</td><td>1</td><td>17%</td><td>Bradium / High Density Bradium</td><td>1</td><td>17%</td><td>Refine-3 or Equip destroyed / Refine-1</td><td>-</td></tr>
+<tr><td>18~19</td><td>Bradium / High Density Bradium</td><td>1</td><td>15%</td><td>Bradium / High Density Bradium</td><td>1</td><td>15%</td><td>Refine-3 or Equip destroyed / Refine-1</td><td>-</td></tr>
+<tr><td>19~20</td><td>Bradium / High Density Bradium</td><td>1</td><td>15%</td><td>Bradium / High Density Bradium</td><td>1</td><td>15%</td><td>Refine-3 or Equip destroyed / Refine-1</td><td>-</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Tabelle unterscheidet zwischen normaler Aufwertung und der Nutzung von 'Enriched Oridecon' bzw. 'High Density Bradium'. Bei der Verwendung von 'Blacksmith Blessing' kann die Zerstörung der Ausrüstung verhindert werden.</em></p>
+</div>
+
+
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle listet die benötigten Materialien, Erfolgschancen und Konsequenzen bei Misserfolg für die Waffenverstärkung in Ragnarok Zero auf.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Refine Stufe</th><th>Stufe 3 Waffe: Material</th><th>Menge</th><th>Erfolgschance</th><th>Stufe 4 Waffe: Material</th><th>Menge</th><th>Erfolgschance</th><th>Bei Misserfolg</th><th>Schutz &amp; Absicherung</th></tr></thead>
+<tbody>
+<tr><td>0~1</td><td>Oridecon</td><td>1</td><td>90%</td><td>Oridecon</td><td>1</td><td>90%</td><td>Item Destroyed</td><td>-</td></tr>
+<tr><td>1~2</td><td>Oridecon</td><td>1</td><td>90%</td><td>Oridecon</td><td>1</td><td>90%</td><td>Item Destroyed</td><td>-</td></tr>
+<tr><td>2~3</td><td>Oridecon</td><td>1</td><td>90%</td><td>Oridecon</td><td>1</td><td>90%</td><td>Item Destroyed</td><td>-</td></tr>
+<tr><td>3~4</td><td>Oridecon</td><td>1</td><td>90%</td><td>Oridecon</td><td>1</td><td>80%</td><td>Item Destroyed</td><td>-</td></tr>
+<tr><td>4~5</td><td>Oridecon</td><td>1</td><td>80%</td><td>Oridecon</td><td>1</td><td>60%</td><td>Item Destroyed</td><td>-</td></tr>
+<tr><td>5~6</td><td>Oridecon</td><td>1</td><td>60%</td><td>Oridecon</td><td>1</td><td>40%</td><td>Item Destroyed</td><td>-</td></tr>
+<tr><td>6~7</td><td>Oridecon</td><td>1</td><td>50%</td><td>Oridecon</td><td>1</td><td>40%</td><td>Item Destroyed</td><td>-</td></tr>
+<tr><td>7~8</td><td>Oridecon / Enriched Oridecon</td><td>1 / 1</td><td>20% / 40%</td><td>Oridecon / Enriched Oridecon</td><td>1 / 1</td><td>20% / 40%</td><td>Item Destroyed / Refine -1</td><td>Blacksmith Blessing*1</td></tr>
+<tr><td>8~9</td><td>Oridecon / Enriched Oridecon</td><td>1 / 1</td><td>20% / 40%</td><td>Oridecon / Enriched Oridecon</td><td>1 / 1</td><td>20% / 40%</td><td>Item Destroyed / Refine -1</td><td>Blacksmith Blessing*2</td></tr>
+<tr><td>9~10</td><td>Oridecon / Enriched Oridecon</td><td>1 / 1</td><td>19% / 30%</td><td>Oridecon / Enriched Oridecon</td><td>1 / 1</td><td>9% / 20%</td><td>Item Destroyed / Refine -1</td><td>Blacksmith Blessing*4</td></tr>
+<tr><td>10~11</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>15%</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>8%</td><td>Refine -3 or Item Destroyed / Refine -1</td><td>Blacksmith Blessing*7</td></tr>
+<tr><td>11~12</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>15%</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>8%</td><td>Refine -3 or Item Destroyed / Refine -1</td><td>Blacksmith Blessing*11</td></tr>
+<tr><td>12~13</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>15%</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>8%</td><td>Refine -3 or Item Destroyed / Refine -1</td><td>Blacksmith Blessing*16</td></tr>
+<tr><td>13~14</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>15%</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>8%</td><td>Refine -3 or Item Destroyed / Refine -1</td><td>Blacksmith Blessing*22</td></tr>
+<tr><td>14~15</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>11%</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>7%</td><td>Refine -3 or Item Destroyed / Refine -1</td><td>-</td></tr>
+<tr><td>15~16</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>11%</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>7%</td><td>Refine -3 or Item Destroyed / Refine -1</td><td>-</td></tr>
+<tr><td>16~17</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>11%</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>7%</td><td>Refine -3 or Item Destroyed / Refine -1</td><td>-</td></tr>
+<tr><td>17~18</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>11%</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>7%</td><td>Refine -3 or Item Destroyed / Refine -1</td><td>-</td></tr>
+<tr><td>18~19</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>9%</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>5%</td><td>Refine -3 or Item Destroyed / Refine -1</td><td>-</td></tr>
+<tr><td>19~20</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>9%</td><td>Bradium / High Density Bradium</td><td>1 / 1</td><td>5%</td><td>Refine -3 or Item Destroyed / Refine -1</td><td>-</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Spalte 'Schutz &amp; Absicherung' gibt die Anzahl der benötigten Blacksmith Blessing an, um das Item bei einem Fehlschlag vor der Zerstörung zu bewahren.</em></p>
+</div>
+
+
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Erfolgsraten, Materialien und Konsequenzen bei einem Fehlschlag für die Verstärkung von Rüstungsgegenständen in Ragnarok Zero.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Refinestufe</th><th>Material</th><th>Menge</th><th>Erfolgsrate</th><th>Bei Fehlschlag</th><th>Schutz &amp; Abbauverhinderung</th></tr></thead>
+<tbody>
+<tr><td>0~1</td><td>Enriched Elunium</td><td>1</td><td>90%</td><td>Equipment destroyed</td><td>-</td></tr>
+<tr><td>1~2</td><td>Enriched Elunium</td><td>1</td><td>90%</td><td>Equipment destroyed</td><td>-</td></tr>
+<tr><td>2~3</td><td>Enriched Elunium</td><td>1</td><td>90%</td><td>Equipment destroyed</td><td>-</td></tr>
+<tr><td>3~4</td><td>Enriched Elunium</td><td>1</td><td>80%</td><td>Equipment destroyed</td><td>-</td></tr>
+<tr><td>4~5</td><td>Enriched Elunium</td><td>1</td><td>60%</td><td>Equipment destroyed</td><td>-</td></tr>
+<tr><td>5~6</td><td>Enriched Elunium</td><td>1</td><td>40%</td><td>Equipment destroyed</td><td>-</td></tr>
+<tr><td>6~7</td><td>Enriched Elunium</td><td>1</td><td>40%</td><td>Equipment destroyed</td><td>-</td></tr>
+<tr><td>7~8</td><td>Enriched Elunium</td><td>1</td><td>20%</td><td>Equipment destroyed</td><td>Blacksmith Blessing *1</td></tr>
+<tr><td>7~8</td><td>HD Elunium</td><td>1</td><td>40%</td><td>Refine -1</td><td>Blacksmith Blessing *1</td></tr>
+<tr><td>8~9</td><td>Enriched Elunium</td><td>1</td><td>20%</td><td>Equipment destroyed</td><td>Blacksmith Blessing *2</td></tr>
+<tr><td>8~9</td><td>HD Elunium</td><td>1</td><td>40%</td><td>Refine -1</td><td>Blacksmith Blessing *2</td></tr>
+<tr><td>9~10</td><td>Enriched Elunium</td><td>1</td><td>9%</td><td>Equipment destroyed</td><td>Blacksmith Blessing *4</td></tr>
+<tr><td>9~10</td><td>HD Elunium</td><td>1</td><td>20%</td><td>Refine -1</td><td>Blacksmith Blessing *4</td></tr>
+<tr><td>10~11</td><td>Bradium</td><td>1</td><td>8%</td><td>Refine -3 or Equipment destroyed</td><td>Blacksmith Blessing *7</td></tr>
+<tr><td>10~11</td><td>HD Bradium</td><td>1</td><td>8%</td><td>Refine -1</td><td>Blacksmith Blessing *7</td></tr>
+<tr><td>11~12</td><td>Bradium</td><td>1</td><td>8%</td><td>Refine -3 or Equipment destroyed</td><td>Blacksmith Blessing *11</td></tr>
+<tr><td>11~12</td><td>HD Bradium</td><td>1</td><td>8%</td><td>Refine -1</td><td>Blacksmith Blessing *11</td></tr>
+<tr><td>12~13</td><td>Bradium</td><td>1</td><td>8%</td><td>Refine -3 or Equipment destroyed</td><td>Blacksmith Blessing *16</td></tr>
+<tr><td>12~13</td><td>HD Bradium</td><td>1</td><td>8%</td><td>Refine -1</td><td>Blacksmith Blessing *16</td></tr>
+<tr><td>13~14</td><td>Bradium</td><td>1</td><td>8%</td><td>Refine -3 or Equipment destroyed</td><td>Blacksmith Blessing *22</td></tr>
+<tr><td>13~14</td><td>HD Bradium</td><td>1</td><td>8%</td><td>Refine -1</td><td>Blacksmith Blessing *22</td></tr>
+<tr><td>14~15</td><td>Bradium</td><td>1</td><td>7%</td><td>Refine -3 or Equipment destroyed</td><td>-</td></tr>
+<tr><td>14~15</td><td>HD Bradium</td><td>1</td><td>7%</td><td>Refine -1</td><td>-</td></tr>
+<tr><td>16~17</td><td>Bradium</td><td>1</td><td>7%</td><td>Refine -3 or Equipment destroyed</td><td>-</td></tr>
+<tr><td>16~17</td><td>HD Bradium</td><td>1</td><td>7%</td><td>Refine -1</td><td>-</td></tr>
+<tr><td>18~19</td><td>Bradium</td><td>1</td><td>5%</td><td>Refine -3 or Equipment destroyed</td><td>-</td></tr>
+<tr><td>18~19</td><td>HD Bradium</td><td>1</td><td>5%</td><td>Refine -1</td><td>-</td></tr>
+<tr><td>19~20</td><td>Bradium</td><td>1</td><td>5%</td><td>Refine -3 or Equipment destroyed</td><td>-</td></tr>
+<tr><td>19~20</td><td>HD Bradium</td><td>1</td><td>5%</td><td>Refine -1</td><td>-</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Bei Verwendung von 'Blacksmith Blessing' wird die Zerstörung des Gegenstandes bei einem Fehlschlag verhindert.</em></p>
+</div>
+
+      <h3>⚔️ Waffen-Refine — Stat-Bonus</h3>
+
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Steigerung von ATK und MATK basierend auf der Waffenstufe und dem Refine-Level.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Waffen-Level</th><th>ATK/MATK Zuwachs pro Refine</th><th>Zusätzlicher ATK/MATK Zuwachs ab +16</th><th>Variabler ATK/MATK Zuwachs ab +6</th><th>Variabler ATK/MATK Zuwachs ab +7</th><th>Variabler ATK/MATK Zuwachs ab +8</th></tr></thead>
+<tbody>
+<tr><td>Level 1</td><td>2</td><td>16</td><td>-</td><td>-</td><td>1~3</td></tr>
+<tr><td>Level 2</td><td>3</td><td>32</td><td>-</td><td>1~5</td><td>-</td></tr>
+<tr><td>Level 3</td><td>5</td><td>54</td><td>1~8</td><td>-</td><td>-</td></tr>
+<tr><td>Level 4</td><td>8</td><td>87</td><td>1~14</td><td>-</td><td>-</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Tabelle stellt die Boni bei der Waffenaufwertung dar. Der variable Bereich bezeichnet schwankende Zusatz-ATK/MATK pro Refine-Stufe.</em></p>
+</div>
+
+      <h3>🛡️ Rüstungs-Refine — Stat-Bonus</h3>
+
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt den zusätzlichen DEF-Wert, der für Rüstungen bei verschiedenen Refine-Stufen pro +1 Refinement gewährt wird.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ausrüstung</th><th>+4 oder niedriger (pro Refine +1)</th><th>+5 oder höher (pro Refine +1)</th><th>+9 oder höher (pro Refine +1)</th><th>+13 oder höher (pro Refine +1)</th><th>+17 oder höher (pro Refine +1)</th></tr></thead>
+<tbody>
+<tr><td>DEF-Zuwachs</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Tabelle illustriert die inkrementelle Erhöhung des DEF-Werts je nach Refine-Level der Rüstung.</em></p>
+</div>
+
+      <div class="info-box note">
+        <strong>Refine → Aktivierung:</strong> Da die Aktivierung unten den Refine-Wert um 3–7 reduziert, <em>refinst du erst hoch, dann aktivierst du</em>. Typischer Workflow: +11 bis +15 erreichen (via HD-Ores/Blacksmith-Segen), dann zur Aktivierung gehen.
+      </div>
+    </section>
+
+    <section>
+      <h2>📍 Zwei NPCs in Prontera</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>Werkstatt-Lehrling Mingjia</h4>
+          <p><strong>Position:</strong> <code>prontera 272 264</code></p>
+          <p><strong>Funktion:</strong> Token-Wechsler. Bringt Monster-Drop-Ausrüstung, erhalte <strong>★ Forging-Token</strong>; bringt bereits aktivierte Waffen, erhalte <strong>★★ Forging-Token</strong>.</p>
+        </div>
+        <div class="card">
+          <h4>Großvater Taodaozhai</h4>
+          <p><strong>Position:</strong> <code>prontera 272 260</code></p>
+          <p><strong>Funktion:</strong> Der eigentliche Aktivator. Öffnet das Aktivierungs-UI, wenn du die richtigen Materialien mitbringst.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🧾 Materialien &amp; Regeln</h2>
+
+      <h3>Stufe-2 ★★ Waffen (seit März 2026)</h3>
+      <div class="card">
+        <p><strong>Regel:</strong> Refine-Wert -3 · Karten, Enchants, Zufalls-Optionen <span style="color:var(--green);">bleiben erhalten</span></p>
+        <p><strong>Material:</strong> <code>3× ★★-Forging-Token</code> + <code>30× Goblin-Splittermünzen</code></p>
+      </div>
+
+      <h3>Stufe-2 ★ Waffen</h3>
+      <div class="card">
+        <p><strong>Regel:</strong> Refine-Wert -7 · Karten, Enchants, Zufalls-Optionen bleiben erhalten</p>
+        <p><strong>Material:</strong> <code>100× ★-Forging-Token</code> + <code>8× Goblin-Splittermünzen</code></p>
+      </div>
+
+      <h3>Klassische Rüstungen — „Stabil"</h3>
+      <div class="card">
+        <p><strong>Regel:</strong> Refine-Wert -3 · Karten, Enchants, Zufalls-Optionen bleiben erhalten</p>
+        <p><strong>Material:</strong> <code>100× ★-Forging-Token</code> + <code>30× Goblin-Splittermünzen</code></p>
+      </div>
+
+      <h3>Klassische Rüstungen — „Intensiv"</h3>
+      <div class="card">
+        <p><strong>Regel:</strong> Refine-Wert -7 · Karten, Enchants, Zufalls-Optionen bleiben erhalten</p>
+        <p><strong>Material:</strong> <code>10× ★-Forging-Token</code> + <code>3× Goblin-Splittermünzen</code></p>
+      </div>
+
+    </section>
+
+    <section>
+      <h2>⚔️ Bereits aktivierbare Gruppen</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4><a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217788" target="_blank">Stufe-2 ★ Waffen</a></h4>
+          <p>Der Launch-Pool, seit August 2025. Umfangreiche Waffen-Listen.</p>
+        </div>
+        <div class="card">
+          <h4><a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=218272" target="_blank">Stufe-2 ★★ Waffen</a> <span class="badge red">NEW</span></h4>
+          <p>Seit Patch 23./24./31.03.2026 aktiv. Die „zweite Welle" mit stärkeren Boni an höheren Refine-Schwellen.</p>
+        </div>
+        <div class="card">
+          <h4><a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=218186" target="_blank">Klassische Rüstungen</a></h4>
+          <p>Seit Patch Februar 2026. Beide Varianten (Stabil / Intensiv).</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🔬 Aktivierbare Zufalls-Optionen</h2>
+      <p>Aktivierte Waffen können zusätzlich mit <em>Physischen und Magischen Magiekristall-Steinen</em> enchantet werden. Offizielle Option-Liste: <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217789" target="_blank">★-Waffen Zusatzfähigkeiten (roz.gnjoy.com.tw) ↗</a>.</p>
+    </section>
+
+    <section>
+      <h2>📊 ★★ Waffen — Stat-Details</h2>
+      <p>Die vollständigen Stat-Tabellen aller ★★-Waffen (4 Patch-Wellen) mit Stat-Boni, Refine-Schwellwerten und Material-Kosten findest du auf der dedizierten Seite:</p>
+
+      <div class="card-grid">
+        <div class="card">
+          <h4><a href="aktivierung-stern-stern.html">🌟 ★★-Waffen Liste — komplette Stat-Übersicht</a></h4>
+          <p>21 Waffen über 4 Patch-Wellen (März 2026 und davor). Einzelne Stat-Karten mit Refine-Boni +7/+9/+11, Class-Locks und Sonder-Effekten.</p>
+        </div>
+        <div class="card">
+          <h4><a href="aktivierung-stern.html">⭐ ★-Waffen Liste — Basis-Aktivierung</a></h4>
+          <p>17 ★-Waffen (3 Patch-Wellen). Voraussetzung für ★★-Upgrade.</p>
+        </div>
+        <div class="card">
+          <h4><a href="klassische-ruestung-aktivierung.html">🛡️ Classic-Rüstung Aktivierung</a></h4>
+          <p>7 klassische Rüstungsteile mit „Stabil"- und „Intensiv"-Modus.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>💡 Strategie-Empfehlungen</h2>
+      <ul>
+        <li><strong>Erst Refine, dann Aktivieren:</strong> Aktivierung reduziert Refine um -3 bis -7 — also erst auf +11 oder mehr refinen, dann aktivieren</li>
+        <li><strong>Goblin-Splittermünzen-Farm:</strong> Kernressource — Sourcing über aktuelle Events / Drop-Quests prüfen (variiert per Patch)</li>
+        <li><strong>★ vor ★★:</strong> Bereits aktivierte Waffe ist Voraussetzung für ★★-Upgrade. Plane die Materialkette</li>
+        <li><strong>Kein Cards/Enchants-Verlust:</strong> Anders als Refine-Break wird nichts zerstört — Aktivierung ist <em>risikoarm</em>, nur Refine-Wert fällt</li>
+        <li><strong>Kombiniere mit <a href="mvp.html">Schmied-Segen</a>:</strong> Nach Aktivierung das Refine wieder hoch bringen mit Schmied-Segen (kein Break bei +7–+12)</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <div class="info-box future">
+      <strong>Zukünftiges kRO-System: "Stellar Grade" (D/C/B/A).</strong> Ab hier: <em>kein</em> TW-live Content, sondern das was auf kRO Zero seit Dez 2024 läuft und vermutlich auf Global in späterer Phase kommt. Verwendet <em>Etel-Materialien</em> statt Forging-Tokens und upgradet Lv-5-Waffen/Lv-2-Rüstungen. Bleibt zur Referenz / Planung.
+    </div>
+
+    <section>
+      <h2>⭐ kRO-Stellar-Grade (Future)</h2>
+      <p>Das <strong>kRO Grade-System</strong> ist ein separates Upgrade zusätzlich zum Refining. Nur anwendbar auf <strong>Level-5-Waffen und Level-2-Rüstungen</strong> — das heißt fast alles Endgame-Gear (Trans+).</p>
+
+      <div class="info-box future">
+        <strong>Warum ist das Future?</strong> Lv-5-Weapons sind alle Trans-Class-gated. Etel Dust droppt nur von <strong>Lv 200+ Monstern</strong> (kRO Zero seit Dez 2024) — also ferne Zukunft für TWRoZ/Global.
+      </div>
+    </section>
+
+    <section>
+      <h2>📊 Grade-Progression</h2>
+      <p>
+        No Grade &nbsp;→&nbsp;
+        <span class="grade grade-d">D</span>&nbsp;→&nbsp;
+        <span class="grade grade-c">C</span>&nbsp;→&nbsp;
+        <span class="grade grade-b">B</span>&nbsp;→&nbsp;
+        <span class="grade grade-a">A</span>
+      </p>
+
+      <h3>Refine-Bonus pro Grade (Waffen)</h3>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Grade</th><th>Refine-Bonus</th><th>Beispiel (8 ATK/+1 →)</th></tr></thead>
+        <tbody>
+          <tr><td>No Grade</td><td>Standard</td><td>8 ATK/+1</td></tr>
+          <tr><td><span class="grade grade-d">D</span></td><td>+10%</td><td>~9 ATK/+1</td></tr>
+          <tr><td><span class="grade grade-c">C</span></td><td>+25%</td><td>10 ATK/+1</td></tr>
+          <tr><td><span class="grade grade-b">B</span></td><td>+50%</td><td>12 ATK/+1</td></tr>
+          <tr><td><span class="grade grade-a">A</span></td><td>+100%</td><td>16 ATK/+1</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>📋 Schritt-für-Schritt Anforderungen</h2>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Schritt</th><th>Refine-Minimum</th><th>Edelstein</th><th>Etel-Kosten</th><th>Basis-Erfolg</th></tr></thead>
+        <tbody>
+          <tr><td>No Grade → D</td><td>+9 (besser +11)</td><td>7× Etel Aquamarine</td><td>21 Etel Stone (105 Dust) + 7 Aquamarine</td><td>40%</td></tr>
+          <tr><td>D → C</td><td>+9 Grade D</td><td>7× Etel Topaz</td><td>42 Etel Stone (210 Dust) + 7 Topaz</td><td>30%</td></tr>
+          <tr><td>C → B</td><td>+9 Grade C</td><td>7× Etel Amethyst</td><td>70 Etel Stone (350 Dust) + 7 Amethyst</td><td>20%</td></tr>
+          <tr><td>B → A</td><td>+9 Grade B</td><td>14× Etel Amber</td><td>210 Etel Stone (1050 Dust) + 14 Amber</td><td>10%</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p><strong>Modifiers:</strong> +10% pro Blessed Etel Dust · +10% während Refine/Grade-Event · +10% bei +16 Refine</p>
+    </section>
+
+    <section>
+      <h2>💀 Failure-Regeln</h2>
+      <div class="info-box tip">
+        <strong>Grading kann das Item NIEMALS zerstören.</strong>
+      </div>
+      <ul>
+        <li>Grade-Failure → Refine drops by 1, Materials lost</li>
+        <li>Existing Grade bleibt erhalten</li>
+        <li>Cards/Enchants/Options bleiben erhalten</li>
+        <li>Refining (separates System) über Safety-Cap BREAKS by default — nicht Grading!</li>
+        <li>HD-Ores: prevent Break, only drop Refine by 1</li>
+        <li>Blacksmith Blessing: keep Original Refine on Fail (usable +7 bis +12)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>⭐ Grade-A Unique Bonuses</h2>
+      <p>Über den +100% Refine-Bonus hinaus haben einige Items spezielle <strong>conditional Grade-A-Effekte</strong>:</p>
+      <ul>
+        <li><strong>Cannon Spear:</strong> Grade A + Refine ≥ +14 → <strong>+70% Damage</strong></li>
+        <li><strong>Crimson Series:</strong> Grade A enables full ATK²-Scaling up to +15 mit extra MATK/ATK-Lines</li>
+        <li>Viele Lv-5-Weapons: Grade A unlockt Bonus-Auto-Cast, Racial-Damage-Tiers, Refine-Gated Lines</li>
+        <li>Lv-2-Armors: Grade A typischerweise extra Refine-Gated MaxHP%/Resist-Line</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📊 Etel-Materialien</h2>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Material</th><th>Tier</th><th>Source</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Etel Dust</strong></td><td>Base</td><td>2,2–7,7% Drop von Lv 200+ Mobs (Niflheim Dun, Rudus F4, Amicitia, Bio Lab 5) · auch Fever/Champion</td></tr>
+          <tr><td>Etel Stone</td><td>Tier-2</td><td>Craft: 5 Etel Dust → 1 Etel Stone</td></tr>
+          <tr><td>Etel Refined Dust</td><td>Tier-3</td><td>Craft aus Etel Stones</td></tr>
+          <tr><td>Etel Crystal</td><td>Tier-4</td><td>Craft aus Etel Refined Dust</td></tr>
+          <tr><td>Blessed Etel Dust</td><td>Boost</td><td>Cash-Shop / Event. +10% Success. Returns +1 on Failure @ +16 Refine</td></tr>
+          <tr><td>Etel Aquamarine/Topaz/Amethyst/Amber</td><td>Step-Gated</td><td>Craft @ Grademk: 1 Plain Gem (Morroc Jeweler) + Etel Stones/Dust</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>📅 Refine/Grade-Event-Schedule</h2>
+      <div class="info-box note">
+        <strong>Cadence: ~3×/Jahr</strong> auf GNJOY-Familie — typisch <strong>April, August, Dezember</strong>.<br>
+        <strong>Boost: +10%</strong> Grade-Success-Rate (stackt mit Blessed Etel Dust +10%).<br>
+        TWRoZ Anniversary/Seasonal Booster Event gibt zusätzlich Safe-+9-Refine-Boxes.
+      </div>
+    </section>
+
+    <section>
+      <h2>💰 Kosten-Analyse: No Grade → Grade A</h2>
+      <p>Statistisch (mit +10% Blessed Etel Dust):</p>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Schritt</th><th>Effektive Rate</th><th>Erwartete Versuche</th><th>Dust/Versuch</th><th>Erwarteter Gesamt-Dust</th></tr></thead>
+        <tbody>
+          <tr><td>→ D</td><td>50%</td><td>2</td><td>105</td><td>~210</td></tr>
+          <tr><td>→ C</td><td>40%</td><td>2,5</td><td>210</td><td>~525</td></tr>
+          <tr><td>→ B</td><td>30%</td><td>3,33</td><td>350</td><td>~1.165</td></tr>
+          <tr><td>→ A</td><td>20%</td><td>5</td><td>1.050</td><td>~5.250</td></tr>
+          <tr><td><strong>TOTAL</strong></td><td colspan="2"><strong>~13 Versuche</strong></td><td colspan="2"><strong>~7.150 Etel Dust + ~70 Gems</strong></td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>Plus 40–60 HD-Ores pro Cycle für Re-Refining. Worst-Case: <strong>15.000+ Etel Dust</strong> für No Grade +0 → Grade A +20.</p>
+    </section>
+
+    <section>
+      <h2>🛠️ HD / Enriched / Blacksmith Blessing</h2>
+      <ul>
+        <li><strong>HD Elunium/Oridecon:</strong> Gleiche Rate wie Enriched, Failure DEGRADES nur um 1 (nicht Break)</li>
+        <li><strong>Enriched:</strong> Höhere Success, aber BREAKS on Failure</li>
+        <li><strong>Blacksmith Blessing:</strong> Usable +7 bis +12, Failure PRESERVES Original Refine
+          <ul>
+            <li>Recipe @ Thor's Flame für 5M Zeny</li>
+            <li>BS Blessing Shards droppen von Fever/Champion-Monsters</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+  
+  
+  
+  
+  
+  
+  </main>
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank">Project Zero Wiki</a> · <a href="https://www.rozskill.me/" target="_blank">rozskill.me</a>
+</footer>
+
+</body>
+</html>

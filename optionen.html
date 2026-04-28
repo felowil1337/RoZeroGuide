@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zufalls-Optionen — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html" class="active"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Ausrüstung · Aktuell spielbar</span>
+      <h1>Random Options</h1>
+      <p class="lead">Zusätzliche Stat-Slots auf Monster-Drops, Blacksmith-Waffen und Regional-Gear — Anzahl und Qualität steigen mit Monster-Level. Komplette Pool-Tabellen und Reroll-Kosten hier.</p>
+    </div>
+
+    <section>
+      <div class="card-grid">
+        <div class="card">
+          <h4>🎲 Bis zu 4 Options</h4>
+          <p>Fever-Monster geben 4 Options, Boss-Monster 3, normale Lv 41+ Monster 2. Lv 1–40 nur 1 Option.</p>
+        </div>
+        <div class="card">
+          <h4>🔒 Kein Lock-Service</h4>
+          <p>Jeder Reroll ist ein Full-Reroll — alle vorhandenen Options werden ersetzt. Refine-Level und Karten bleiben erhalten.</p>
+        </div>
+        <div class="card">
+          <h4>⚡ Multiplikativ</h4>
+          <p>ATK%/MATK% sind multiplikative Multiplikatoren. Zwei 5%-Options übertreffen eine einzelne 10%-Option.</p>
+        </div>
+        <div class="card">
+          <h4>🔥 Fever = Top-Tier</h4>
+          <p>Fever-Dungeon-Monster sind die stärkste Option-Quelle im aktuellen Content — 4 Options inklusive Race/Element-Damage.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>⚙️ Wie funktionieren Random Options?</h2>
+      <p>Ausrüstung, die von Monstern gedroppt wird, kann <strong>Random Options</strong> tragen — zusätzliche Stat-Boni, die zwischen der Item-Beschreibung und den Kartenslots im Tooltip erscheinen. Sie kommen aus klassenspezifischen Pools, die sich nach Ausrüstungstyp und Monster-Level-Bereich richten.</p>
+      <div class="info-box note">
+        <strong>Berechnungsformeln:</strong><br>
+        • <code>ATK +X</code> — flat, addiert zum Weapon-ATK<br>
+        • <code>ATK +X%</code> — WeaponAtk × (1 + X/100), multiplikativ<br>
+        • <code>MATK +X%</code> — (StatusMATK + EquipMATK) × (1 + X/100)<br>
+        <br>
+        <strong>Tipp:</strong> Options bleiben beim Refinen und Graden erhalten. Ein Indestructible-Roll macht die Waffe auch bei Refinig-Fails unzerstörbar.
+      </div>
+    </section>
+
+    <section id="tiers">
+      <h2>📊 Tier-Übersicht</h2>
+      <p>Alle Weapon-Options-Tiers auf einen Blick — von einfachen Mob-Drops bis Fever-Top-Tier:</p>
+      <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Quelle</th><th>Options</th><th>Highlight-Effekte</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Lv 1–20</strong> (normale Monster)</td>
+            <td style="text-align:center">1</td>
+            <td>Stats +1–3, ATK/MATK flat, ASPD%, CRIT</td>
+          </tr>
+          <tr>
+            <td><strong>Lv 21–40</strong> (normale Monster)</td>
+            <td style="text-align:center">1</td>
+            <td>Stats +1–4, ATK/MATK% 5–10, Crit-Damage, ATK gegen Size</td>
+          </tr>
+          <tr>
+            <td><strong>Lv 41–60</strong> (normale Monster)</td>
+            <td style="text-align:center">2</td>
+            <td>+ ATK gegen Element/Race, <em>Indestructible</em></td>
+          </tr>
+          <tr>
+            <td><strong>Lv 61–99</strong> (normale Monster)</td>
+            <td style="text-align:center">2</td>
+            <td>Stats +1–6, ATK% 5–12, CRIT 5–12, ATK gegen Element/Race 10–25%</td>
+          </tr>
+          <tr>
+            <td><strong>Boss-Monster</strong></td>
+            <td style="text-align:center">3</td>
+            <td>+ Property Conversion, Ignore DEF/MDEF, Remove Size Penalty</td>
+          </tr>
+          <tr>
+            <td><strong>🔥 Fever-Monster</strong></td>
+            <td style="text-align:center"><strong>4</strong></td>
+            <td>ATK/MATK gegen Race/Element/Normal/Boss — Top-Tier-Pool</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>⚔️ Weapon-Options — Detailpools</h2>
+
+      <h3>Lv 1–20 · 1 Option</h3>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Waffentyp</th><th>Options-Pool</th></tr></thead>
+        <tbody>
+          <tr><td>Melee</td><td>STR/AGI/VIT/DEX/LUK +1–3 · MaxHP +100–300 · ATK +10–20 · ATK% +1–5 · ASPD% +5–10 · HIT/FLEE +5–20 · CRIT +3–6</td></tr>
+          <tr><td>Ranged</td><td>Wie Melee + Ranged Damage% +3–5</td></tr>
+          <tr><td>Magic</td><td>INT +1–3 · MATK +10–20 · MATK gegen Element +5–10% · Heal Amount% +3–5 · VCT-Reduction +3–5%</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h3>Lv 21–40 · 1 Option</h3>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Option</th><th>Pool</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Stats +1–4 · ATK/MATK +20–50 · ATK%/MATK% +5–10 · ASPD% +7–15 · HIT/FLEE +10–30 · Crit-Damage +10–20% · ATK gegen Size +5–15</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h3>Lv 41–60 · 2 Options</h3>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Option</th><th>Pool</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Stats +1–5 · ATK +20–50 · ATK gegen Size +10–20 · Crit-Damage +10–20%</td></tr>
+          <tr><td>2</td><td>ATK gegen Element/Race +10–20% · <strong>Indestructible Weapon</strong></td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h3>Lv 61–99 · 2 Options</h3>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Option</th><th>Pool</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Stats +1–6 · MaxHP +100–500 · ATK +20–60 · ATK% +5–12 · ASPD% +7–18 · CRIT +5–12 · Crit-Damage +10–24 · ATK gegen Size +10–25</td></tr>
+          <tr><td>2</td><td>ATK gegen Element/Race +10–25%</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h3>Boss-Monster · 3 Options</h3>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Option</th><th>Pool</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>All Stats +1–4</td></tr>
+          <tr><td>2</td><td>ATK +5–15 · ASPD% +4–12 · Crit-Dmg +3–9 · ATK gegen Element/Race +3–9%</td></tr>
+          <tr><td>3</td><td>MaxHP +60–180 · MaxHP% +2–6 · MaxSP +20–60 · After-Cast-Delay −3–9% · SP-Cost −1–3% · Chance Ignore DEF/MDEF +3–9% · <strong>Property Conversion</strong> (Water/Fire/Earth/Wind/Holy/Shadow/Ghost/Undead) · <strong>Indestructible</strong> · <strong>Remove Size Penalty</strong></td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h3>🔥 Fever-Monster · 4 Options</h3>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Option</th><th>Pool</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>ATK/MATK +5–30 · ATK%/MATK% +1–5</td></tr>
+          <tr><td>2</td><td>HIT +5–20 · FLEE +10–20 · ASPD% +5–7 · Crit-Dmg +5–10% · ATK/MATK gegen Element +5–10% · VCT −5–10%</td></tr>
+          <tr><td>3</td><td>ATK/MATK gegen Race +5–10% · ATK gegen Normal/Boss +3–7% · Chance Ignore DEF/MDEF +5–15%</td></tr>
+          <tr><td>4 <em>(nur Fever-Boss)</em></td><td>ATK +10–20 · ATK% +1–5 · ASPD +1–2 · alle Race/Element +5–10%</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>🛡️ Armor-Options</h2>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Slot</th><th>Quelle</th><th>Options</th><th>Pool-Highlights</th></tr></thead>
+        <tbody>
+          <tr><td>Armor</td><td>Champion-Monster</td><td>1–2</td><td>Stats +1–4 · MaxHP%/MaxSP% +3–7 · HP-Recovery +40–100 · MaxHP +200–500 · DEF +10–100 · Element-Resist +10–20%</td></tr>
+          <tr><td>Garment</td><td>Champion-Monster</td><td>1–2</td><td>Reduce Weapon-ATK gegen Race +10–20%</td></tr>
+          <tr><td>Shoes</td><td>Champion-Monster</td><td>1–2</td><td>CRIT-Rate gegen Race +10–20%</td></tr>
+          <tr><td>Alle Slots</td><td>🔥 Fever-Monster</td><td>2–4</td><td>Analog Fever-Weapon — MaxHP +150–350 · MaxSP +25–50 · HP%/SP% +1–5</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>🔄 Reroll &amp; Modification</h2>
+
+      <h3>⚒️ Blacksmith-Crafted-Waffen</h3>
+      <p>Lv-3+-Waffen vom Blacksmith erhalten Options je nach Rang des Schmieds — unabhängig vom Monster-Pool:</p>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Smith-Rang</th><th>Options</th></tr></thead>
+        <tbody>
+          <tr><td>Ohne Rang</td><td>3</td></tr>
+          <tr><td>Rang 6.–10.</td><td>4</td></tr>
+          <tr><td>Rang 1.–5.</td><td>5 (Maximum)</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h3>⚙️ Einbroch-Modification-Permits</h3>
+      <p>Einbroch-Waffen erhalten ihre Options <strong>nicht</strong> durch Monster-Drops, sondern über einen NPC-Service:</p>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Parameter</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>NPC</td><td><em>Field Inspector Rita</em> in Einbech</td></tr>
+          <tr><td>Kosten pro Permit</td><td>2× Dynite + 100.000 Zeny</td></tr>
+          <tr><td>Typen</td><td>Physical (ID 9514) und Magical — 1:1 austauschbar</td></tr>
+          <tr><td>Effekt</td><td>1 Permit = neuer Roll von bis zu 3 Options · Option 1 garantiert · Options 2+3 random</td></tr>
+          <tr><td>Reroll</td><td>Neuen Permit kaufen — Full-Reroll, kein Lock</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h3>🐉 Regional-Weapon-Reroll</h3>
+      <p>Louyang, Amatsu und Kunlun-Waffen teilen denselben Options-Pool. Spieler wählen Physical oder Magical. Option 1 ist garantiert, Option 2 nicht immer.</p>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Region</th><th>Kosten</th><th>NPC-Position</th></tr></thead>
+        <tbody>
+          <tr><td>Louyang</td><td>150.000 Zeny</td><td><code>/navi louyang 207/112</code></td></tr>
+          <tr><td>Amatsu</td><td>150.000 Zeny <em>oder</em> 1 Spirit Stone</td><td>Amatsu Town NPC</td></tr>
+          <tr><td>Kunlun</td><td>150.000 Zeny</td><td>Kunlun Town NPC</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <div class="info-box warning">
+        <strong>Kein Lock in Zero!</strong> Rerolling ist immer ein Full-Reroll — alle Options werden neu gewürfelt. Refine-Level und Karten bleiben erhalten.
+      </div>
+    </section>
+
+    <section>
+      <h2>🧥 Soutane-Set (Hugel)</h2>
+      <p>Das Soutane-Set hat 6 Stat-Varianten (STR/AGI/VIT/INT/DEX/LUK) — jeweils Armor + Garment + Shoes. Slot 1 = Card, Slots 2–4 = Enchants. Slot 2 erhält Special-Enchants erst ab +9.</p>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Parameter</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Enchant-NPC</td><td><em>Susan Grey</em> · <code>que_bingo 46,80</code> (2F Hugel Weapon Building)</td></tr>
+          <tr><td>Kosten &lt;+9</td><td>1× Angel's Dream + 5× Rune of Darkness + 5× Soft Feather</td></tr>
+          <tr><td>Kosten +9+</td><td>250.000 Zeny <em>oder</em> 1 Daily Coin — schaltet bessere Slot-2-Specials frei</td></tr>
+          <tr><td>Reset-Kosten</td><td>200.000 Zeny</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>🏰 Memorial-Dungeon-Enchants</h2>
+      <p>MD-Gear der Lv-60/70/80-Instanzen hat exklusive Enchant-Pools — stärker als Standard-Options und nur über MD-NPCs zugänglich. NPCs der Enchant-Vereinigung bei <code>prt_in 135/35</code> und <code>prt_in 135/28</code>.</p>
+      <div class="card-grid">
+        <div class="card">
+          <h4><a href="enchant-subjugation.html">⚔️ 60MD — Subjugation</a></h4>
+          <p>Level-60 MD-Gear · NPC bei <code>prt_in 135/35</code></p>
+          <p>3 Enchant-Pools: Stats/Basis (+0~8), ≥+9 2-Slot, ≥+9 Class-Essence-Pool (7 Essences)</p>
+        </div>
+        <div class="card">
+          <h4><a href="enchant-expedition.html">🏰 70MD — Expedition</a></h4>
+          <p>Level-70 MD-Gear · NPC bei <code>prt_in 135/28</code></p>
+          <p>4 Enchant-Pools: +0~8 Basis, ≥+9 2-Slot, ≥+9 1st-Job-Group Armor, Item-Drop-Tabelle</p>
+        </div>
+        <div class="card">
+          <h4><a href="enchant-annihilation.html">💀 80MD — Annihilation</a></h4>
+          <p>Level-80 MD-Gear · NPC bei <code>prt_in 135/28</code></p>
+          <p>5 Enchant-Pools: +0~8 Basis, ≥+9 3-Slot mit Armor, Job-Group-Subtables, Item-Drop-Tabelle</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>💡 Tipps &amp; Visual-ID</h2>
+      <ul>
+        <li><strong>Im Tooltip:</strong> Random Options stehen zwischen dem Item-Info-Block und dem Karten-Block.</li>
+        <li><strong>Pillar-of-Light-Farbe</strong> beim Ground-Drop verrät die Option-Anzahl — Quick-ID für 3- vs. 4-Option-Drops ohne aufheben.</li>
+        <li><strong>Options bleiben</strong> beim Refinen, Graden und Enchanten vollständig erhalten.</li>
+        <li><strong>Indestructible-Roll</strong> auf Option 2 (Lv 41+) oder Boss Option 3 macht die Waffe auch bei Refine-Fails unzerstörbar — sehr wertvoll für teure Gear.</li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank">Project Zero Wiki</a> · <a href="https://www.rozskill.me/" target="_blank">rozskill.me</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klassen & Builds — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#hint">💡 Hint-System</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot — Übersicht</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">↳ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">↳ Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-bug" class="anchor-l2">↳ Return-to-Town-Bug</a></li>
+            <li><a href="auto-hunt.html#autopot-limits" class="anchor-l2">↳ Einschränkungen</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">↳ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">↳ Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#pvp">🛡️ PvP &amp; Restriktionen</a></li>
+            <li><a href="auto-hunt.html#death">💀 Death-Handling</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger-AFK-farmen</a></li>
+            <li><a href="auto-hunt.html#patch">📊 March-2026-Patch</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li><a href="klassen.html" class="active"><span class="emoji">⚔️</span>Klassen &amp; Builds</a></li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li><a href="quests.html"><span class="emoji">📜</span>Quest-Walkthroughs</a></li>
+        <li><a href="fever.html"><span class="emoji">🔥</span>Fever-Felder (Lv-Boost)</a></li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li><a href="items-md-equip.html"><span class="emoji">🛡️</span>Memorial-Set Items</a></li>
+        <li><a href="crafting.html"><span class="emoji">🔨</span>Memorial-Crafting</a></li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options 附加能力</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★ 活化</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>Tier-2 ★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>Tier-2 ★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet (附魔)</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        document.querySelectorAll('.sidebar details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">1./2. Job — Aktuell spielbar</span>
+      <h1>Klassen & Builds</h1>
+      <p class="lead">Alle 12 Klassenfamilien mit TWRoZ-verifizierten Build-Empfehlungen aus der Midgard Academy. Fokus auf Pre-Trans-Inhalte — Trans-Klassen (Rebirth) sind in einem separaten Bereich.</p>
+    </div>
+
+    <section>
+      <h2>⚔️ Alle 12 Klassenfamilien — TWRoZ-verifizierte Builds</h2>
+      <p>Diese Builds stammen aus der <a href="https://www.midgardhub.com/academy" target="_blank">Midgard Academy</a> (Ryan Geldun / Lorewalker), synthetisiert aus Bahamut-Foren und der TWRoZ-Veteran-Community. Alle Stat-Ranges sind für den 1st/2nd-Job-Cap ausgelegt.</p>
+
+      <div class="info-box note">
+        <strong>2. Job-Wechsel:</strong> Die 2nd-Job-Transfer-NPCs sind auf <a href="leveling.html">Level-Routen</a> dokumentiert. Für die meisten Builds ist der 2. Job-Wechsel bei Job Lv 40 (1. Job) empfohlen.
+      </div>
+    </section>
+
+    <section>
+      <span class="source-note">Offizielle Quelle: roz.gnjoy.com.tw · News ID 217504 · 基礎職業</span>
+
+      <h2>🎭 Offizielle Klassen-Einführung (GNJOY)</h2>
+      <p>In <em>RO Zero</em> starten alle Abenteurer als <strong>Anfänger (初學者)</strong>. Bei <strong>Job-Level 10</strong> kannst du dich in eine der sechs Basis-Klassen weiterentwickeln. Die folgenden offiziellen Portraits stammen direkt von GNJOY TW:</p>
+
+      <div class="card-grid">
+        <div class="card">
+          <h4>Schwertkämpfer (劍士)</h4>
+          <p>Starke Überlebensfähigkeit, stabiler Skill-Damage. Normal-Attack-Fallback reduziert SP-Abhängigkeit im Auto-Battle. PvP: <em>Bash</em> für Stun, <em>Provoke</em> senkt Feind-DEF.</p>
+          <p><em>★ Für alle, die der Tank der Party sein wollen.</em></p>
+        </div>
+        <div class="card">
+          <h4>Magier (魔法師)</h4>
+          <p>Multi-Element-Magie mit hohem AoE-Damage. PvP-Utility: <em>Fire Wall</em>, <em>Stone Curse</em>, <em>Frost Diver</em>. <em>Safety Wall</em> schützt Teammates. Nachteil: extreme SP-Abhängigkeit.</p>
+          <p><em>★ Höchste Lernkurve, extrem hohes Skill-Ceiling.</em></p>
+        </div>
+        <div class="card">
+          <h4>Acolyth (服事)</h4>
+          <p>Unverzichtbarer Support mit starken Buffs. <em>Increase AGI</em> macht kurze Beine zu Marathonläufern. Self-Heal reduziert HP-Pot-Abhängigkeit. <em>Warp Portal</em> für Team-Teleport.</p>
+          <p><em>★ Für Service- und Support-orientierte Spieler.</em></p>
+        </div>
+        <div class="card">
+          <h4>Bogenschütze (弓箭手)</h4>
+          <p>Die einzige Range-Physical-Klasse. Killt Monster bevor sie Damage machen = gute Ausdauer. Auto-Battle: Pfeile verbrauchen sich, Gewichts-Management wichtig. PvP: <em>Double Strafe</em> für Burst, <em>Arrow Shower</em> für Knockback.</p>
+          <p><em>★ Für Hit-and-Run-Spielstile.</em></p>
+        </div>
+        <div class="card">
+          <h4>Dieb (盜賊)</h4>
+          <p>Stealth-Melee mit hoher Evasion (<em>Improve Dodge</em>) und Double Attack für Burst-Damage. Kein SP-Verbrauch → hohe Auto-Battle-Ausdauer. <em>Steal</em> für Extra-Loot. PvP: <em>Sand Attack</em>, <em>Envenom</em>, <em>Back Slide</em>.</p>
+          <p><em>★ Strategisch-flexibel, hohe Belohnung bei Meisterung.</em></p>
+        </div>
+        <div class="card">
+          <h4>Händler (商人)</h4>
+          <p>Cart-Mechanik für Gewicht/Inventar-Kapazität. <em>Discount/Overcharge</em>-Skills + <em>Vending</em> machen ihn zur Markt-Maschine. <em>Mammonite</em> = Zeny-Attack (schiesst buchstäblich mit Geld).</p>
+          <p><em>★ Für Zeny-Markt-Enthusiasten.</em></p>
+        </div>
+      </div>
+      <div class="info-box note">
+        Offizielle Empfehlung: Spiele den Basis-Job bis Job-Lv 10, dann transferiere zur 2. Job-Klasse. Trans-Klassen (2nd Job → High Novice → Transcendent) sind auf <a href="trans-klassen.html">Trans-Klassen</a> dokumentiert.
+      </div>
+    </section>
+
+    <section>
+      <h2>🗡️ Schwertkämpfer-Pfad</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>⚔️ Knight / Lord Knight — „Pierce Machine"</h4>
+          <p class="meta">Sustainable Pierce-Farming · SP-Uptime via INT</p>
+          <p><strong>Konzept:</strong> Pierce (連刺攻擊) dauerhaft durch INT-gestütztes SP-Recovery. Goldstandard für Centipede-Maps.</p>
+          <p><strong>Stats:</strong> STR 80–90 · <strong>INT 40–60</strong> · DEX 40–50 · AGI Rest</p>
+          <p><strong>Skills:</strong> Pierce Lv 10, Two-Hand Quicken Lv 10</p>
+          <p><strong>Waffe:</strong> Eden Spear III (樂園團長矛 III)</p>
+          <p><strong>Gear:</strong> Shadow Knight Armor + Shoes (SP-Recovery-Boost), Conquest Manteau, Ring of Resonance [1]</p>
+          <p><strong>Pro-Tipp:</strong> <em>Zero Beetle Card</em> ist nicht verhandelbar — SP-Recovery on Kill</p>
+        </div>
+        <div class="card">
+          <h4>🛡️ Crusader / Paladin — „Holy Guardian"</h4>
+          <p class="meta">Tank + Reflect · Grand Cross</p>
+          <p><strong>Stats:</strong> INT 90–99 · STR 40–60 · VIT 50–70 · DEX Rest</p>
+          <p><strong>Skills:</strong> Grand Cross Lv 10 (3×3 Holy AoE, scales ATK+MATK), Faith Lv 10 (HP + Holy-Resist für Selbst-Recoil)</p>
+          <p><strong>Waffe:</strong> Eden Spear III, Excalibur (INT-Dream)</p>
+          <p><strong>Gear:</strong> Shadow Crusader Shield (GC-HP-Cost-Reduction), Pupa Card Armor, Angeling Card (nullifiziert GC-Selbst-Damage), Spiritual Ring</p>
+          <p><strong>Zero-Meta:</strong> Grand Cross trifft 3× — wenn Mob im 1. Hit stirbt, sind die anderen Hits verschwendet. Pulls timen!</p>
+        </div>
+      </div>
+    
+      <!-- EMBED:START skills-knight -->
+            <div style="margin-top:32px;border-top:2px dashed var(--border);padding-top:16px">
+              <h4>✨ Lord-Knight-Skills (Trans) im Detail</h4>
+              <p style="color:var(--text-dim);font-size:13px;margin-top:0">Die acht Lord-Knight-Trans-Skills mit per-Level-Werten (SP, Cast-Time, Cooldown). Ausführliche Daten siehe <a href="skills.html">Skill-Datenbank</a>.</p>
+              <div class="entry-grid wide">
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Berserk (버서크)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 1</li><li><strong>Type:</strong> Assistance (보조)</li><li><strong>Target:</strong> Self</li><li><strong>Prerequisite:</strong> Job Level 50</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td></td><td>0</td><td>0</td><td>0</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-berserk">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Spiral Pierce (스파이럴 피어스)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 5</li><li><strong>Type:</strong> Ranged Physical (원거리 물리)</li><li><strong>Target:</strong> 1 Target</li><li><strong>Prerequisite:</strong> Pierce 5, Spear Mastery 5, Spear Stab 5, Peco Peco Ride 1</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td>ATK 200%</td><td>18</td><td>0.3</td><td>0.15</td><td>1.5</td></tr><tr><td>2</td><td>ATK 250%</td><td>21</td><td>0.3</td><td>0.25</td><td>1.5</td></tr><tr><td>3</td><td>ATK 300%</td><td>24</td><td>0.3</td><td>0.35</td><td>1.5</td></tr><tr><td>4</td><td>ATK 350%</td><td>27</td><td>0.3</td><td>0.45</td><td>1.5</td></tr><tr><td>5</td><td>ATK 400%</td><td>30</td><td>0.3</td><td>0.5</td><td>1.5</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-spiral-pierce">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Concentration (컨센트레이션)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 5</li><li><strong>Type:</strong> Buff</li><li><strong>Target:</strong> Self</li><li><strong>Prerequisite:</strong> Increase HP Recovery 5, Spear Mastery 5, Peco Peco Ride 1</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td>HIT +10, ATK + 7%, DEF - 7%</td><td>14</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2</td><td>HIT +20, ATK + 9%, DEF - 9%</td><td>18</td><td>0</td><td>0</td><td>0</td></tr><tr><td>3</td><td>HIT +30, ATK + 11%, DEF - 11%</td><td>22</td><td>0</td><td>0</td><td>0</td></tr><tr><td>4</td><td>HIT +40, ATK + 13%, DEF - 13%</td><td>26</td><td>0</td><td>0</td><td>0</td></tr><tr><td>5</td><td>HIT +50, ATK + 15%, DEF - 15%</td><td>30</td><td>0</td><td>0</td><td>0</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-concentration">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Joint Beat (조인트 비트)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 10</li><li><strong>Type:</strong> Ranged Physical (원거리 물리)</li><li><strong>Target:</strong> 1 Target</li><li><strong>Prerequisite:</strong> Spear Mastery 9, Peco Peco Ride 1, Cavalry Mastery 3, Head Crush 3</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td>ATK 60%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>2</td><td>ATK 70%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>3</td><td>ATK 80%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>4</td><td>ATK 90%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>5</td><td>ATK 100%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>6</td><td>ATK 110%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>7</td><td>ATK 120%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>8</td><td>ATK 130%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>9</td><td>ATK 140%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>10</td><td>ATK 150%</td><td></td><td>0</td><td>0</td><td>0</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-joint-beat">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Parrying (패링)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 10</li><li><strong>Type:</strong> Assistance (보조)</li><li><strong>Target:</strong> Self</li><li><strong>Prerequisite:</strong> Provoke 5, Two-Handed Sword Mastery 10, Two-Hand Quicken 3</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td>Block Rate +23%</td><td>50</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2</td><td>Block Rate +26%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>3</td><td>Block Rate +29%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>4</td><td>Block Rate +32%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>5</td><td>Block Rate +35%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>6</td><td>Block Rate +38%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>7</td><td>Block Rate +41%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>8</td><td>Block Rate +44%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>9</td><td>Block Rate +47%</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>10</td><td>Block Rate +50%</td><td></td><td>0</td><td>0</td><td>0</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-parrying">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Aura Blade (오라 블레이드)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 5</li><li><strong>Type:</strong> Buff</li><li><strong>Target:</strong> Self</li><li><strong>Prerequisite:</strong> Bash 5, Magnum Break 5, Two-Handed Sword Mastery 5</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td>Additional Damage: Base Level x 4</td><td>18</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2</td><td>Additional Damage: Base Level x 5</td><td>26</td><td>0</td><td>0</td><td>0</td></tr><tr><td>3</td><td>Additional Damage: Base Level x 6</td><td>34</td><td>0</td><td>0</td><td>0</td></tr><tr><td>4</td><td>Additional Damage: Base Level x 7</td><td>42</td><td>0</td><td>0</td><td>0</td></tr><tr><td>5</td><td>Additional Damage: Base Level x 8</td><td>50</td><td>0</td><td>0</td><td>0</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-aura-blade">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Head Crush (헤드 크러쉬)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 5</li><li><strong>Type:</strong> Ranged Physical (원거리 물리)</li><li><strong>Target:</strong> 1 Target</li><li><strong>Prerequisite:</strong> Spear Mastery 9, Peco Peco Ride 1</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td>ATK 140%</td><td>23</td><td>0</td><td>0</td><td>0.5</td></tr><tr><td>2</td><td>ATK 180%</td><td></td><td>0</td><td>0</td><td>0.5</td></tr><tr><td>3</td><td>ATK 220%</td><td></td><td>0</td><td>0</td><td>0.5</td></tr><tr><td>4</td><td>ATK 260%</td><td></td><td>0</td><td>0</td><td>0.5</td></tr><tr><td>5</td><td>ATK 300%</td><td></td><td>0</td><td>0</td><td>0.5</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-head-crush">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Tension Relax (텐션 릴렉스)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 1</li><li><strong>Type:</strong> Assistance (보조)</li><li><strong>Target:</strong> Self</li><li><strong>Prerequisite:</strong> Provoke 5, Increase HP Recovery 10, Endure 3</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td></td><td>0</td><td>0</td><td>0</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-tension-relax">In Skill-DB ↗</a></div>
+</div>
+              </div>
+            </div>
+      <!-- EMBED:END skills-knight -->
+    </section>
+
+    <section>
+      <h2>🔮 Magier-Pfad</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>🌪️ Wizard / High Wizard — „AoE Destruction"</h4>
+          <p class="meta">Screen-Clearer · SG/MS/LoV</p>
+          <p><strong>Stats:</strong> <strong>INT 99</strong> · DEX 80–99 · VIT 30–50 · LUK Rest</p>
+          <p><strong>Skills:</strong> Storm Gust Lv 10, Meteor Storm Lv 10, Lord of Vermilion Lv 10</p>
+          <p><strong>Waffe:</strong> Eden Staff III (Cast-Time-Stones suchen)</p>
+          <p><strong>Gear:</strong> Shadow Wizard Armor + Shoes, Mage Coat [1], Survivor's Rod [1] + Survivor's Manteau, <strong>Isilla Card</strong> (Cast-Reduction-on-Hit)</p>
+          <p><strong>Pro-Tipp:</strong> <em>Heaven's Drive Lv 1–5</em> als schnellerer, günstigerer AoE für schwache Mobs wie Orcs oder Wolves</p>
+        </div>
+        <div class="card">
+          <h4>📖 Sage / Scholar — „Auto-Spell Battle Tome"</h4>
+          <p class="meta">ASPD-Auto-Cast · Battle-Support</p>
+          <p><strong>Stats:</strong> AGI 90–99 · INT 70–80 · DEX 40–50 · VIT Rest</p>
+          <p><strong>Skills:</strong> Auto-Spell Lv 10 (triggert Spell bei Phys-Attack), Free Cast Lv 10 (Move während Cast)</p>
+          <p><strong>Waffe:</strong> Eden Book III, Sage's Diary [2] (ASPD-Caster-BiS)</p>
+          <p><strong>Gear:</strong> Shadow Sage Shield (Auto-Spell-Damage), Siroma Card Accessories (für Cold Bolt), Imp Card (für Fire Bolt), Agi Brooch [1] + Kukre Cards</p>
+          <p><strong>Elemental Edge:</strong> Endow auf Auto-Spell matchen — Fire-Bolt-Build nutzt Flame Gland zum Fire-Imbue</p>
+        </div>
+      </div>
+    
+      <!-- EMBED:START skills-wizard -->
+            <div style="margin-top:32px;border-top:2px dashed var(--border);padding-top:16px">
+              <h4>✨ High-Wizard-Skills (Trans) im Detail</h4>
+              <p style="color:var(--text-dim);font-size:13px;margin-top:0">Sechs High-Wizard-Trans-Skills.</p>
+              <div class="entry-grid wide">
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Magic Crasher (매직 크래셔)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 1</li><li><strong>Type:</strong> Ranged Physical (원거리 물리)</li><li><strong>Target:</strong> 1 Target</li><li><strong>Prerequisite:</strong> Increase SP Recovery 1</li></ul>
+  
+  <div class="entry-card-foot"><a href="skills.html#skill-magic-crasher">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Soul Drain (소울 드레인)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 10</li><li><strong>Type:</strong> None</li><li><strong>Target:</strong> None</li><li><strong>Prerequisite:</strong> Increase SP Recovery 5, Soul Strike 7</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th></tr></thead><tbody><tr><td>1</td><td>MaxSP +2%</td></tr><tr><td>2</td><td>Max SP +4%</td></tr><tr><td>3</td><td>Max SP +6%</td></tr><tr><td>4</td><td>Max SP +8%</td></tr><tr><td>5</td><td>Max SP +20%</td></tr><tr><td>6</td><td>Max SP +12%</td></tr><tr><td>7</td><td>Max SP +14%</td></tr><tr><td>8</td><td>Max SP +16%</td></tr><tr><td>9</td><td>Max SP +18%</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-soul-drain">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Gravitation Field (그라비테이션 필드)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 5</li><li><strong>Type:</strong> Magic</li><li><strong>Target:</strong> 1 Ground Cell (지면 1셀)</li><li><strong>Prerequisite:</strong> Quagmire 1,</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td>MATK 50%, 10 hits</td><td>60</td><td>1</td><td>5</td><td>5</td></tr><tr><td>2</td><td>MATK 100%, 12 hits</td><td>70</td><td>1</td><td>5</td><td>5</td></tr><tr><td>3</td><td>MATK 150%, 14 hits</td><td>80</td><td>1</td><td>5</td><td>5</td></tr><tr><td>4</td><td>MATK 200%, 16 hits</td><td>90</td><td>1</td><td>5</td><td>5</td></tr><tr><td>5</td><td>MATK 250%, 18 hits</td><td>100</td><td>1</td><td>5</td><td>5</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-gravitation-field">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Amplify Magic Power (마법력 증폭)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 10</li><li><strong>Type:</strong> Buff</li><li><strong>Target:</strong> Self</li><li><strong>Prerequisite:</strong> None</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td>MATK +5%</td><td>14</td><td>0.7</td><td>0</td><td>0</td></tr><tr><td>2</td><td>MATK +10%</td><td>18</td><td>0.7</td><td>0</td><td>0</td></tr><tr><td>3</td><td>MATK +15%</td><td>22</td><td>0.7</td><td>0</td><td>0</td></tr><tr><td>4</td><td>MATK +20%</td><td>26</td><td>0.7</td><td>0</td><td>0</td></tr><tr><td>5</td><td>MATK +25%</td><td>30</td><td>0.7</td><td>0</td><td>0</td></tr><tr><td>6</td><td>MATK +30%</td><td>34</td><td>0.7</td><td>0</td><td>0</td></tr><tr><td>7</td><td>MATK +35%</td><td>38</td><td>0.7</td><td>0</td><td>0</td></tr><tr><td>8</td><td>MATK +40%</td><td>42</td><td>0.7</td><td>0</td><td>0</td></tr><tr><td>9</td><td>MATK +45%</td><td>46</td><td>0.7</td><td>0</td><td>0</td></tr><tr><td>10</td><td>MATK +50%</td><td>50</td><td>0.7</td><td>0</td><td>0</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-amplify-magic-power">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Ganbantein (간반테인)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 1</li><li><strong>Type:</strong> Assistance (보조)</li><li><strong>Target:</strong> 1 Ground Cell (지면 1셀)</li><li><strong>Prerequisite:</strong> Sense 1, Ice Wall 1</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td></td><td>1</td><td>1.2</td><td>2</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-ganbantein">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Napalm Vulcan (네이팜 발칸)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 5</li><li><strong>Type:</strong> Magic</li><li><strong>Target:</strong> 1 Target</li><li><strong>Prerequisite:</strong> Napalm Beat 5</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td>MATK 70%, 1 hit</td><td>30</td><td>0.2</td><td>0.8</td><td>2</td></tr><tr><td>2</td><td>MATK 140%, 2 hits</td><td>40</td><td>0.2</td><td>0.8</td><td>2</td></tr><tr><td>3</td><td>MATK 210%, 3 hits</td><td>50</td><td>0.2</td><td>0.8</td><td>2</td></tr><tr><td>4</td><td>MATK 280%, 4 hits</td><td>60</td><td>0.2</td><td>0.8</td><td>2</td></tr><tr><td>5</td><td>MATK 350%, 5 hits</td><td>70</td><td>0.2</td><td>0.8</td><td>2</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-napalm-vulcan">In Skill-DB ↗</a></div>
+</div>
+              </div>
+            </div>
+      <!-- EMBED:END skills-wizard -->
+    </section>
+
+    <section>
+      <h2>🏹 Bogenschützen-Pfad</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>🎯 Hunter / Sniper — „Double Strafe Sniper"</h4>
+          <p class="meta">DEX/AGI Machine-Gun · Safe Range</p>
+          <p><strong>Stats:</strong> <strong>DEX 99</strong> · AGI 90–99 · INT 20–30 · VIT Rest</p>
+          <p><strong>Skills:</strong> Double Strafe Lv 10 (Main-DPS), Owl's Eye Lv 10 (+10 passive DEX)</p>
+          <p><strong>Waffe:</strong> Eden Bow III (Critical Damage Stones), Hunter Bow + Hunting Arrows</p>
+          <p><strong>Gear:</strong> Shadow Hunter Armor, Tights [1] + Rock Picker Card, 2× Glove [1] + Zerom Card (+3 DEX pro Slot), <strong>Apple o' Archer</strong> (+3 DEX Headgear)</p>
+          <p><strong>Pro-Tipp:</strong> Immer Fire + Silver Arrows dabei — decken 80% aller Leveling-Mob-Schwächen</p>
+        </div>
+        <div class="card">
+          <h4>🎵 Bard & Dancer / Clown & Gypsy — „Performance Duo"</h4>
+          <p class="meta">Party-Buffs · ASPD/SP-Boost</p>
+          <p><strong>Stats:</strong> INT 90–99 · DEX 70–80 · VIT 50–70 · AGI Rest</p>
+          <p><strong>Skills:</strong> A Poem of Bragi Lv 10 (Cast-Time & After-Cast für Party), Assassin Cross of Sunset Lv 10 (Party-ASPD)</p>
+          <p><strong>Waffe:</strong> Eden Violin III (Bard), Harp [2] (Bragi-Effizienz)</p>
+          <p><strong>Gear:</strong> Shadow Bard/Dancer Shield (Song-Range), Spiritual Ring (INT + SP), Raydric Card Cloak (20% Neutral-Resist)</p>
+          <p><strong>Performance-Meta:</strong> Song-Effektivität wird im Moment des Cast berechnet — INT-Buffs procken lassen BEVOR du ein Song startest</p>
+        </div>
+      </div>
+    
+      <!-- EMBED:START skills-sniper -->
+            <div style="margin-top:32px;border-top:2px dashed var(--border);padding-top:16px">
+              <h4>✨ Sniper-Skills (Trans) im Detail</h4>
+              <p style="color:var(--text-dim);font-size:13px;margin-top:0">Vier Sniper-Trans-Skills.</p>
+              <div class="entry-grid wide">
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Sharp Shooting (샤프슈팅)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 5</li><li><strong>Type:</strong> Ranged Physical (원거리 물리)</li><li><strong>Target:</strong> 1 Target</li><li><strong>Prerequisite:</strong> Double Strafe 5, Improve Concentration 10</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td>ATK 350%</td><td>18</td><td>0.25</td><td>0.5</td><td>1.5</td></tr><tr><td>2</td><td>ATK 550%</td><td>21</td><td>0.25</td><td>0.5</td><td>1.5</td></tr><tr><td>3</td><td>ATK 750%</td><td>24</td><td>0.25</td><td>0.5</td><td>1.5</td></tr><tr><td>4</td><td>ATK 950%</td><td>27</td><td>0.25</td><td>0.5</td><td>1.5</td></tr><tr><td>5</td><td>ATK 1150%</td><td>30</td><td>0.25</td><td>0.5</td><td>1.5</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-sharp-shooting">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Falcon Assault (팔콘 어절트)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 5</li><li><strong>Type:</strong> Special Ranged (특수 원거리)</li><li><strong>Target:</strong> 1 Target</li><li><strong>Prerequisite:</strong> Vulture's Eye 5, Falcon Mastery 1, Blitz Beat 5, Steel Crow 3</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td></td><td>1</td><td>1</td><td>3</td></tr><tr><td>2</td><td></td><td>1</td><td>1</td><td>3</td></tr><tr><td>3</td><td></td><td>1</td><td>1</td><td>3</td></tr><tr><td>4</td><td></td><td>1</td><td>1</td><td>3</td></tr><tr><td>5</td><td></td><td>1</td><td>1</td><td>3</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-falcon-assault">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">Wind Walk (윈드 워크)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 10</li><li><strong>Type:</strong> Assistance (보조)</li><li><strong>Target:</strong> Self</li><li><strong>Prerequisite:</strong> Improve Concentration 9</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td></td><td>46</td><td>0.3</td><td>1</td><td>1</td></tr><tr><td>2</td><td></td><td>52</td><td>0.3</td><td>1</td><td>1</td></tr><tr><td>3</td><td></td><td>58</td><td>0.3</td><td>1</td><td>1</td></tr><tr><td>4</td><td></td><td>64</td><td>0.3</td><td>1</td><td>1</td></tr><tr><td>5</td><td></td><td>70</td><td>0.3</td><td>1</td><td>1</td></tr><tr><td>6</td><td></td><td>76</td><td>0.3</td><td>1</td><td>1</td></tr><tr><td>7</td><td></td><td>82</td><td>0.3</td><td>1</td><td>1</td></tr><tr><td>8</td><td></td><td>88</td><td>0.3</td><td>1</td><td>1</td></tr><tr><td>9</td><td></td><td>94</td><td>0.3</td><td>1</td><td>1</td></tr><tr><td>10</td><td></td><td>100</td><td>0.3</td><td>1</td><td>1</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-wind-walk">In Skill-DB ↗</a></div>
+</div>
+                <div class="entry-card is-skill">
+  <div class="entry-card-head">
+    <span class="entry-name">True Sight (트루 사이트)</span>
+    <span class="entry-type">Skill</span>
+  </div>
+  <ul class="entry-meta"><li><strong>Max Level:</strong> 10</li><li><strong>Type:</strong> Buff</li><li><strong>Target:</strong> Self</li><li><strong>Prerequisite:</strong> Owl's Eye 10, Vulture's Eye 10, Improve Concentration 10, Falcon Mastery 1</li></ul>
+  <div class="table-wrap" style="margin:8px 12px 12px"><table><thead><tr><th>Lv</th><th>Effekt</th><th>Sp Cost</th><th>Fixed Casting</th><th>Variable Casting</th><th>Skill Cooldown</th></tr></thead><tbody><tr><td>1</td><td>HIT +3%, ATK +2%, CRIT +1</td><td>20</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2</td><td>HIT +6%, ATK +4%, CRIT +2</td><td>25</td><td>0</td><td>0</td><td>0</td></tr><tr><td>3</td><td>HIT +9%, ATK +6%, CRIT +3</td><td>30</td><td>0</td><td>0</td><td>0</td></tr><tr><td>4</td><td>HIT +12%, ATK +8%, CRIT +4</td><td>35</td><td>0</td><td>0</td><td>0</td></tr><tr><td>5</td><td>HIT +30%, ATK +20%, CRIT +10</td><td>40</td><td>0</td><td>0</td><td>0</td></tr><tr><td>6</td><td>HIT +18%, ATK +12%, CRIT +6</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>7</td><td>HIT +21%, ATK +14%, CRIT +7</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>8</td><td>HIT +24%, ATK +16%, CRIT +8</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>9</td><td>HIT +27%, ATK +18%, CRIT +9</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>10</td><td></td><td></td><td>0</td><td>0</td><td>0</td></tr></tbody></table></div>
+  <div class="entry-card-foot"><a href="skills.html#skill-true-sight">In Skill-DB ↗</a></div>
+</div>
+              </div>
+            </div>
+      <!-- EMBED:END skills-sniper -->
+    </section>
+
+    <section>
+      <h2>✨ Acolyten-Pfad</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>⛪ Priest / High Priest — „Divine Engine"</h4>
+          <p class="meta">Full-Support · 100% Buff-Uptime</p>
+          <p><strong>Stats:</strong> INT 90–99 · DEX 60–80 · VIT 40–60 · AGI Rest</p>
+          <p><strong>Skills:</strong> <strong>Magnificat Lv 5</strong> (verdoppelt Party-SP-Regen — MANDATORY!), Sanctuary Lv 10 (AoE-Heal)</p>
+          <p><strong>Waffe:</strong> Eden Staff III</p>
+          <p><strong>Gear:</strong> Paradise Uniform Set, <strong>Spiritual Ring</strong>, Shadow Priest Armor (Heal-Boost) + Shadow Priest Shoes (SP-Cost-Reduction), Holy Stick [1]</p>
+        </div>
+        <div class="card">
+          <h4>👊 Monk / Champion — „Fist of Light"</h4>
+          <p class="meta">Asura-Strike-Burst · BOSS-Hunter</p>
+          <p><strong>Stats:</strong> STR 99 · INT 70–80 · DEX 50–60 · VIT Rest</p>
+          <p><strong>Skills:</strong> Asura Strike Lv 10 (Trans!), Mental Sensing Lv 5 (DEF/MDEF 90 für Survival)</p>
+          <p><strong>Waffe:</strong> Eden Mace III, Stunner [2] + Abysmal Knight Card</p>
+          <p><strong>Gear:</strong> Shadow Monk Glove (Spirit-SP-Reduction), <strong>Spiritual Ring</strong>, Sohee Card Shoes (+15% Max SP), Morpheus Set (SP + INT)</p>
+          <p><strong>TWRoZ-Tipp:</strong> <em>Dangerous Soul Collect</em> (Quest-Skill) beschwört alle 5 Spheres instant — NIE manuell Spheres in BOSS-Fight summonen</p>
+          <div class="info-box future" style="margin-top: 12px;">
+            <strong>🔮 Asura Strike ist Trans-exklusiv.</strong> Pre-Trans spielst du den Monk als Combo-Build mit Triple Attack + Chain Combo + Combo Finish. Die volle Asura-Mechanik findest du auf <a href="trans-klassen.html">Trans-Klassen</a>.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🥷 Dieb-Pfad</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>🗡️ Assassin / Assassin Cross — „Sonic Blow Burst"</h4>
+          <p class="meta">Single-Target Burst · Elite-Monster 1-Shot</p>
+          <p><strong>Stats:</strong> STR 90–99 · DEX 50–60 · AGI 40–60 · VIT Rest</p>
+          <p><strong>Skills:</strong> Sonic Blow Lv 10 (音速投擲), Enchant Poison Lv 10</p>
+          <p><strong>Waffe:</strong> Eden Katar III</p>
+          <p><strong>Gear:</strong> Shadow Assassin Shield (Sonic-Blow-Damage), Shadow Assassin Glove (Burst-SP-Reduction), Elite Hunter Set</p>
+        </div>
+        <div class="card">
+          <h4>🥷 Rogue / Stalker — „Gank Looter"</h4>
+          <p class="meta">Stealth · Loot · Zeny-Farm</p>
+          <p><strong>Stats:</strong> AGI 90–99 · DEX 60–80 · STR 50–70 · LUK Rest</p>
+          <p><strong>Skills:</strong> Gank Lv 10 (Passive Steal), Snatch Lv 5 (Teleport zu Target zum Competition-Dodge)</p>
+          <p><strong>Waffe:</strong> Eden Dagger III, Gladius [3] (size-scaling Cards)</p>
+          <p><strong>Gear:</strong> Shadow Rogue Armor (Gank-Success-Boost), Whisper Card Cloak (Flee), Pantie/Shirt Combo (Early-AGI-Synergy), Agi Brooch [1] + Kukre Cards</p>
+          <p><strong>Zeny-Max-Strategie:</strong> <em>Snatch</em> nutzen um Elite-Mobs aus Crowds zu stehlen — Rare-Material-Farming in Ruhe</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>💰 Händler-Pfad</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>🔨 Blacksmith / Whitesmith — „Battle-Greed Hybrid"</h4>
+          <p class="meta">Solo-Zeny-Farming · Greed + Efficient Kills</p>
+          <p><strong>Stats:</strong> STR 90–99 · AGI 70–80 · DEX 40–50 · VIT 30–50</p>
+          <p><strong>Skills:</strong> Greed Lv 1 (2-Zellen-Loot-Vakuum), Adrenaline Rush Lv 5 (ASPD-Boost)</p>
+          <p><strong>Waffe:</strong> Eden Axe III, <strong>Light Epsilon</strong> (Holy Axe für GH-Leveling)</p>
+          <p><strong>Gear:</strong> <strong>Greed Clip</strong> (falls Skill-Quest nicht gemacht), Shadow Merchant Armor (Overcharge-Boost)</p>
+        </div>
+        <div class="card">
+          <h4>⚗️ Alchemist / Creator — „Homunculus Master"</h4>
+          <p class="meta">Pet-Tank · Potion-Economy</p>
+          <p><strong>Stats:</strong> STR 70–80 · AGI 80–90 · VIT 50–60 · DEX Rest</p>
+          <p><strong>Skills:</strong> Call Homunculus Lv 1 (AI-Begleiter), Learning Potion Lv 10 (Brew-Success + Potion-Effekt)</p>
+          <p><strong>Waffe:</strong> Eden Mace III, Sabbath [2] (Heavy Mobbing)</p>
+          <p><strong>Gear:</strong> Shadow Alchemist Armor (Homunculus-Stats), Pantie/Shirt + Whisper Card Cloak, High-VIT-Accessories</p>
+          <p><strong>Economy-Meta:</strong> Homunculus auf <em>Loyal</em> halten — unlockt Final-Evolution-Skill (Game-Changer für High-End-Farming)</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>📌 Shadow-Equipment-System (TWRoZ-Standard)</h2>
+      <p>Fast alle Builds in der Midgard Academy empfehlen das <strong>Shadow-Equipment-Set pro Klasse</strong>. Shadow-Items gehen in eigene Slots (nicht in normale Equip-Slots) und sind klassenspezifisch:</p>
+      <ul>
+        <li><strong>Shadow Knight / Crusader / Wizard / Priest / Monk / Assassin / Rogue / Hunter / Bard/Dancer / Sage / Merchant / Alchemist</strong></li>
+        <li>Pro Klasse gibt es: Armor, Shoes, Shield, Glove, Earring, Pendant (varies)</li>
+        <li>Shadow-Items verstärken klassenspezifische Skills (z.B. Sonic Blow Damage, GC SP-Cost-Reduction, Asura SP-Cost, Auto-Spell-Damage)</li>
+        <li>Erwerb: Cash-Shop, Event-Giveaways, oder Crafting (je nach Patch)</li>
+      </ul>
+    </section>
+
+  
+  
+  </main>
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank">Project Zero Wiki</a> · <a href="https://www.rozskill.me/" target="_blank">rozskill.me</a>
+</footer>
+
+</body>
+</html>

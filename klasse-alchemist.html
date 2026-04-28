@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klasse Alchemist — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html" class="active">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+  <div class="page-hero">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      
+      <div>
+        <span class="eyebrow">Klassen · Al de Baran</span>
+        <h1>Alchemist</h1>
+        <p class="lead">2nd Job aus dem Merchant-Pfad. Homunkulus als Pet-Tank/-DPS, Acid Demonstration mit Bottle-Verbrauch, Brewing für Potion-Crafting.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Homunculus Master</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">HOCHEFFIZIENTER KI-FARMER</p>
+      <p>Das ist die zentrale Alchemist-Erfahrung in Zero. Mit deinem Homunculus kannst du stundenlang mit minimalem aktiven Input farmen. In Zero sind die Lif- und Amistr-Typen besonders stark in Sachen Überlebensfähigkeit und Healing.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>STR</strong> <span class="stat-val">70-80</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">80-90</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">50-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Call Homunculus (Lv. 1)</strong> — Summons your loyal AI companion to fight by your side.</li>
+  <li><strong>Learning Potion (Lv. 10)</strong> — Increases the effectiveness of potions and success rate of brewing.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Halte deinen Homunculus auf 'Loyal'. In Zero schaltet ein Loyal Homunculus seinen finalen Evolutions-Skill frei – ein Game-Changer fürs High-End-Farmen.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Acid Terror Specialist</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">HIGH-BURST TAKTISCHER SUPPORT</p>
+      <p>Konzentriert sich auf Acid Terror und Potion Pitcher. Dieser Build ist ein Albtraum im PvP und übernimmt in High-End-Memorial-Dungeons eine entscheidende Support-Rolle: Armor brechen und den Tank healen.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>STR</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">60-70</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">60-70</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Acid Terror (Lv. 5)</strong> — Armor-brechender Long-Range-Schlag mit deutlichem Schaden.</li>
+  <li><strong>Aid Potion (Lv. 5)</strong> — Der 'Golden Heal'. Heilt ein Ziel sofort über eine Potion.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Aid Potion (Lv. 5) kann mit hochstufigen Potions deutlich schneller heilen als das 'Heal' eines Priests. Setze es ein, um deinen Tank im Notfall zu retten.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Grand Brewer</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">DER MEISTER DER POTION-ÖKONOMIE</p>
+      <p>Komplett kampffrei. Du konzentrierst dich auf DEX und LUK, um die höchste Erfolgsrate beim Brauen von Slim White Potions und Elemental-Resistance-Potions für den Server zu erreichen.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>DEX</strong> <span class="stat-val">99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>LUK</strong> <span class="stat-val">99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">Remaining</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>STR</strong> <span class="stat-val">1</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Prepare Potion (Lv. 10)</strong> — Pflicht. Der Kern-Skill für alle Brewing-Rezepte.</li>
+  <li><strong>Pharmacy (Lv. 10)</strong> — Erhöht die Erfolgsrate und schaltet fortgeschrittene Potions frei.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> In Zero gewährt der Status 'Top 10 Ranked Brewer' einen massiven 50%-HP-Recovery-Bonus auf alle Potions, die du herstellst. Ein Ziel mit hoher Konkurrenz, aber großer Belohnung.
+    </div>
+  </section>
+
+  <section>
+    <h2>Komplette Skill-Liste</h2>
+    <p>Alle 32 Skills der Merchant → Alchemist Klasse. Quelle: ratemyserver.net.</p>
+
+    <h3>1. Job — Merchant (12 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Enlarge Weight Limit <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht die maximale Tragkapazität um 200*SkillLV.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Discount <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Enlarge Weight Limit Lv 3</p>
+      <p class="skill-desc">Ermöglicht den Kauf von Items zu reduzierten Preisen in NPC-Shops. Deals, Vending-Shops und Chat-Verkaufs-NPCs (z. B. Upgrade-Stein-NPC) sind nicht betroffen. Der Endpreis wird immer abgerundet und hat einen Mindestwert von 1z.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Overcharge <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Discount Lv 3</p>
+      <p class="skill-desc">Ermöglicht den Verkauf von Items zu erhöhten Preisen an NPC-Shops. Deals sind nicht betroffen. Der Endpreis wird immer abgerundet und hat einen Mindestwert von 0z.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Pushcart <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Enlarge Weight Limit Lv 5</p>
+      <p class="skill-desc">Erlaubt dem Charakter, einen Pushcart auszurüsten und zu nutzen. Die Bewegungsgeschwindigkeit mit ausgerüstetem Pushcart beträgt (50+5*SkillLV)% (ja, am Anfang bewegst du dich deutlich langsamer). Der Pushcart kann 8000 Gewicht und maximal 100 verschiedene Items aufnehmen (manche Items stacken und zählen als nur 1 distinct Item). Pushcarts müssen bei einer Kafra-Mitarbeiterin gekauft werden – mindestens eine ist in jeder Stadt zu finden, einige auch an anderen Orten. Die Kosten variieren je nach Kafra-Mitarbeiterin. Wird der Pushcart entfernt, verschwindet er und ein neuer muss gekauft werden. Items im Pushcart gehen beim Entfernen nicht verloren, sind aber erst wieder zugänglich, wenn du einen neuen Cart kaufst. Zum direkten Zugriff auf den Cart Alt+W drücken.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Identify <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Identifiziert ein unidentifiziertes Item. Das unidentifizierte Item muss im Inventar liegen (nicht im Cart). Ein Magnifier dupliziert den Effekt dieses Skills.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Vending <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Pushcart Lv 3</p>
+      <p class="skill-desc">Erlaubt dem Charakter, einen Shop am aktuellen Standort zu eröffnen. Die Items, die du verkaufen willst, müssen im Pushcart des Charakters liegen, und der Pushcart muss ausgerüstet sein. Achte sehr genau auf den korrekten Preis! Das Limit für verschiedene Items, die gleichzeitig verkauft werden können, beträgt 2+SkillLV. Spieler können keine Items an einen Vending-Shop verkaufen, und der Discount-Skill greift nicht. Der Shop schließt automatisch, wenn alle Items verkauft sind oder der Charakter stirbt.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Mammonite <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Verbraucht 100z*SkillLV, um den ATK des nächsten Angriffs auf (100+50*SkillLV)% zu erhöhen.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Cart Revolution <span class="skill-tag">Attack · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Verursacht ATK*150% Neutral-Schaden in einem 3x3-Bereich um dein Ziel. Getroffene Gegner werden 2 Felder zurückgestoßen. Die Animation gleicht Magnum Break, nur dass dein Cart über deinen Kopf fliegt und vor dir auf dem Boden aufschlägt. Items im Cart erhöhen den Schaden um bis zu 100% zusätzlich (1% pro 80 Gewicht, max. 8000). Insgesamt sind also bis zu 250% Schaden möglich.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Change Cart <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ermöglicht es dir, das Aussehen deines Carts zu ändern. Ein &quot;Spaß&quot;-Skill, aber da die wählbaren Designs durch das Base-Level des Charakters beschränkt sind, erkennt man an einem Cart sofort einen High-Level-Merchant oder -Blacksmith. Level 1-40: Nur Normal Cart. Level 41-65: Ein Wooden Cart. Level 66-80: Überdachter Cart mit Blumen und Farnen. Level 81-90: Wooden Cart mit einer Panda-Puppe hinten drauf. Level 91-99: Der normale Cart, aber mit größeren Rädern, Dach und einem Banner auf der Rückseite.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Loud Exclamation <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Gibt +4 STR.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Buying Store <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Aktiviert die Möglichkeit, einen Einkaufsstand zu eröffnen, um verschiedene Items zu kaufen. Mindestens 1 Item muss zum Kauf angeboten werden.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Cart Decoration <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ändert das Aussehen des Pushcarts.</p>
+    </div>
+    </div>
+
+    <h3>2. Job — Alchemist (20 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Axe Mastery <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den Angriffsschaden, der DEF ignoriert, um +3 pro SkillLV beim Einsatz von Axe-Waffen. Dieser Schaden ignoriert Modifikationen aus Armor- und VIT-Defense, aber nicht aus Element- und Card-Modifiern, und gilt für alle Hits bei Multi-Hit-Angriffen.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Learning Potion <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht die Wirksamkeit von Healing-Items um 5% pro SkillLV und die Potion-Crafting-Chance um 1% pro SkillLV.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Pharmacy <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Learning Potion (Potion Research) Lv 5</p>
+      <p class="skill-desc">Ermöglicht das Crafting von Potions. Benötigt ein Product Manual sowie ein Medicine Bowl und je nach Potion unterschiedliche Zutaten. Erhöht die Erfolgschance pro SkillLV um +3%. Wichtiger Hinweis: Ein adopted Alchemist erleidet -30% auf die Erfolgsrate! Brewing Guide: Click Here Brewing Calculator: Click Here</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Demonstration <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Pharmacy (Prepare Potion) Lv 4</p>
+      <p class="skill-desc">Wirft einen Molotov Cocktail und entzündet einen 3x3-Bereich. Hat eine Chance von (1*SkillLV)%, die Waffe des Ziels zu beschädigen. Kann nicht direkt unter einem Gegner oder direkt neben dir selbst gecastet werden. Der Schaden beträgt (100+20*SkillLV)% ATK und wird nicht durch +%-Cards erhöht, +ATK-Cards helfen jedoch. Status-Cards haben keinen Effekt. Kann nicht direkt neben anderen Bomben oder auf einer Bombe gestapelt platziert werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Acid Terror <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Pharmacy (Prepare Potion) Lv 5</p>
+      <p class="skill-desc">Wirft eine Acid Bottle auf deinen Gegner – mit einer geringen Chance, dessen Armor zu brechen und External-Bleeding-Status zu verursachen. Dieser Skill ignoriert Armor-Defense und trifft unabhängig vom Flee. VIT-Defense wird allerdings einberechnet. Pneuma kann den Schaden blocken, die Chance auf Armor-Break bleibt jedoch. Kyrie blockt dagegen sowohl den Schaden als auch die Armor-Break-Chance, ebenso wie ein Crusader mit Auto Guard. Eine erfolgreiche Armor-Break-Berechnung lässt das Ziel den /omg-Emoticon zeigen. Das bedeutet aber nicht automatisch, dass die Armor wirklich zerstört wurde; auch bei aktivem Chemical Protection Armor oder einer Immortal Armor wird /omg angezeigt, solange der Angriff als Treffer zählt. Wie bei Demonstration wird der Schaden durch +ATK-Cards erhöht, Status- und +%-Cards haben keinen Effekt. Auch Elemente wirken nicht. Die Acid Bottle wird zu Beginn des Casts verbraucht – im Gegensatz zu anderen Potion-Skills, bei denen das erst am Ende passiert. Wirst du beim Casten unterbrochen, ist die Bottle ohne Wirkung verloren. Der Schaden beträgt (100+40*SkillLV)% ATK.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Potion Pitcher <span class="skill-tag">Support / Buff · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Pharmacy (Prepare Potion) Lv 3</p>
+      <p class="skill-desc">Erlaubt dir, eine Potion auf dich selbst oder ein anderes Party- bzw. Gildenmitglied zu werfen – mit erhöhter Heilwirkung. Höhere Skill-Level erlauben den Einsatz stärkerer Potions; das gewählte Level bestimmt den Potion-Typ. Das gelernte SkillLV erhöht zudem die Wirkung um 10% pro SkillLV und stackt mit bestehenden Boni wie Learning Potion, VIT und INT, Increase Recuperative Power und Increase Spiritual Power (ja, mit gemaxter Increase Recuperative Power verdoppelt sich die geheilte Menge). Verbraucht je eine Potion des geworfenen Typs. Untote nehmen keinen Schaden, wenn du eine Heilpotion auf sie wirfst.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Bio Cannibalize <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Pharmacy (Prepare Potion) Lv 6</p>
+      <p class="skill-desc">Beschwört verschiedene Pflanzen, die Monster oder Spieler angreifen. Dein erlerntes Skill-Level bestimmt die HP der Pflanze, das eingesetzte Level bestimmt den Pflanzentyp, die Dauer und die Anzahl verbrauchter Plant Bottles. HP-Formel: 2230+200*erlerntes SkillLV pro Pflanze (ja, deutlich mehr HP als die normalen Versionen), alle anderen Stats bleiben gleich. Hast du weniger Bottles als nötig, werden alle übrigen Bottles verbraucht und entsprechend viele Pflanzen beschworen. Mit drei Plant Bottles und Level 1 erhältst du also drei Mandragoras statt der üblichen fünf. Im War of Emperium erhöht der Defense-Wert der Burg, in der die Pflanzen stehen, deren eigenen DEF. Die Angriffe der Pflanzen gelten in genau einem Punkt als Erweiterung deiner eigenen: bei Auto-Cast-Spells durch Waffen oder Cards. Status-Effekte und schadenssteigernde Cards übertragen sich nicht. Neue Pflanzen kannst du erst beschwören, wenn die ersten gestorben oder ihre Dauer abgelaufen ist. Solange du auf demselben Screen bleibst, bekommst du EXP für ihre Kills. Eine effektive Strategie für alle Pflanzen: beschwören, ein Monster anvisieren/treffen und ein Hiding-Accessory nutzen, sobald das Monster in Reichweite der Pflanzen ist. Monster greifen die Pflanzen nicht an – die werden so zu Sitting Ducks, bis die Pflanzen fertig sind, sofern es keine Insect- oder Demon-Monster sind. Die Angriffe sind Neutral-Element, mit gelegentlichen elementaren Angriffen entsprechend dem Pflanzenelement. Die HIT/Flee-Werte unten sind das, was Spieler zum Treffen/Ausweichen brauchen, nicht der HIT oder Flee der Pflanze selbst. LV 1: 5 Mandragoras, 5 Plant Bottle ATK: 26-35 Element/Größe: Earth 3/medium. HIT: 44 Flee: 123 ASPD: Eher langsam. Tipp: Lange Wirkung, kombiniere sie mit Autocast-Waffen und zum Senken des gegnerischen Flee. Blockiert durch Pneuma. LV 2: 4 Hydras, 4 Plant Bottle ATK: 22-28 Element/Größe: Water 2/small. HIT: 48 Flee: 129 ASPD: Recht schnell. Tipp: Mit Autocast-Waffen einsetzen. Blockiert durch Pneuma. LV 3: 3 Floras, 3 Plant Bottle ATK: 242-273 Element/Größe: Earth 1/large. HIT: 72 Flee: 144 ASPD: Durchschnitt. Tipp: Castet zufällig HP-Drain, um eigene HP aufzufüllen. LV 4: 2 Parasites, 2 Plant Bottle ATK: 215-430 Element/Größe: Wind 2/medium. HIT: 109 Flee: 214 ASPD: Etwas schnell. Tipp: Hohe Reichweite. Blockiert durch Pneuma. LV 5: 1 Geographer, 1 Plant Bottle ATK: 467-621 Element/Größe: Earth 3/medium. HIT: 143 Flee: 199 ASPD: Durchschnitt.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Sphere Mine <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Pharmacy (Prepare Potion) Lv 2</p>
+      <p class="skill-desc">Beschwört eine Marine Sphere mit doppelten normalen HP. Wird sie getroffen, startet ein 5-Sekunden-Countdown und sie bewegt sich vom Angreifer weg. Erreicht der Countdown 0, explodiert sie und verursacht jedem in Reichweite (Party-Mitglieder, Feinde und Gildenmitglieder) Schaden in Höhe ihrer verbleibenden HP. Du kannst maximal 3 in einem 9x9-Bereich beschwören. Die maximalen HP der Sphere richten sich nach deinem Skill-Level (2000+400*SkillLV HP). Im WoE erhöht der Defense-Wert der Burg, in der die Sphere steht, deren eigenen DEF.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Chemical Protection Weapon <span class="skill-tag">Support / Buff · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Chemical Protection Armor Lv 3</p>
+      <p class="skill-desc">Macht eine ausgerüstete Waffe für die Dauer des Skills unzerstörbar und schützt zusätzlich vor dem Rogue-Skill Strip Weapon.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Chemical Protection Shield <span class="skill-tag">Support / Buff · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Chemical Protection Helm Lv 3</p>
+      <p class="skill-desc">Macht ein ausgerüstetes Shield für die Dauer des Skills unzerstörbar und schützt zusätzlich vor dem Rogue-Skill Strip Shield.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Chemical Protection Armor <span class="skill-tag">Support / Buff · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Chemical Protection Shield Lv 3</p>
+      <p class="skill-desc">Macht eine ausgerüstete Armor für die Dauer des Skills unzerstörbar und schützt zusätzlich vor dem Rogue-Skill Strip Armor.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Chemical Protection Helm <span class="skill-tag">Support / Buff · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Pharmacy (Prepare Potion) Lv 2</p>
+      <p class="skill-desc">Macht einen ausgerüsteten Helm für die Dauer des Skills unzerstörbar. Schützt vor dem Rogue-Skill Strip Helm.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Bioethics <span class="skill-tag">Passive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erlaubt dem Alchemist, mit dem Erlernen des Homunculus-Skill-Trees zu beginnen.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Call Homunculus <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Rest Lv 1</p>
+      <p class="skill-desc">Beschwört oder ruft einen bereits erstellten Homunculus über ein 'Embryo'-Item zurück. Beim ersten Einsatz liefert das Embryo zufällig einen der 4 möglichen Typen – gefällt dir der Homunculus nicht, zerstöre ihn und erstelle einen neuen. Mit Rechtsklick siehst du den Status und kannst Befehle geben: Attack, Move, Stay, Feed, Namensänderung und Delete. [Status] Zeigt diverse Informationen zu deinem Homunculus und bietet die meisten Befehle. [Attack] Wähle einen Gegner per Alt + Rechtsklick und bestätige mit erneutem Alt + Rechtsklick, um den Homunculus angreifen zu lassen. Zum Abbrechen einfach Move oder Stay befehlen. [Move] Per Alt + Rechtsklick auf den Boden läuft er dorthin. Dieser Befehl überschreibt alle anderen. Der Homunculus kann sich nicht zu weit von dir entfernen. [Stay] Während er Move oder Attack ausführt, per Rechtsklick auf den Homunculus das Menü öffnen und Stay wählen – er bricht alles ab und bleibt im Idle-State neben dir. [Feed] Wähle dies oder klicke Feed im Status-Fenster, um den Homunculus mit dem passenden Futter zu füttern. Futter pro Typ: Lif: Pet Food, Amistr: Zargon, Filir: Garlet, Vanilmirth: Scell. Achtung: Der Homunculus ist eine künstliche Lebensform. Fütterst du ihn nicht regelmäßig, verschwindet er einfach. Achte besonders auf die Fütterungszeiten! Jeder Homunculus hat je nach Typ andere Skills: - Lif (Dryad): Support-Caster, Touch of Heal (heilt den Master), Emergency Avoid, Brain Surgery, Mental Change (unbekannt). - Amistr (Sheep): Defensive Melee, Castling, Defense, Adamantium Skin, Blood Lust (unbekannt). - Filir (Bird): Offensive Melee, Moonlight, Fleet Move, Over Speed, S.B.R.44 (unbekannt). - Vanilmirth (Mutant Jelly): Offensiver Spellcaster, Caprice, Chaotic Benediction, Change Instruction, Bio Explosion (unbekannt). Leveln des Homunculus: - Die EXP des Homunculus hängt vom Schaden ab, den er am Monster verursacht. - Egal wie viele Monster der Spieler killt, der Homunculus bekommt davon keine EXP. - Lass den Homunculus angreifen, um ihn zu leveln (kein besonderer Effekt beim Level-Up). - Ob die vom Homunculus erhaltene EXP mit dem Spieler geteilt wird, ist noch unbestätigt. - Max-Level des Homunculus ist Lv 99. - Im Status-Fenster gibt es einen Equipment-Bereich, daher könnte es in Zukunft spezielle Ausrüstung für den Homunculus geben. - Momentan ist die einzige Möglichkeit, die HP des Homunculus aufzufüllen, ihn ruhen zu lassen. Potion Pitcher, Heal usw. haben keinen Effekt.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Rest <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Bioethics Lv 1</p>
+      <p class="skill-desc">Zerstört einen aktuell erstellten Homunculus.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Resurrect Homunculus <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Call Homunculus Lv 1</p>
+      <p class="skill-desc">Wiederbelebt einen getöteten Homunculus.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Berserk Pitcher <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Wirft eine Berserk Potion auf das Ziel, deren Effekt Klassenrestriktionen ignoriert. Das Ziel muss aber weiterhin mindestens BaseLV 85 sein.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Twilight Alchemy I <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Unternimmt 200 Versuche, alle 0,005 Sekunden eine White Potion herzustellen. Dieser Skill hat dieselbe Erfolgsrate wie der Pharmacy-Skill. Sind nicht genug Zutaten für alle 200 vorhanden, schlägt der Skill fehl. Die nötigen Zutaten findest du im Potion Creation Guide.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Twilight Alchemy II <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Unternimmt 200 Versuche, alle 0,005 Sekunden eine Condensed White Potion herzustellen. Dieser Skill hat dieselbe Erfolgsrate wie der Pharmacy-Skill. Sind nicht genug Zutaten für alle 200 vorhanden, schlägt der Skill fehl. Die nötigen Zutaten findest du im Condensed Potion Creation Guide. Hinweis: Damit der Skill funktioniert, müssen ein Soul Linker und ein Super Novice in deiner Party sein.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Twilight Alchemy III <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Stellt 100 Alcohol, 50 Acid Bottle und 50 Bottle Grenade her. Jeder Cast benötigt 50 Fabric, 50 Empty Bottle und genügend Materialien, um die produzierten Items zu craften. Sind nicht genug Zutaten für alles vorhanden, schlägt der Skill fehl. Die nötigen Zutaten findest du im Alcohol Creation Guide, Acid Bottle Creation Guide und Bottle Grenade Creation Guide. Hinweis: Damit der Skill funktioniert, muss ein Taekwon Boy in deiner Party sein.</p>
+    </div>
+    </div>
+  </section>
+
+  <section><h2>Level-Milestones</h2><ul><li><strong>2nd Job 1–50:</strong> Homunculus-leveling auf Anolian/Geographer.</li><li><strong>2nd Job 50–99:</strong> Acid-Demo gegen Anubis (high VIT) oder MVP-Runs.</li></ul></section>
+
+  <p>Cross-Links: <a href="klassen.html">Klassen-Übersicht</a> · <a href="leveling.html">Level-Routen</a> · <a href="ausruestung.html">Ausrüstung</a> · <a href="md-equipment.html">MD-Equipment</a></p>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://ratemyserver.net/" target="_blank" rel="noopener">RateMyServer</a>
+</footer>
+
+</body>
+</html>

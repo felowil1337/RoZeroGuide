@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto-Hunt & Auto-Pot — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+ <div class="topbar-inner">
+ <a href="index.html" class="brand">
+ <span class="brand-title">Ragnarok Zero</span>
+ <span class="brand-subtitle">Global Guide · Deutsch</span>
+ </a>
+ </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+ <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+ <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html" class="active"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+ <main>
+ <div class="page-hero">
+ <span class="eyebrow">Zero-QoL · Aktuell spielbar</span>
+ <h1>Auto-Hunt & Auto-Pot</h1>
+ <p class="lead">Wie das TW-exklusive Auto-Combat-System funktioniert — und warum es einen richtigen Auto-Pot-Threshold (noch) nicht gibt.</p>
+ </div>
+
+ <section id="overview">
+ <h2>🤖 Auto-Hunt & Auto-Pot-Situation</h2>
+ <p>Das <strong>Auto-Hunt-System </strong> ist das zentrale QoL-Feature der TW-Version und wird aller Voraussicht nach auch auf Global so übernommen. Dieser Abschnitt dokumentiert den aktuellen Stand (Stand: April 2026, nach dem März-24-Patch) und räumt vor allem mit einem Missverständnis auf: <strong>einen klassischen „Auto-Pot"-Threshold gibt es (noch) nicht.</strong></p>
+ </section>
+
+ <section>
+ <span class="source-note">Offizielle Quelle: roz.gnjoy.com.tw · News ID 217525 · </span>
+
+ <a id="doku"></a><h2>📖 Offizielle GNJOY-Dokumentation</h2>
+ <p>Die offizielle Dokumentation von Gravity TW beschreibt das Auto-Battle-System als Komfort-Erweiterung für ein entspannteres Spielerlebnis. Die UI ist in <strong>sieben Konfigurations-Tabs</strong> unterteilt:</p>
+
+ <h3>🎯 Schnellzugriff-Button</h3>
+ <p>Der Auto-Battle-Toggle hat ein <strong>Kreuz-aus-zwei-Schwertern-Icon</strong> und ist standardmäßig neben der Minimap oben rechts platziert. Er lässt sich auf <strong>jede Position</strong> auf dem Bildschirm ziehen (inkl. neben das MENU-Poring).</p>
+ <figure style="margin:12px 0">
+   <a href="images/auto-hunt/2025_06_26_214a990f2b674618a4ffb665fc5f5855.png" target="_blank" rel="noopener">
+     <img class="howto-img" src="images/auto-hunt/2025_06_26_214a990f2b674618a4ffb665fc5f5855.png" alt="Auto-Battle-Schnellzugriff-Button (Kreuz-aus-Schwertern) neben der Minimap" loading="lazy" style="max-width:100%;border-radius:6px;border:1px solid var(--border);background:var(--bg-1);padding:6px">
+   </a>
+   <figcaption style="font-size:13px;color:var(--text-dim);margin-top:6px">Das Kreuz-aus-Schwertern-Icon ist hier oben rechts neben der Minimap aktiv (Beispiel: Payon, Koord. 162/88). Drag &amp; Drop verschiebt es überall hin.</figcaption>
+ </figure>
+
+ <h3>⚙️ Konfiguration öffnen</h3>
+ <p>Klick auf das <strong>MENU (pinkes Poring)</strong> unten rechts → <strong>Auto-Battle</strong> öffnet das Settings-Fenster mit 7 Tabs. Im MENU-Panel ist Auto-Battle eines von 21 System-Buttons (neben Character, Equipment, Inventory, Skills, Party, Guild, Quest Log, World Map, Navigation, Settings, Bank, Replay, Mail, Achievements, Help, Cash Shop, Hotkey Guide, Attendance, Brokerage, Reputation).</p>
+ <figure style="margin:12px 0">
+   <a href="images/auto-hunt/2025_05_28_1cd4295d15554984a560973111fc0abd.png" target="_blank" rel="noopener">
+     <img class="howto-img" src="images/auto-hunt/2025_05_28_1cd4295d15554984a560973111fc0abd.png" alt="MENU-Poring-Panel mit Auto-Battle-Button (rot markiert)" loading="lazy" style="max-width:100%;border-radius:6px;border:1px solid var(--border);background:var(--bg-1);padding:6px">
+   </a>
+   <figcaption style="font-size:13px;color:var(--text-dim);margin-top:6px">MENU-Poring → Auto-Battle. Der rote Pfeil im Screenshot markiert den Auto-Battle-Button im System-Panel.</figcaption>
+ </figure>
+
+ <h3>📑 Die 7 Konfigurations-Tabs</h3>
+ <div class="card-grid">
+ <div class="card">
+ <h4>1. Basic Settings — Grund-Einstellungen</h4>
+ <p>Grundlogik für Ausdauer während des Auto-Battles. Zentrale Schalter wie <em>Return-to-Town</em>, <em>Death-Recovery</em>.</p>
+ </div>
+ <div class="card">
+ <h4>2. Monster — Monster-Targeting</h4>
+ <p>Auf Maps mit mehreren Mob-Typen kannst du gezielt bestimmte Monster markieren (Hunting-Ziele vs. Ignorieren).</p>
+ </div>
+ <div class="card">
+ <h4>3. Skills — Skill-Slots</h4>
+ <p><strong>4 Angriffs-Slots + 4 Support-Slots</strong> mit konfigurierbarer Skill-Verzögerung.<br>
+ <span class="badge red">Nach März-2026-Patch: 8+8 Slots</span></p>
+ </div>
+ <div class="card">
+ <h4>4. Potions — Potion-Slots</h4>
+ <p>Tab 1: <strong>2 HP-Slots + 2 SP-Slots</strong>. Tab 2: <em>Grüne Potions, Universal-Medizin</em>.</p>
+ </div>
+ <div class="card">
+ <h4>5. Pickup — Loot-Filter</h4>
+ <p>Tab 1: Gewichts-Limits, Item-Typ-Filter, Min-Anzahl-Zufalls-Optionen für Target-Items.<br>
+ Tab 2: Gewichts-bezogene Nebenfunktionen.</p>
+ </div>
+ <div class="card">
+ <h4>6. Movement — Bewegungs-Mechanik</h4>
+ <p>Fly-Wing / Teleport-Settings. <em>Bei ausreichend Zeny</em> massiv effizienzsteigernd.</p>
+ </div>
+ <div class="card">
+ <h4>7. Items — Konsumitems</h4>
+ <p>BUFF-Items einrichten mit zeitbasiertem Re-Cast (Blessing, Increase AGI, Food-Buffs, etc.).</p>
+ </div>
+ </div>
+
+ <h3>🖼️ UI-Referenz-Screenshots</h3>
+ <img class="chinese-img medium" src="images_en/auto-hunt/2025_06_26_b8c2286ae3eb40e380049c90dc46a0c0.png" alt="Tab 1: Basic Settings">
+<div class="translated-table-block">
+<p class="translated-summary">Das Fenster zeigt die grundlegenden Konfigurationseinstellungen für die Auto-Hunt-Funktion im Spiel.</p>
+<ul>
+<li>Character SP below 10%, only use normal attack (High Priority)</li>
+<li>Character SP below 5%, stop attacking and move automatically</li>
+<li>10 Teleport when not in combat for 10 seconds</li>
+<li>Teleport when &gt;20 monsters are on screen</li>
+<li>Teleport when MVP Boss appears</li>
+</ul>
+<p class="translated-notes"><em>Die Tabs oben erlauben den Wechsel zwischen verschiedenen Kategorien wie Monster, Skill, Potion/Status, Pickup/Item, Movement und Item Settings.</em></p>
+</div>
+
+ <img class="chinese-img medium" src="images_en/auto-hunt/2025_05_28_8c228cca9f9641808c6df223db3ead12.png" alt="Tab 2: Monster">
+<div class="translated-table-block">
+<p class="translated-summary">Ein Konfigurationsfenster für die Monster-Auswahl innerhalb der Spiel-Einstellungen, um Ziele für Aktionen festzulegen.</p>
+<ul>
+<li>Target Poring (ausgewählt)</li>
+<li>Target Lunatic</li>
+<li>Target Lunatic</li>
+<li>Target Fabre</li>
+<li>Target Chonchon</li>
+<li>Target Mastering</li>
+</ul>
+<p class="translated-notes"><em>Die Registerkarten am oberen Rand erlauben den Wechsel zwischen verschiedenen Spieleinstellungen wie 'Basic Settings', 'Skill', 'Potion / Status', 'Pickup / Item', 'Movement' und 'Item Settings'. Am unteren Rand befinden sich Buttons zum 'Initialisieren' (Zurücksetzen) und 'Schließen' des Fensters.</em></p>
+</div>
+
+ <img class="chinese-img medium" src="images_en/auto-hunt/2025_05_28_41a71ba0620a4043bfff7b60f1f1d0cf.png" alt="Tab 3: Skills">
+<div class="translated-table-block">
+<p class="translated-summary">Das Fenster ermöglicht die Konfiguration von Angriffs- und Unterstützungsfertigkeiten sowie deren Verzögerung für das automatische Kampfsystem.</p>
+<ul>
+<li>Basic Settings</li>
+<li>Monster</li>
+<li>Skill</li>
+<li>Potion / Status</li>
+<li>Pickup / Item</li>
+<li>Movement</li>
+<li>Item Settings</li>
+<li>Please set up Attack / Support Skills.</li>
+<li>Delay configured per skill use.</li>
+<li>Attack Skill Settings</li>
+<li>Support Skill Settings</li>
+<li>Use Normal Attack</li>
+<li>When skills cannot be used, use normal attacks.</li>
+<li>Initialize</li>
+<li>Priority is left-to-right.</li>
+<li>Close</li>
+</ul>
+<p class="translated-notes"><em>Die Benutzeroberfläche dient zur Priorisierung von Skills, wobei die linke Seite eine höhere Priorität hat. Die Zeitverzögerung kann für jeden Skill einzeln in Sekunden festgelegt werden.</em></p>
+</div>
+
+ <img class="chinese-img medium" src="images_en/auto-hunt/2025_05_28_5a2c2db4357748c9954479962451a626.png" alt="Tab 4a: Potions Page 1">
+<div class="translated-table-block">
+<p class="translated-summary">Dies ist das Einstellungsmenü für die automatische Verwendung von Heiltränken basierend auf HP- oder SP-Schwellenwerten.</p>
+<ul>
+<li>Tab: Basic Settings</li>
+<li>Tab: Monster</li>
+<li>Tab: Skill</li>
+<li>Tab: Potion / Status</li>
+<li>Tab: Pickup / Item</li>
+<li>Tab: Movement</li>
+<li>Tab: Item Settings</li>
+<li>Anweisung: Please set up recovery items to use. If ratios are identical, items are used from the left.</li>
+<li>HP-Regenerations-Einstellungen (2 Slots)</li>
+<li>SP-Regenerations-Einstellungen (2 Slots)</li>
+<li>Schwellenwert-Anzeige: HP below 70%</li>
+<li>Schwellenwert-Anzeige: SP below 70%</li>
+<li>Schaltflächen: Initialize, Close</li>
+</ul>
+<p class="translated-notes"><em>Die Benutzeroberfläche ermöglicht die Konfiguration von zwei HP-Trank-Slots und zwei SP-Trank-Slots mit jeweils prozentualen Schwellenwerten.</em></p>
+</div>
+ <img class="chinese-img medium" src="images_en/auto-hunt/2025_06_26_70af2f99a1084ff9a0f727073908342d.png" alt="Tab 4b: Potions Page 2">
+<div class="translated-table-block">
+<p class="translated-summary">Das Menü ermöglicht die Konfiguration von Heiltränken für Statusveränderungen sowie Einstellungen für die automatische Rückkehr in die Stadt.</p>
+<ul>
+<li>Bitte konfigurieren Sie die zu verwendenden Heilmittel für Statusveränderungen.</li>
+<li>Verzögerung pro Tranknutzung konfiguriert.</li>
+<li>Wenn die Dauer des Status kurz ist, werden die Gegenstände schnell aufgebraucht.</li>
+<li>Status-Heiltränke: Verwenden Sie Gegenstände in den Plätzen für Green Potion und Panacea.</li>
+<li>Automatische Heilung bei Treffern durch: Green Potion (Blind, Curse, Silence, Confusion), Panacea (Blind, Curse, Silence, Confusion, Hallucination, Poison)</li>
+<li>Rückkehr in die Stadt, wenn alle Tränke aufgebraucht sind</li>
+<li>Wenn ein Gegenstand fehlt und keine normalen Angriffe genutzt werden können oder das Gewicht das Limit überschreitet, werden die Rückkehr-Einstellungen verwendet.</li>
+</ul>
+<p class="translated-notes"><em>Dieses Fenster ist Teil der Automatisierungs-Einstellungen im Ragnarok Zero Client.</em></p>
+</div>
+
+ <img class="chinese-img medium" src="images_en/auto-hunt/2025_06_26_c5d70f42fb8f45f69556018fa92850b8.png" alt="Tab 5a: Pickup Page 1">
+<div class="translated-table-block">
+<p class="translated-summary">Dies ist das Interface zur Konfiguration der automatischen Aufsammel-Optionen für den Charakter oder Begleiter, inklusive Gewichtsbeschränkungen und Filter.</p>
+<ul>
+<li>Basic Settings</li>
+<li>Monster</li>
+<li>Skill</li>
+<li>Potion / Status</li>
+<li>Pickup / Item</li>
+<li>Movement</li>
+<li>Item Settings</li>
+<li>Please set up pickup method.</li>
+<li>Pick up options when weight exceeds setting</li>
+<li>Weight Limit: Stop pick up when weight reaches 90%.</li>
+<li>Pick up Weapon with &lt;0&gt; or more options.</li>
+<li>Pick up Armor with &lt;0&gt; or more options.</li>
+<li>Use normal attack.</li>
+<li>Only pick up [Weapns / Armor] with [number] or more options.</li>
+<li>Consumables</li>
+<li>Cards</li>
+<li>Other Items</li>
+<li>Return Settings</li>
+</ul>
+<p class="translated-notes"><em>Die UI zeigt Einstellungen für das automatische Looten von Gegenständen, wobei die Gewichtsgrenze auf 90% konfiguriert ist.</em></p>
+</div>
+ <img class="chinese-img medium" src="images_en/auto-hunt/2025_06_26_7ebdf71d331242f3b21e6e9320cf5caa.png" alt="Tab 5b: Pickup Page 2">
+<div class="translated-table-block">
+<p class="translated-summary">Das Fenster zeigt die Einstellungen für das automatische Aufsammeln von Gegenständen, inklusive einer Option für die Rückkehr bei Übergewicht.</p>
+<ul>
+<li>Basic Settings</li>
+<li>Monster</li>
+<li>Skill</li>
+<li>Potion / Status</li>
+<li>Pickup / Item</li>
+<li>Movement</li>
+<li>Item Settings</li>
+<li>Please set up pickup method.</li>
+<li>Return Settings</li>
+<li>Return automatically when weight exceeds setting.</li>
+<li>Initialize</li>
+<li>2 / 2</li>
+<li>Close</li>
+</ul>
+<p class="translated-notes"><em>Dies ist die zweite Seite des 'Pickup / Item'-Reiters im Spiel-Interface.</em></p>
+</div>
+
+ <img class="chinese-img medium" src="images_en/auto-hunt/2025_05_28_bf7ff4de79614b2bbe39c0b46a423131.png" alt="Tab 6: Movement">
+<div class="translated-table-block">
+<p class="translated-summary">Das Menü ermöglicht die Konfiguration von Teleportations-Optionen und die automatische Rückkehr zum Speicherpunkt.</p>
+<ul>
+<li>Teleport Settings: Use Item (Fly Wing), Use Skill (Teleport)</li>
+<li>Return to Save Point: Use Item (Butterfly Wing), Use Skill (Warp Portal)</li>
+<li>Check to Conditions met in Save Pickup.</li>
+<li>Use 'Return' settings if out of consumables or weight is exceeded.</li>
+</ul>
+<p class="translated-notes"><em>Dies ist ein Konfigurationsfenster für einen Bot oder ein Makro-Tool in Ragnarok Online.</em></p>
+</div>
+
+ 
+<div class="translated-table-block">
+<p class="translated-summary">Das Fenster ermöglicht die Konfiguration von Buff-Items, die nach einer bestimmten Zeit automatisch verwendet werden sollen, sowie eine Option zur Rückkehr in die Stadt, wenn die Items aufgebraucht sind.</p>
+<ul>
+<li>Grundlegende Einstellungen</li>
+<li>Monster-Einstellungen</li>
+<li>Fähigkeiten-Einstellungen</li>
+<li>Trank-Einstellungen</li>
+<li>Aufhebe-Einstellungen</li>
+<li>Bewegungs-Einstellungen</li>
+<li>Item-Einstellungen</li>
+</ul>
+<p class="translated-notes"><em>Benutzeroberfläche des automatischen Buff-Systems. Der Benutzer kann bis zu 8 verschiedene Items und deren jeweilige Verzögerungszeit in Millisekunden konfigurieren. Die Option 'Rückkehr in die Stadt' sorgt dafür, dass der Charakter zum Speicherpunkt zurückkehrt, sobald die Buff-Items leer sind.</em></p>
+</div>
+
+ <div class="info-box warning">
+ <strong>Offizielle Hinweise von Gravity:</strong>
+ <ol>
+ <li>Das Auto-Battle-System wird <strong>kontinuierlich weiterentwickelt</strong> — Screenshots zeigen einen Moment-Zustand, echte Features ändern sich mit Patches.</li>
+ <li><strong>Nicht alle</strong> Items / Skills können in das Auto-Battle-System eingebunden werden. Was erlaubt ist, entscheidet das Spiel.</li>
+ <li>Zur Balance-Wahrung kann die Liste erlaubter Items/Skills <em>ausgeweitet oder eingeschränkt</em> werden. Patch-Notes im Auge behalten.</li>
+ </ol>
+ </div>
+ </section>
+
+ <section id="mechanik">
+ <h2>⚙️ Auto-Hunt Grundmechanik</h2>
+
+ <h3>Kapazität (nach März-2026-Patch)</h3>
+ <ul>
+ <li><strong>8 Angriffs-Skill-Slots</strong> (vorher 4) — hier trägst du deine Damage-Skills ein</li>
+ <li><strong>8 Support-Skill-Slots</strong> (vorher 4) — Buffs, Heals, Pot-Timings</li>
+ <li><strong>Auto-Cast + Auto-Shadow-Cast</strong> — werden unterstützt für Support-Skills</li>
+ <li><strong>Combo/Chain-Settings</strong> — eigene Skill-Reihenfolgen</li>
+ <li><strong>Normal-Attack-Toggle</strong> — kann an- oder abgeschaltet werden (wichtig z.B. für Alchemisten mit Homunculus)</li>
+ </ul>
+
+ <h3>Was du konfigurieren kannst</h3>
+ <ul>
+ <li>Skill-Delay zwischen Aktionen</li>
+ <li>Pickup-Delay</li>
+ <li>Drink-Delay (Wasserkonsum-Pause, nicht HP/SP-Threshold!)</li>
+ <li>Auto-Hunt-Flow (Ablauf-Reihenfolge)</li>
+ <li>Map-Freischaltung (manche Maps sind standardmäßig für Auto-Hunt gesperrt)</li>
+ </ul>
+
+ <h3>Was du NICHT konfigurieren kannst (C++-hardcoded)</h3>
+ <div class="info-box warning">
+ Die Kern-Logik läuft in C++ (Performance-Optimierung wegen Server-Load) und ist Spielern nicht zugänglich:
+ </div>
+ <ul>
+ <li><strong>Erkennungs-Reichweite:</strong> nur ca. <strong>7–8 Zellen</strong> um den Charakter. Monster weiter weg werden komplett ignoriert</li>
+ <li><strong>Erkennungs-Frequenz:</strong> fest limitiert</li>
+ <li><strong>Target-Priorität:</strong> greift <strong>immer das nächste Ziel</strong> an — keine Prioritätsliste, keine Ignore-Liste, keine Elemental-Priorisierung</li>
+ </ul>
+ </section>
+
+ <section id="autopot">
+ <h2>💊 Auto-Pot-System</h2>
+
+ <div class="info-box note">
+ Auto-Pot ist <strong>in dasselbe Auto-Hunt-Fenster integriert</strong> — kein separates System, sondern ein Tab/Bereich innerhalb der -Konfiguration.
+ </div>
+
+ <h3 id="autopot-config">Konfiguration</h3>
+ <ul>
+ <li>Eigene Slots für <strong>HP-Potions</strong> und <strong>SP-Potions</strong></li>
+ <li>UI zeigt die aktuellen Potion-Icons mit Restmenge im Inventar</li>
+ <li><strong>Threshold-basiert:</strong> Vermutlich %HP- und %SP-Slider (exakte UI-Elemente aus öffentlichen Quellen nicht 1:1 dokumentiert)</li>
+ <li>Pot-Trigger läuft parallel zum Support-Skill-Engine (Buff-Refresh + Heal-on-Party-Member)</li>
+ </ul>
+
+ <h3 id="autopot-items">Unterstützte Items</h3>
+ <ul>
+ <li><strong>HP:</strong> Red / Orange / Yellow / White Potions, Condensed White, Royal Jelly </li>
+ <li><strong>SP:</strong> Blue Potion, Grape Juice, Mastela Fruit</li>
+ <li><em>Yggdrasil Berry / Leaf</em> als Emergency-Items → aus öffentlichen Quellen nicht bestätigt</li>
+ </ul>
+
+ <h3 id="autopot-bug">🐛 Kritischer Bug — Return-to-Town</h3>
+ <div class="info-box warning">
+ <strong>Auto-Return-to-Town feuert erst wenn BEIDE — HP- UND SP-Pot-Stacks — komplett leer sind.</strong> Wenn HP-Pots aus, SP-Pots aber noch da: der Char kämpft weiter ohne Heal-Option → stirbt im nächsten Hit. <strong>Standard-Community-Empfehlung: Death-Return-Checkbox AKTIVIEREN</strong> (nicht Resurrection auf Swordsman Village — dort greifen trollen-Priester das ab).
+ </div>
+
+ <h3 id="autopot-limits">Bekannte Einschränkungen</h3>
+ <ul>
+ <li><strong>Config-Reset-Bug:</strong> Änderungen während einer Session können bei Disconnect verloren gehen. Erst nach Rückkehr zum Char-Select sind sie persistent.</li>
+ <li><strong>Pot-Count-UI-Bug:</strong> Anzahl-Anzeige kann leer wirken, obwohl Items noch im Inventar sind.</li>
+ <li><strong>Kein automatisches Restock:</strong> Pot-Verbrauch auffüllen = manuelles Town-Runnen und NPC-Kauf.</li>
+ <li><strong>Standard-Potion-Global-Cooldown (~1s)</strong> gilt — kein Umgehen.</li>
+ <li><strong>Multi-Threshold-Stacking</strong> (z.B. White Pot @ 50% + Royal Jelly @ 20%) aus Quellen nicht bestätigt — wahrscheinlich möglich, aber nicht verifiziert.</li>
+ </ul>
+
+ <h3 id="autopot-sustain">Weitere Sustain-Optionen parallel zum Auto-Pot</h3>
+ <ol>
+ <li><strong>Pots als Support-Skills timen</strong> — Du kannst Potions zusätzlich in die 8 Support-Skill-Slots mit festem Intervall legen (z.B. "Condensed White alle 5 Sek"). Zeit-basiert, nicht HP-basiert.</li>
+ <li><strong>Passive Regen-Gear:</strong> Eden Group Boots (+10–14% HP-Regen), Zero Beetle Card (SP-Regen-on-Kill), Spiritual Ring, Shadow-Priest-Shoes</li>
+ <li><strong>Klassen-spezifische SP-Sustain-Builds:</strong> Knight "Pierce Machine" (INT 40-60), Priest mit Magnificat Lv 5 (Party-SP-Regen x2)</li>
+ </ol>
+ </section>
+
+ <section id="ui">
+ <h2>🖼️ UI-Struktur (rekonstruiert aus Forum-Beschreibungen)</h2>
+ <ul>
+ <li><strong>Multi-Tab-Fenster</strong> mit mehreren Seiten</li>
+ <li><strong>Seite 1:</strong> Resurrection-Count-Checkbox, Death-Return-Toggle, Weight-/Supply-Cutoffs, Pot-Slots</li>
+ <li><strong>Attack-Skills-Tab:</strong> 8 Slots, pro Skill konfigurierbar: Skill-Level, Delay zwischen Casts, Max-Casts pro Target, per-Mob-Binding</li>
+ <li><strong>Support-Skills-Tab:</strong> 8 Slots, Auto-Cast + Auto-Shadow-Cast Toggles</li>
+ <li><strong>Per-Monster-Targeting-Tab:</strong> Skill → Mob-Name-Bindings</li>
+ <li><strong>Import/Export:</strong> Config als Datei teilbar mit anderen Spielern</li>
+ </ul>
+
+ <div class="info-box note">
+ <strong>Aktivierung:</strong> Öffnen des Auto-Hunt-Fensters im Client (kein öffentlich dokumentierter Slash-Command). Die Community nennt es ""-Fenster. Für exakte Button-/Hotkey-Position → TW-YouTube-Tutorial ansehen (z.B. populäre TW-YouTube-Tutorials)
+ </div>
+
+ <h3 id="autopot-class-tricks">Class-spezifische Tricks für HP/SP-Sustain</h3>
+ <ul>
+ <li><strong>Knight:</strong> „Pierce Machine"-Build mit INT 40–60 → regeneriert SP schnell genug um Pierce dauerhaft zu spammen. <em>Zero Beetle Card</em> (SP-Regen-on-Kill) ist der Gamechanger</li>
+ <li><strong>Priest:</strong> Magnificat Lv 5 als eigenen Support-Buff → verdoppelt SP-Regen, Heal als Auto-Cast</li>
+ <li><strong>Monk:</strong> Asura nicht auto-hunt-tauglich (manuelles Timing nötig); Combo-Logik ist fehlerhaft und ignoriert Spirit-Sphere-Count</li>
+ <li><strong>Alchemist:</strong> Cart-Attack-Skill-Slot auf <strong>999 Sek</strong> setzen = effektiv deaktiviert, sodass nur Homunculus farmt</li>
+ <li><strong>Wizard:</strong> Bekannter Bug — nach Single-Skill-Trigger (z.B. Ganbantein) werden Items manchmal nicht aufgehoben</li>
+ </ul>
+ </section>
+
+ <section id="target">
+ <h2>🎯 Target-Handling Detail</h2>
+ <ul>
+ <li><strong>Nearest-Target-Only:</strong> Bei mehreren Mobs in Reichweite wird immer der nächstgelegene angegriffen. Kein User-Override</li>
+ <li><strong>Off-Screen-Ignoranz:</strong> Homunculus erkennt Mobs außerhalb der Player-Reichweite (teilweise auch off-screen), Auto-Hunt aber nur 7–8 Zellen. Das führt dazu, dass Homunculus „Gassi geführt" wird — der Player läuft in Homunculus-Richtung, sieht aber selbst die Mobs nicht</li>
+ <li><strong>Nach-Kill-Pause:</strong> Häufige Player-Complaint — nach Kill steht der Char oft 1–2 Sekunden bevor nächstes Target aufgenommen wird. Wird als „inaktiv-wirkend" wahrgenommen</li>
+ <li><strong>Search-Walk:</strong> Wenn kein Target in Reichweite, bewegt sich der Char in Zufalls-Richtung (wie ein Gassi-Hund) — kein Pfad-Algorithmus</li>
+ </ul>
+ </section>
+
+ <section id="pvp">
+ <h2>🛡️ PvP & Map-Restriktionen</h2>
+ <ul>
+ <li><strong>PvP-Maps:</strong> Auto-Hunt ist dort deaktiviert (April-2026-Patch) — zusätzlich wurden Fly Wing + Teleport in PvP-Maps geblockt</li>
+ <li><strong>Bestimmte Endgame-Maps:</strong> Standard für Auto-Hunt gesperrt (Unlock via NPC-Items möglich)</li>
+ <li><strong>Instanzen:</strong> Auto-Hunt funktioniert innerhalb von Memorial-Dungeons, aber Boss-Mechaniken (Reflect Shield, Shaman's Flowers etc.) werden ignoriert — oft resultiert in Wipes</li>
+ </ul>
+ </section>
+
+ <section id="death">
+ <h2>💀 Death-Handling</h2>
+ <ul>
+ <li>Bei Tod: Keine automatische Respawn-Aktion — der Char bleibt am Death-Screen bis Player manuell eingreift</li>
+ <li>Kein automatisches Gear-Repair / Potion-Restock in Town</li>
+ <li>Keine automatische EXP-Penalty-Recovery</li>
+ </ul>
+ </section>
+
+ <section id="afk">
+ <h2>🔄 Wie du trotzdem länger AFK-farmst</h2>
+ <ol>
+ <li><strong>Multi-Char-Setup:</strong> TW erlaubt 5 Accounts/ID. Einen Support-Priester im Party-Slot mit <em>Magnificat</em> und <em>Blessing</em> auf Timer → dein Farm-Char bleibt oben</li>
+ <li><strong>Pot-Preloading:</strong> Inventar voller Red Potions + Blue Potions + Orange Potions. Support-Slots mit Staffel-Timern (z.B. Red 3s, Orange 7s, Blue 5s). Bei rotierendem Trinken reicht oft 2–4 Stunden</li>
+ <li><strong>Gear-Priorität:</strong> HP-Regen-Items (Eden Group Boots: +10–14% HP-Regen, Shadow Merchant Armor-Varianten) sind entscheidend</li>
+ <li><strong>Farming-Spot-Auswahl:</strong> Maps wählen, wo Mobs nicht schneller Damage machen als dein Regen. Siehe <a href="leveling.html">Level-Routen</a> und <a href="fever.html">Fever Maps</a></li>
+ </ol>
+ </section>
+
+ <section id="patch">
+ <h2>📊 March-2026-Patch — Was sich geändert hat</h2>
+ <div class="info-box note">
+ Offizielle Ankündigung von 24.03.2026 (TWRoZ Wartung):
+ </div>
+ <ul>
+ <li>Attack-Skill-Slot-Limit auf <strong>8</strong> erhöht (vorher 4)</li>
+ <li>Support-Skill-Slot-Limit auf <strong>8</strong> erhöht (vorher 4)</li>
+ <li>Support-Skill-Toggle-Logik optimiert</li>
+ <li>Auto-Cast + Auto-Shadow-Cast im Support-Slot hinzugefügt</li>
+ </ul>
+ </section>
+
+ <section id="tier-job1">
+ <h2>🏆 Tier-List: Welche Klassen sind am besten zum Auto-Hunt?</h2>
+ <p>Ranking basiert auf: 1) Skill-/SP-Sustain ohne manuellen Eingriff, 2) Target-Acquisition im 7–8-Zellen-Radius, 3) Robustheit gegen die Auto-Hunt-Eigenheiten (Nach-Kill-Pause, Nearest-Only, fehlender Auto-Pot).</p>
+
+ <div class="table-wrap">
+<table>
+<thead><tr><th style="width:60px">Tier</th><th style="width:120px">Klasse</th><th>Beschreibung</th><th>Setup</th></tr></thead>
+<tbody>
+<tr><td><strong>🥇 S</strong></td><td><strong>Archer</strong></td><td>Double Strafe = ein Skill, ein Ziel, kein Combo. Ranged-Range bricht aus dem Nahkampf-Radius aus, bevor Schaden reinkommt. SP-Kosten niedrig genug, dass ein Blue Potion alle 5s reicht. Einzige Ausgabe: Arrows.</td><td>DS Lv 10 in Slot 1, Owl's Eye passiv, Fire/Silver Arrows für Element-Coverage.</td></tr>
+<tr><td><strong>🥇 S</strong></td><td><strong>Mage</strong></td><td>Cold/Fire/Lightning Bolt als Single-Target-Skill ist stabil auto-hunt-tauglich. Wichtig: nur EIN Bolt-Typ im Attack-Slot — sonst macht Auto-Hunt Element-Chaos.</td><td>Ein Bolt-Typ max, Fire Wall bei Bedarf im Support-Slot. INT-Gear für SP-Pool.</td></tr>
+<tr><td><strong>🥈 A</strong></td><td><strong>Swordsman</strong></td><td>Bash Lv 10 + Magnum Break als Clear-Support funktioniert. HP-Regen reicht für moderate Mobs. <em>Problem:</em> Nearest-Only ignoriert Aggro-Mechaniken — Crowd-Situationen führen zu Deaths.</td><td>Bash als Attack-Slot 1, Endure + Provoke als Support-Slots.</td></tr>
+<tr><td><strong>🥈 A</strong></td><td><strong>Acolyte</strong></td><td>Heal auf Undead-Gear-Mobs ist starker Auto-Hunt-Trick. <em>Aber:</em> nur in Undead-Maps effektiv (GH Culvert, Payon Cave). Nicht universell.</td><td>Heal Lv 10 im Attack-Slot, Blessing + Inc Agi auf Timer im Support-Slot.</td></tr>
+<tr><td><strong>🥉 B</strong></td><td><strong>Merchant</strong></td><td>Funktioniert, kostet aber kontinuierlich Zeny (900z/Cast bei Mammonite Lv 10). Cart Revolution als AoE-Clear-Backup.</td><td>Mammonite + Greed-Macro + Cart Attack auf <strong>999s deaktivieren</strong> (sonst chargt Auto-Hunt damit unerwünscht).</td></tr>
+<tr><td><strong>🥉 B</strong></td><td><strong>Thief</strong></td><td>Double Attack Passive + Normal-Attack-Toggle an. Einfach, aber melee-fragil.</td><td>Normal Attack ON, Double Attack passiv, Detoxify + Envenom als Support.</td></tr>
+</tbody>
+</table>
+</div>
+
+ <hr>
+
+ <a id="tier-job2"></a><h2>🏆 Tier-List: 2. Job</h2>
+ <div class="table-wrap">
+<table>
+<thead><tr><th style="width:60px">Tier</th><th style="width:140px">Klasse</th><th>Beschreibung</th><th>Setup</th></tr></thead>
+<tbody>
+<tr><td><strong>🥇 S+</strong></td><td><strong>Knight</strong> <em>(Pierce Machine)</em></td><td>Der Midgard-Academy-Build explizit für Auto-Hunt designed. STR 80–90 + <strong>INT 40–60</strong> für SP-Sustain → Pierce spammt sich dauerhaft ohne SP-Pots. Mit Zero Beetle Card (SP-Recovery-on-Kill) läuft der Char stundenlang.</td><td>Pierce Lv 10 in Attack-Slot 1 (0,3–0,5s Skill-Delay), Two-Hand Quicken auf Timer (Support). Eden Spear III + Zero Beetle Card Pflicht.</td></tr>
+<tr><td><strong>🥇 S</strong></td><td><strong>Hunter</strong> <em>(Double Strafe Sniper)</em></td><td>Fortsetzung des Archer-Spiels. DEX 99 + AGI 90 → Double Strafe spammt mit hohem ASPD. Falcon-Trigger als AoE-Bonus.</td><td>DS Lv 10, Owl's Eye passiv, Ankle Snare im Support-Slot. <strong>BiS:</strong> Apple o' Archer + Zerom-Card-Gloves (+3 DEX/Slot).</td></tr>
+<tr><td><strong>🥇 S</strong></td><td><strong>Sage</strong> <em>(Auto-Spell Battle Tome)</em></td><td>Die wortwörtlich perfekte Auto-Hunt-Klasse. Auto-Spell triggert Bolts bei Normal-Attack — kein manuelles Skill-Timing nötig. Free Cast erlaubt Move während Cast.</td><td>Normal Attack ON + Auto-Spell im Support-Slot. Siroma (Water) oder Imp (Fire) Cards. Dazu matching Endow-Skill.</td></tr>
+<tr><td><strong>🥇 S</strong></td><td><strong>Wizard</strong> <em>(AoE Destruction)</em></td><td>Storm Gust / Meteor Storm / LoV clearen ganze Mobs auf einmal. Best für Maps mit dichten Spawns. <strong>Bekannter Bug:</strong> nach Single-Skill-Trigger picked Wizard gelegentlich keine Items auf.</td><td>Storm Gust als Main-Skill (Attack-Slot 1), Fire Wall bei Bedarf.</td></tr>
+<tr><td><strong>🥇 S</strong> <em>(Undead/Demon)</em></td><td><strong>Priest</strong> <em>(Full-Support Solo)</em></td><td>Magnificat verdoppelt SP-Regen → Sanctuary dauerhaft spammbar. In Undead/Demon-Maps (GH Churchyard, Payon Cave) praktisch unverwundbar. Außerhalb: nur mittelmäßig.</td><td>Magnificat dauerhaft Support-Slot, Heal auf Self, Holy Light Attack-Slot 1, Aspersio auf Weapon.</td></tr>
+<tr><td><strong>🥈 A</strong></td><td><strong>Blacksmith</strong> <em>(Battle-Greed)</em></td><td>Mammonite + Cart Revolution + Adrenaline Rush. Greed Lv 1 = Loot-Vakuum (massive QoL). Mammonite-Zeny-Kosten sind substantiell — nur rentabel auf Zeny-positive Maps.</td><td>Mammonite in Attack-Slot 1, Greed-Macro auf Timer, Adrenaline Rush im Support-Slot.</td></tr>
+<tr><td><strong>🥈 A</strong></td><td><strong>Assassin</strong> <em>(Double Dagger)</em></td><td>Dual-Dagger + Double Attack passive + Normal-Attack ON = effizientes AFK-Farming. Sonic Blow auf Auto-Hunt weniger effektiv (SP-Drain).</td><td>Normal Attack ON, Double Attack passiv, Cloaking Lv 3 als Emergency-Support.</td></tr>
+<tr><td><strong>🥈 A</strong></td><td><strong>Rogue</strong> <em>(Gank Evasion)</em></td><td>High-AGI + Gank (passive Steal) + Whisper-Card-Cloak = sehr hohe Flee. Viele Mobs verfehlen einfach. Lange Sessions bei niedriger Death-Rate möglich.</td><td>Normal Attack ON, Gank passiv, Tunnel Drive für Speed.</td></tr>
+<tr><td><strong>🥉 B</strong></td><td><strong>Crusader</strong></td><td>Grand Cross hat Self-Damage-Risiko — ohne Pupa/Angeling Card und mit Auto-Hunts „warte nicht auf Heal"-Logik oft Deaths.</td><td>Heal Lv 5 + Faith Lv 10 als Sustain. <em>Alternative:</em> Holy Cross + Shield als Spear-Combo für sichereres Farming.</td></tr>
+<tr><td><strong>🥉 B</strong></td><td><strong>Alchemist</strong> <em>(Homunculus Tank)</em></td><td>Homunculus (Vanilmirth) tankt, Player stands back. Homunculus-AI besser als Auto-Hunt-AI (sieht Mobs weiter).</td><td>Call Homunculus aktiv, Normal Attack AUS, Learning Potion passiv. <strong>Cart Attack auf 999s setzen</strong>, damit der Alche nicht selbst chargt.</td></tr>
+<tr><td><strong>❌ D</strong></td><td><strong>Monk</strong></td><td><em>Defekte Combo-Logik:</em> Bahamut-Thread #3035 dokumentiert, dass Monk-Combos von Auto-Hunt falsch gehandhabt werden. Triple Attack verbraucht Spirit Spheres unvorhersagbar — Finger Offensive / Chain Combo laufen oft ohne Bubbles. GRAVITY hat das als „kein Bug, sondern normales Verhalten" bestätigt.</td><td>Workaround: Nur Triple Attack + Iron Fists Combo-frei spielen. Combo-Skills manuell.</td></tr>
+<tr><td><strong>❌ D</strong></td><td><strong>Bard / Dancer</strong></td><td>Support-Klassen — Bragi/Service sind Gruppen-Skills, kein Solo-Farming-Profil. Battle-Build (Arrow Vulcan) möglich, aber Hunter macht das besser.</td><td>—</td></tr>
+</tbody>
+</table>
+</div>
+
+ <h3>💡 Empfehlung für Auto-Hunt-Hauptchars</h3>
+ <ul>
+ <li><strong>Erster Char / Zeny-Farmer:</strong> <em>Hunter</em> — simpler Auto-Hunt, niedrige Death-Rate, sammelt Zeny + XP</li>
+ <li><strong>Long-Session-AFK:</strong> <em>Knight Pierce Machine</em> — das beste Sustain-Profil (INT+Beetle Card), Stunden-lange Sessions realistisch</li>
+ <li><strong>"Ich will gar nichts tun"-Spieler:</strong> <em>Sage Auto-Spell</em> — Auto-Attack → Spells triggern sich selbst</li>
+ <li><strong>Zeny-Farm mit Loot:</strong> <em>Blacksmith</em> — Greed sammelt, Mammonite killt</li>
+ <li><strong>Undead/Demon-Maps (GH):</strong> <em>Priest Heal-Bomb</em> — fast unverwundbar</li>
+ </ul>
+
+ <div class="info-box warning">
+ <strong>Vermeiden für Auto-Hunt-Hauptchar:</strong> Monk (Combo-Bug), Crusader (Grand-Cross-Recoil), Bard/Dancer (Support, solo schwach). Bei Wizard ist der Pickup-Bug zu beachten — gelegentlich liegen Drops liegen.
+ </div>
+ </section>
+
+ <section id="community">
+ <h2>🔮 Was die Community fordert (Potenzial für Global)</h2>
+ <p>Mehrere Bahamut-Threads listen die häufigsten Auto-Hunt-Wünsche auf. Falls Global diese umsetzt, wird das System deutlich mächtiger:</p>
+ <ul>
+ <li><strong>Threshold-basierter Auto-Pot</strong> (HP/SP % → automatisch trinken) — die Top-Forderung</li>
+ <li>Erhöhung Support-Skill-Slots auf 10+ (aktuelle 8 reichen bei vielen Buff-stackenden Klassen nicht)</li>
+ <li>„Buff ausgelaufen → sofort neu" statt „Timer abgelaufen → bei nächstem Mob"</li>
+ <li>Target-Prioritäts-Liste (Elemental-Match statt Nearest-Only)</li>
+ <li>Erhöhung Search-Range über 7–8 Zellen hinaus</li>
+ <li>Automatisches Town-Portal/Fly-Wing bei niedrigem HP (aktuell erst wenn Pots aus)</li>
+ <li>Auto-Storage / Auto-Sell bei vollem Inventar</li>
+ </ul>
+ </section>
+
+ <section id="tldr">
+ <h2>✅ TL;DR — was du jetzt weißt</h2>
+ <ul>
+ <li><strong>Auto-Hunt:</strong> Ja, robust, 8+8 Slots seit März 2026</li>
+ <li><strong>Auto-Pot-by-Threshold:</strong> Nein, gibt es nicht. Community fordert es aktiv</li>
+ <li><strong>Workaround:</strong> Potions in Support-Slots mit Timer, Class-Sustain-Gear, Pot-Rotations-Staffel</li>
+ <li><strong>Target:</strong> Nearest-Only, Range 7–8 Zellen, kein Override</li>
+ <li><strong>Death:</strong> Keine Auto-Recovery, Char bleibt am Death-Screen</li>
+ <li><strong>PvP:</strong> Auto-Hunt deaktiviert</li>
+ </ul>
+ </section>
+
+ 
+ 
+ 
+ 
+ </main>
+</div>
+
+<footer class="footer">
+ Quellen: <a href="https://www.midgardhub.com/" target="_blank">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank">Project Zero Wiki</a> · <a href="https://www.rozskill.me/" target="_blank">rozskill.me</a>
+</footer>
+
+</body>
+</html>

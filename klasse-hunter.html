@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klasse Hunter — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html" class="active">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+  <div class="page-hero">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      
+      <div>
+        <span class="eyebrow">Klassen · Hugel</span>
+        <h1>Hunter</h1>
+        <p class="lead">2nd Job aus dem Archer-Pfad. Range-Physical-DPS mit Falcon-Pet, Trap-Setup für Boss-Fights und Double Strafe als Brot-und-Butter-Skill.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Double Strafe Sniper</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Das reine physische Kraftpaket</p>
+      <p>Der direkteste und stärkste physische Build für Hunter. Mit maximalem DEX und AGI wird Double Strafe zu einem Maschinengewehr-Skill, der enormen Single-Target-Schaden aus sicherer Distanz austeilt.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>DEX</strong> <span class="stat-val">99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">20-30</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Double Strafe (Lv. 10)</strong> — Dein Hauptschaden-Tool. Extrem schnell in der Zero-Engine.</li>
+  <li><strong>Owl's Eye (Lv. 10)</strong> — Passiver +10 DEX-Boost. Unverzichtbar für den Schaden.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Habe immer 'Fire Arrows' und 'Silver Arrows' dabei. Sie decken die Schwächen von 80% der Level-Mobs im Spiel ab.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Auto-Blitz Falconer</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Der entspannte Auto-Battle-König</p>
+      <p>In Ragnarok Zero ist der Falconer der ultimative 'Lazy'-Build. Durch das Stacken von LUK und AGI löst dein Falcon mit jedem Angriff automatisch Blitz Beat aus und ignoriert dabei die Verteidigung des Ziels.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>AGI</strong> <span class="stat-val">99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>LUK</strong> <span class="stat-val">60-80</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">30-50</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Blitz Beat (Lv. 5)</strong> — Erlaubt deinem Falcon, mehrere Ziele mit defense-ignorierendem Schaden zu treffen.</li>
+  <li><strong>Steel Crow (Lv. 10)</strong> — Erhöht passiv den Schaden jedes Falcon-Angriffs.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Falcon-Schaden basiert ausschließlich auf INT, DEX und dem Steel-Crow-Level. Er ignoriert die Verteidigung des Monsters KOMPLETT.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Trapper Hunter</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Der Memorial-Dungeon-Spezialist</p>
+      <p>Trapper sind die MVPs in High-End-Dungeons. Mit Land Mine und Blast Mine teilen sie massiven elementaren AoE-Schaden aus, der mit INT und DEX skaliert, und liefern dabei essentielle Crowd-Control.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>DEX</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">80-90</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">40-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Land Mine (Lv. 5)</strong> — Massiver Earth-Schaden. Perfekt für Wind-Ziele in Glast Heim.</li>
+  <li><strong>Blast Mine (Lv. 5)</strong> — Essentieller Fire-AoE zum Clearen von Undead- und Earth-Maps.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Positionierung ist alles. Lege zuerst eine 'Sandman'-Trap, um den Mob einzuschläfern, und stacke dann deine Elementar-Traps darunter.
+    </div>
+  </section>
+
+  <section>
+    <h2>Komplette Skill-Liste</h2>
+    <p>Alle 26 Skills der Archer → Hunter Klasse. Quelle: ratemyserver.net.</p>
+
+    <h3>1. Job — Archer (7 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Owl&#x27;s Eye <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht DEX um 1*SkillLV.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Vulture&#x27;s Eye <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Owl&#x27;s Eye Lv 3</p>
+      <p class="skill-desc">Erhöht die Reichweite von Bögen um 1*SkillLV Zellen und HIT um 1 pro SkillLV.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Attention Concentrate <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Vulture&#x27;s Eye Lv 1</p>
+      <p class="skill-desc">Erhöht DEX und AGI des Casters um (2+1*SkillLV)%. Wirkt nur auf DEX/AGI aus Base-Stat, Job-Bonus, Rüstung und Owl's Eye. Karten werden nicht berücksichtigt. Deckt versteckte und gecloakte Charaktere im Umkreis von 3 Zellen auf.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Double Strafing <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Range-Angriff, der zwei Pfeile abfeuert und mit (180+20*SkillLV)% ATK trifft. Benötigt einen ausgerüsteten Bogen. Verbraucht nur 1 Pfeil.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Arrow Shower <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Double Strafe Lv 5</p>
+      <p class="skill-desc">3x3 Zellen Range-Splash-Angriff mit (75+5*SkillLV)% ATK. Getroffene Gegner werden 2 Zellen zurückgestoßen. Benötigt einen ausgerüsteten Bogen. Verbraucht nur 1 Pfeil.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Making Arrow <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Stellt Pfeile aus einem Item her. Verschiedene Items ergeben unterschiedliche Mengen und Typen von Pfeilen. Nicht nutzbar bei über 50% Gewicht. Arrow Crafting Guide: Hier klicken</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Charge Arrow <span class="skill-tag">Offensive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Range-Angriff mit 150% ATK. Das Ziel wird 6 Zellen zurückgestoßen. Verbraucht nur 1 Pfeil.</p>
+    </div>
+    </div>
+
+    <h3>2. Job — Hunter (19 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block active">
+      <h5>Skid Trap <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Eine Skid Trap aktiviert sich, sobald jemand innerhalb von SkillLV Zellen kommt. Bei Aktivierung wird das Ziel um 5+SkillLV Zellen zurückgestoßen (10 Zellen bei Lv 5). Skid Traps sind unsichtbar, aber jeder Spieler, der den Hunter beim Legen sehen kann, sieht die Trap, bis er außer Sicht gerät. Hide-aufdeckende Skills enthüllen die Trap. Diese Trap betrifft Spieler in PvP-Zonen, einschließlich des Users. Funktioniert nicht auf Boss- und Plant-Monstern. Wird sie bis zum Ablauf der Dauer nicht ausgelöst, verwandelt sich die Skid Trap zurück in ein Trap-Item und kann aufgesammelt werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Land Mine <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Eine Land Mine ist eine sichtbare Trap, die beim Betreten explodiert und das auslösende Monster oder den Spieler (nur in PvP) für [(DEX+75)*(1+INT/100)*SkillLV] Schaden trifft. Dieser Skill ignoriert DEF und MDEF sowie Schadensmodifikatoren-Karten für Größe und Familie, aber nicht das elementare Eigenschaft. Zusätzlich gibt es eine (5*SkillLV+30)% Chance, Ziele für 5 Sekunden zu stunnen. Diese Trap betrifft Spieler in PvP-Zonen, einschließlich des Users. Wird sie bis zum Ablauf der Dauer nicht ausgelöst, verwandelt sich die Land Mine zurück in ein Trap-Item und kann aufgesammelt werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Ankle Snare <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erstellt eine Ankle Snare auf der Zielzelle. Jedes Monster, das innerhalb von 1 Zelle der Trap tritt, wird für 5*SkillLV/(Ziel-AGI*0.1) Sekunden gefesselt (mindestens 3 Sekunden). In PvP-Zonen können auch Spieler gefesselt werden (einschließlich des Erstellers!). Boss-Monster werden nur 1/5 der normalen Zeit gefesselt und teleportieren sich fast sicher, wenn sie gefangen werden. Ein gefesseltes Ziel kann nicht sitzen, stehen oder sich von der Zelle wegbewegen, kann aber Skills und Items nutzen und Angriffe auf alle in Reichweite ausführen. Der Skill Remove Trap kann verwendet werden, um eine Ankle Snare aufzuheben, die bereits einen Spieler gefangen hat. Ankle Snare Traps sind in PvP unsichtbar, aber jeder Spieler, der den Hunter beim Legen sieht, sieht die Trap, bis er außer Sicht gerät. Skills zur Aufdeckung von Unsichtbarkeit enthüllen die Trap. Wird sie bis zum Ablauf der Dauer nicht ausgelöst, verwandelt sich die Ankle Snare zurück in ein Trap-Item und kann aufgesammelt werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Shockwave Trap <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Eine Shockwave Trap aktiviert sich beim Betreten. Wer die Trap auslöst, verliert (5+15*SkillLV)% seiner SP. Shockwave Traps sind unsichtbar, aber jeder Spieler, der den Hunter beim Legen sieht, sieht die Trap, bis er außer Sicht gerät. Hide-aufdeckende Skills enthüllen die Trap. Diese Trap betrifft Spieler in PvP-Zonen, einschließlich des Users. Wird sie bis zum Ablauf der Dauer nicht ausgelöst, verwandelt sich die Shockwave Trap zurück in ein Trap-Item und kann aufgesammelt werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Sandman <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ein Sandman aktiviert sich beim Betreten. Alle Ziele in einem 3x3-Bereich um die Trap haben eine (40+10*SkillLV)% Chance, von &quot;Sleep&quot; betroffen zu werden (Dauer abhängig von SkillLV). Ein Sandman ist unsichtbar, aber jeder Spieler, der den Hunter beim Legen sieht, sieht die Trap, bis er außer Sicht gerät. Skills zur Aufdeckung von Unsichtbarkeit enthüllen die Trap. Diese Trap betrifft Spieler in PvP-Zonen, einschließlich des Users. Wird sie bis zum Ablauf der Dauer nicht ausgelöst, verwandelt sich der Sandman zurück in ein Trap-Item und kann aufgesammelt werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Flasher <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ein Flasher aktiviert sich beim Betreten. Bei Aktivierung besteht eine unbekannte Chance, alle in einem 3x3-Bereich um die Trap zu blenden. Flasher sind unsichtbar, aber jeder Spieler, der den Hunter beim Legen sieht, sieht die Trap, bis er außer Sicht gerät. Skills zur Aufdeckung von Unsichtbarkeit enthüllen die Trap. Diese Trap betrifft Spieler in PvP-Zonen, einschließlich des Users. Diese Trap ist wirkungslos gegen Plant-Familie und MVP-Monster. Wird sie bis zum Ablauf der Dauer nicht ausgelöst, verwandelt sich der Flasher zurück in ein Trap-Item und kann aufgesammelt werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Freezing Trap <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Eine Freezing Trap aktiviert sich beim Betreten. Bei Aktivierung trifft sie alle im Bereich mit einem Frost-Nova-artigen Angriff. Schaden beträgt (25+25*SkillLV)% deines normalen ATK. Freeze-Chance ist unbekannt und funktioniert nicht gegen Boss-Monster. Freezing Traps sind unsichtbar, aber jeder Spieler, der den Hunter beim Legen sieht, sieht die Trap, bis er außer Sicht gerät. Skills zur Aufdeckung von Unsichtbarkeit enthüllen die Trap. Diese Trap betrifft Spieler in PvP-Zonen, einschließlich des Users. Wird sie bis zum Ablauf der Dauer nicht ausgelöst, verwandelt sich die Freezing Trap zurück in ein Trap-Item und kann aufgesammelt werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Blast Mine <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Eine Blast Mine ist eine sichtbare Trap, die 30 - 5*SkillLV Sekunden nach dem Legen oder bei Betreten durch einen Gegner explodiert und einen 3x3-Bereich um die Zielzelle für [(50+DEX/2)*(1+INT/100)*SkillLV] Schaden trifft. Dieser Skill ignoriert DEF und MDEF sowie Schadensmodifikatoren-Karten für Größe und Familie, aber nicht das elementare Eigenschaft. Diese Trap betrifft Spieler in PvP-Zonen, einschließlich des Users. Der Caster kann die Trap vor der Aktivierung verschieben.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Claymore Trap <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Eine Claymore Trap ist eine sichtbare Trap, die beim Betreten explodiert und einen 5x5-Bereich um die Zielzelle für [(75+DEX/2)*(1+INT/100)*SkillLV] Schaden trifft. Dieser Skill ignoriert DEF und MDEF sowie Schadensmodifikatoren-Karten für Größe und Familie, aber nicht das elementare Eigenschaft. Diese Trap betrifft Spieler in PvP-Zonen, einschließlich des Users. Wird sie bis zum Ablauf der Dauer nicht ausgelöst, verwandelt sich die Claymore Trap zurück in ein Trap-Item und kann aufgesammelt werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Remove Trap <span class="skill-tag">Misc · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Land Mine Lv 1</p>
+      <p class="skill-desc">Verwandelt eine gelegte Trap zurück in ein Trap-Item. Du bekommst nur eine Trap zurück, auch wenn du zwei zum Legen gebraucht hast. Kann auch auf eine Ankle Snare angewendet werden, die bereits ein Ziel gefangen hat — in diesem Fall bekommst du jedoch kein Trap-Item. Funktioniert nur mit eigenen Traps.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Talkie Box <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Wiederholt eine beim Casten eingegebene Nachricht in blauem Text (erscheint nicht im Chat-Fenster).</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Beast Bane <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den Schaden gegen Brute- und Insect-Monster um +4*SkillLV. Dieser Schaden ignoriert Modifikatoren aus Armor und VIT-Defense, aber nicht aus elementaren und Karten-Modifikatoren, und gilt für alle Hits bei Multi-Hit-Angriffen.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Falconry Mastery <span class="skill-tag">Passive · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Beastbane Lv 1</p>
+      <p class="skill-desc">Ermöglicht es dir, einen Falcon vom Falcon Master in der Hunter Guild in Hugel anzuheuern. Die Kosten betragen rund 800z für normale Falcons, können aber für Scarf Falcons und Baby Falcons abweichen. Wird ein Falcon freigelassen, muss ein neuer angeheuert werden.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Steel Crow <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Blitz Beat Lv 5</p>
+      <p class="skill-desc">Fügt jedem Hit von Blitz Beat 6*SkillLV Schaden hinzu. Beachte, dass Blitz Beat bis zu 5 Hits ausführen kann.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Blitz Beat <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Falconry Mastery Lv 1</p>
+      <p class="skill-desc">Befiehlt deinem Falcon anzugreifen und teilt SkillLV Hits an alle Gegner in einem 3x3-Bereich um das Ziel aus, mit insgesamt ([DEX/10] + [INT/2] + 3*Steel Crow SkillLV + 40)*2) im Neutral-Element. Dieser Skill ignoriert DEF und MDEF sowie Schadensmodifikatoren-Karten für Größe und Familie, aber nicht das elementare Eigenschaft. Zusätzlich gibt es eine 0.3%*LUK Chance, dass Blitz Beat automatisch pro Bogen-Schuss ausgelöst wird. Dieser sogenannte Auto-Blitz-Beat ist weniger effektiv als ein manueller, und der volle Schaden wird gleichmäßig auf alle betroffenen Ziele aufgeteilt. Ein Auto-Blitz-Beat, der z. B. 3 Ziele trifft, macht jedem 1/3 des normalen Schadens. Die Anzahl der Hits hängt vom Job-Level des Users ab und entspricht [(Job Level-1)/10]+1.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Detecting <span class="skill-tag">Active · Lv 4</span></h5>
+      <p class="skill-prereq">Voraussetzung: Improve Concentration Lv 1 , Falconry Mastery Lv 1</p>
+      <p class="skill-desc">Deckt alle unsichtbaren Traps, Monster oder Spieler in einem 3x3-Bereich um die Zielzelle auf.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Spring Trap <span class="skill-tag">Misc · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Remove Trap Lv 1 , Falconry Mastery Lv 1</p>
+      <p class="skill-desc">Eine für den User sichtbare Trap in Reichweite wird zerstört. Es wird kein Trap-Item zurückgewonnen. Dieser Skill funktioniert auch auf gegnerischen Traps (im Gegensatz zu Remove Trap).</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Beast Strafing <span class="skill-tag">Aggressive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ist das Ziel ein Beast-Typ und du hast Double Strafing genutzt, kannst du diesen Skill für ein zusätzliches Double Strafing auf das Ziel verwenden. Nur direkt nach Double Strafing nutzbar, und die Stärke wird stark durch STR beeinflusst.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Phantasmic Arrow <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Schießt einen Illusionspfeil aus deinem Bogen. Er hat 150% ATK, und trifft er den Gegner, wird dieser 3 Zellen zurückgestoßen. Du kannst diesen Skill auch ohne ausgerüstete Pfeile verwenden.</p>
+    </div>
+    </div>
+  </section>
+
+  <section><h2>Level-Milestones</h2><ul><li><strong>1st Job 1–40:</strong> Payon-Cave 1F, Mjolnir-Felder.</li><li><strong>2nd Job 1–50:</strong> Geffen-Tower (Wind-Mobs), Toy Factory.</li><li><strong>2nd Job 50–99:</strong> Abyss Lake (Drachen), Magma Dungeon.</li></ul></section>
+
+  <p>Cross-Links: <a href="klassen.html">Klassen-Übersicht</a> · <a href="leveling.html">Level-Routen</a> · <a href="ausruestung.html">Ausrüstung</a> · <a href="md-equipment.html">MD-Equipment</a></p>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://ratemyserver.net/" target="_blank" rel="noopener">RateMyServer</a>
+</footer>
+
+</body>
+</html>

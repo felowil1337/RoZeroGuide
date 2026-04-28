@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klasse Blacksmith — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html" class="active">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+  <div class="page-hero">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      
+      <div>
+        <span class="eyebrow">Klassen · Geffen</span>
+        <h1>Blacksmith</h1>
+        <p class="lead">2nd Job aus dem Merchant-Pfad. Craftet Waffen, schlägt mit Mammonite/Cart Revolution zu. Hammer Fall stunt, Weapon Perfection ignoriert Größen-Penalty.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Battle-Greed Hybrid</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">DER MEISTER DES SOLO-ZENY-FARMENS</p>
+      <p>Das ist der beliebteste Build für Ragnarok Zero. Er balanciert genügend STR und AGI für effizientes Killen aus und nutzt gleichzeitig Greed, um Loot sofort einzusaugen. Der ultimative 'Zeny pro Stunde'-Build.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>STR</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">70-80</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">40-50</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">30-50</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Greed (Lv. 1)</strong> — Dein Brot-und-Butter-Skill. Sammelt allen Loot in einem 2-Felder-Radius ein.</li>
+  <li><strong>Adrenaline Rush (Lv. 5)</strong> — Massiver ASPD-Boost für Axe/Mace-Nutzer.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Nutze immer einen Pushcart. Die zusätzlichen 8.000 Gewicht ermöglichen lange Farm-Sessions ohne Stadtbesuche.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Mammonite Combat</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">HIGH-BURST MELEE-DPS</p>
+      <p>Dieser Build tauscht wirtschaftlichen Nutzen gegen pure Zerstörung. Indem du pro Schlag Zeny über Mammonite ausgibst, verursachst du mit den höchsten Single-Target-Burst-Schaden im Spiel.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>STR</strong> <span class="stat-val">99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">80-90</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">40-50</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Mammonite (Lv. 10)</strong> — 600% Schaden zum Preis von 1.000 Zeny pro Hit. Hoher Burst.</li>
+  <li><strong>Power-Thrust (Lv. 5)</strong> — Erhöht den ATK der Party um 25%. Kern-Buff für DPS.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Nutze 'Maximum Power-Thrust' nur bei Boss-Kämpfen oder MVPs. Es zerstört deine Waffe, aber der Schadens-Boost ist unübertroffen.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Pure Forger</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">DAS RÜCKGRAT DER SERVER-WIRTSCHAFT</p>
+      <p>Der Pure-Forger-Build ist vollständig kampffrei. Du konzentrierst dich auf DEX und LUK, um die höchstmögliche Erfolgsrate beim Crafting von Elemental- und Very-Strong-Waffen zu erreichen.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>DEX</strong> <span class="stat-val">99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>LUK</strong> <span class="stat-val">99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">Remaining</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>STR</strong> <span class="stat-val">1</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Smith Axe/Sword (Lv. 3)</strong> — Maxe deine Spezialisierung für die Waffen, die du verkaufen willst.</li>
+  <li><strong>Find Ore (Lv. 1)</strong> — Passive Chance, zusätzliche Crafting-Materialien zu finden.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Forge immer, während du im 'Gloria' eines Priests (+30 LUK) und unter 'Blessing' (+10 DEX/INT) stehst.
+    </div>
+  </section>
+
+  <section>
+    <h2>Komplette Skill-Liste</h2>
+    <p>Alle 36 Skills der Merchant → Blacksmith Klasse. Quelle: ratemyserver.net.</p>
+
+    <h3>1. Job — Merchant (12 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Enlarge Weight Limit <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht die maximale Tragkapazität um 200*SkillLV.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Discount <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Enlarge Weight Limit Lv 3</p>
+      <p class="skill-desc">Ermöglicht den Kauf von Items zu reduzierten Preisen in NPC-Shops. Deals, Vending-Shops und Chat-Verkaufs-NPCs (z. B. Upgrade-Stein-NPC) sind nicht betroffen. Der Endpreis wird immer abgerundet und hat einen Mindestwert von 1z.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Overcharge <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Discount Lv 3</p>
+      <p class="skill-desc">Ermöglicht den Verkauf von Items zu erhöhten Preisen an NPC-Shops. Deals sind nicht betroffen. Der Endpreis wird immer abgerundet und hat einen Mindestwert von 0z.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Pushcart <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Enlarge Weight Limit Lv 5</p>
+      <p class="skill-desc">Erlaubt dem Charakter, einen Pushcart auszurüsten und zu nutzen. Die Bewegungsgeschwindigkeit mit ausgerüstetem Pushcart beträgt (50+5*SkillLV)% (ja, am Anfang bewegst du dich deutlich langsamer). Der Pushcart kann 8000 Gewicht und maximal 100 verschiedene Items aufnehmen (manche Items stacken und zählen als nur 1 distinct Item). Pushcarts müssen bei einer Kafra-Mitarbeiterin gekauft werden – mindestens eine ist in jeder Stadt zu finden, einige auch an anderen Orten. Die Kosten variieren je nach Kafra-Mitarbeiterin. Wird der Pushcart entfernt, verschwindet er und ein neuer muss gekauft werden. Items im Pushcart gehen beim Entfernen nicht verloren, sind aber erst wieder zugänglich, wenn du einen neuen Cart kaufst. Zum direkten Zugriff auf den Cart Alt+W drücken.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Identify <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Identifiziert ein unidentifiziertes Item. Das unidentifizierte Item muss im Inventar liegen (nicht im Cart). Ein Magnifier dupliziert den Effekt dieses Skills.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Vending <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Pushcart Lv 3</p>
+      <p class="skill-desc">Erlaubt dem Charakter, einen Shop am aktuellen Standort zu eröffnen. Die Items, die du verkaufen willst, müssen im Pushcart des Charakters liegen, und der Pushcart muss ausgerüstet sein. Achte sehr genau auf den korrekten Preis! Das Limit für verschiedene Items, die gleichzeitig verkauft werden können, beträgt 2+SkillLV. Spieler können keine Items an einen Vending-Shop verkaufen, und der Discount-Skill greift nicht. Der Shop schließt automatisch, wenn alle Items verkauft sind oder der Charakter stirbt.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Mammonite <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Verbraucht 100z*SkillLV, um den ATK des nächsten Angriffs auf (100+50*SkillLV)% zu erhöhen.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Cart Revolution <span class="skill-tag">Attack · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Verursacht ATK*150% Neutral-Schaden in einem 3x3-Bereich um dein Ziel. Getroffene Gegner werden 2 Felder zurückgestoßen. Die Animation gleicht Magnum Break, nur dass dein Cart über deinen Kopf fliegt und vor dir auf dem Boden aufschlägt. Items im Cart erhöhen den Schaden um bis zu 100% zusätzlich (1% pro 80 Gewicht, max. 8000). Insgesamt sind also bis zu 250% Schaden möglich.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Change Cart <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ermöglicht es dir, das Aussehen deines Carts zu ändern. Ein &quot;Spaß&quot;-Skill, aber da die wählbaren Designs durch das Base-Level des Charakters beschränkt sind, erkennt man an einem Cart sofort einen High-Level-Merchant oder -Blacksmith. Level 1-40: Nur Normal Cart. Level 41-65: Ein Wooden Cart. Level 66-80: Überdachter Cart mit Blumen und Farnen. Level 81-90: Wooden Cart mit einer Panda-Puppe hinten drauf. Level 91-99: Der normale Cart, aber mit größeren Rädern, Dach und einem Banner auf der Rückseite.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Loud Exclamation <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Gibt +4 STR.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Buying Store <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Aktiviert die Möglichkeit, einen Einkaufsstand zu eröffnen, um verschiedene Items zu kaufen. Mindestens 1 Item muss zum Kauf angeboten werden.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Cart Decoration <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ändert das Aussehen des Pushcarts.</p>
+    </div>
+    </div>
+
+    <h3>2. Job — Blacksmith (24 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Iron Tempering <span class="skill-tag">Passive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erlaubt dem Charakter, 1 Iron Ore mithilfe eines Mini-Furnace zu 1 Iron zu raffinieren. Skill-Wert ist (40+5*SkillLV)%. JobLV, DEX und LUK (in dieser Reihenfolge) erhöhen die Chance zusätzlich. Forging-Formel: Erfolgschance in %: Skill-Wert + JobLV * 0.2 + DEX * 0.1 + LUK * 0.1 Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Steel Tempering <span class="skill-tag">Passive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Iron Tempering Lv 1</p>
+      <p class="skill-desc">Erlaubt dem Charakter, 5 Iron und 1 Coal mithilfe eines Mini-Furnace zu 1 Steel zu raffinieren. Skill-Wert ist (30+5*SkillLV)%. JobLV, DEX und LUK (in dieser Reihenfolge) erhöhen die Chance zusätzlich. Forging-Formel: Erfolgschance in %: Skill-Wert + JobLV * 0.2 + DEX * 0.1 + LUK * 0.1 Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Enchanted Stone Craft <span class="skill-tag">Passive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Iron Tempering Lv 1</p>
+      <p class="skill-desc">Erlaubt dem Charakter, 10 Green Live/Wind of Verdure/Red Blood/Crystal Blue/Star Dust mithilfe eines Mini-Furnace zu 1 Great Nature/Rough Wind/Flame Heart/Mystic Frozen/Star Crumb zu raffinieren. Skill-Wert ist (10+5*SkillLV)%. JobLV, DEX und LUK (in dieser Reihenfolge) erhöhen die Chance zusätzlich. Forging-Formel: Erfolgschance in %: Skill-Wert + JobLV * 0.2 + DEX * 0.1 + LUK * 0.1 Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Research Oridecon <span class="skill-tag">Passive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Enchanted Stone Craft Lv 1</p>
+      <p class="skill-desc">Enchanted Stone Craft gilt strikt nur für das Crafting von Level-3-Waffen. Das Erhöhen dieses Skill-Levels steigert die Erfolgsrate beim Forging von Level-3-Waffen um (1%+SkillLV).</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Smith Dagger <span class="skill-tag">Passive · Lv 3</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erlaubt dem Charakter, Daggers mithilfe eines Hammers zu forgen. Du kannst nur Daggers eines Levels forgen, das gleich oder niedriger als dein Skill-Level ist. Skill-Wert ist (5*SkillLV)%. Anvil, JobLV, DEX und LUK (in dieser Reihenfolge) erhöhen die Chance zusätzlich. Doppelklicke den passenden Hammer in der Ingredienz-Liste deines Inventars, um das Forging zu starten. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Smith Sword <span class="skill-tag">Passive · Lv 3</span></h5>
+      <p class="skill-prereq">Voraussetzung: Smith Dagger Lv 1</p>
+      <p class="skill-desc">Erlaubt dem Charakter, einhändige Swords mithilfe eines Hammers zu forgen. Du kannst nur Swords eines Levels forgen, das gleich oder niedriger als dein Skill-Level ist. Skill-Wert ist (5*SkillLV)%. Anvil, JobLV, DEX und LUK (in dieser Reihenfolge) erhöhen die Chance zusätzlich. Doppelklicke den passenden Hammer in der Ingredienz-Liste deines Inventars, um das Forging zu starten. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Smith Two-Handed Sword <span class="skill-tag">Passive · Lv 3</span></h5>
+      <p class="skill-prereq">Voraussetzung: Smith Sword Lv 1</p>
+      <p class="skill-desc">Erlaubt dem Charakter, zweihändige Swords mithilfe eines Hammers zu forgen. Du kannst nur Swords eines Levels forgen, das gleich oder niedriger als dein Skill-Level ist. Skill-Wert ist (5*SkillLV)%. Anvil, JobLV, DEX und LUK (in dieser Reihenfolge) erhöhen die Chance zusätzlich. Doppelklicke den passenden Hammer in der Ingredienz-Liste deines Inventars, um das Forging zu starten. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Smith Axe <span class="skill-tag">Passive · Lv 3</span></h5>
+      <p class="skill-prereq">Voraussetzung: Smith Sword Lv 2</p>
+      <p class="skill-desc">Erlaubt dem Charakter, Axes mithilfe eines Hammers zu forgen. Du kannst nur Axes eines Levels forgen, das gleich oder niedriger als dein Skill-Level ist. Skill-Wert ist (5*SkillLV)%. Anvil, JobLV, DEX und LUK (in dieser Reihenfolge) erhöhen die Chance zusätzlich. Doppelklicke den passenden Hammer (in der Ingredienz-Liste) in deinem Inventar, um das Forging zu starten. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Smith Mace <span class="skill-tag">Passive · Lv 3</span></h5>
+      <p class="skill-prereq">Voraussetzung: Smith Brass Knuckle Lv 1</p>
+      <p class="skill-desc">Erlaubt dem Charakter, Maces mithilfe eines Hammers zu forgen. Du kannst nur Maces eines Levels forgen, das gleich oder niedriger als dein Skill-Level ist. Skill-Wert ist (5*SkillLV)%. Anvil, JobLV, DEX und LUK (in dieser Reihenfolge) erhöhen die Chance zusätzlich. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Smith Brass Knuckle <span class="skill-tag">Passive · Lv 3</span></h5>
+      <p class="skill-prereq">Voraussetzung: Smith Dagger Lv 1</p>
+      <p class="skill-desc">Erlaubt dem Charakter, Claws mithilfe eines Hammers zu forgen. Du kannst nur Claws eines Levels forgen, das gleich oder niedriger als dein Skill-Level ist. Skill-Wert ist (5*SkillLV)%. Anvil, JobLV, DEX und LUK (in dieser Reihenfolge) erhöhen die Chance zusätzlich. Doppelklicke den passenden Hammer in der Ingredienz-Liste deines Inventars, um das Forging zu starten. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Smith Spear <span class="skill-tag">Passive · Lv 3</span></h5>
+      <p class="skill-prereq">Voraussetzung: Smith Dagger Lv 2</p>
+      <p class="skill-desc">Erlaubt dem Charakter, Spears mithilfe eines Hammers zu forgen. Du kannst nur Spears eines Levels forgen, das gleich oder niedriger als dein Skill-Level ist. Skill-Wert ist (5*SkillLV)%. Anvil, JobLV, DEX und LUK (in dieser Reihenfolge) erhöhen die Chance zusätzlich. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Hilt Binding <span class="skill-tag">Passive · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Gibt +1 STR und +4 ATK. Erhöht die Dauer von Adrenaline Rush, Over Thrust und Weapon Perfection um 10%. Verhindert NICHT MEHR, dass die ausgerüstete Waffe beim Tod gedroppt wird. Die Chance, Items beim Tod zu droppen, ist aktuell nur im Nightmare-Mode-PvP implementiert.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Finding Ore <span class="skill-tag">Passive · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Steel Tempering Lv 1 , Hilt Binding Lv 1</p>
+      <p class="skill-desc">Fügt eine recht niedrige Chance hinzu, dass Monster Ore oder Refining-Items droppen.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Weaponry Research <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Hilt Binding Lv 1</p>
+      <p class="skill-desc">Erhöht den HIT des Charakters um +2 pro SkillLV, ATK um +2 pro SkillLV und die Erfolgsrate beim Weapon-Forging um +1% pro SkillLV. Der Schaden wirkt sogar bei verfehlten Angriffen und wird durch Element-Eigenschaften und Card-Modifier beeinflusst. Entgegen mancher Gerüchte verbessert dieser Skill NICHT die Upgrade-Chancen bei einem Upgrade-NPC.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Repair Weapon <span class="skill-tag">Support / Buff · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Weaponry Research Lv 1</p>
+      <p class="skill-desc">Erlaubt dem Charakter, zerbrochene Waffen oder Rüstungen zu reparieren. Es werden keine Anvils oder Hammer benötigt. Verbrauchsmaterial-Zusatz: LV 1 Waffe: Iron Ore, LV 2 Waffe: Iron, LV 3 Waffe: Steel, LV 4 Waffe: Rough Oridecon, Rüstungen: Steel.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Skin Tempering <span class="skill-tag">Passive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht die Resistenz des Charakters gegen Fire-Element um (4*SkillLV)% und reduziert nicht-elementaren Schaden um (1*SkillLV)%.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Hammer Fall <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Versucht, Ziele im 5x5-Bereich um die anvisierte Zelle zu stunnen. Stun-Dauer beträgt 5 Sekunden (durch VIT reduziert). Basis-Erfolgschance ist (20+10*SkillLV)%. Kann nur mit Maces und Axes eingesetzt werden. Wirkt nicht gegen Boss-Monster.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Adrenaline Rush <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Hammerfall Lv 2</p>
+      <p class="skill-desc">Erhöht deine Angriffsgeschwindigkeit mit Mace- und Axe-Waffen um 30%. Erhöht die Angriffsgeschwindigkeit nahegelegener Party-Mitglieder mit Mace- und Axe-Waffen um 20%. Der Skill-Effekt stackt nicht – ein erneutes Casten durch dich oder ein anderes Party-Mitglied setzt die Dauer zurück. Ein Wechsel von Mace oder Axe zu einem anderen Waffentyp (auch bloße Fäuste) bricht den Effekt ab.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Weapon Perfection <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Weaponry Research Lv 2 , Adrenaline Rush Lv 2</p>
+      <p class="skill-desc">Setzt alle Waffengrößen-Modifier für den Charakter und alle Party-Mitglieder in Reichweite für die Dauer des Skills auf 100%.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Over Thrust <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den ATK aller nahegelegenen Party-Mitglieder um (5*SkillLV)%. Pro Schlag besteht eine Chance von 0,1%, dass die ausgerüstete Waffe zerbricht.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Maximize Power <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Weapon Perfection Lv 3 , Power Thrust Lv 2</p>
+      <p class="skill-desc">Der Charakter verursacht bei allen TREFFENDEN Angriffen maximalen Schaden, so als hätte er unendlich DEX.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Full Adrenaline Rush <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Reduziert das Attack-Delay des Charakters mit allen Waffen, inklusive Ranged, um 30%. Reduziert das Attack-Delay nahegelegener Party-Mitglieder mit allen Waffen außer Ranged um 20%. Diese beiden Effekte sollen miteinander stacken, wenn mehrere Smiths in einer Party sind. Ein Wechsel von Mace/Axe zu einer anderen Waffe (auch bloße Fäuste) bricht den Effekt ab. Stackt nicht mit anderen Skills, die ASPD direkt erhöhen.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Unfair Trick <span class="skill-tag">Passive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Reduziert die Zeny-Kosten von Mammonite um 10%.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Greed <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Wenn du diesen Skill nutzt, gehen alle Items im Umkreis von 2 Feldern um den Blacksmith direkt in sein Inventar. Der Skill kann nicht während des War of Emperium oder im PvP verwendet werden. Hinweis: Der Skill umgeht nicht die Reihenfolge, wer zuerst auf ein Item zugreifen darf – du kannst damit also kein Item wegschnappen, wenn ein anderer Spieler die Priorität auf den Drop hat.</p>
+    </div>
+    </div>
+  </section>
+
+  <section><h2>Level-Milestones</h2><ul><li><strong>2nd Job 1–50:</strong> Orcs Memory MD, Sograt Desert.</li><li><strong>2nd Job 50–99:</strong> Magma Dungeon (Fire-Resist-Setup), Glast Heim.</li></ul></section>
+
+  <p>Cross-Links: <a href="klassen.html">Klassen-Übersicht</a> · <a href="leveling.html">Level-Routen</a> · <a href="ausruestung.html">Ausrüstung</a> · <a href="md-equipment.html">MD-Equipment</a></p>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://ratemyserver.net/" target="_blank" rel="noopener">RateMyServer</a>
+</footer>
+
+</body>
+</html>

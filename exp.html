@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EXP-Tabelle — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html" class="active"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Aktuell spielbar · Referenz</span>
+      <h1>EXP-Tabelle (Ragnarok Zero)</h1>
+      <p class="lead">Base- und Job-EXP pro Level — genauso gültig auf TWRoZ, kRO Zero und Zero-Global. Zero übernimmt die Level-Requirement-Kurve 1:1 aus Pre-Renewal/Classic. Was Zero <em>anders</em> macht: Mob-HP wurde rebalanciert und Mob-EXP-Yield teilweise erhöht — die Kurve <strong>unten</strong> bleibt aber identisch.</p>
+    </div>
+
+    <div class="info-box note">
+      <strong>Quellen-Check:</strong> Werte verifiziert gegen Reborn.cz-Classic-DB und Project-Zero-Wiki (beide listen identische Kurve). Der oft zitierte „Zero hat eigene EXP-Werte"-Mythos bezieht sich auf <em>Mob-Yield</em> (wie viel EXP ein Kill gibt), nicht auf die Level-Up-Schwelle.
+    </div>
+
+    <section>
+      <h2>🎯 Milestones — die Schmerzpunkte</h2>
+      <p>Die Kurve hat <strong>harte Sprünge</strong> an bestimmten Stellen. Wer das weiß, plant EXP-Booster (Battle Manual, Bubble Gum, Fever) gezielter:</p>
+      <div class="card-grid">
+        <div class="card">
+          <h4>📈 Base-EXP-Sprünge</h4>
+          <ul>
+            <li><strong>Lv 30 → 31:</strong> +44% Sprung (5.911 → 6.889 pro Lv)</li>
+            <li><strong>Lv 50 → 51:</strong> +35% Sprung (75.973 → 102.468)</li>
+            <li><strong>Lv 70 → 71:</strong> <strong>+59% Sprung</strong> (925.400 → 1.473.746) — berüchtigt</li>
+            <li><strong>Lv 90 → 91:</strong> +28% Sprung — letzte Pain-Wall</li>
+            <li><strong>Lv 99:</strong> 99.999.999 — der Cap-Level</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>🏆 Totals (kumulativ)</h4>
+          <ul>
+            <li><strong>Base 1 → 99 (Normal):</strong> ~405 Mio. EXP</li>
+            <li><strong>Base 1 → 99 (Trans):</strong> ~1.22 Mrd. EXP (+200%)</li>
+            <li><strong>Job 1 → 50 (2. Job):</strong> ~16,5 Mio. EXP</li>
+            <li><strong>Job 1 → 70 (Trans 2. Job):</strong> ~1.08 Mrd. EXP</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>💊 Booster-Stacking</h4>
+          <ul>
+            <li>Battle Manual +50%, Bubble Gum +100% Drop — keine EXP-Überlappung</li>
+            <li>Fever-Feld-Boost stackt multiplikativ mit Items</li>
+            <li>Premium Service +10% stackt additiv</li>
+            <li>Siehe <a href="leveling.html#exp-booster">EXP-Booster-Details</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>📊 Base-Level-EXP (Normal-Klassen)</h2>
+      <p>EXP-Bedarf, um vom angegebenen Level in das <em>nächste</em> Level zu kommen. Gilt für alle Nicht-Trans-Klassen (Novice, 1. Job, 2. Job bis Trans-Rebirth).</p>
+      <div class="info-box note">
+        <strong>Zur Lesart:</strong> „Lv 50 = 102.468" heißt: du brauchst 102.468 EXP <em>während</em> du Level 50 bist, um Level 51 zu erreichen.
+      </div>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Lv</th><th>EXP</th><th>Lv</th><th>EXP</th><th>Lv</th><th>EXP</th><th>Lv</th><th>EXP</th></tr></thead>
+        <tbody>
+          <tr><td>2</td><td>9</td><td>27</td><td>3.426</td><td>52</td><td>128.692</td><td>77</td><td>2.386.162</td></tr>
+          <tr><td>3</td><td>16</td><td>28</td><td>3.934</td><td>53</td><td>142.784</td><td>78</td><td>2.547.417</td></tr>
+          <tr><td>4</td><td>25</td><td>29</td><td>4.474</td><td>54</td><td>157.528</td><td>79</td><td>2.713.878</td></tr>
+          <tr><td>5</td><td>36</td><td><strong>30</strong></td><td><strong>6.889</strong></td><td>55</td><td>178.184</td><td><strong>80</strong></td><td><strong>3.206.160</strong></td></tr>
+          <tr><td>6</td><td>77</td><td>31</td><td>7.995</td><td>56</td><td>196.300</td><td>81</td><td>3.681.024</td></tr>
+          <tr><td>7</td><td>112</td><td>32</td><td>9.174</td><td>57</td><td>215.198</td><td>82</td><td>4.022.472</td></tr>
+          <tr><td>8</td><td>153</td><td>33</td><td>10.425</td><td>58</td><td>234.879</td><td>83</td><td>4.377.024</td></tr>
+          <tr><td>9</td><td>200</td><td>34</td><td>11.748</td><td>59</td><td>255.341</td><td>84</td><td>4.744.680</td></tr>
+          <tr><td><strong>10</strong></td><td><strong>253</strong></td><td>35</td><td>13.967</td><td><strong>60</strong></td><td><strong>330.188</strong></td><td>85</td><td>5.125.440</td></tr>
+          <tr><td>11</td><td>320</td><td>36</td><td>15.775</td><td>61</td><td>365.914</td><td>86</td><td>5.767.272</td></tr>
+          <tr><td>12</td><td>385</td><td>37</td><td>17.678</td><td>62</td><td>403.224</td><td>87</td><td>6.204.000</td></tr>
+          <tr><td>13</td><td>490</td><td>38</td><td>19.677</td><td>63</td><td>442.116</td><td>88</td><td>6.655.464</td></tr>
+          <tr><td>14</td><td>585</td><td>39</td><td>21.773</td><td>64</td><td>482.590</td><td>89</td><td>7.121.664</td></tr>
+          <tr><td>15</td><td>700</td><td><strong>40</strong></td><td><strong>30.543</strong></td><td>65</td><td>536.948</td><td><strong>90</strong></td><td><strong>7.602.600</strong></td></tr>
+          <tr><td>16</td><td>830</td><td>41</td><td>34.212</td><td>66</td><td>585.191</td><td>91</td><td>9.738.720</td></tr>
+          <tr><td>17</td><td>970</td><td>42</td><td>38.065</td><td>67</td><td>635.278</td><td>92</td><td>11.649.960</td></tr>
+          <tr><td>18</td><td>1.120</td><td>43</td><td>42.102</td><td>68</td><td>687.211</td><td>93</td><td>13.643.520</td></tr>
+          <tr><td>19</td><td>1.260</td><td>44</td><td>46.323</td><td>69</td><td>740.988</td><td>94</td><td>18.339.300</td></tr>
+          <tr><td><strong>20</strong></td><td><strong>1.420</strong></td><td>45</td><td>53.026</td><td><strong>70</strong></td><td><strong>925.400</strong></td><td>95</td><td>23.836.800</td></tr>
+          <tr><td>21</td><td>1.620</td><td>46</td><td>58.419</td><td><strong>71</strong></td><td><strong>1.473.746</strong></td><td>96</td><td>35.658.000</td></tr>
+          <tr><td>22</td><td>1.860</td><td>47</td><td>64.041</td><td>72</td><td>1.594.058</td><td>97</td><td>48.687.000</td></tr>
+          <tr><td>23</td><td>1.990</td><td>48</td><td>69.892</td><td>73</td><td>1.718.928</td><td>98</td><td>58.135.000</td></tr>
+          <tr><td>24</td><td>2.240</td><td>49</td><td>75.973</td><td>74</td><td>1.848.355</td><td><strong>99</strong></td><td><strong>99.999.999</strong></td></tr>
+          <tr><td>25</td><td>2.504</td><td><strong>50</strong></td><td><strong>102.468</strong></td><td>75</td><td>1.982.340</td><td>—</td><td>—</td></tr>
+          <tr><td>26</td><td>2.950</td><td>51</td><td>115.254</td><td>76</td><td>2.230.113</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>💼 Job-Level-EXP (2. Job — Lv 1–50)</h2>
+      <p>Job-EXP-Bedarf für 2. Job-Klassen (Knight, Priest, Wizard usw.). Job 50 ist der Job-Cap vor Trans. <em>1. Job geht bis Job-Lv 10 — Werte minimal (max ~1.500 EXP), daher nicht separat gelistet.</em></p>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Lv</th><th>EXP</th><th>Lv</th><th>EXP</th><th>Lv</th><th>EXP</th><th>Lv</th><th>EXP</th></tr></thead>
+        <tbody>
+          <tr><td>2</td><td>144</td><td>14</td><td>6.679</td><td>26</td><td>82.688</td><td>38</td><td>380.376</td></tr>
+          <tr><td>3</td><td>184</td><td>15</td><td>9.492</td><td>27</td><td>89.544</td><td>39</td><td>447.685</td></tr>
+          <tr><td>4</td><td>284</td><td>16</td><td>12.770</td><td>28</td><td>96.669</td><td><strong>40</strong></td><td><strong>526.989</strong></td></tr>
+          <tr><td>5</td><td>348</td><td>17</td><td>14.344</td><td>29</td><td>117.821</td><td>41</td><td>610.246</td></tr>
+          <tr><td>6</td><td>603</td><td>18</td><td>16.005</td><td><strong>30</strong></td><td><strong>144.921</strong></td><td>42</td><td>644.736</td></tr>
+          <tr><td>7</td><td>887</td><td>19</td><td>20.642</td><td>31</td><td>174.201</td><td>43</td><td>793.535</td></tr>
+          <tr><td>8</td><td>1.096</td><td><strong>20</strong></td><td><strong>27.434</strong></td><td>32</td><td>186.677</td><td>44</td><td>921.810</td></tr>
+          <tr><td>9</td><td>1.598</td><td>21</td><td>35.108</td><td>33</td><td>199.584</td><td>45</td><td>1.106.758</td></tr>
+          <tr><td><strong>10</strong></td><td><strong>2.540</strong></td><td>22</td><td>38.577</td><td>34</td><td>238.617</td><td>46</td><td>1.260.955</td></tr>
+          <tr><td>11</td><td>3.676</td><td>23</td><td>42.206</td><td>35</td><td>286.366</td><td>47</td><td>1.487.304</td></tr>
+          <tr><td>12</td><td>4.290</td><td>24</td><td>52.708</td><td>36</td><td>337.147</td><td>48</td><td>1.557.657</td></tr>
+          <tr><td>13</td><td>4.946</td><td>25</td><td>66.971</td><td>37</td><td>358.435</td><td>49</td><td>1.990.632</td></tr>
+          <tr><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td><strong>50</strong></td><td><strong>2.083.386</strong></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>⚡ Base-Level-EXP (Transcendent / Rebirth-Klassen)</h2>
+      <p>Nach <em>Rebirth</em> (Job-Change zu High-Novice / Trans-Klasse) startest du bei Base 1 neu — die Kurve ist aber deutlich steiler als die Normal-Kurve.</p>
+      <div class="info-box future">
+        <strong>Zukunfts-Info:</strong> Trans-Klassen sind auf TWRoZ/Global <strong>aktuell nicht verfügbar</strong> — siehe <a href="trans-klassen.html">Trans-Klassen-Seite</a>.
+      </div>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Lv</th><th>EXP</th><th>Lv</th><th>EXP</th><th>Lv</th><th>EXP</th><th>Lv</th><th>EXP</th></tr></thead>
+        <tbody>
+          <tr><td>2</td><td>10</td><td>27</td><td>4.796</td><td>52</td><td>238.080</td><td>77</td><td>5.488.173</td></tr>
+          <tr><td>3</td><td>18</td><td>28</td><td>5.508</td><td>53</td><td>264.150</td><td>78</td><td>5.859.059</td></tr>
+          <tr><td>4</td><td>28</td><td>29</td><td>6.264</td><td>54</td><td>291.427</td><td>79</td><td>6.241.919</td></tr>
+          <tr><td>5</td><td>40</td><td><strong>30</strong></td><td><strong>9.645</strong></td><td>55</td><td>329.640</td><td><strong>80</strong></td><td><strong>7.374.168</strong></td></tr>
+          <tr><td>6</td><td>85</td><td>31</td><td>12.392</td><td>56</td><td>363.155</td><td>81</td><td>9.570.662</td></tr>
+          <tr><td>7</td><td>123</td><td>32</td><td>14.220</td><td>57</td><td>398.116</td><td>82</td><td>10.458.427</td></tr>
+          <tr><td>8</td><td>168</td><td>33</td><td>16.159</td><td>58</td><td>434.526</td><td>83</td><td>11.380.262</td></tr>
+          <tr><td>9</td><td>220</td><td>34</td><td>18.209</td><td>59</td><td>472.381</td><td>84</td><td>12.336.168</td></tr>
+          <tr><td><strong>10</strong></td><td><strong>278</strong></td><td>35</td><td>21.649</td><td><strong>60</strong></td><td><strong>610.848</strong></td><td>85</td><td>13.326.144</td></tr>
+          <tr><td>11</td><td>400</td><td>36</td><td>24.451</td><td>61</td><td>731.828</td><td>86</td><td>14.994.907</td></tr>
+          <tr><td>12</td><td>481</td><td>37</td><td>27.401</td><td>62</td><td>806.448</td><td>87</td><td>16.130.400</td></tr>
+          <tr><td>13</td><td>613</td><td>38</td><td>30.499</td><td>63</td><td>884.232</td><td>88</td><td>17.304.200</td></tr>
+          <tr><td>14</td><td>731</td><td>39</td><td>33.748</td><td>64</td><td>965.180</td><td>89</td><td>18.516.326</td></tr>
+          <tr><td>15</td><td>875</td><td><strong>40</strong></td><td><strong>47.342</strong></td><td>65</td><td>1.073.896</td><td><strong>90</strong></td><td><strong>19.766.760</strong></td></tr>
+          <tr><td>16</td><td>1.038</td><td>41</td><td>58.160</td><td>66</td><td>1.170.382</td><td>91</td><td>29.216.160</td></tr>
+          <tr><td>17</td><td>1.213</td><td>42</td><td>64.711</td><td>67</td><td>1.270.556</td><td>92</td><td>34.949.880</td></tr>
+          <tr><td>18</td><td>1.400</td><td>43</td><td>71.573</td><td>68</td><td>1.374.422</td><td>93</td><td>40.930.560</td></tr>
+          <tr><td>19</td><td>1.575</td><td>44</td><td>78.749</td><td>69</td><td>1.481.976</td><td>94</td><td>55.017.900</td></tr>
+          <tr><td><strong>20</strong></td><td><strong>1.775</strong></td><td>45</td><td>90.144</td><td><strong>70</strong></td><td><strong>1.850.800</strong></td><td>95</td><td>71.510.400</td></tr>
+          <tr><td>21</td><td>2.268</td><td>46</td><td>99.312</td><td><strong>71</strong></td><td><strong>3.389.616</strong></td><td>96</td><td>106.974.000</td></tr>
+          <tr><td>22</td><td>2.604</td><td>47</td><td>108.870</td><td>72</td><td>3.666.333</td><td>97</td><td>146.061.000</td></tr>
+          <tr><td>23</td><td>2.786</td><td>48</td><td>118.816</td><td>73</td><td>3.953.534</td><td>98</td><td>174.405.000</td></tr>
+          <tr><td>24</td><td>3.136</td><td>49</td><td>129.154</td><td>74</td><td>4.251.217</td><td><strong>99</strong></td><td><strong>343.210.000</strong></td></tr>
+          <tr><td>25</td><td>3.506</td><td><strong>50</strong></td><td><strong>174.196</strong></td><td>75</td><td>4.559.382</td><td>—</td><td>—</td></tr>
+          <tr><td>26</td><td>4.130</td><td>51</td><td>213.220</td><td>76</td><td>5.129.260</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>📝 Lesetipps &amp; Mechanik</h2>
+      <ul>
+        <li><strong>EXP-Overflow:</strong> Wenn ein Mob-Kill mehr EXP gibt als bis Lv-Up nötig, wird der Überschuss <em>nicht</em> ins nächste Level übertragen. Der Rest verfällt. Ausnahme: Quest-Turn-Ins geben Flat-EXP ohne Overflow-Verlust.</li>
+        <li><strong>Kein Death-Penalty auf Zero:</strong> Im Gegensatz zu Pre-Renewal verlierst du <strong>keine EXP beim Tod</strong>. Im Gegenzug ist die Kurve höher skaliert.</li>
+        <li><strong>Drop-Rate-Penalty ab Lv-Diff 40:</strong> Wenn dein Level ≥40 höher als das Mob-Level ist, Drop-Rate halbiert. EXP bleibt voll.</li>
+        <li><strong>Job-Lv-Cap vor Trans:</strong> Job 50 erreichen <em>bevor</em> du Rebirth machst — der Job-Bonus-Stat wird bei Rebirth auf Job 70 gecapt, aber der Weg zu Job 70 ist sehr lang (~1 Mrd. EXP).</li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer">
+  Quellen: EXP-Werte aus <a href="https://dbc.reborn.cz/rodb.cgi?exp=list" target="_blank">Reborn.cz RO-Datenbank</a> · <a href="https://wiki.playragnarokzero.com/wiki/Base_EXP_Chart" target="_blank">Project Zero Wiki</a> · <a href="https://www.midgardhub.com/" target="_blank">Midgard Hub</a>
+</footer>
+
+</body>
+</html>

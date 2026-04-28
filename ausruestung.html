@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ausrüstung — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html" class="active"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Pre-Trans · Aktuell spielbar</span>
+      <h1>Ausrüstung</h1>
+      <p class="lead">Eden-Group, Subjugation/Expedition MD-Gear, Awakened Eden I, Regional Weapons, BG-Equipment und GMT-Coin-Shop.</p>
+    </div>
+
+    <div class="entry-jump">
+      <a href="items.html">📦 Item-Datenbank (alle Items)</a>
+      <a href="items-md-equip.html">🛡️ Memorial-Set-Items im Detail</a>
+      <a href="crafting.html">🔨 Crafting-Rezepte</a>
+      <a href="instanzen.html">🏰 Memorial-Dungeons</a>
+    </div>
+
+    <section>
+      <h2>🛡️ Ausrüstung für den aktuellen Content-Stand</h2>
+      <p>Diese Seite deckt Pre-Trans-Gear ab: Eden-Group, Subjugation- und Expedition-Tier (Grade IV + III), Regional-Weapons und Awakened Eden I. Conqueror-Tier, Temporal-Set, Mora und Para Market findest du bei den <a href="endgame-ausruestung.html">Endgame-Inhalten</a>.</p>
+    </section>
+
+    <section>
+      <span class="source-note">Offizielle Quellen: roz.gnjoy.com.tw · News ID 217505/217506/217523/217539/217713</span>
+
+      <h2>🔧 Kern-Upgrade-Systeme</h2>
+      <p>Offiziell von Gravity TW dokumentiert — diese Systeme greifen bei praktisch allen Gear-Progressionen:</p>
+
+      <div class="card-grid">
+        <div class="card">
+          <h4><a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217505" target="_blank">精煉 (Refine)</a></h4>
+          <p>Stat-Boost über Refine-Level. Waffen-Refine = ATK/MATK-Boost; Rüstungs-Refine = DEF/MDEF-Boost. Erfolgsraten + Tabellen offiziell dokumentiert.</p>
+        </div>
+        <div class="card">
+          <h4><a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217506" target="_blank">附魔 (Enchant)</a></h4>
+          <p>Fügt Stats in <em>unaktivierte Kartenslots</em> ein. Nicht jede Equipment-Klasse ist enchantbar — offizielle Liste prüfen.</p>
+          <p><strong>萃取 (Extract):</strong> Aus bereits enchanted Kostümen die Enchant-Steine zurückgewinnen (Kostüm wird zerstört).</p>
+        </div>
+        <div class="card">
+          <h4><a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217507" target="_blank">附加能力 (Zufalls-Optionen)</a></h4>
+          <p>Siehe separate Seite <a href="optionen.html">Zufalls-Optionen</a>. Drops mit bereits enthaltenen Random-Stats.</p>
+        </div>
+        <div class="card">
+          <h4><a href="stern-grade.html">活化 (Aktivierung ★/★★)</a></h4>
+          <p>Monster-Drop-Waffen → ★ → ★★. Refine sinkt um 3-7, aber Karten, Enchants und Zufalls-Optionen bleiben. Lohnt sich für ausgestattete Waffen.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>✨ Spezielle Enchant-Zweige</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>👗 <a href="kostueme.html">Kostüm-Enchant bei Barbie</a></h4>
+          <p>NPC <em>芭比 @ prontera 268 273</em>. Nur gebundene Kostüme enchantbar. 50% Success, aber kein Break bei Fail — risikoarm.</p>
+        </div>
+        <div class="card">
+          <h4>🐾 Pet-Enchant (<a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217539" target="_blank">寵物附魔</a>)</h4>
+          <p>Seit Launch verfügbar. Pet-Enhancement über craftbare Materialien. Gibt permanente Stat-Boosts an dein Haustier.</p>
+        </div>
+        <div class="card">
+          <h4>⚒️ <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217713" target="_blank">Blacksmith-Waffen</a></h4>
+          <p>Von Spielern geschmiedete Waffen haben einen eigenen Zufalls-Options-Pool — teils stärker als Monster-Drop-Versionen.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🌱 Eden-Group (Free Starter)</h2>
+      <p>Registriere dich bei <em>Secretary Lime Evenor</em>, Quests bei <em>Instructor Boya</em>. <strong>Alle Eden-Items: 0 Gewicht, nicht refinable, keine Card-Slots, character-bound.</strong></p>
+
+      <div class="item-row">
+        <div class="item-img">🎩</div>
+        <div class="item-info">
+          <div class="item-name">Eden Group Hat</div>
+          <div class="item-stats">MDEF +5 · alle Klassen · nach Lv-40-Quest: +2 auf einen Stat nach Wahl</div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🧥</div>
+        <div class="item-info">
+          <div class="item-name">Eden Group Manteau I / II / III</div>
+          <div class="item-stats">MDEF +5–10 · FLEE +5–12 · Neutral-Resistance +5–15%</div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">👕</div>
+        <div class="item-info">
+          <div class="item-name">Eden Group Armor (Lv 60)</div>
+          <div class="item-stats">DEF 70 · MDEF +5 · STR/INT/DEX +1 · MaxHP +500 / MaxSP +50</div>
+        </div>
+      </div>
+
+      <h3>Eden Weapon III (Lv 60+, 2. Job)</h3>
+      <div class="item-row"><div class="item-img">⚔️</div><div class="item-info"><div class="item-name">Eden Slayer III (2H Sword)</div><div class="item-stats">ATK 200 · Swordsman Jobs</div></div></div>
+      <div class="item-row"><div class="item-img">🗡️</div><div class="item-info"><div class="item-name">Eden Saber III</div><div class="item-stats">ATK 185 · Swordsman/Merchant/Thief</div></div></div>
+      <div class="item-row"><div class="item-img">🔨</div><div class="item-info"><div class="item-name">Eden Mace III</div><div class="item-stats">ATK 172 · Swordsman/Acolyte/Merchant</div></div></div>
+      <div class="item-row"><div class="item-img">🔪</div><div class="item-info"><div class="item-name">Eden Dagger III</div><div class="item-stats">ATK 165 · MATK +80 · fast alle Klassen</div></div></div>
+      <div class="item-row"><div class="item-img">🏹</div><div class="item-info"><div class="item-name">Eden Bow III</div><div class="item-stats">ATK 140 · Archer/Thief/Rogue</div></div></div>
+      <div class="item-row"><div class="item-img">🪄</div><div class="item-info"><div class="item-name">Eden Staff III</div><div class="item-stats">ATK 60 · MATK +170 · INT +4 · Acolyte/Mage/Soul Linker</div></div></div>
+
+      <div class="info-box tip">
+        <strong>Eden Weapon III Enchants</strong> (NPC: Weapons Expert BK) — bis zu 3 Slots:<br>
+        • Lv-70 Mission: ATK/MATK +3%<br>
+        • Lv-80 Mission: Heal +3% oder Race-Damage +20%/+10%<br>
+        • Lv-90 Mission: <strong>verdoppelt</strong> einen vorherigen Enchant oder eine Karte
+      </div>
+    </section>
+
+    <section>
+      <h2>🏰 Memorial-Dungeon Gear (Pre-Trans-Stufen)</h2>
+
+      <h3><span class="grade grade-iv">IV</span>Subjugation (Grade IV)</h3>
+      <p>Einstiegs-Tier, drop aus Memorial-Dungeon-Treasure-Boxes.</p>
+      <ul>
+        <li>Subjugation Armor [1] (Orc's Memory): DEF 30, MaxHP +500, MaxSP +30, MDEF +5</li>
+        <li>Subjugation Sash [1] (Garment)</li>
+        <li>Subjugation Ring [1] (Prontera Culvert)</li>
+        <li>Subjugation Boots [1] (Prontera Culvert)</li>
+      </ul>
+      <p>Alle 1 Card-Slot, 1 Enchant-Slot, alle Klassen tragbar.</p>
+
+      <h3><span class="grade grade-iii">III</span>Expedition (Grade III)</h3>
+      <p>Upgrade aus Subjugation + 50× Shimmering Crystal + 2× Red Lotus Stone (Jello-Stone-Craft siehe <a href="instanzen.html#">Instanzen</a>).</p>
+      <p>Stats-Boost ~50% gegenüber Subjugation. Weiterhin 1 Card-Slot, 1 Enchant-Slot.</p>
+      
+      <!-- EMBED:START md-pretrans -->
+            <div style="margin-top:32px;border-top:2px dashed var(--border);padding-top:16px">
+              <h4>📦 Memorial-Set (Subjugation IV + Expedition III) — Items im Detail</h4>
+              <p style="color:var(--text-dim);font-size:13px;margin-top:0">Die beiden Pre-Trans-Grades. Subjugation droppt direkt aus den 60er-MDs, Expedition wird aus Subjugation gecraftet (siehe <a href="crafting.html">Crafting</a>).</p>
+              <h5 style="margin-top:18px">Expedition Equipment (Grade III)</h5>
+              <div class="entry-grid">
+                <div class="entry-card" id="item-28541">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28541.png" alt="Expedition Magic Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28541" target="_blank" rel="noopener">Expedition Magic Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Ring [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>INT +3</li></ul>
+  <div class="entry-card-foot"><span>kRO #28541</span><a href="https://divine-pride.net/database/item/28541" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20868">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20868.png" alt="Expedition Manteau [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20868" target="_blank" rel="noopener">Expedition Manteau <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Sash [1]</li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 14</li></ul>
+  <ul class="entry-stats"><li>+8% Neutral resistance</li><li>FLEE +15</li><li>When +3 or higher, FLEE +3</li></ul>
+  <div class="entry-card-foot"><span>kRO #20868</span><a href="https://divine-pride.net/database/item/20868" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22152">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22152.png" alt="Expedition Shoes [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22152" target="_blank" rel="noopener">Expedition Shoes <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Boots [1]</li><li><strong>Gewicht:</strong> 25 · <strong>DEF:</strong> 14</li></ul>
+  <ul class="entry-stats"><li>+10% HP Recovery</li><li>+7% SP Recovery</li><li>When +3 or higher, VIT +1</li></ul>
+  <div class="entry-card-foot"><span>kRO #22152</span><a href="https://divine-pride.net/database/item/22152" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28540">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28540.png" alt="Expedition Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28540" target="_blank" rel="noopener">Expedition Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Ring [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>STR +3</li></ul>
+  <div class="entry-card-foot"><span>kRO #28540</span><a href="https://divine-pride.net/database/item/28540" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15221">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15221.png" alt="Expedition Armor [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15221" target="_blank" rel="noopener">Expedition Armor <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Armor [1]</li><li><strong>Gewicht:</strong> 50 · <strong>DEF:</strong> 56</li></ul>
+  <ul class="entry-stats"><li>Max HP +500, MaxSP +30, MDEF +5, DEF +30</li><li>When wearing Expedition Manteau, Boots, &amp; Ring: ATK +20</li><li>If total Set is refined higher than +21: Increased ASPD (-5% after attack delay), -5% variable casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15221</span><a href="https://divine-pride.net/database/item/15221" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15222">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15222.png" alt="Expedition Robe [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15222" target="_blank" rel="noopener">Expedition Robe <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Armor [1]</li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 51</li></ul>
+  <ul class="entry-stats"><li>Max HP +400, MaxSP +50, MDEF +5, DEF +30</li><li>When wearing Expedition Muffler, Shoes, &amp; Magic Ring: MATK +20</li><li>If total Set is refined higher than +21: -5% variable &amp; fixed casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15222</span><a href="https://divine-pride.net/database/item/15222" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20869">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20869.png" alt="Expedition Muffler [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20869" target="_blank" rel="noopener">Expedition Muffler <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Sash [1]</li><li><strong>Gewicht:</strong> 25 · <strong>DEF:</strong> 13</li></ul>
+  <ul class="entry-stats"><li>+9% Neutral resistance</li><li>FLEE +12</li><li>When +3 or higher, +1% additional Neutral resistance</li></ul>
+  <div class="entry-card-foot"><span>kRO #20869</span><a href="https://divine-pride.net/database/item/20869" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22151">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22151.png" alt="Expedition Boots [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22151" target="_blank" rel="noopener">Expedition Boots <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Boots [1]</li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 16</li></ul>
+  <ul class="entry-stats"><li>+15% HP Recovery</li><li>+5% SP Recovery</li><li>When +3 or higher, AGI +1</li></ul>
+  <div class="entry-card-foot"><span>kRO #22151</span><a href="https://divine-pride.net/database/item/22151" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+              </div>
+              <h5 style="margin-top:18px">Subjugation (Grade IV) Equipment</h5>
+              <div class="entry-grid">
+                <div class="entry-card" id="item-28539">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28539.png" alt="Subjugation Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28539" target="_blank" rel="noopener">Subjugation Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-subjugation-grade-iv-equipment">Subjugation Set (Grade IV)</a></div>
+  <ul class="entry-meta"><li><strong>Drop:</strong> <a href="instanzen.html#prontera-culvert">Prontera Culvert</a> <span class="mode-badge normal">normal</span> · <a href="instanzen.html#prontera-culvert">Prontera Culvert</a> <span class="mode-badge normal">normal</span> (0 - 2)</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>STR +2</li><li>INT +2</li></ul>
+  <div class="entry-card-foot"><span>kRO #28539</span><a href="https://divine-pride.net/database/item/28539" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22150">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22150.png" alt="Subjugation Boots [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22150" target="_blank" rel="noopener">Subjugation Boots <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-subjugation-grade-iv-equipment">Subjugation Set (Grade IV)</a></div>
+  <ul class="entry-meta"><li><strong>Drop:</strong> <a href="instanzen.html#prontera-culvert">Prontera Culvert</a> <span class="mode-badge normal">normal</span> · <a href="instanzen.html#prontera-culvert">Prontera Culvert</a> <span class="mode-badge normal">normal</span> (0 - 2)</li><li><strong>Gewicht:</strong> 25 · <strong>DEF:</strong> 12</li></ul>
+  <ul class="entry-stats"><li>+5% HP Recovery</li><li>+3% SP Recovery</li></ul>
+  <div class="entry-card-foot"><span>kRO #22150</span><a href="https://divine-pride.net/database/item/22150" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15220">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15220.png" alt="Subjugation Armor [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15220" target="_blank" rel="noopener">Subjugation Armor <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-subjugation-grade-iv-equipment">Subjugation Set (Grade IV)</a></div>
+  <ul class="entry-meta"><li><strong>Drop:</strong> <a href="instanzen.html#orc-s-memory">Orc&#x27;s Memory</a> <span class="mode-badge normal">normal</span> · <a href="instanzen.html#orcs-memory">Orcs Memory</a> <span class="mode-badge normal">normal</span> (0 - 2)</li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 46</li></ul>
+  <ul class="entry-stats"><li>Max HP +300, MaxSP +20, MDEF +5, DEF +20</li><li>When wearing Subjugation Sash, Boots, &amp; Ring: ATK +15, MATK +15</li><li>If total Set is refined higher than +17: Increased ASPD (-3% after attack delay), -5% variable casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15220</span><a href="https://divine-pride.net/database/item/15220" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20867">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20867.png" alt="Subjugation Sash [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20867" target="_blank" rel="noopener">Subjugation Sash <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-subjugation-grade-iv-equipment">Subjugation Set (Grade IV)</a></div>
+  <ul class="entry-meta"><li><strong>Drop:</strong> <a href="instanzen.html#orc-s-memory">Orc&#x27;s Memory</a> <span class="mode-badge normal">normal</span> · <a href="instanzen.html#orcs-memory">Orcs Memory</a> <span class="mode-badge normal">normal</span> (0 - 2)</li><li><strong>Gewicht:</strong> 20 · <strong>DEF:</strong> 12</li></ul>
+  <ul class="entry-stats"><li>+7% Neutral resistance</li><li>FLEE +10</li></ul>
+  <div class="entry-card-foot"><span>kRO #20867</span><a href="https://divine-pride.net/database/item/20867" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+              </div>
+            </div>
+      <!-- EMBED:END md-pretrans -->
+    </section>
+
+    <section>
+      <h2>🌿 Awakened Eden Group I (Lv 100)</h2>
+      <p>Die Lv-100-Stufe der Eden-Group-Linie. 6 Stat-Linien (Strength/Magic/Agility/Vitality/Dexterity/Luck). Set: Uniform + Manteau + Boots + Ring + Necklace.</p>
+
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Item</th><th>Lv</th><th>1pc Bonus</th><th>3pc Boots-Set</th></tr></thead>
+        <tbody>
+          <tr><td>Awakened Strength Ring I</td><td>100</td><td>ATK +2%</td><td>After-Atk Delay −4%, Hit +4</td></tr>
+          <tr><td>Awakened Magic Ring I</td><td>100</td><td>MATK +2%</td><td>VCT −4%, INT +2</td></tr>
+          <tr><td>Awakened Agility Ring I</td><td>100</td><td>ASPD +2%</td><td>ASPD +1, FLEE +5</td></tr>
+          <tr><td>Awakened Vitality Ring I</td><td>100</td><td>MaxHP +3%</td><td>DEF +10, −3% Neutral</td></tr>
+          <tr><td>Awakened Dexterity Ring I</td><td>100</td><td>HIT +4</td><td>Long-Range +3%, DEX +2</td></tr>
+          <tr><td>Awakened Luck Ring I</td><td>100</td><td>CRIT +2</td><td>Crit-Damage +3%, LUK +2</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p><em>Awakened III (Lv 130) und V (Lv 160) sind <a href="endgame-ausruestung.html">Endgame-Content</a>.</em></p>
+    </section>
+
+    <section>
+      <h2>🐉 Regional Weapons</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>Kunlun Weapons</h4>
+          <p class="meta">20× Buddhist Gem → zufällige Kunlun-Weapon</p>
+          <p>Über NPC @ gonryun 201,153. Zusätzlich: Taegeuk Plate (Phys/Magic) + Safe-+7-Refine-Box (50 Gems).</p>
+        </div>
+        <div class="card">
+          <h4>Louyang Earth Dragon Weapons</h4>
+          <p class="meta">20× Earth Dragon Coin → zufällige Weapon</p>
+          <p>Coin-Exchanger @ louyang 199,113. Reroll-Service @ 207,112.</p>
+        </div>
+        <div class="card">
+          <h4>Amatsu Yin-Yang Weapons</h4>
+          <p class="meta">20× Spirit Stone → zufällige Yin-Yang-Weapon</p>
+          <p>NPC <em>Reisei</em> an der Shrine nördlich des Amatsu-Feldes.</p>
+        </div>
+      </div>
+      <p>Alle drei Regionen teilen den Random-Options-Pool — siehe <a href="optionen.html">Zufalls-Optionen</a>.</p>
+    </section>
+
+    <section>
+      <h2>⚔️ Battleground-Equipment</h2>
+      <p>Via Bravery/Valor Badges (Tierra Gorge / Flavius) oder KVM Reward Points. Coords + Details: <a href="npc.html">NPC-Händler</a>.</p>
+      <ul>
+        <li>Glorious Weapons (BG) — pro Klasse</li>
+        <li>Glorious Set: Suit + Shoes + Muffler — Set-Bonus +5% Phys/Magic Damage, Immune Frozen</li>
+        <li>Lv 81 req, stark gegen Demi-Human</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🎩 Geffen Magic Tournament Equipment (Lv 90)</h2>
+      <p>Aus der Daily-SOLO-Instance mit <strong>110 GMT-Coins/Run</strong>:</p>
+      <ul>
+        <li>Magic Reflect [1] — 900 Coins · Revised Encyclopedia [1] — 900</li>
+        <li>Physical Enhancer Ring [1] — 1350 · Magic Intensifier Ring [1] — 1350</li>
+        <li>Anti-Magic Suit [1] — 1800 · Geffen Magic Robe [1] — 1800</li>
+      </ul>
+      <p>Enchant-Service: 100 Coins pro Versuch (100% Erfolg, kein Break-Risiko).</p>
+    </section>
+
+  
+  
+  
+  
+  
+  
+  </main>
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank">Project Zero Wiki</a> · <a href="https://www.rozskill.me/" target="_blank">rozskill.me</a>
+</footer>
+
+</body>
+</html>

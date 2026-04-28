@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fever Clock Tower — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html" class="active">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Fever Map · Aldebaran · 5 Fever-Bosse</span>
+      <h1>🕰️ Aldebaran Clock Tower</h1>
+      <p class="lead">Die größte Erweiterung des Clock Towers ist das Erscheinen verschiedener Fever-Bosse, sobald eine bestimmte Anzahl regulärer Mobs besiegt wurde. Jeder der fünf Bosse droppt eigenes Fever-Equipment mit Random-Options. Tagesquests in Aldebaran liefern zusätzlich EXP und Schlüssel für den Dungeon-Zugang.</p>
+    </div>
+    <div class="info-box note">Quelle: <a href="https://old.criatura-academy.com/updates/clock-tower/" target="_blank" rel="noopener">Criatura Academy · Clock Tower</a> · ← <a href="fever.html">Fever-Übersicht</a> · <a href="items.html">Items</a> · <a href="monster.html">Monster</a></div>
+
+    <section>
+      <h2>🗺️ Map-Überblick</h2>
+      <ul class="entry-meta">
+        <li><strong>Region:</strong> Clock Tower in Aldebaran-Umgebung · klassische Pre-Renewal-Map</li>
+        <li><strong>Spawn-Tracking:</strong> NPC-Schild auf jeder Map zeigt aktuellen Boss-Counter</li>
+        <li><strong>Fever-Bosses (5):</strong> Erzsebet · Sieglouze · Extra Joker · Jennifer · General Orc</li>
+        <li><strong>Trigger-Beispiel:</strong> Genug Penomena-Kills → Jennifer spawnt</li>
+        <li><strong>Daily Quests:</strong> Clock Tower Manager in Aldebaran (EXP + Schlüssel + 20× White Potion Box + 6× Baldur's Blessing + High Quality Meal beim Erstabschluss)</li>
+      </ul>
+      <p class="entry-jump"><a href="#ct-mechanic">Boss-Counter</a><a href="#ct-bosses">Fever-Bosse</a><a href="#ct-mobs">Vorform-Mobs</a><a href="#ct-equip">Equipment</a><a href="#ct-cards">Cards</a><a href="#ct-quests">Tagesquests</a></p>
+    </section>
+
+    <section id="ct-mechanic">
+      <h2>🔢 Boss-Counter-System</h2>
+      <p>Das Kernprinzip des Fever Clock Towers ist ein serverweit geteilter Kill-Counter pro Boss. Auf jedem Floor, auf dem ein Boss erscheinen kann, steht ein NPC-Schild, das den aktuellen Counter-Stand anzeigt und erklärt, wie viele Kills des zugehörigen Vorform-Mobs noch benötigt werden. Alle Spieler auf der gleichen Instanz tragen gemeinsam zum Counter bei — sobald die Schwelle erreicht ist, spawnt der Boss an einer festen Position auf diesem Floor.</p>
+      <p>Das Triggerprinzip ist immer gleich: ein schwächerer Mob füllt den Counter für seinen stärkeren „Boss-Bruder". Bei <strong>Penomena</strong>-Kills füllt sich der Jennifer-Counter. Bei <strong>Bathory</strong>-Kills der Erzsebet-Counter. Welcher Mob genau welchen Boss triggert und wie hoch die Schwelle liegt, steht auf dem Schild des jeweiligen Floors — lohnt sich vor dem Farming kurz nachzuschauen, besonders wenn man gezielt einen bestimmten Drop jagen will.</p>
+      <div class="info-box tip">Da alle Server-Spieler denselben Counter befüllen, lässt sich ein Boss-Spawn in koordinierten Gruppen deutlich schneller herbeiführen. Wer einen bestimmten Boss will, communiziert das in /map-Chat und farmt gemeinsam auf die passenden Trigger-Mobs.</div>
+
+      <h3>🗝️ Dungeon-Schlüssel</h3>
+      <p>Verschiedene Abschnitte des Clock Towers sind durch verschlossene Türen gesichert. Die nötigen Schlüssel kommen fast ausschließlich aus den Tagesquests:</p>
+      <ul class="entry-meta">
+        <li><strong>Clock Tower Key:</strong> Öffnet Türen zu den oberen Tower-Bereichen · täglich aus „Animated Clock 1", „Animated Clock 2" und „Sound Of Laughter From The Basement"</li>
+        <li><strong>Key of the Underground:</strong> Zugang zum Kellerbereich · identische Questquellen wie Clock Tower Key</li>
+        <li><strong>Erstabschluss-Bonus:</strong> Beim allerersten Abschluss der drei Key-Quests gibt es je 1 Clock Tower Key + 1 Key of the Underground als einmaligen Bonus on top</li>
+      </ul>
+      <p>Die Quest „Clock Tower 1st Floor Cleaning" (Rideword + Punk) droppt keine Schlüssel — sie liefert nur EXP. Die Boss-Counter für die Bosse auf den Key-Floors setzen sich <em>nicht</em> zurück, wenn der Boss stirbt; der Counter füllt sich durch laufende Mob-Kills neu.</p>
+    </section>
+
+    <section id="ct-bosses">
+      <h2>👾 Fever-Bosse</h2>
+      <p>Jeder Boss spawnt nach einer bestimmten Anzahl Kills auf passenden Vorform-Mobs. Drops sind Lv-60-/Lv-75-Equipment mit Fever-Field-Random-Options.</p>
+      <div class="entry-grid wide">
+        <div class="entry-card is-monster" id="ct-mob-erzsebet">
+          <div class="entry-card-head">
+            <img alt="Erzsebet" class="entry-icon" loading="lazy" src="images/fever-clock-tower/monsters/erzsebet.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Erzsebet" rel="noopener" target="_blank">Erzsebet</a>
+            <span class="entry-type">Fever-Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 101</li><li><strong>HP:</strong> 157.260</li><li><strong>DEF / MDEF:</strong> 122 / 208</li><li><strong>Familie:</strong> Demi-Human</li><li><strong>Element:</strong> Shadow LV1</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 19.290 / 20.460</li></ul>
+          <ul class="entry-stats"><li>Drops: <a href="#ct-item-15282">Bunny Shirt [1]</a>, <a href="#ct-item-26140">Witch's Broom [1]</a>, <a href="#ct-card-erzsebet">Erzsebet Card</a></li></ul>
+          <div class="entry-card-foot"><a href="monster.html#ct-mob-erzsebet">Monster-DB ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="ct-mob-sieglouze">
+          <div class="entry-card-head">
+            <img alt="Sieglouze" class="entry-icon" loading="lazy" src="images/fever-clock-tower/monsters/sieglouze.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Sieglouze" rel="noopener" target="_blank">Sieglouze</a>
+            <span class="entry-type">Fever-Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 122</li><li><strong>HP:</strong> 300.600</li><li><strong>DEF / MDEF:</strong> 202 / 108</li><li><strong>Familie:</strong> Insect</li><li><strong>Element:</strong> Earth LV2</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 33.180 / 51.570</li></ul>
+          <ul class="entry-stats"><li>Drops: <a href="#ct-item-22188">Safety Shoes [1]</a>, <a href="#ct-card-sieglouze">Sieglouze Card</a></li></ul>
+          <div class="entry-card-foot"><a href="monster.html#ct-mob-sieglouze">Monster-DB ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="ct-mob-extra-joker">
+          <div class="entry-card-head">
+            <img alt="Extra Joker" class="entry-icon" loading="lazy" src="images/fever-clock-tower/monsters/extra-joker.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Extra+Joker" rel="noopener" target="_blank">Extra Joker</a>
+            <span class="entry-type">Fever-Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 105</li><li><strong>HP:</strong> 180.660</li><li><strong>DEF / MDEF:</strong> 129 / 152</li><li><strong>Familie:</strong> Demi-Human</li><li><strong>Element:</strong> Wind LV4</li><li><strong>Größe:</strong> Large</li><li><strong>EXP / JEXP:</strong> 26.700 / 27.300</li></ul>
+          <ul class="entry-stats"><li>Drops: <a href="#ct-item-1856">Joker's Nails [1]</a>, <a href="#ct-card-extra-joker">Extra Joker Card</a></li></ul>
+          <div class="entry-card-foot"><a href="monster.html#ct-mob-extra-joker">Monster-DB ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="ct-mob-jennifer">
+          <div class="entry-card-head">
+            <img alt="Jennifer" class="entry-icon" loading="lazy" src="images/fever-clock-tower/monsters/jennifer.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Jennifer" rel="noopener" target="_blank">Jennifer</a>
+            <span class="entry-type">Fever-Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 100</li><li><strong>HP:</strong> 137.670</li><li><strong>DEF / MDEF:</strong> 170 / 96</li><li><strong>Familie:</strong> Fish</li><li><strong>Element:</strong> Poison LV1</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 22.920 / 23.340</li></ul>
+          <ul class="entry-stats"><li>Trigger: Penomena-Kills · Drop: <a href="#ct-card-jennifer">Jennifer Card</a></li></ul>
+          <div class="entry-card-foot"><a href="monster.html#ct-mob-jennifer">Monster-DB ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="ct-mob-general-orc">
+          <div class="entry-card-head">
+            <img alt="General Orc" class="entry-icon" loading="lazy" src="images/fever-clock-tower/monsters/general-orc.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=General+Orc" rel="noopener" target="_blank">General Orc</a>
+            <span class="entry-type">Fever-Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 96</li><li><strong>HP:</strong> 125.790</li><li><strong>DEF / MDEF:</strong> 202 / 90</li><li><strong>Familie:</strong> Demi-Human</li><li><strong>Element:</strong> Fire LV2</li><li><strong>Größe:</strong> Large</li><li><strong>EXP / JEXP:</strong> 18.120 / 17.370</li></ul>
+          <ul class="entry-stats"><li>Drop: <a href="#ct-card-general-orc">General Orc Card</a></li></ul>
+          <div class="entry-card-foot"><a href="monster.html#ct-mob-general-orc">Monster-DB ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ct-mobs">
+      <h2>📖 Vorform-Mobs</h2>
+      <p>Reguläre Spawns, deren Kills die jeweiligen Boss-Counter füllen. Auch Quest-Targets der Tagesquests.</p>
+      <div class="entry-grid wide">
+        <div class="entry-card is-monster" id="ct-mob-rideword">
+          <div class="entry-card-head"><span class="entry-icon">📖</span><a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Rideword" rel="noopener" target="_blank">Rideword</a><span class="entry-type">Vorform · Demon</span></div>
+          <ul class="entry-meta"><li>Quest: Clock Tower 1st Floor Cleaning · 20 Kills</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="ct-mob-punk">
+          <div class="entry-card-head"><span class="entry-icon">🎵</span><a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Punk" rel="noopener" target="_blank">Punk</a><span class="entry-type">Vorform · Plant</span></div>
+          <ul class="entry-meta"><li>Quest: Clock Tower 1st Floor Cleaning · 15 Kills</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="ct-mob-clock">
+          <div class="entry-card-head"><span class="entry-icon">⏰</span><a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Clock" rel="noopener" target="_blank">Clock</a><span class="entry-type">Vorform · Formless</span></div>
+          <ul class="entry-meta"><li>Quest: Animated Clock 1 · 15 Kills</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="ct-mob-alarm">
+          <div class="entry-card-head"><span class="entry-icon">🔔</span><a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Alarm" rel="noopener" target="_blank">Alarm</a><span class="entry-type">Vorform · Formless</span></div>
+          <ul class="entry-meta"><li>Quest: Animated Clock 2 · 20 Kills</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="ct-mob-bathory">
+          <div class="entry-card-head"><span class="entry-icon">🧙</span><a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Bathory" rel="noopener" target="_blank">Bathory</a><span class="entry-type">Vorform · Demon</span></div>
+          <ul class="entry-meta"><li>Quest: The Sound Of Laughter From The Basement · 20 Kills · Trigger Erzsebet</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="ct-mob-penomena">
+          <div class="entry-card-head"><span class="entry-icon">🐙</span><a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Penomena" rel="noopener" target="_blank">Penomena</a><span class="entry-type">Vorform · Fish</span></div>
+          <ul class="entry-meta"><li>Trigger: Jennifer-Spawn</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="ct-mob-alice">
+          <div class="entry-card-head"><span class="entry-icon">🧹</span><a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Alice" rel="noopener" target="_blank">Alice</a><span class="entry-type">Demi-Human · Neutral LV3</span></div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 100 · <strong>HP:</strong> 9.233</li><li><strong>EXP / JEXP:</strong> 1.387 / 1.316</li><li>Drop: Witch's Broom [1]</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="ct-equip">
+      <h2>🛡️ Equipment-Drops</h2>
+      <p>Boss-Drops im Lv-60–75-Bereich plus zwei craftbare Mid-Headgears beim Clock Tower Manager in Aldebaran.</p>
+      <div class="entry-grid">
+        <div class="entry-card" id="ct-item-26140">
+          <div class="entry-card-head">
+            <img alt="Witch's Broom [1]" class="entry-icon" loading="lazy" src="images/fever-clock-tower/items/26140.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/26140" rel="noopener" target="_blank">Witch's Broom <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">1H-Staff</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 26140 · <strong>Lv:</strong> 60 · <strong>ATK:</strong> 50 · <strong>Gewicht:</strong> 40</li><li><strong>Drop:</strong> Erzsebet, Alice</li><li><strong>Klasse:</strong> Mage / Acolyte</li></ul>
+          <ul class="entry-stats"><li>MATK +125</li><li>+5 % Magie-Damage gegen Formless</li><li>Bei physischem Treffer: Chance auf Quagmire LV1 (gegen Ranged halbiert)</li><li>+7: −10 % Variable Cast Time</li><li>+9: +10 % Magie-Damage gegen Formless</li></ul>
+          <div class="entry-card-foot"><span>kRO #26140</span><a href="https://divine-pride.net/database/item/26140" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="ct-item-15282">
+          <div class="entry-card-head">
+            <img alt="Bunny Shirt [1]" class="entry-icon" loading="lazy" src="images/fever-clock-tower/items/15282.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/15282" rel="noopener" target="_blank">Bunny Shirt <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 15282 · <strong>Lv:</strong> 75 · <strong>DEF:</strong> 10 · <strong>Gewicht:</strong> 50</li><li><strong>Drop:</strong> Erzsebet</li><li><strong>Klasse:</strong> Mage / Acolyte</li></ul>
+          <ul class="entry-stats"><li>MaxHP +150, MaxSP +75</li><li>MATK +2 pro Refine</li><li>+7: zusätzlich +75 MaxHP, +25 MaxSP</li><li>+9: nochmals +75 MaxHP, +25 MaxSP</li></ul>
+          <div class="entry-card-foot"><span>kRO #15282</span><a href="https://divine-pride.net/database/item/15282" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="ct-item-22188">
+          <div class="entry-card-head">
+            <img alt="Safety Shoes [1]" class="entry-icon" loading="lazy" src="images/fever-clock-tower/items/22188.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/22188" rel="noopener" target="_blank">Safety Shoes <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 22188 · <strong>Lv:</strong> 60 · <strong>DEF:</strong> 60 · <strong>Gewicht:</strong> 35</li><li><strong>Drop:</strong> Sieglouze</li><li><strong>Klasse:</strong> Swordsman</li></ul>
+          <ul class="entry-stats"><li>Indestructible</li><li>„Leichte und stabile Schuhe — schützen vor Fußverletzungen"</li></ul>
+          <div class="entry-card-foot"><span>kRO #22188</span><a href="https://divine-pride.net/database/item/22188" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="ct-item-1856">
+          <div class="entry-card-head">
+            <img alt="Joker's Nails [1]" class="entry-icon" loading="lazy" src="images/fever-clock-tower/items/1856.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/1856" rel="noopener" target="_blank">Joker's Nails <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Knuckle</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 1856 · <strong>Lv:</strong> 60 · <strong>ATK:</strong> 90 · <strong>Gewicht:</strong> 40</li><li><strong>Drop:</strong> Extra Joker</li><li><strong>Klasse:</strong> Monk / Priest</li></ul>
+          <ul class="entry-stats"><li>STR +2</li><li>+10 % Triple Attack Damage</li><li>+1 % Triple Attack pro Refine</li><li>+1 % ASPD pro 2 Refine</li><li>+7: +15 % Chain Combo Damage</li><li>+9: +15 % Combo Finish Damage</li></ul>
+          <div class="entry-card-foot"><span>kRO #1856</span><a href="https://divine-pride.net/database/item/1856" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="ct-item-19333">
+          <div class="entry-card-head">
+            <img alt="Clock Tower Manager's Headset" class="entry-icon" loading="lazy" src="images/fever-clock-tower/items/19333.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/19333" rel="noopener" target="_blank">Clock Tower Manager's Headset</a>
+            <span class="entry-type">Mid Headgear · craftbar</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 19333 · <strong>Lv:</strong> 60 · <strong>DEF:</strong> 10 · <strong>Gewicht:</strong> 10</li><li><strong>Crafting:</strong> beim Aldebaran-Crafter</li><li><strong>Klasse:</strong> alle</li></ul>
+          <ul class="entry-stats"><li>MATK +20</li><li>Mit Clock Tower Manager Card: −15 % Variable Cast Time + Bewegungsgeschwindigkeit erhöht</li></ul>
+          <div class="entry-card-foot"><span>kRO #19333</span><a href="https://divine-pride.net/database/item/19333" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="ct-item-19334">
+          <div class="entry-card-head">
+            <img alt="Pocket Watch Hairpin" class="entry-icon" loading="lazy" src="images/fever-clock-tower/items/19334.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/19334" rel="noopener" target="_blank">Pocket Watch Hairpin</a>
+            <span class="entry-type">Mid Headgear · craftbar</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 19334 · <strong>Lv:</strong> 60 · <strong>DEF:</strong> 10 · <strong>Gewicht:</strong> 10</li><li><strong>Crafting:</strong> beim Aldebaran-Crafter</li><li><strong>Klasse:</strong> alle</li></ul>
+          <ul class="entry-stats"><li>ATK +20</li><li>Mit Clock Card: DEF +20, MaxSP +100</li><li>Mit Alarm Card: MaxHP +1000</li></ul>
+          <div class="entry-card-foot"><span>kRO #19334</span><a href="https://divine-pride.net/database/item/19334" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ct-cards">
+      <h2>🎴 Card-Drops</h2>
+      <div class="entry-grid">
+        <div class="entry-card" id="ct-card-sieglouze">
+          <div class="entry-card-head"><span class="entry-icon">🃏</span><a class="entry-name" href="https://divine-pride.net/database/item/27274" rel="noopener" target="_blank">Sieglouze Card</a><span class="entry-type">Shoes Card</span></div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 27274 · Prefix: <em>Cunning</em></li></ul>
+          <ul class="entry-stats"><li>ASPD +2</li><li>Mit Arclouze Card: +2 FLEE pro Shield-Refine</li></ul>
+          <div class="entry-card-foot"><span>kRO #27274</span><a href="https://divine-pride.net/database/item/27274" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="ct-card-general-orc">
+          <div class="entry-card-head"><span class="entry-icon">🃏</span><a class="entry-name" href="https://divine-pride.net/database/item/27273" rel="noopener" target="_blank">General Orc Card</a><span class="entry-type">Weapon Card</span></div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 27273 · Prefix: <em>Heavy Assault</em></li></ul>
+          <ul class="entry-stats"><li>Mace: +1 CRIT pro Refine, bei +10 zusätzlich +10 % Crit-Damage</li><li>Knuckle: +1 % ASPD pro Refine, bei +10 zusätzlich ASPD +2</li><li>Mit High Orc Card: ASPD +2, ATK +25</li></ul>
+          <div class="entry-card-foot"><span>kRO #27273</span><a href="https://divine-pride.net/database/item/27273" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="ct-card-jennifer">
+          <div class="entry-card-head"><span class="entry-icon">🃏</span><a class="entry-name" href="https://divine-pride.net/database/item/27272" rel="noopener" target="_blank">Jennifer Card</a><span class="entry-type">Weapon Card</span></div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 27272 · Prefix: <em>Of Jennifer</em></li></ul>
+          <ul class="entry-stats"><li>−5 % Ranged Physical Damage erhalten</li><li>Zusätzlich −1 % pro Armor-Refine</li><li>Mit Penomena Card: ASPD +1 pro 2 Shield-Refines</li></ul>
+          <div class="entry-card-foot"><span>kRO #27272</span><a href="https://divine-pride.net/database/item/27272" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="ct-card-extra-joker">
+          <div class="entry-card-head"><span class="entry-icon">🃏</span><a class="entry-name" href="https://divine-pride.net/database/item/27270" rel="noopener" target="_blank">Extra Joker Card</a><span class="entry-type">Shield Card</span></div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 27270 · Prefix: <em>Of Joker</em></li></ul>
+          <ul class="entry-stats"><li>+10 MDEF pro Shield-Refine</li><li>Mit Joker Card: bei physischem/magischem Treffer Joker-Transformation 7 sec (ATK +70, MATK +70, −77 HP/sec, −7 SP/sec)</li></ul>
+          <div class="entry-card-foot"><span>kRO #27270</span><a href="https://divine-pride.net/database/item/27270" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="ct-card-erzsebet">
+          <div class="entry-card-head"><span class="entry-icon">🃏</span><a class="entry-name" href="https://divine-pride.net/database/item/27271" rel="noopener" target="_blank">Erzsebet Card</a><span class="entry-type">Shield Card</span></div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 27271 · Prefix: <em>Of Sorceress</em></li></ul>
+          <ul class="entry-stats"><li>+10 MATK pro Shield-Refine</li><li>Mit Bathory Card: +1 INT pro Armor-Refine</li></ul>
+          <div class="entry-card-foot"><span>kRO #27271</span><a href="https://divine-pride.net/database/item/27271" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ct-quests">
+      <h2>📜 Tagesquests · Clock Tower Manager (Aldebaran)</h2>
+      <p>Vier wiederholbare Tagesquests. Erstabschluss vergibt zusätzlich 20× White Potion Box, 6× Baldur's Blessing und ein High Quality Meal. Drei der vier Quests droppen den Clock Tower Key sowie den Key of the Underground.</p>
+      <table>
+        <thead>
+          <tr><th>Quest</th><th>Targets</th><th>Erstabschluss-Reward</th><th>Daily-Reward</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Clock Tower 1st Floor Cleaning</td><td>20× Rideword · 15× Punk</td><td>Base/Job EXP · 20× White Potion Box · 6× Baldur's Blessing · High Quality Meal</td><td>Base/Job EXP</td></tr>
+          <tr><td>Animated Clock 1</td><td>15× Clock</td><td>Base/Job EXP · Clock Tower Key · Key of the Underground · 20× White Potion Box · 6× Baldur's Blessing · High Quality Meal</td><td>Base/Job EXP · Clock Tower Key · Key of the Underground</td></tr>
+          <tr><td>Animated Clock 2</td><td>20× Alarm</td><td>identisch mit Animated Clock 1</td><td>Base/Job EXP · Clock Tower Key · Key of the Underground</td></tr>
+          <tr><td>The Sound Of Laughter From The Basement</td><td>20× Bathory</td><td>identisch mit Animated Clock 1</td><td>Base/Job EXP · Clock Tower Key · Key of the Underground</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a>
+</footer>
+
+</body>
+</html>

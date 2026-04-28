@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet-Enchant (寵物附魔) — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html" class="active"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">寵物附魔 · Pet-System</span>
+      <h1>Pet-Enchant (寵物附魔)</h1>
+      <p class="lead">Über den <strong>Pet Merchant</strong> in fünf Hauptstädten kannst du dein <strong>Feeding Ring</strong> mit dauerhaften Bonus-Abilities enchanten — ein günstiger aber wichtiger Stat-Boost für Pet-aktive Chars.</p>
+    </div>
+
+    <section>
+      <span class="source-note">Offizielle Quelle: roz.gnjoy.com.tw · News ID 217539 · 06.06.2025</span>
+
+      <h2>📍 NPC &amp; Standorte</h2>
+      <div class="card">
+        <h4>Pet Merchant (寵物商人)</h4>
+        <p><strong>Zweck:</strong> Enchantet den <em>Feeding Ring</em> mit einer Ability aus dem offiziellen Pool.</p>
+        <p><strong>Positionen (in 5 Hauptstädten verfügbar):</strong></p>
+        <ul>
+          <li><code>prontera 218 211</code></li>
+          <li><code>izlude_in 72 98</code></li>
+          <li><code>morocc 203 87</code></li>
+          <li><code>geffen 193 152</code></li>
+          <li><code>payon 177 131</code></li>
+        </ul>
+      </div>
+
+      
+<figure style="margin:12px 0">
+  <a href="images/pet-enchant/2025_06_10_95e226caf679407b9c2292187add2ca5.png" target="_blank" rel="noopener">
+    <img class="howto-img" src="images/pet-enchant/2025_06_10_95e226caf679407b9c2292187add2ca5.png" alt="" loading="lazy" style="max-width:100%;border-radius:6px;border:1px solid var(--border);background:var(--bg-1);padding:6px">
+  </a>
+</figure>
+<div class="translated-table-block">
+<p class="translated-summary">Ein Screenshot eines Pet Merchant NPCs in Ragnarok Zero.</p>
+<ul>
+<li>Pet Merchant</li>
+</ul>
+<p class="translated-notes"><em>Der NPC trägt den Titel 'Pet Merchant' (寵物商人).</em></p>
+</div>
+    </section>
+
+    <section>
+      <h2>💍 Enchant-Ziel</h2>
+      <p>Das Enchanting zielt ausschließlich auf das Item <strong>Feeding Ring (飼養戒指)</strong> — du musst also zuerst einen Feeding Ring besitzen (über Pet Taming oder Pet-Quests erhältlich), bevor du beim Pet Merchant enchanten lassen kannst.</p>
+
+      <div class="info-box tip">
+        <strong>Warum wichtig:</strong> Der Feeding Ring ist ein Accessory-Slot-Item, das permanent getragen werden kann. Ein gut enchantetes Exemplar liefert dauerhafte Stat-Gains.
+      </div>
+    </section>
+
+    <section>
+      <h2>📋 Ability-Pool</h2>
+      <p>Die offiziellen Ability-Listen:</p>
+
+      
+<figure style="margin:12px 0">
+  <a href="images/pet-enchant/2025_08_21_383f83d5d8674d91866ef87299ac2d6f.png" target="_blank" rel="noopener">
+    <img class="howto-img" src="images/pet-enchant/2025_08_21_383f83d5d8674d91866ef87299ac2d6f.png" alt="" loading="lazy" style="max-width:100%;border-radius:6px;border:1px solid var(--border);background:var(--bg-1);padding:6px">
+  </a>
+</figure>
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Kosten, die verfügbaren Verzauberungsoptionen und die resultierenden Statusboni für Karten-Slot 1.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Material</th><th>Kosten</th><th>Verzauberung</th><th>Fähigkeit</th></tr></thead>
+<tbody>
+<tr><td>Poring Egg</td><td>10,000 Zeny</td><td>Poring Egg Lv1</td><td>LUK+2, CRIT+1</td></tr>
+<tr><td>Drops Egg</td><td>10,000 Zeny</td><td>Drops Egg Lv1</td><td>HIT+3, ATK+3</td></tr>
+<tr><td>Poporing Egg</td><td>10,000 Zeny</td><td>Poporing Egg Lv1</td><td>LUK+2, Poison Resistance+10%</td></tr>
+<tr><td>Lunatic Egg</td><td>10,000 Zeny</td><td>Lunatic Egg Lv1</td><td>CRIT+2, ATK+2</td></tr>
+<tr><td>Orc Baby Egg</td><td>10,000 Zeny</td><td>Orc Baby Egg Lv1</td><td>VIT+1, MHP+50</td></tr>
+<tr><td>Rockers Egg</td><td>10,000 Zeny</td><td>Rockers Egg Lv1</td><td>HP Recovery+5%, MHP+25</td></tr>
+<tr><td>Spore Egg</td><td>10,000 Zeny</td><td>Spore Egg Lv1</td><td>HIT+5</td></tr>
+<tr><td>Poison Spore Egg</td><td>10,000 Zeny</td><td>Poison Spore Egg Lv1</td><td>STR+1, INT+1</td></tr>
+<tr><td>Baby Poring Egg</td><td>10,000 Zeny</td><td>Baby Poring Egg Lv1</td><td>HP Recovery+50%</td></tr>
+<tr><td>ChonChon Egg</td><td>10,000 Zeny</td><td>ChonChon Egg Lv1</td><td>STR+1, ATK+5</td></tr>
+<tr><td>Fly Egg</td><td>10,000 Zeny</td><td>Fly Egg Lv1</td><td>AGI+1, FLEE+2</td></tr>
+<tr><td>Green Fly Egg</td><td>10,000 Zeny</td><td>Green Fly Egg Lv1</td><td>FLEE+6</td></tr>
+<tr><td>Red Fly Egg</td><td>10,000 Zeny</td><td>Red Fly Egg Lv1</td><td>Perfect Dodge+2</td></tr>
+<tr><td>Desert Wolf Baby Egg</td><td>10,000 Zeny</td><td>Desert Wolf Baby Egg Lv1</td><td>INT+1, MSP+50</td></tr>
+<tr><td>Peco Peco Egg</td><td>10,000 Zeny</td><td>Peco Peco Egg Lv1</td><td>MHP+150</td></tr>
+<tr><td>Raccoon Baby Egg</td><td>10,000 Zeny</td><td>Raccoon Baby Egg Lv1</td><td>AGI+1, Perfect Dodge+1</td></tr>
+<tr><td>Picky Egg</td><td>10,000 Zeny</td><td>Picky Egg Lv1</td><td>CRIT+3</td></tr>
+<tr><td>Petite Egg</td><td>10,000 Zeny</td><td>Petite Egg Lv1</td><td>ASPD+1 (After-attack delay -1%)</td></tr>
+<tr><td>Medusa Egg</td><td>10,000 Zeny</td><td>Medusa Egg Lv1</td><td>Physical Damage vs All Classes +1%</td></tr>
+<tr><td>Orc Warrior Egg</td><td>10,000 Zeny</td><td>Orc Warrior Egg Lv1</td><td>ATK+10</td></tr>
+<tr><td>Zombie Egg</td><td>10,000 Zeny</td><td>Zombie Egg Lv1</td><td>INT+1, DEF+1</td></tr>
+<tr><td>Muka Egg</td><td>10,000 Zeny</td><td>Muka Egg Lv1</td><td>MATK+1%</td></tr>
+<tr><td>Sohee Egg</td><td>10,000 Zeny</td><td>Sohee Egg Lv1</td><td>STR+1, DEX+1</td></tr>
+<tr><td>Baphomet Jr. Egg</td><td>10,000 Zeny</td><td>Baphomet Jr. Egg Lv1</td><td>Physical Damage vs All Classes +1%, MATK+1%</td></tr>
+<tr><td>Little Baphomet Egg</td><td>10,000 Zeny</td><td>Little Baphomet Egg Lv1</td><td>DEF/MDEF+1, Stun Resistance+1%</td></tr>
+<tr><td>Munak Egg</td><td>10,000 Zeny</td><td>Munak Egg Lv1</td><td>VIT+1, Stun Resistance+1%</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Erfolgsrate beträgt 100%. Die Option 'Zurücksetzen' kostet ebenfalls 10,000 Zeny mit 100% Erfolgsrate.</em></p>
+</div>
+
+      
+<figure style="margin:12px 0">
+  <a href="images/pet-enchant/2025_08_21_32c56ac4690a474fb9be35090c5e9be8.png" target="_blank" rel="noopener">
+    <img class="howto-img" src="images/pet-enchant/2025_08_21_32c56ac4690a474fb9be35090c5e9be8.png" alt="" loading="lazy" style="max-width:100%;border-radius:6px;border:1px solid var(--border);background:var(--bg-1);padding:6px">
+  </a>
+</figure>
+<div class="translated-table-block">
+<p class="translated-summary">Tabelle für das Upgrade von Haustier-Eiern auf Stufe 2 mit Erfolgsraten, Kosten und entsprechenden Bonuswerten.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Material</th><th>Kosten</th><th>Verzauberung</th><th>Fähigkeit</th></tr></thead>
+<tbody>
+<tr><td>Poring Egg</td><td>10,000 Zeny</td><td>Poring Egg Lv2</td><td>LUK+3, CRI+1</td></tr>
+<tr><td>Poporing Egg</td><td>10,000 Zeny</td><td>Poporing Egg Lv2</td><td>HIT+5, ATK+5</td></tr>
+<tr><td>Marin Egg</td><td>10,000 Zeny</td><td>Marin Egg Lv2</td><td>LUK+3, Poison Resistance+15%</td></tr>
+<tr><td>Lunatic Egg</td><td>10,000 Zeny</td><td>Lunatic Egg Lv2</td><td>CRI+3, ATK+3</td></tr>
+<tr><td>Picky Egg</td><td>10,000 Zeny</td><td>Picky Egg Lv2</td><td>VIT+2, MHP+75</td></tr>
+<tr><td>ChonChon Egg</td><td>10,000 Zeny</td><td>ChonChon Egg Lv2</td><td>HP Recovery+8%, MHP+38</td></tr>
+<tr><td>Spore Egg</td><td>10,000 Zeny</td><td>Spore Egg Lv2</td><td>HIT+8</td></tr>
+<tr><td>Poison Spore Egg</td><td>10,000 Zeny</td><td>Poison Spore Egg Lv2</td><td>STR+2, INT+2</td></tr>
+<tr><td>Drops Egg</td><td>10,000 Zeny</td><td>Drops Egg Lv2</td><td>HP Recovery+75%</td></tr>
+<tr><td>Chick Egg</td><td>10,000 Zeny</td><td>Chick Egg Lv2</td><td>STR+2, ATK+8</td></tr>
+<tr><td>Fly Egg</td><td>10,000 Zeny</td><td>Fly Egg Lv2</td><td>AGI+2, FLEE+3</td></tr>
+<tr><td>Metaling Egg</td><td>10,000 Zeny</td><td>Metaling Egg Lv2</td><td>FLEE+9</td></tr>
+<tr><td>Rockers Egg</td><td>10,000 Zeny</td><td>Rockers Egg Lv2</td><td>Perfect Dodge+2, HIT+1</td></tr>
+<tr><td>Desert Wolf Baby Egg</td><td>10,000 Zeny</td><td>Desert Wolf Baby Egg Lv2</td><td>INT+2, MSP+75</td></tr>
+<tr><td>Peco Peco Egg</td><td>10,000 Zeny</td><td>Peco Peco Egg Lv2</td><td>MHP+200</td></tr>
+<tr><td>Smokie Egg</td><td>10,000 Zeny</td><td>Smokie Egg Lv2</td><td>AGI+2, Perfect Dodge+1</td></tr>
+<tr><td>Coco Egg</td><td>10,000 Zeny</td><td>Coco Egg Lv2</td><td>CRI+5</td></tr>
+<tr><td>Petite Egg</td><td>10,000 Zeny</td><td>Petite Egg Lv2</td><td>ASPD+ (After Attack Delay -1%), AGI+1</td></tr>
+<tr><td>Isis Egg</td><td>10,000 Zeny</td><td>Isis Egg Lv2</td><td>Physical damage to all size enemies +2%</td></tr>
+<tr><td>Orc Warrior Egg</td><td>10,000 Zeny</td><td>Orc Warrior Egg Lv2</td><td>ATK+15</td></tr>
+<tr><td>Zombie Egg</td><td>10,000 Zeny</td><td>Zombie Egg Lv2</td><td>INT+2, DEF+2</td></tr>
+<tr><td>Munak Egg</td><td>10,000 Zeny</td><td>Munak Egg Lv2</td><td>MATK+2%</td></tr>
+<tr><td>Bongun Egg</td><td>10,000 Zeny</td><td>Bongun Egg Lv2</td><td>STR+2, DEX+2</td></tr>
+<tr><td>Deviruchi Egg</td><td>10,000 Zeny</td><td>Deviruchi Egg Lv2</td><td>Physical damage to all size enemies 1%, MATK+1%, MHP/MSP+1%</td></tr>
+<tr><td>Baphomet Jr. Egg</td><td>10,000 Zeny</td><td>Baphomet Jr. Egg Lv2</td><td>DEF/MDEF+2, Stun Resistance+2%</td></tr>
+<tr><td>Whisper Egg</td><td>10,000 Zeny</td><td>Whisper Egg Lv2</td><td>VIT+2, Stun Resistance+2%</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Erfolgsrate: 50%. Bei einem Fehlschlag gehen die Materialien verloren. Zurücksetzen: Erfolgsrate 100%, Kosten: 10,000 Zeny.</em></p>
+</div>
+    </section>
+
+    <section>
+      <h2>💡 Praxis-Tipps</h2>
+      <ul>
+        <li><strong>Re-Roll erlaubt:</strong> Wenn das Ergebnis nicht passt, einfach nochmal enchanten — Materialien vorrätig haben</li>
+        <li><strong>Extract-Option:</strong> Besonders starke Rolls lassen sich via <a href="enchant-system.html">Extract</a> sichern und später umsetzen</li>
+        <li><strong>NPC ist überall:</strong> Die fünf Standorte sparen Reisezeit — einfach zum nächsten Hub</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>⚠️ Hinweise</h2>
+      <div class="info-box warning">
+        <ol>
+          <li>Gravity behält sich Änderungen an Inhalt und Mechanik vor.</li>
+          <li>Mit zukünftigen Patches können die Ability-Pools angepasst werden — aktuelle Stände stets auf der <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217539" target="_blank">Originalseite</a> prüfen.</li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer">
+  Quelle: <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217539" target="_blank">roz.gnjoy.com.tw — 寵物附魔</a> (News ID 217539) · Screenshots © Gravity / GNJOY TW
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MVP Battle Dolls (MVP戰鬥娃娃) — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html" class="active"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">MVP戰鬥娃娃 · Boss Rewards</span>
+      <h1>MVP Battle Dolls (MVP戰鬥娃娃)</h1>
+      <p class="lead">Die Top-Tier-Variante des Battle-Doll-Systems — Puppen, die von MVP-Bossen droppen und deutlich stärkere Daily-Rewards liefern als die <a href="kampfpuppen-normal.html">Normal-Variante</a>.</p>
+    </div>
+
+    <section>
+      <span class="source-note">Offizielle Quelle: roz.gnjoy.com.tw · News ID 218137 · 23.01.2026 (mehrfach erweitert)</span>
+
+      <h2>🎎 Was sind MVP Battle Dolls?</h2>
+      <p>MVP Battle Dolls droppen <strong>exklusiv von MVP-Bossen</strong>. Sie folgen derselben Mechanik wie Normal Dolls (nicht verbraucht, mehr Kopien = besserer Reward-Tier bei NPC Rex in <code>prontera 260 268</code>), bringen aber <strong>deutlich wertvollere Reward-Boxen</strong>.</p>
+
+      <div class="info-box note">
+        Hauptseite: <a href="battle-doll.html">Battle-Doll-System</a>. Für MVP-Lokationen und Respawn-Timer siehe <a href="mvp.html">MVP-System</a>.
+      </div>
+    </section>
+
+    <section>
+      <h2>📦 Reward-Liste (34 MVP Dolls)</h2>
+      <p>Alle aktuell verfügbaren MVP Battle Dolls mit ihren offiziellen Reward-Tabellen (neueste zuerst):</p>
+
+      <div class="image-gallery readable">
+        <figure>
+          <img src="images/battle-doll/2026_04_20_1ee1a98918274380989ec618e4350d88.png" alt="Battle White Lady Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und Gewinnchancen für das Item 'Battle White Lady Doll', unterteilt nach verschiedenen Stufen oder Etappen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Stufe</th><th>Gegenstand</th><th>Anzahl</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>1~5</td><td>White Potion Box 20 [Event]</td><td>2</td><td>60.00%</td></tr>
+<tr><td>1~5</td><td>Small Life Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td>1~5</td><td>(Costume) Lazy White Lady (Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>6~9</td><td>White Potion Box 20 [Event]</td><td>3</td><td>58.50%</td></tr>
+<tr><td>6~9</td><td>Small Life Potion [Event]</td><td>2</td><td>40.00%</td></tr>
+<tr><td>6~9</td><td>(Costume) Lazy White Lady (Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>10</td><td>Small Life Potion [Event]</td><td>5</td><td>? %</td></tr>
+<tr><td>10</td><td>(Costume) Lazy White Lady (Bound)</td><td>1</td><td>? %</td></tr>
+<tr><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>10</td><td>White Lady Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Spalte 'Stufe' bezieht sich auf die Gruppierung der Ergebnisse. Das Symbol links zeigt die Battle White Lady Doll.</em></p>
+</div>
+          <figcaption>Battle White Lady Doll (戰鬥白素貞娃娃) — neu 21.04.2026</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2026_04_20_2051e5de2a8e45c69a2cbb960a172945.png" alt="Battle Lady Tanee Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Drop-Wahrscheinlichkeiten für die Battle Tanys Doll, unterteilt nach verschiedenen Stufen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Stufe</th><th>Gegenstand</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>1~5</td><td>Blue Potion Box (Event)</td><td>4</td><td>60.00%</td></tr>
+<tr><td>1~5</td><td>Small Mana Potion (Event)</td><td>2</td><td>38.50%</td></tr>
+<tr><td>1~5</td><td>(Costume) Lazy Tanys (Account Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>6~9</td><td>Blue Potion Box (Event)</td><td>5</td><td>58.50%</td></tr>
+<tr><td>6~9</td><td>Small Mana Potion (Event)</td><td>3</td><td>40.00%</td></tr>
+<tr><td>6~9</td><td>(Costume) Lazy Tanys (Account Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>10</td><td>Small Mana Potion (Event)</td><td>4</td><td>? %</td></tr>
+<tr><td>10</td><td>(Costume) Lazy Tanys (Account Bound)</td><td>1</td><td>? %</td></tr>
+<tr><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>10</td><td>Tanys Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die im Bild gezeigte Entität heißt 'Battle Tanys Doll'. '歸屬' bedeutet, dass der Gegenstand an den Account gebunden ist.</em></p>
+</div>
+          <figcaption>Battle Lady Tanee Doll (戰鬥嗒妮小姐娃娃) — neu 21.04.2026</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2026_04_20_7ca2e44bee61437fa34bd6731f0e61a5.png" alt="Battle Turtle General Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und Gewinnwahrscheinlichkeiten für das Event-Item 'General Turtle' basierend auf der Anzahl der Wiederholungen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungen</th><th>Belohnung</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>General Turtle</td><td>1~5</td><td>White Potion Box 20 [Event Only]</td><td>3</td><td>60.00%</td></tr>
+<tr><td>General Turtle</td><td>1~5</td><td>Top Level Food Set [Event Only]</td><td>1</td><td>38.50%</td></tr>
+<tr><td>General Turtle</td><td>1~5</td><td>(Costume) Eye Patch (Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>General Turtle</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>General Turtle</td><td>6~9</td><td>White Potion Box 20 [Event Only]</td><td>5</td><td>58.50%</td></tr>
+<tr><td>General Turtle</td><td>6~9</td><td>Top Level Food Set [Event Only]</td><td>1</td><td>40.00%</td></tr>
+<tr><td>General Turtle</td><td>6~9</td><td>(Costume) Eye Patch (Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>General Turtle</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>General Turtle</td><td>10</td><td>Top Level Food Set [Event Only]</td><td>2</td><td>?%</td></tr>
+<tr><td>General Turtle</td><td>10</td><td>(Costume) Eye Patch (Bound)</td><td>1</td><td>?%</td></tr>
+<tr><td>General Turtle</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>?%</td></tr>
+<tr><td>General Turtle</td><td>10</td><td>General Turtle Card</td><td>1</td><td>?%</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die mit '?%' gekennzeichneten Werte geben an, dass die Wahrscheinlichkeit im Spiel nicht spezifiziert ist.</em></p>
+</div>
+          <figcaption>Battle Turtle General Doll (戰鬥烏龜將軍娃娃) — neu 24.03.2026</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2026_03_05_e917aa6dd13f4b50aeef85029538c610.png" alt="Battle Evil Snake Lord Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und Gewinnchancen für das Besiegen von Kampf-MvP-Puppen, basierend auf der Anzahl der Wiederholungen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungsanzahl</th><th>Belohnung</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle MvP Doll</td><td>1~5</td><td>White Potion Box 20ea [Event]</td><td>3</td><td>60.00%</td></tr>
+<tr><td>Battle MvP Doll</td><td>1~5</td><td>Premium Food Set [Event]</td><td>1</td><td>38.50%</td></tr>
+<tr><td>Battle MvP Doll</td><td>1~5</td><td>(Costume) MvP Scelest Scarf [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle MvP Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle MvP Doll</td><td>6~9</td><td>White Potion Box 20ea [Event]</td><td>5</td><td>58.50%</td></tr>
+<tr><td>Battle MvP Doll</td><td>6~9</td><td>Premium Food Set [Event]</td><td>1</td><td>40.00%</td></tr>
+<tr><td>Battle MvP Doll</td><td>6~9</td><td>(Costume) MvP Scelest Scarf [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle MvP Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle MvP Doll</td><td>10</td><td>Premium Food Set [Event]</td><td>2</td><td>? %</td></tr>
+<tr><td>Battle MvP Doll</td><td>10</td><td>(Costume) MvP Scelest Scarf [Bound]</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle MvP Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle MvP Doll</td><td>10</td><td>MvP Scelest Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die mit '? %' markierten Felder zeigen an, dass die exakten Wahrscheinlichkeiten für die 10. Wiederholung nicht spezifiziert sind.</em></p>
+</div>
+          <figcaption>Battle Evil Snake Lord Doll (戰鬥墨蛇君娃娃) — neu 10.03.2026</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2026_01_23_e43d0db2e71542af928c3205d182d9fb.png" alt="Battle Wraith Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungschancen für das Sammeln von Battle Death Knight Dolls, unterteilt nach der Anzahl der gesammelten Gegenstände.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Anzahl der Wiederholungen</th><th>Belohnung</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>1~5</td><td>Horse Token [Event]</td><td>30</td><td>60.00%</td></tr>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>1~5</td><td>Top Grade Food Set [Event]</td><td>1</td><td>38.50%</td></tr>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>1~5</td><td>(Costume) Death Knight Shield [Account Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>6~9</td><td>Horse Token [Event]</td><td>30</td><td>58.50%</td></tr>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>6~9</td><td>Top Grade Food Set [Event]</td><td>1</td><td>40.00%</td></tr>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>6~9</td><td>(Costume) Death Knight Shield [Account Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>10</td><td>Top Grade Food Set [Event]</td><td>2</td><td>?%</td></tr>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>10</td><td>(Costume) Death Knight Shield [Account Bound]</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Death Knight Doll (in Herstellung, bitte auf Updates achten)</td><td>10</td><td>Death Knight Card</td><td>1</td><td>?%</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Battle Death Knight Doll befindet sich laut Bild aktuell noch in der Implementierungsphase.</em></p>
+</div>
+          <figcaption>Battle Wraith Doll (戰鬥死靈騎士娃娃) — neu 27.01.2026</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_12_15_23d6463ba67c48d8a08514d5706de7da.png" alt="Battle Kharon Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und Gewinnwahrscheinlichkeiten für das Sammeln von 'Battle Katrinn Doll' abhängig von der Menge.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Anzahl Wiederholungen</th><th>Belohnung</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Katrinn Doll</td><td>1~5</td><td>Battle Manual (Event)</td><td>1</td><td>60.00%</td></tr>
+<tr><td>Battle Katrinn Doll</td><td>1~5</td><td>High-End Food Set [Event]</td><td>1</td><td>38.50%</td></tr>
+<tr><td>Battle Katrinn Doll</td><td>1~5</td><td>[Katrinn] Hunting Reward Box (Normal)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Katrinn Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Katrinn Doll</td><td>6~9</td><td>Battle Manual (Event)</td><td>2</td><td>58.50%</td></tr>
+<tr><td>Battle Katrinn Doll</td><td>6~9</td><td>High-End Food Set [Event]</td><td>1</td><td>40.00%</td></tr>
+<tr><td>Battle Katrinn Doll</td><td>6~9</td><td>[Katrinn] Hunting Reward Box (Normal)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Katrinn Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Katrinn Doll</td><td>10</td><td>High-End Food Set [Event]</td><td>2</td><td>? %</td></tr>
+<tr><td>Battle Katrinn Doll</td><td>10</td><td>[Katrinn] Hunting Reward Box (Normal)</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Katrinn Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Katrinn Doll</td><td>10</td><td>Katrinn Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die mit '? %' gekennzeichneten Werte in der 10er-Kategorie sind im Original nicht spezifiziert.</em></p>
+</div>
+          <figcaption>Battle Kharon Doll (戰鬥卡崙娃娃) — neu 17.12.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_12_15_7fed06009863476dbfefc980d2b7f439.png" alt="Battle Ice Storm Knight Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und Wahrscheinlichkeiten für das Sammeln der 'Battle Ice Knight Doll', unterteilt nach der Anzahl der Wiederholungen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungen</th><th>Belohnung</th><th>Anzahl</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Ice Knight Doll</td><td>1~5</td><td>White Potion Box 20ea [Event]</td><td>3</td><td>60.00%</td></tr>
+<tr><td>Battle Ice Knight Doll</td><td>1~5</td><td>Top-grade Meal [Event]</td><td>1</td><td>38.50%</td></tr>
+<tr><td>Battle Ice Knight Doll</td><td>1~5</td><td>[Ice Knight] Hunt Reward Box (Normal)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Ice Knight Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Ice Knight Doll</td><td>6~9</td><td>White Potion Box 20ea [Event]</td><td>5</td><td>58.50%</td></tr>
+<tr><td>Battle Ice Knight Doll</td><td>6~9</td><td>Top-grade Meal [Event]</td><td>1</td><td>40.00%</td></tr>
+<tr><td>Battle Ice Knight Doll</td><td>6~9</td><td>[Ice Knight] Hunt Reward Box (Normal)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Ice Knight Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Ice Knight Doll</td><td>10</td><td>Top-grade Meal [Event]</td><td>2</td><td>?%</td></tr>
+<tr><td>Battle Ice Knight Doll</td><td>10</td><td>[Ice Knight] Hunt Reward Box (Normal)</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Ice Knight Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Ice Knight Doll</td><td>10</td><td>Ice Knight Card</td><td>1</td><td>?%</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Bei 10 Wiederholungen sind die exakten Wahrscheinlichkeiten im UI als unbekannt (?) markiert.</em></p>
+</div>
+          <figcaption>Battle Ice Storm Knight Doll (戰鬥冰暴騎士娃娃) — neu 17.12.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_12_02_f99e1337dc894089ace8ad276bb431c0.png" alt="Battle Pharaoh Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Wahrscheinlichkeiten für verschiedene Belohnungen basierend auf der Anzahl der Wiederholungen beim 'Battle Pharaoh Doll' Event.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Anzahl der Wiederholungen</th><th>Belohnung</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Pharaoh Doll</td><td>1~5</td><td>Battle Field Bandage (Event)</td><td>1</td><td>60.00%</td></tr>
+<tr><td>Battle Pharaoh Doll</td><td>1~5</td><td>Small Mana Potion (Event)</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Battle Pharaoh Doll</td><td>1~5</td><td>(Costume) Pharaoh Coronet (Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Pharaoh Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Pharaoh Doll</td><td>6~9</td><td>Battle Field Bandage (Event)</td><td>2</td><td>58.50%</td></tr>
+<tr><td>Battle Pharaoh Doll</td><td>6~9</td><td>Small Mana Potion (Event)</td><td>3</td><td>40.00%</td></tr>
+<tr><td>Battle Pharaoh Doll</td><td>6~9</td><td>(Costume) Pharaoh Coronet (Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Pharaoh Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Pharaoh Doll</td><td>10</td><td>Small Mana Potion (Event)</td><td>3</td><td>?%</td></tr>
+<tr><td>Battle Pharaoh Doll</td><td>10</td><td>(Costume) Pharaoh Coronet (Bound)</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Pharaoh Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Pharaoh Doll</td><td>10</td><td>Pharaoh Card</td><td>1</td><td>?%</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die mit '?%' markierten Werte sind in der Vorlage nicht spezifiziert.</em></p>
+</div>
+          <figcaption>Battle Pharaoh Doll (戰鬥法老王娃娃) — neu 04.12.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_12_02_13fb18b6c2704cf5aceb9e38fac78bab.png" alt="Battle Baphomet Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen für das Sammeln der 'Kampf-Baphomet-Puppe' basierend auf der Anzahl der abgegebenen Gegenstände.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Anzahl Wiederholungen</th><th>Belohnung</th><th>Menge</th><th>Chance</th></tr></thead>
+<tbody>
+<tr><td>Kampf-Baphomet-Puppe</td><td>1~5</td><td>White Potion Box 20ea [Event]</td><td>2</td><td>60.00%</td></tr>
+<tr><td>Kampf-Baphomet-Puppe</td><td>1~5</td><td>Small Life Potion [Event]</td><td>4</td><td>38.50%</td></tr>
+<tr><td>Kampf-Baphomet-Puppe</td><td>1~5</td><td>(Costume) Goat Helm [Account Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Kampf-Baphomet-Puppe</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Kampf-Baphomet-Puppe</td><td>6~9</td><td>White Potion Box 20ea [Event]</td><td>3</td><td>58.50%</td></tr>
+<tr><td>Kampf-Baphomet-Puppe</td><td>6~9</td><td>Small Life Potion [Event]</td><td>5</td><td>40.00%</td></tr>
+<tr><td>Kampf-Baphomet-Puppe</td><td>6~9</td><td>(Costume) Goat Helm [Account Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Kampf-Baphomet-Puppe</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Kampf-Baphomet-Puppe</td><td>10</td><td>Small Life Potion [Event]</td><td>6</td><td>? %</td></tr>
+<tr><td>Kampf-Baphomet-Puppe</td><td>10</td><td>(Costume) Goat Helm [Account Bound]</td><td>1</td><td>? %</td></tr>
+<tr><td>Kampf-Baphomet-Puppe</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>Kampf-Baphomet-Puppe</td><td>10</td><td>Baphomet Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die mit '? %' markierten Felder geben die im Screenshot fehlenden Wahrscheinlichkeiten für die 10. Abgabe an.</em></p>
+</div>
+          <figcaption>Battle Baphomet Doll (戰鬥巴風特娃娃) — neu 04.12.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_12_02_a84a54c3620b415db5539bdeefe1c780.png" alt="Battle Lord of Death Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und deren Wahrscheinlichkeiten basierend auf der Anzahl der Wiederholungen für den Gegenstand 'Battle Necromancer Doll'.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungsanzahl</th><th>Belohnung</th><th>Anzahl</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Necromancer Doll</td><td>1~5</td><td>White Potion Box 20 [Event]</td><td>1</td><td>60.00%</td></tr>
+<tr><td>Battle Necromancer Doll</td><td>1~5</td><td>Small Life Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Battle Necromancer Doll</td><td>1~5</td><td>(Costume) Spiky Hairband [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Necromancer Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Necromancer Doll</td><td>6~9</td><td>White Potion Box 20 [Event]</td><td>2</td><td>58.50%</td></tr>
+<tr><td>Battle Necromancer Doll</td><td>6~9</td><td>Small Life Potion [Event]</td><td>2</td><td>40.00%</td></tr>
+<tr><td>Battle Necromancer Doll</td><td>6~9</td><td>(Costume) Spiky Hairband [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Necromancer Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Necromancer Doll</td><td>10</td><td>Small Life Potion [Event]</td><td>5</td><td>? %</td></tr>
+<tr><td>Battle Necromancer Doll</td><td>10</td><td>(Costume) Spiky Hairband [Bound]</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Necromancer Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Necromancer Doll</td><td>10</td><td>Necromancer Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die mit '? %' markierten Wahrscheinlichkeiten sind im Spiel aktuell nicht spezifiziert. 'Bound' steht für Gegenstände, die an den Charakter gebunden sind.</em></p>
+</div>
+          <figcaption>Battle Lord of Death Doll (戰鬥死靈娃娃) — neu 04.12.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_12_02_f6a3163c7191449984a063e2f7263260.png" alt="Battle Dracula Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die potenziellen Belohnungen und deren Wahrscheinlichkeiten basierend auf der Anzahl der Wiederholungen beim Kampf gegen die 'Battle Dracula Doll'.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungsanzahl</th><th>Belohnung</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Dracula Doll</td><td>1~5</td><td>Blue Potion Box 10 [Event]</td><td>4</td><td>60.00%</td></tr>
+<tr><td>Battle Dracula Doll</td><td>1~5</td><td>Small Mana Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Battle Dracula Doll</td><td>1~5</td><td>(Costume) Vampire Mask [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Dracula Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Dracula Doll</td><td>6~9</td><td>Blue Potion Box 10 [Event]</td><td>5</td><td>58.50%</td></tr>
+<tr><td>Battle Dracula Doll</td><td>6~9</td><td>Small Mana Potion [Event]</td><td>3</td><td>40.00%</td></tr>
+<tr><td>Battle Dracula Doll</td><td>6~9</td><td>(Costume) Vampire Mask [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Dracula Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Dracula Doll</td><td>10</td><td>Small Mana Potion [Event]</td><td>4</td><td>? %</td></tr>
+<tr><td>Battle Dracula Doll</td><td>10</td><td>(Costume) Vampire Mask [Bound]</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Dracula Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Dracula Doll</td><td>10</td><td>Dracula Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Tabelle illustriert Belohnungsstufen für ein Event. Bei 10 Wiederholungen sind die exakten Wahrscheinlichkeiten im Spiel nicht spezifiziert (angezeigt als ? %).</em></p>
+</div>
+          <figcaption>Battle Dracula Doll (戰鬥德古拉男爵娃娃) — neu 04.12.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_11_06_2042c76285df47949bd98e30d2e93093.png" alt="Battle Dark Lord Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle listet die Belohnungen basierend auf der Anzahl der Wiederholungen für die Dark Lord Puppe auf.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungen</th><th>Belohnung</th><th>Anzahl</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>1~5</td><td>Blue Potion Box(10ea)[Event]</td><td>3</td><td>60.00%</td></tr>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>1~5</td><td>Small Mana Potion[Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>1~5</td><td>Dark Lord Reward Box(Normal)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>6~9</td><td>Blue Potion Box(10ea)[Event]</td><td>5</td><td>58.50%</td></tr>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>6~9</td><td>Small Mana Potion[Event]</td><td>3</td><td>40.00%</td></tr>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>6~9</td><td>Dark Lord Reward Box(Normal)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>10</td><td>Small Mana Potion[Event]</td><td>3</td><td>? %</td></tr>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>10</td><td>Dark Lord Reward Box(Normal)</td><td>1</td><td>? %</td></tr>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>Dark Lord Doll (in Produktion)</td><td>10</td><td>Dark Lord Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Fußnote besagt, dass die Puppe derzeit in der Herstellung/Überarbeitung ist und man auf zukünftige Updates achten soll.</em></p>
+</div>
+          <figcaption>Battle Dark Lord Doll (戰鬥黑暗之王娃娃) — neu 06.11.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_10_14_aeac1668923a4374aa0536d885a921b3.png" alt="Battle Pirate King Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und Gewinnchancen für das Item 'Battle Pirate King Doll' basierend auf der Anzahl der Wiederholungen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungen</th><th>Belohnung</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Pirate King Doll (Herstellung der Puppe läuft, bitte auf Updates achten)</td><td>1~5</td><td>Horse Token [Event]</td><td>20</td><td>60.00%</td></tr>
+<tr><td></td><td>1~5</td><td>Small Life Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td></td><td>1~5</td><td>(Costume) Pirate Captain Hat [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td></td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td></td><td>6~9</td><td>Horse Token [Event]</td><td>20</td><td>58.50%</td></tr>
+<tr><td></td><td>6~9</td><td>Small Life Potion [Event]</td><td>2</td><td>40.00%</td></tr>
+<tr><td></td><td>6~9</td><td>(Costume) Pirate Captain Hat [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td></td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td></td><td>10</td><td>Small Life Potion [Event]</td><td>6</td><td>? %</td></tr>
+<tr><td></td><td>10</td><td>(Costume) Pirate Captain Hat [Bound]</td><td>1</td><td>? %</td></tr>
+<tr><td></td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td></td><td>10</td><td>Drake Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Daten für die 10. Wiederholung sind aktuell noch unbekannt (?%).</em></p>
+</div>
+          <figcaption>Battle Pirate King Doll (戰鬥海盜之王娃娃) — neu 16.10.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_10_16_bb2ec3ffc65a4307baa32d7ef06b3e9f.png" alt="Battle Tao Gunka Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und Wahrscheinlichkeiten für das Besiegen der Tao Gunka Doll, unterteilt nach der Anzahl der Wiederholungen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungsanzahl</th><th>Belohnung</th><th>Anzahl</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Tao Gunka Doll (Doll stitching in progress, please stay tuned for future updates)</td><td>1~5</td><td>Blue Potion Box 10ea [Event]</td><td>3</td><td>60.00%</td></tr>
+<tr><td></td><td>1~5</td><td>Small Mana Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td></td><td>1~5</td><td>[Tao Gunka] Hunting Reward Box (Normal)</td><td>1</td><td>1.00%</td></tr>
+<tr><td></td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td></td><td>6~9</td><td>Blue Potion Box 10ea [Event]</td><td>5</td><td>58.50%</td></tr>
+<tr><td></td><td>6~9</td><td>Small Mana Potion [Event]</td><td>3</td><td>40.00%</td></tr>
+<tr><td></td><td>6~9</td><td>[Tao Gunka] Hunting Reward Box (Normal)</td><td>1</td><td>1.00%</td></tr>
+<tr><td></td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td></td><td>10</td><td>Small Mana Potion [Event]</td><td>3</td><td>? %</td></tr>
+<tr><td></td><td>10</td><td>[Tao Gunka] Hunting Reward Box (Normal)</td><td>1</td><td>? %</td></tr>
+<tr><td></td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td></td><td>10</td><td>Tao Gunka Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die mit '? %' markierten Wahrscheinlichkeiten für die 10. Wiederholung sind aktuell unbekannt oder noch nicht implementiert.</em></p>
+</div>
+          <figcaption>Battle Tao Gunka Doll (戰鬥塔奧群卡娃娃) — neu 16.10.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_10_02_f3f274ce91a24b9fa6939d082077fd89.png" alt="Battle Osiris Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und Gewinnwahrscheinlichkeiten für das Sammeln der 'Battle Osiris Doll' in Ragnarok Zero, unterteilt nach der Anzahl der Wiederholungen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungen</th><th>Belohnung</th><th>Anzahl</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Osiris Doll</td><td>1~5</td><td>Horse Token [Event]</td><td>20</td><td>60.00%</td></tr>
+<tr><td>Battle Osiris Doll</td><td>1~5</td><td>Small Life Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Battle Osiris Doll</td><td>1~5</td><td>(Costume) Crown (Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Osiris Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Osiris Doll</td><td>6~9</td><td>Horse Token [Event]</td><td>20</td><td>58.50%</td></tr>
+<tr><td>Battle Osiris Doll</td><td>6~9</td><td>Small Life Potion [Event]</td><td>3</td><td>40.00%</td></tr>
+<tr><td>Battle Osiris Doll</td><td>6~9</td><td>(Costume) Crown (Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Osiris Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Osiris Doll</td><td>10</td><td>Small Life Potion [Event]</td><td>6</td><td>? %</td></tr>
+<tr><td>Battle Osiris Doll</td><td>10</td><td>(Costume) Crown (Bound)</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Osiris Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Osiris Doll</td><td>10</td><td>Osiris Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Werte für die 10. Wiederholung sind aktuell nicht spezifiziert (? %). 'Bound' bezieht sich auf accountgebundene Gegenstände.</em></p>
+</div>
+          <figcaption>Battle Osiris Doll (戰鬥俄賽里斯娃娃) — neu 02.10.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_10_02_db52ce7602c54d679d487c06f24fc484.png" alt="Battle Amon Ra Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und Gewinnchancen für das 'Battle Ancient Mummy Doll'-Event basierend auf der Anzahl der Wiederholungen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungsanzahl</th><th>Belohnung</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Ancient Mummy Doll</td><td>1~5</td><td>Blue Potion Box (Event) (10ea)</td><td>3</td><td>60.00%</td></tr>
+<tr><td>Battle Ancient Mummy Doll</td><td>1~5</td><td>Small Mana Potion (Event)</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Battle Ancient Mummy Doll</td><td>1~5</td><td>(Costume) Sphinx Hat (Account Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Ancient Mummy Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Ancient Mummy Doll</td><td>6~9</td><td>Blue Potion Box (Event) (10ea)</td><td>5</td><td>58.50%</td></tr>
+<tr><td>Battle Ancient Mummy Doll</td><td>6~9</td><td>Small Mana Potion (Event)</td><td>3</td><td>40.00%</td></tr>
+<tr><td>Battle Ancient Mummy Doll</td><td>6~9</td><td>(Costume) Sphinx Hat (Account Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Ancient Mummy Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Ancient Mummy Doll</td><td>10</td><td>Small Mana Potion (Event)</td><td>3</td><td>?%</td></tr>
+<tr><td>Battle Ancient Mummy Doll</td><td>10</td><td>(Costume) Sphinx Hat (Account Bound)</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Ancient Mummy Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Ancient Mummy Doll</td><td>10</td><td>Ancient Mummy Card</td><td>1</td><td>?%</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Werte mit '?%' geben an, dass die exakten Wahrscheinlichkeiten für die 10. Wiederholungsstufe in der Anzeige nicht explizit aufgeführt sind.</em></p>
+</div>
+          <figcaption>Battle Amon Ra Doll (戰鬥古埃及王娃娃) — neu 02.10.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_09_25_9a52cca764d94a89aab6a67d3ed37586.png" alt="Battle Eddga Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und Gewinnchancen für die 'Battle Tiger King Doll' basierend auf der Anzahl der Wiederholungen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Anzahl der Wiederholungen</th><th>Belohnung</th><th>Menge</th><th>Chance</th></tr></thead>
+<tbody>
+<tr><td>Battle Tiger King Doll</td><td>1~5</td><td>Horse Token [Event]</td><td>20</td><td>60.00%</td></tr>
+<tr><td>Battle Tiger King Doll</td><td>1~5</td><td>Small Life Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Battle Tiger King Doll</td><td>1~5</td><td>(Costume) Student Hat [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Tiger King Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Tiger King Doll</td><td>6~9</td><td>Horse Token [Event]</td><td>20</td><td>58.50%</td></tr>
+<tr><td>Battle Tiger King Doll</td><td>6~9</td><td>Small Life Potion [Event]</td><td>2</td><td>40.00%</td></tr>
+<tr><td>Battle Tiger King Doll</td><td>6~9</td><td>(Costume) Student Hat [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Tiger King Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Tiger King Doll</td><td>10</td><td>Small Life Potion [Event]</td><td>6</td><td>?%</td></tr>
+<tr><td>Battle Tiger King Doll</td><td>10</td><td>(Costume) Student Hat [Bound]</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Tiger King Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Tiger King Doll</td><td>10</td><td>Tiger King Card</td><td>1</td><td>?%</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Werte in der Spalte 'Chance' für 10 Wiederholungen sind im Spiel nicht spezifiziert.</em></p>
+</div>
+          <figcaption>Battle Eddga Doll (戰鬥虎王娃娃) — neu 18.09.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_09_25_6fd91165fbe04d73aeb1e07dd6b8eb66.png" alt="Battle Golden Thief Bug Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen für das Sammeln der Battle Golden Bug Doll, unterteilt nach Häufigkeit und den entsprechenden Wahrscheinlichkeiten.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungsanzahl</th><th>Belohnung</th><th>Anzahl</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Golden Bug Doll</td><td>1~5</td><td>Blue Potion Box (Event) (Account Bound)</td><td>3</td><td>60.00%</td></tr>
+<tr><td>Battle Golden Bug Doll</td><td>1~5</td><td>Small Mana Potion (Event) (Account Bound)</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Battle Golden Bug Doll</td><td>1~5</td><td>(Costume) Golden Hat (Account Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Golden Bug Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Golden Bug Doll</td><td>6~9</td><td>Horse Token (Event) (Account Bound)</td><td>20</td><td>58.50%</td></tr>
+<tr><td>Battle Golden Bug Doll</td><td>6~9</td><td>Small Life Potion (Event) (Account Bound)</td><td>3</td><td>40.00%</td></tr>
+<tr><td>Battle Golden Bug Doll</td><td>6~9</td><td>(Costume) Golden Hat (Account Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Golden Bug Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Golden Bug Doll</td><td>10</td><td>Small Mana Potion (Event) (Account Bound)</td><td>2</td><td>?%</td></tr>
+<tr><td>Battle Golden Bug Doll</td><td>10</td><td>(Costume) Golden Hat (Account Bound)</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Golden Bug Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>?%</td></tr>
+<tr><td>Battle Golden Bug Doll</td><td>10</td><td>Golden Bug Card</td><td>1</td><td>?%</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Werte für die 10. Wiederholung sind im Spiel derzeit nicht spezifiziert (angezeigt als ?%). 'Account Bound' wurde für die Kennzeichnung 歸屬 hinzugefügt.</em></p>
+</div>
+          <figcaption>Battle Golden Thief Bug Doll (戰鬥黃金蟲娃娃) — neu 18.09.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_09_25_3be17395e8a54cd5a7fd00fa13c8c2e8.png" alt="Battle Phreeoni Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungsraten für das Öffnen der Battle Beliebens Doll, unterteilt nach der Anzahl der Wiederholungen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Anzahl Wiederholungen</th><th>Belohnung</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Beliebens Doll</td><td>1~5</td><td>Horse Token [Event]</td><td>20</td><td>60.00%</td></tr>
+<tr><td>Battle Beliebens Doll</td><td>1~5</td><td>Small Life Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Battle Beliebens Doll</td><td>1~5</td><td>(Costume) Long Tongue (Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Beliebens Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Beliebens Doll</td><td>6~9</td><td>Horse Token [Event]</td><td>20</td><td>58.50%</td></tr>
+<tr><td>Battle Beliebens Doll</td><td>6~9</td><td>Small Life Potion [Event]</td><td>3</td><td>40.00%</td></tr>
+<tr><td>Battle Beliebens Doll</td><td>6~9</td><td>(Costume) Long Tongue (Bound)</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Beliebens Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Beliebens Doll</td><td>10</td><td>Small Life Potion [Event]</td><td>3</td><td>? %</td></tr>
+<tr><td>Battle Beliebens Doll</td><td>10</td><td>(Costume) Long Tongue (Bound)</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Beliebens Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Beliebens Doll</td><td>10</td><td>Beliebens Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die mit '10' markierte Zeile zeigt die garantierten oder potenziellen Belohnungen bei der zehnten Wiederholung an.</em></p>
+</div>
+          <figcaption>Battle Phreeoni Doll (戰鬥皮里恩娃娃) — neu 18.09.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_09_25_85245667250743a7b7cbf6bcf082ca9b.png" alt="Battle Maya Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle listet die Belohnungen und Wahrscheinlichkeiten für die Battle Queen Bee Puppe basierend auf der Anzahl der Wiederholungen auf.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungsanzahl</th><th>Belohnung</th><th>Anzahl</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Queen Bee Puppe</td><td>1~5</td><td>Blue Potion Box(10) [Event]</td><td>3</td><td>60.00%</td></tr>
+<tr><td>Battle Queen Bee Puppe</td><td>1~5</td><td>Small Mana Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Battle Queen Bee Puppe</td><td>1~5</td><td>(Costume) Tiara [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Queen Bee Puppe</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Queen Bee Puppe</td><td>6~9</td><td>Blue Potion Box(10) [Event]</td><td>5</td><td>58.50%</td></tr>
+<tr><td>Battle Queen Bee Puppe</td><td>6~9</td><td>Small Mana Potion [Event]</td><td>3</td><td>40.00%</td></tr>
+<tr><td>Battle Queen Bee Puppe</td><td>6~9</td><td>(Costume) Tiara [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Queen Bee Puppe</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Queen Bee Puppe</td><td>10</td><td>Small Mana Potion [Event]</td><td>3</td><td>? %</td></tr>
+<tr><td>Battle Queen Bee Puppe</td><td>10</td><td>(Costume) Tiara [Bound]</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Queen Bee Puppe</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Queen Bee Puppe</td><td>10</td><td>Queen Bee Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Spalte 'Ziel' zeigt das Event-Item 'Battle Queen Bee Puppe'. [Bound] bezieht sich auf an den Charakter gebundene Gegenstände.</em></p>
+</div>
+          <figcaption>Battle Maya Doll (戰鬥蟻后娃娃) — neu 18.09.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_09_25_e5bafca5964646b7920a9d8796592840.png" alt="Battle Moonlight Flower Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungen und Gewinnchancen für die Battle Moonlight Cat Doll basierend auf der Anzahl der Wiederholungen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungen</th><th>Belohnung</th><th>Menge</th><th>Chance</th></tr></thead>
+<tbody>
+<tr><td>Battle Moonlight Cat Doll</td><td>1~5</td><td>Blue Potion Box (10) [Event]</td><td>3</td><td>60.00%</td></tr>
+<tr><td>Battle Moonlight Cat Doll</td><td>1~5</td><td>Small Mana Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Battle Moonlight Cat Doll</td><td>1~5</td><td>(Costume) Moonlight Cat Bell [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Moonlight Cat Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Moonlight Cat Doll</td><td>6~9</td><td>Blue Potion Box (10) [Event]</td><td>5</td><td>58.50%</td></tr>
+<tr><td>Battle Moonlight Cat Doll</td><td>6~9</td><td>Small Mana Potion [Event]</td><td>3</td><td>40.00%</td></tr>
+<tr><td>Battle Moonlight Cat Doll</td><td>6~9</td><td>(Costume) Moonlight Cat Bell [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Moonlight Cat Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Moonlight Cat Doll</td><td>10</td><td>Small Mana Potion [Event]</td><td>3</td><td>? %</td></tr>
+<tr><td>Battle Moonlight Cat Doll</td><td>10</td><td>(Costume) Moonlight Cat Bell [Bound]</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Moonlight Cat Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Moonlight Cat Doll</td><td>10</td><td>Moonlight Cat Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die mit '? %' markierten Chancen sind im Bild nicht spezifiziert.</em></p>
+</div>
+          <figcaption>Battle Moonlight Flower Doll (戰鬥月夜貓娃娃) — neu 18.09.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_09_25_36993374ac1743e9ba8c4409d1037d4d.png" alt="Battle Orc Hero Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Drop-Wahrscheinlichkeiten für Belohnungen basierend auf der Anzahl der gesammelten 'Battle Orc Hero Doll'-Gegenstände.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungsanzahl</th><th>Belohnung</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Battle Orc Hero Doll</td><td>1~5</td><td>Horse Token [Event]</td><td>20</td><td>60.00%</td></tr>
+<tr><td>Battle Orc Hero Doll</td><td>1~5</td><td>Small Life Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Battle Orc Hero Doll</td><td>1~5</td><td>(Costume) Orc Hero Helm [Bound]</td><td>2</td><td>1.00%</td></tr>
+<tr><td>Battle Orc Hero Doll</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Orc Hero Doll</td><td>6~9</td><td>Horse Token [Event]</td><td>20</td><td>58.50%</td></tr>
+<tr><td>Battle Orc Hero Doll</td><td>6~9</td><td>Small Life Potion [Event]</td><td>3</td><td>40.00%</td></tr>
+<tr><td>Battle Orc Hero Doll</td><td>6~9</td><td>(Costume) Orc Hero Helm [Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Battle Orc Hero Doll</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Battle Orc Hero Doll</td><td>10</td><td>Small Life Potion [Event]</td><td>6</td><td>? %</td></tr>
+<tr><td>Battle Orc Hero Doll</td><td>10</td><td>(Costume) Orc Hero Helm [Bound]</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Orc Hero Doll</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>? %</td></tr>
+<tr><td>Battle Orc Hero Doll</td><td>10</td><td>Orc Hero Card</td><td>1</td><td>? %</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die 'Wiederholungsanzahl' gibt an, wie oft das Item für die jeweilige Belohnungsstufe abgegeben wurde. '[Event]' markiert zeitlich begrenzte Aktionsgegenstände.</em></p>
+</div>
+          <figcaption>Battle Orc Hero Doll (戰鬥獸人英雄娃娃) — neu 18.09.2025</figcaption>
+        </figure>
+        <figure>
+          <img src="images/battle-doll/2025_09_25_05ed4854583942179be55eb7383bf110.png" alt="Battle Orc Lord Doll">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Belohnungsraten für das Sammeln der 'Kampf-Orc-Häuptling Puppe' basierend auf der Anzahl der Wiederholungen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Ziel</th><th>Wiederholungsanzahl</th><th>Belohnung</th><th>Menge</th><th>Wahrscheinlichkeit</th></tr></thead>
+<tbody>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>1~5</td><td>Horse Token [Event]</td><td>20</td><td>60.00%</td></tr>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>1~5</td><td>Small Life Potion [Event]</td><td>2</td><td>38.50%</td></tr>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>1~5</td><td>(Costume) Leader Circlet [Account Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>1~5</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>6~9</td><td>Horse Token [Event]</td><td>20</td><td>58.50%</td></tr>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>6~9</td><td>Small Life Potion [Event]</td><td>3</td><td>40.00%</td></tr>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>6~9</td><td>(Costume) Leader Circlet [Account Bound]</td><td>1</td><td>1.00%</td></tr>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>6~9</td><td>Blacksmith Blessing Powder</td><td>1</td><td>0.50%</td></tr>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>10</td><td>Small Life Potion [Event]</td><td>6</td><td>?%</td></tr>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>10</td><td>(Costume) Leader Circlet [Account Bound]</td><td>1</td><td>?%</td></tr>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>10</td><td>Blacksmith Blessing Powder</td><td>1</td><td>?%</td></tr>
+<tr><td>Kampf-Orc-Häuptling Puppe</td><td>10</td><td>Orc Hero Card</td><td>1</td><td>?%</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die mit '?' markierten Wahrscheinlichkeiten sind im Spiel nicht spezifiziert.</em></p>
+</div>
+          <figcaption>Battle Orc Lord Doll (戰鬥獸人酋長娃娃) — neu 18.09.2025</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>💡 Praxis-Tipps</h2>
+      <ul>
+        <li><strong>MVP-Prio:</strong> Weil MVP-Respawns selten sind, lohnt es sich, die eigene MVP-Farming-Route auf möglichst viele unterschiedliche Doll-Quellen auszurichten</li>
+        <li><strong>Guild-Koordination:</strong> Viele MVPs sind umkämpft — Gildenplan &amp; Timer-Bot können den Doll-Drop-Zugang sichern</li>
+        <li><strong>Tier-Strategie:</strong> Beim aller Daily lieber 1 MVP-Puppe claimen als 10 Normal Dolls — die Reward-Discrepancy ist deutlich</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>⚠️ Hinweise</h2>
+      <div class="info-box warning">
+        Die MVP-Reward-Listen werden mit jedem Patch erweitert. Aktuelle Liste immer auf der <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=218137" target="_blank">Originalseite</a> prüfen.
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer">
+  Quelle: <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=218137" target="_blank">roz.gnjoy.com.tw — MVP戰鬥娃娃</a> (News ID 218137) · Screenshots © Gravity / GNJOY TW
+</footer>
+
+</body>
+</html>

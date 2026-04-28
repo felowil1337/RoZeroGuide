@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Level-Routen — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#hint">💡 Hint-System</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot — Übersicht</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">↳ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">↳ Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-bug" class="anchor-l2">↳ Return-to-Town-Bug</a></li>
+            <li><a href="auto-hunt.html#autopot-limits" class="anchor-l2">↳ Einschränkungen</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">↳ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">↳ Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#pvp">🛡️ PvP &amp; Restriktionen</a></li>
+            <li><a href="auto-hunt.html#death">💀 Death-Handling</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger-AFK-farmen</a></li>
+            <li><a href="auto-hunt.html#patch">📊 March-2026-Patch</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li><a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a></li>
+        <li><a href="leveling.html" class="active"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li><a href="quests.html"><span class="emoji">📜</span>Quest-Walkthroughs</a></li>
+        <li><a href="fever.html"><span class="emoji">🔥</span>Fever-Felder (Lv-Boost)</a></li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li><a href="items-md-equip.html"><span class="emoji">🛡️</span>Memorial-Set Items</a></li>
+        <li><a href="crafting.html"><span class="emoji">🔨</span>Memorial-Crafting</a></li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options 附加能力</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★ 活化</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>Tier-2 ★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>Tier-2 ★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet (附魔)</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        document.querySelectorAll('.sidebar details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Lv 1–99 · Aktuell spielbar</span>
+      <h1>Level-Routen & EXP-Booster</h1>
+      <p class="lead">Map-Empfehlungen pro Level-Range, vollständiger Episode-One-Walkthrough, alle EXP-Booster mit Acquisition-Details und 2. Job-Transfer-NPCs.</p>
+    </div>
+
+    <section>
+      <h2>📈 Level-Routen 1–99</h2>
+      <p>Zero hat die Monster-HP rebalanciert, daher sind die besten Maps anders als auf Renewal-Servern. Diese Liste basiert auf TWRoZ-verifiziertem Community-Wissen.</p>
+
+      <div class="info-box note">
+        <strong>Kernregel:</strong> Kein EXP-Penalty, aber die <strong>Drop-Rate sinkt um 50%</strong> wenn Level-Differenz zum Mob ≥ 40. Episode-One-Quest (unten) gibt den größten initialen EXP-Bump.
+      </div>
+
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Level</th><th>Map</th><th>Mob</th><th>Tier</th><th>Notizen</th></tr></thead>
+        <tbody>
+          <tr><td>1–11</td><td>Criatura Academy</td><td>Tutorial-Mobs</td><td>S</td><td>Free-Gear + Base 11 allein aus Quest-Kette</td></tr>
+          <tr><td>12–22</td><td>pay_fild07 / mjolnir_02</td><td>Wolf, Coco, Savage Babe</td><td>A</td><td>Eden 12–26 Quest-Stack</td></tr>
+          <tr><td>23–35</td><td>prt_fild08, gef_fild03</td><td>Poporing, Stainer, Hode</td><td>A</td><td>Besser als Payon Cave auf Zero</td></tr>
+          <tr><td>36–45</td><td>gef_fild10 (außerhalb Orc)</td><td>Orc Warrior, Orc Lady</td><td><strong>S</strong></td><td>Orc Voucher Daily + Eden 40–49</td></tr>
+          <tr><td>46–55</td><td>iz_dun01 Byalan F1–F2</td><td>Hydra, Vadon, Marina</td><td>A</td><td>Aco/Mage-Favorit</td></tr>
+          <tr><td>56–65</td><td>orcsdun02</td><td>Orc Skel, Orc Zombie</td><td><strong>S</strong></td><td>Heal-Bomb Prime, Eden 50–59</td></tr>
+          <tr><td>66–75</td><td>gl_sew02–04 GH Culvert</td><td>Zombie Prisoner, Injustice</td><td>A</td><td>Holy/Fire bevorzugt, Eden 60–69</td></tr>
+          <tr><td>76–85</td><td>c_tower2 / c_tower3</td><td>Clock, Punk, Alarm</td><td><strong>S</strong></td><td>Top-Tier auf Zero (HP scaled down)</td></tr>
+          <tr><td>86–94</td><td>gl_church / gl_chyard</td><td>Wraith, Evil Druid</td><td>A</td><td>Undead/Holy-Resist wichtig</td></tr>
+          <tr><td>95–99</td><td>juperos_01 / 02</td><td>Venatu, Dimik</td><td>A</td><td>Pre-Trans Sweet Spot</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>📜 Episode One — Komplett-Walkthrough</h2>
+      <p>Die <strong>Episode-One-Questreihe</strong> ist die wichtigste Content-Kette für jeden Neuling. Sie kann ab Base 1 gestartet werden und gibt bis zum Abschluss starkes Free-Gear (bleibt bis Lv 50 nützlich). Alle Rewards sind <strong>account-bound</strong> und können nicht zerlegt werden.</p>
+
+      <h3>🏫 Criatura Academy — die Starter-Zone (iz_ac01)</h3>
+      <p>Jeder neue Charakter spawnt hier. Die Academy ist eine geschlossene Tutorial-Zone — <strong>Kafra-Storage und Mail funktionieren hier NICHT</strong>. Erledige alle Tutorial-NPCs vor dem Verlassen.</p>
+      <div class="card-grid">
+        <div class="card">
+          <h4>📍 Wichtige Academy-NPCs</h4>
+          <ul>
+            <li><code>Captain Carocc</code> @ iz_ac01 198,213 — Start-Dialog</li>
+            <li><code>Criatura Academy Staff</code> @ 122,207 — Apple Juice trinken → 30 Novice Potions + 2 Kafra-Tickets</li>
+            <li><code>Information Staff</code> (daneben) — Combination-Book-Quest</li>
+            <li><code>Academy Receptionist</code> @ 102,44 — 300 Novice Potions + Novice-Gear-Set + Criatura Hair Coupon</li>
+            <li><code>Otter Samssoon</code> @ 69,36 — Gratis Haircut/Color (einmalig)</li>
+            <li><code>Dacquoise</code> — Cafeteria (nur Novices)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>🎒 Novice Starter Gear (alle account-bound, Lv 1)</h4>
+          <ul>
+            <li>Novice New Cutter [3]</li>
+            <li>Novice False Eggshell (Headgear)</li>
+            <li>Novice Beach Sandals</li>
+            <li>Novice Guard (Shield)</li>
+            <li>Grim Novice Hood</li>
+            <li>Tattered Novice Ninja Suit</li>
+          </ul>
+          <p><strong>Novice Magnifier:</strong> Ctrl + Left-Click auf unidentifizierte Items. Mehrere Charges pro Stack.</p>
+          <p><strong>Novice Gear Exchange Vending Machine</strong> (an jedem Job-Changer): 5 Novice-Teile → bis zu 16 Kafra Storage Tickets + 1 Hair Coupon.</p>
+        </div>
+      </div>
+
+      <h3>📖 Teil 1 (ab Base 1)</h3>
+      <p>Start: <code>Iris @ payon 173,171</code>. Sie schickt dich zur Schmiede.</p>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Schritt</th><th>Ort / NPC</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Start</td><td>Iris @ payon 173,171</td></tr>
+          <tr><td>2</td><td>Starter-Kit abholen</td><td>Chaos, Payon Forge @ payon 170,161</td></tr>
+          <tr><td>3–4</td><td>Hanyang Hanul → Archaeologist → 5 Porings + 5 Research Journals</td><td>pay_fild01 313,342</td></tr>
+          <tr><td>5–6</td><td>Hidden Place in Payon Cave F1 → Unidentified Sword</td><td>pay_dun00</td></tr>
+          <tr><td>7–9</td><td>Silver-haired Girl → Shigrun → Archaeologist → Iris</td><td>Payon</td></tr>
+          <tr><td>10–12</td><td>Verito → Shukern → Estalda</td><td>Izlude</td></tr>
+          <tr><td>13–16</td><td>Lushak → Walter Blacksmith. 5 Willow + 5 Fabre, 1 Barren Trunk + 1 Shiny Hard Ore. Shining Armor an Lushak</td><td>Alberta / Payon Forest</td></tr>
+          <tr><td>17–18</td><td>Royal Guard Knight → Sahario</td><td>prt_castle</td></tr>
+          <tr><td>19–20</td><td>Underground Culvert: 5 Familiars + 5 Thief Bugs</td><td>Culvert</td></tr>
+          <tr><td>21</td><td>10 Stainers in prt_fild → Sahario</td><td>prt_fild</td></tr>
+          <tr><td>22–23</td><td>Golden Mask im Prontera Pub → Bartender → Sahario</td><td>Prontera</td></tr>
+          <tr><td>24–25</td><td>Commander Spiegel → Banquet Room → Basement</td><td>prt_castle</td></tr>
+          <tr><td>26–30</td><td>B1: 10 Zombies + 5 Survivors (Restorative Medicine) + 5 Corpses burnen. B2: 10 Transformed Ghouls. Boss: <strong>Zombie of Anger</strong> (droppt Ymir's Heart Fragment)</td><td>Castle Basement</td></tr>
+          <tr><td>31–32</td><td>Report Spiegel → final Sahario</td><td>Prontera</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h4>🎁 Rewards aus Teil 1</h4>
+      <ul>
+        <li><strong>Beginner Metal Weapon Ticket</strong> (nach Quest 20) — Wahl aus: Two-Hand Sword 110 ATK · Axe 120 · Lance 100 · Mace 80+70 MATK · Dagger 70 · Staff 50+110 MATK · Katar 100 · Bow 80 · Huuma 120 (alle [1] slotted)</li>
+        <li><strong>Starter Armor Box</strong> (Lv 10):
+          <ul>
+            <li>High Adventurer Suit [1]: DEF 35, +300 HP, +100 SP</li>
+            <li>Hood [1]: DEF 25, +10 HIT</li>
+            <li>Sandals [1]: DEF 25, +15 ATK/MATK</li>
+            <li>Clip [1]: +5% ASPD, -5% Cast</li>
+            <li><strong>4er-Set-Bonus:</strong> +10 ATK/MATK, +150 HP, +50 SP, +10 HIT</li>
+          </ul>
+        </li>
+        <li><strong>Royal Inspectorate Weapon Ticket</strong> (Base Lv 20) — stärkere Variante: 2H Sword 176 · Axe 192 · Mace 192+112 MATK · Huuma 192 · Staff +176 MATK</li>
+        <li><strong>Final-Box</strong> (Sahario): 10× each — Event Speed Potions · Unlimited Drinks · Challenge Drinks · Power Drinks · Finest Course Meals · Mimir's Spring Water · Life Insurance</li>
+        <li><strong>Scaling:</strong> Weapons bekommen +3 ATK pro 10 Base-Levels von Lv 20 bis Lv 90</li>
+      </ul>
+
+      <h3>📖 Teil 2 (nach Teil 1, Ziel Lv 50/50)</h3>
+      <ol>
+        <li>Sahario → Voucher gegen neue Weapon tauschen → Prontera Inn (rechts von Blacksmith) — <strong>Job-Change dort via Salih Hamid</strong></li>
+        <li>Salih → Necklace-Quest → Romantist → Salih</li>
+        <li>Prontera Inn → Khunya → Sahario → <strong>Chevalier +7 Weapon Refine Voucher</strong></li>
+        <li>Sahario → Spiegel → König (Dialog-Option "nothing") → Sahario → <strong>Enchant Voucher</strong> → Xavier (Enchant-NPC) in Geffen</li>
+        <li>Sahario → Dietmar → Strange Woman D (D's Letter) → Assassin Guild → Guild Elder (Elder Letter) → zurück zu Dietmar → Strange Woman D → Sahario → <strong>High Adventurer Essence Lv 1 Voucher</strong> + neues Set</li>
+        <li>Final Sahario → <strong>High Adventurer Suit +7 Refine Voucher + Blue Potion Boxes</strong></li>
+      </ol>
+
+      <div class="info-box future">
+        <strong>🔮 Teil 3 (Trans-only):</strong> Prereq Base 70 als Trans-Klasse. Sigrun → 30 Unknown Variants → Memorial Dungeon Xavier → Thanatos Tower MD. Rewards: <em>Ornamental Rose Exchange Ticket</em> + <em>Sigrun's Wings Exchange Ticket</em> + EXP bis ~Lv 99. Für TWRoZ noch nicht verfügbar.
+      </div>
+    </section>
+
+    <section>
+      <h2>🏆 Eden-Group Missionen — Top-5 EXP/h</h2>
+      <p>Mission Boards auf Eden 2F (<code>moc_para01</code>). Rewards bei <code>Sprakki @ 35,39</code>. Daily Reset 4:00 Server. 3h Cooldown pro Mission. Wahl zwischen normalem EXP (Base+Job) oder Doubled-Job-EXP.</p>
+      <ol>
+        <li><strong>Eden 70–79: Stings</strong> (gef_fild10) — beste EXP/h Mid-Game</li>
+        <li><strong>Eden 86–99: Anolian / Alligator</strong> (cmd_fild03, iz_dun04)</li>
+        <li><strong>Eden 60–69: Orc Skel / Zombie</strong> (orcsdun02)</li>
+        <li><strong>Eden 40–49: Orc Warrior</strong> (gef_fild10) — 40er Power-Spike</li>
+        <li><strong>Eden 50–59: Greatest General / Bigfoot</strong> (pay_fild04 / pay_fild05)</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>📅 Regionale Daily-Quests</h2>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Region</th><th>Key-NPC</th><th>Min Lv</th><th>Currency</th></tr></thead>
+        <tbody>
+          <tr><td>Kunlun</td><td>NPC in Alberta (10kz)</td><td>90+</td><td>Tiger Footskin / Buddhist Gem</td></tr>
+          <tr><td>Louyang</td><td>Suei (Dragon Soul Quest)</td><td>70+</td><td>Earth Dragon Coin</td></tr>
+          <tr><td>Amatsu</td><td>Suzuki Sukoshi (Amatsu Dun Entry)</td><td>70+</td><td>Spirit Stone</td></tr>
+          <tr><td>Hugel</td><td>Marin (hugel)</td><td>60+</td><td>Fancy Apple, Monster Race Coins</td></tr>
+          <tr><td>Einbroch/Einbech</td><td>Mine Foreman / Lighthalzen Pair</td><td>60+</td><td>Coal, Steel, Iron Ore</td></tr>
+          <tr><td>Veins</td><td>Veins Siblings (Karakas, Laica)</td><td>90+</td><td>Rough Mineral</td></tr>
+          <tr><td>Moscovia</td><td>Boyarsky (Forest Spirit Chain)</td><td>75+</td><td>Les / Worn Coin</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p><em>Cooldowns: 16–23h pro Quest. Erster Complete einer Region gibt einmalig Consumable-Bonus + erhöhten EXP. Wiederholungen geben nur standard EXP.</em></p>
+    </section>
+
+    <section>
+      <h2>⏫ EXP-Booster — Details</h2>
+      <p>Alle auf Zero bestätigten EXP-Booster mit Acquisition und Stacking-Verhalten:</p>
+
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Booster</th><th>Quelle</th><th>Dauer</th><th>Bonus</th><th>Stackt mit?</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Inn Buff</strong></td>
+            <td>Inn Employee in aktuell "gebuffter" Stadt. Server-wide Announcement stündlich — RNG welche Stadt aktuell aktiv ist (Prontera, Izlude, Payon, Geffen, Morroc, Alberta)</td>
+            <td>30 min</td>
+            <td>+10% Base/Job EXP</td>
+            <td>Ja, mit allem</td>
+          </tr>
+          <tr>
+            <td><strong>Emily (Poring Village)</strong></td>
+            <td>NPC Emily @ Poring Village 9-Uhr-Position (porin_vil)</td>
+            <td>30 min</td>
+            <td>+10% EXP + Inc. Agi + Blessing</td>
+            <td>Ja — aber <strong>nur bis Base 50</strong> nutzbar</td>
+          </tr>
+          <tr>
+            <td><strong>Premium Package (VIP)</strong></td>
+            <td>Cash-Shop — "Essential Package"</td>
+            <td>30 Tage</td>
+            <td><strong>+20% EXP + +20% Drop</strong> (nicht 50% wie iRO!)</td>
+            <td>Additiv</td>
+          </tr>
+          <tr>
+            <td><strong>Battle Manual</strong></td>
+            <td>Cash-Shop (Kafra/Gel Star), Events</td>
+            <td>30 min</td>
+            <td>+50% EXP (Mobs + Quest-Turn-Ins!)</td>
+            <td>Multiplikativ mit VIP → +75%</td>
+          </tr>
+          <tr>
+            <td><strong>Thick Battle Manual</strong></td>
+            <td>Cash-Shop Variante</td>
+            <td>60 min</td>
+            <td>+55% EXP</td>
+            <td>Wie Battle Manual</td>
+          </tr>
+          <tr>
+            <td><strong>Party-Bonus</strong></td>
+            <td>Automatisch in valider Party</td>
+            <td>Während Party</td>
+            <td>+20% pro Member ab 2 (bis ~+100% bei 6)</td>
+            <td>Ja</td>
+          </tr>
+          <tr>
+            <td><strong>Eden-Mission-Reward</strong></td>
+            <td>Eden HQ Mission Board (keine Buff-Form — der "Boost" ist der Quest-Reward selbst)</td>
+            <td>Per Turn-in, 3h CD</td>
+            <td>Großer EXP-Chunk (wird von Battle Manual multipliziert)</td>
+            <td>Ja</td>
+          </tr>
+          <tr>
+            <td><strong>Regional First-Clear</strong></td>
+            <td>Erster Daily-Complete pro Region</td>
+            <td>Einmalig</td>
+            <td>Bonus-Consumables + erhöhter EXP</td>
+            <td>Ja</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+      <div class="info-box note">
+        <strong>Party-Regeln (wichtig!):</strong> Members müssen innerhalb <strong>31×31 Tiles</strong> vom Leader sein. Nur <strong>1 Char pro Master Account</strong> zählt zum Party-Bonus. Level-Share-Range: <strong>±15 Base-Level</strong>. Leader offline/out-of-range → kein Bonus für andere.
+      </div>
+
+      <h3>Zusätzliche EXP-Quellen</h3>
+      <ul>
+        <li><strong>Criatura Academy Graduation Rewards</strong> — einmalig pro Char</li>
+        <li><strong>Daily Login / Attendance</strong> — periodic Battle Manuals & kleine Items</li>
+        <li><strong>Feature Events</strong> — server-wide +50–100% EXP-Wochenenden</li>
+        <li><strong>Memorial-Dungeon First-Clear</strong> — chunk EXP (z.B. Poring Village)</li>
+        <li><strong>Achievements</strong> — kleine EXP-Pools bei Unlocks</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📍 2. Job-Transfer-NPCs (Coords)</h2>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Klasse</th><th>NPC / Map</th></tr></thead>
+        <tbody>
+          <tr><td>Knight</td><td>Chivalry, prt_in 88,101</td></tr>
+          <tr><td>Crusader</td><td>prt_church 95,125 → prt_castle 261,101</td></tr>
+          <tr><td>Wizard</td><td>Geffen Tower top — Catherine Medichi</td></tr>
+          <tr><td>Sage</td><td>yuno_in03 154,35 (register), 107,176 (test)</td></tr>
+          <tr><td>Hunter</td><td>Hugel Hunter Guild — hu_in01 386,373</td></tr>
+          <tr><td>Bard / Dancer</td><td>Comodo cmd_in02 — Wandering Bard</td></tr>
+          <tr><td>Priest</td><td>Prontera Church — prt_church 184,41</td></tr>
+          <tr><td>Monk</td><td>St. Capitolina Abbey — prt_monk 268,247</td></tr>
+          <tr><td>Assassin</td><td>moc_fild16 205,296 (SE Morroc)</td></tr>
+          <tr><td>Rogue</td><td>Pharos Lighthouse cmd_fild07 (via Comodo Kafra)</td></tr>
+          <tr><td>Blacksmith</td><td>Einbroch — einbroch 255,109</td></tr>
+          <tr><td>Alchemist</td><td>Al De Baran SW — aldeba_in 168,108</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank">Project Zero Wiki</a> · <a href="https://www.rozskill.me/" target="_blank">rozskill.me</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klasse Sage — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html" class="active">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+  <div class="page-hero">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      
+      <div>
+        <span class="eyebrow">Klassen · Juno</span>
+        <h1>Sage</h1>
+        <p class="lead">2nd Job aus dem Mage-Pfad. Buff-/Endow-Spezialist mit Free-Cast (Bewegung beim Casten) und Spell-Breaker gegen Caster-Mobs.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Auto-Spell Battle Mage</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">High-Speed-Melee-Caster</p>
+      <p>Der 'Hindsight'-Build ist ein TWROZ-Fan-Favorit. Indem du AGI maximierst und Auto-Spell(èªåå¿µå) einsetzt, triggerst du high-level Bolts beim physischen Angreifen. In Zero ist das einer der schnellsten Solo-Leveling-Pfade für Sages.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>AGI</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">70-80</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">40-50</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Auto-Spell (Lv. 10)</strong> — Triggert beim physischen Angreifen einen ausgewählten Zauber.</li>
+  <li><strong>Free Cast (Lv. 10)</strong> — Pflicht. Erlaubt Bewegung und Angriffe während Cast oder Proc.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Stimme dein Endow immer auf dein Auto-Spell ab. Proccst du Fire Bolts, nutze Flame Gland, um dein Buch mit Fire zu imbuen — doppelte Effizienz.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Elemental Endow Master</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Die Geheimwaffe der Party</p>
+      <p>Dieser Build ist das Rückgrat von TWROZ-Dungeon-Parties. Mit elementaren Endows und dem Einsatz von Deluge/Volcano/Whirlwind verstärkst du den Schaden der gesamten Party um bis zu 50 %.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>INT</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">80-90</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">60-70</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>STR</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Flame/Frost/Lightning Endow (Lv. 5)</strong> — Belegt die Waffe eines Party-Mitglieds mit einem Element.</li>
+  <li><strong>Deluge/Volcano/Whirlwind (Lv. 5)</strong> — Field-Spells, die elementaren Schaden erhöhen und bestimmte Skills ermöglichen.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Du kannst Endows in der Stadt verkaufen! In TWROZ stellen Sages ihre Shops oft direkt vor Dungeon-Eingängen auf und buffen Spieler gegen eine Gebühr.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Spell Breaker Control</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Der Anti-Magie-Spezialist</p>
+      <p>Der gefürchtetste Sage-Build in WoE und PvP. Du legst gegnerische Wizards und Priests mit Spell Breaker, Dispell und Land Protector still.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>VIT</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">40-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Dispell (Lv. 5)</strong> — Entfernt alle Buffs vom Ziel. Das ultimative Control-Werkzeug.</li>
+  <li><strong>Land Protector (Lv. 5)</strong> — Erzeugt eine Zone, in der keine bodengezielte Magie gewirkt werden kann.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Nutze 'Spell Breaker' gegen gegnerische Caster mit langen Cast Times (z. B. Wizards). Du stoppst sie nicht nur, sondern saugst auch ihr SP ab.
+    </div>
+  </section>
+
+  <section>
+    <h2>Komplette Skill-Liste</h2>
+    <p>Alle 39 Skills der Mage → Sage Klasse. Quelle: ratemyserver.net.</p>
+
+    <h3>1. Job — Mage (14 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Increase Spiritual Power <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Regeneriert (Maximum SP/500 + 3)*SkillLV SP pro 10 vollen Sekunden im Stand und erhöht die Effizienz von SP-Heilitems um +2 % pro SkillLV.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Sight <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Hebt die Effekte von Hide, Tunnel Drive und Cloaking innerhalb der Reichweite auf.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Napalm Beat <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Trifft jeden Gegner in einer 3x3-Fläche um das Ziel mit MATK (70+10*SkillLV) % als Ghost-Element. Der Schaden wird gleichmäßig auf alle Ziele verteilt. Werden z. B. 3 Monster getroffen, erhält jedes 1/3 des Schadens, den ein Einzelziel bekommen würde.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Safety Wall <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Napalm Beat Lv 7 , Soul Strike Lv 5</p>
+      <p class="skill-desc">Erzeugt einen Safety-Wall-Effekt auf 1 Cell. Der Effekt schützt jeden auf dieser Cell vor 1+SkillLV physischen Angriffen. Die Angriffe müssen dabei nicht treffen, um auf die Gesamtzahl angerechnet zu werden. Mehrere Safety Walls stapeln sich nicht auf einer Cell. Skills von Monstern in unter 4 Cells Entfernung gelten als Nahkampfangriffe.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Soul Strike <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Napalm Beat Lv 4</p>
+      <p class="skill-desc">Trifft das Ziel mit (1+SkillLV/2) Bolts à 1*MATK als Ghost-Element. Macht +5 % Schaden pro SkillLV gegen Monster mit Undead-Property.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Cold Bolt <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Trifft das Ziel mit 1 Water-Property-Bolt pro SkillLV à 1*MATK Schaden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Frost Diver <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Cold Bolt Lv 5</p>
+      <p class="skill-desc">Trifft das Ziel mit MATK (100+10*SkillLV) % Water-Element. Hat zusätzlich eine (35+3*SkillLV) % Chance, den Frozen-Status auszulösen. Monster mit Undead-Property und Boss-Monster können nicht eingefroren werden. Water- und Fire-Monster haben eine stark reduzierte Frozen-Chance. Der MDEF des Ziels beeinflusst Erfolgschance und Status-Dauer. Eingefrorene Ziele können sich weder bewegen noch angreifen oder Skills nutzen und gelten als Water1-Element. Lex Aeterna ist auf sie nicht anwendbar. Der Frozen-Status endet, sobald das Ziel Schaden nimmt oder die Dauer abläuft.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Stone Curse <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Hat eine (20+4*SkillLV) % Chance, den Stone-Curse-Effekt auf das Ziel auszulösen. Stone Curse ändert das Element des Ziels auf Earth 1, gibt +25 % MDEF und -50 % DEF und reduziert die HP des Ziels alle 5 Sekunden um 1 % der maximalen HP (nicht unter 25 % der Maximum HP). Boss-Monster sind immun gegen Stone Curse. Lex Aeterna und Steal funktionieren auf Stone-Curse-Zielen nicht. Reichweite: 2 (!) Cells. Ab Lv 6 verbraucht der Skill bei Fehlschlag keinen Gemstone mehr.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Fire Ball <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Fire Bolt Lv 4</p>
+      <p class="skill-desc">Trifft jeden Gegner in einer 5x5-Fläche um das Ziel mit MATK (70+10*SkillLV) % Fire-Element. Ab SkillLV 6 reduzieren sich Cast Time und After-Cooldown.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Fire Wall <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Fire Ball Lv 5 , Sight Lv 1</p>
+      <p class="skill-desc">Erzeugt 3 Cells Fire-Wall-Effekt in einer Linie senkrecht zur Verbindung zwischen Caster und Ziel-Cell. Jede Cell kann bis zu 4+SkillLV Fire-Element-Treffer mit MATK*0,5 austeilen, bevor sie verbraucht ist. Bei diagonalem Cast entsteht eine zweireihige Wand mit 3 Cells in der ersten und 2 Cells in der zweiten Reihe.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Fire Bolt <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Trifft das Ziel mit 1 Fire-Element-Bolt pro SkillLV à 1*MATK Schaden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Lightning Bolt <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Trifft das Ziel mit 1 Wind-Element-Bolt pro SkillLV à 1*MATK Schaden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Thunder Storm <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Lightning Bolt Lv 4</p>
+      <p class="skill-desc">Trifft jeden Gegner in einer 5x5-Fläche um die Ziel-Cell mit 1 Wind-Element-Bolt pro Stufe — 1 Bolt alle 0,2 Sekunden. Jeder Bolt macht 0,8*MATK Wind-Schaden.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Energy Coat <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Reduziert Schaden durch physische Angriffe (Fäuste, Waffen und waffenbasierte Skills), indem SP verbraucht wird. Je mehr SP du hast, desto besser die Schadensreduktion — aber auch desto höher der SP-Verbrauch, gemäß folgender Tabelle: % verbleibendes SP, % Schadensreduktion, % SP-Verbrauch. 1–20, 6, 1; 21–40, 12, 1,5; 41–60, 18, 2; 61–80, 25, 2,5; 81–100, 30, 3.</p>
+    </div>
+    </div>
+
+    <h3>2. Job — Sage (25 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block active">
+      <h5>Earth Spike <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Seismic Weapon Lv 1</p>
+      <p class="skill-desc">Trifft das Ziel mit 1 Earth-Element-Spike pro SkillLV à 100 %*MATK Schaden. Technisch ein normaler Bolt-Zauber im Earth-Element.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Heaven&#x27;s Drive <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Earth Spike Lv 1</p>
+      <p class="skill-desc">Trifft jeden Gegner in einer 5x5-Cell-Fläche um die Ziel-Cell mit 1 Spike pro SkillLV à 1*MATK Schaden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Monster Property <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Öffnet ein Fenster mit Informationen zum gewählten Monster wie HP, Element, Level etc. zum Zeitpunkt des Casts. Auch Party-Mitglieder sehen dieses Fenster.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Advanced Book <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den ATK um 3 und die ASPD um 0,5 % pro SkillLV beim Einsatz von Book-Waffen.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Cast Cancel <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Advanced Book Lv 2</p>
+      <p class="skill-desc">Bricht den eigenen Spell ab, bevor der Cast abgeschlossen ist. Die SP-Kosten des unterbrochenen Spells werden abhängig vom Skill-Level reduziert.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Magic Rod <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Advanced Book Lv 4</p>
+      <p class="skill-desc">Absorbiert Skills mit Cast Time, deren Schaden MATK-basiert ist. Funktioniert nicht gegen Area-Spells. Wirkt ein gegnerischer Sage Spell Breaker und wird mit Magic Rod gekontert, verliert der Gegner 20 % seines SP, das dem Caster gutgeschrieben wird. Funktioniert ähnlich wie Auto Counter des Knights — nur eben auf Skills statt physische Angriffe. Der gegnerische Skill muss innerhalb der aktiven Phase einschlagen; Bewegung beendet die aktive Phase.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Spell Breaker <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Magic Rod Lv 1</p>
+      <p class="skill-desc">Erlaubt dir, jeden Skill mit Cast Time abzubrechen (JEDEN). Wird ein gegnerischer Spell abgebrochen, erleidet das Ziel 2 % seiner maximalen HP als Schaden, und der Sage absorbiert einen Anteil des SP-Verbrauchs des gebrochenen Spells. Bei SkillLV 5 absorbiert der Sage zusätzlich die Hälfte des dem Ziel zugefügten physischen Schadens. Gegen Boss-Monster beträgt die Erfolgschance 10 %. Wird der Spell gegen einen anderen Sage gewirkt, der Magic Rod nutzt, bleibt Magic Rod ungebrochen — der Spell-Breaker-Caster verliert 20 % SP.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Free Cast <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Cast Cancel Lv 1</p>
+      <p class="skill-desc">Erlaubt Bewegung und Angriffe während des Castens von Spells. Anders als auf offiziellen Websites behauptet, gibt es auf offiziellen Servern keinen ASPD-Malus.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Auto Spell <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Free Cast Lv 4</p>
+      <p class="skill-desc">Bei jedem Nahkampfangriff des Casters (der NICHT treffen muss) besteht eine Chance, dass automatisch ein bestimmter Spell gewirkt wird. Der Sage muss den gewirkten Spell kennen; die SP-Kosten betragen 2/3 der normalen Kosten. Ist der gewählte Skill auf Lv 3, castet Auto Spell zufällig Stufen 1–3 mit folgenden Wahrscheinlichkeiten: Lv 1 zu 50 %, Lv 2 zu 35 %, Lv 3 zu 15 %.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Flame Launcher <span class="skill-tag">Support / Buff · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Fire Bolt Lv 1 , Advanced Book Lv 5</p>
+      <p class="skill-desc">Belegt eine Waffe mit dem Fire-Element. Beim Enchant besteht eine Chance auf Waffenbruch — die Reparatur erfordert einen Blacksmith oder einen Repair-NPC. Verbraucht 1 Red Blood.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Frost Weapon <span class="skill-tag">Support / Buff · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Cold Bolt Lv 1 , Advanced Book Lv 5</p>
+      <p class="skill-desc">Belegt eine Waffe mit dem Ice-Element. Beim Enchant besteht eine Chance auf Waffenbruch — die Reparatur erfordert einen Blacksmith oder einen Repair-NPC. Verbraucht 1 Crystal Blue.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Lightning Loader <span class="skill-tag">Support / Buff · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Lightning Bolt Lv 1 , Advanced Book Lv 5</p>
+      <p class="skill-desc">Belegt eine Waffe mit dem Wind-Element. Beim Enchant besteht eine Chance auf Waffenbruch — die Reparatur erfordert einen Blacksmith oder einen Repair-NPC. Verbraucht 1 Wind of Verdure.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Seismic Weapon <span class="skill-tag">Support / Buff · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Stone Curse Lv 1 , Advanced Book Lv 5</p>
+      <p class="skill-desc">Belegt eine Waffe mit dem Earth-Element. Beim Enchant besteht eine Chance auf Waffenbruch — die Reparatur erfordert einen Blacksmith oder einen Repair-NPC. Verbraucht 1 Green Live.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Dragonology <span class="skill-tag">Passive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Advanced Book Lv 9</p>
+      <p class="skill-desc">Erhöht ATK, MATK und DEF gegen Dragon-Monster um 4 % pro SkillLV. Erhöht zusätzlich passiv deinen INT abhängig vom SkillLV.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Volcano <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Flame Launcher Lv 2</p>
+      <p class="skill-desc">Verzaubert ein Gebiet und verstärkt darin alle Fire-Elementarangriffe sowie die Angriffe von Fire-Elementaren (z. B. mit Pasana-Card-Armor). Wie die anderen Field-Spells ist Volcano nicht überlagerbar oder doppelt castbar — du kannst nur ein Field-Enchant gleichzeitig aktiv halten. Ice Wall lässt sich nicht auf einen Volcano casten. Wirkungsdauer: 1*SkillLV Minuten. Der SkillLV bestimmt, um wie viel % Fire-Angriffe verstärkt werden und wie viel ATK Fire-Armor-Träger erhalten. Verbraucht 1 Yellow Gemstone.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Deluge <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Frost Weapon Lv 2</p>
+      <p class="skill-desc">Im Wirkungsbereich werden alle Water-Elementarangriffe verstärkt und die Maximum HP aller Träger von Water-Armor (z. B. Swordfish-carded) erhöht. Du kannst nur ein Field-Enchant gleichzeitig aktiv halten. Waterball und Aqua Benedicta lassen sich auf einer Deluge casten — beide verbrauchen dabei jedoch die Wasser-Cells. Wie die anderen Field-Spells ist Deluge nicht überlagerbar oder doppelt castbar. Ice Wall lässt sich nicht auf einer Deluge casten. Verbraucht 1 Yellow Gemstone.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Violent Gale <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Lightning Loader Lv 2</p>
+      <p class="skill-desc">In einem Violent Gale werden alle Wind-Elementarangriffe verstärkt, und die Flee-Rate von Wind-Elementaren (z. B. Dokebi-carded-Armor-Trägern) steigt. Zusätzlich hält Fire Wall in einem Violent Gale 150 % länger. Ice Wall lässt sich nicht auf einem Violent Gale casten. Du kannst nur ein Field-Enchant gleichzeitig aktiv halten. Wie die anderen Field-Spells ist Violent Gale nicht überlagerbar oder doppelt castbar. Verbraucht 1 Yellow Gemstone.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Land Protector <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Volcano Lv 3 , Deluge Lv 3 , Violent Gale Lv 3</p>
+      <p class="skill-desc">Schützt ein Gebiet vor allen Area-Spells. Bodengezielte Skills verursachen darin weder Schaden noch ihren Effekt — Skills wie Storm Gust, Fire Wall etc. wirken nicht. Entfernt zusätzlich bereits platzierte Area-Spells im Gebiet. Verbraucht 1 Yellow Gemstone und 1 Blue Gemstone.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Dispell <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Spell Breaker Lv 3</p>
+      <p class="skill-desc">Hebt alle magischen Effekte auf dem Ziel auf. Die Erfolgschance basiert auf Skill-Level und MDEF des Gegners — Basis-Chance (50+10*SkillLV) %. Verbraucht 1 Yellow Gemstone.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Abracadabra <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Wirkt einen zufälligen Skill (kann JEDER Spieler-Skill sein, z. B. Auto Counter oder Hide, sowie einige Sonder-Skills) auf deinem eigenen Skill-Level. Sorgt mitunter für skurrile und lustige Effekte. Verbraucht 2 Yellow Gemstones plus alle Materialien, die der gezogene Skill erfordert (z. B. Trap, Blue Gem oder Red Gem). Der gezogene Skill wechselt zufällig mit jedem Cast. Selbst mit katalysatorreduzierenden Items (Mistress Card) oder Buffs (Bard/Dancer Into the Abyss) sinken die Kosten nie unter 1 Yellow Gemstone. Ein Spaß-Skill.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Create Elemental Converter <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erstellt ein "Elemental Converter"-Item. Anleitung zur Erstellung: hier klicken.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Elemental Change (Water) <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ändert die Elementar-Property des Ziel-Monsters auf Water. Verbraucht einen Frost Elemental Converter.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Elemental Change (Earth) <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ändert die Elementar-Property des Ziel-Monsters auf Earth. Verbraucht einen Seismic Elemental Converter.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Elemental Change (Fire) <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ändert die Elementar-Property des Ziel-Monsters auf Fire. Verbraucht einen Flame Elemental Converter.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Elemental Change (Wind) <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ändert die Elementar-Property des Ziel-Monsters auf Wind. Verbraucht einen Lightning Elemental Converter.</p>
+    </div>
+    </div>
+  </section>
+
+  <section><h2>Level-Milestones</h2><ul><li><strong>2nd Job 1–50:</strong> Anolian/Geographer mit Endow Quake.</li><li><strong>2nd Job 50–99:</strong> Magma Dungeon mit Endow Tsunami / Aboniato.</li></ul></section>
+
+  <p>Cross-Links: <a href="klassen.html">Klassen-Übersicht</a> · <a href="leveling.html">Level-Routen</a> · <a href="ausruestung.html">Ausrüstung</a> · <a href="md-equipment.html">MD-Equipment</a></p>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://ratemyserver.net/" target="_blank" rel="noopener">RateMyServer</a>
+</footer>
+
+</body>
+</html>

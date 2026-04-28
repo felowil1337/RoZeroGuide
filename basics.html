@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Basics — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html" class="active"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Pre-Renewal-Formeln · Einstieg</span>
+      <h1>Game Basics</h1>
+      <p class="lead">Stat-Effekte, Elementar-Tabelle und Waffen-vs-Größe-Modifikatoren — alles, was du für Build- und Schaden-Berechnungen brauchst. Plus: das in Zero integrierte MENU-Poring &amp; Hint-System für Einsteiger.</p>
+    </div>
+
+    <div class="entry-jump">
+      <a href="#neueste-ui">🆕 Neueste UI</a>
+      <a href="#zero-notes">📌 Zero-Besonderheiten</a>
+      <a href="#menu">🍑 MENU-Poring</a>
+      <a href="#stats">📊 Stat-Effekte</a>
+      <a href="#element">🌪️ Elementar-Tabelle</a>
+      <a href="#waffen-groesse">⚔️ Waffe vs Größe</a>
+      <a href="#hint">💡 Praxis-Tipps</a>
+    </div>
+
+    <section id="neueste-ui">
+      <h2>🆕 Neueste UI-Revision (Stand 2026)</h2>
+      <p>RO Zero hat das HUD ein weiteres Mal überarbeitet. Der Screenshot zeigt das aktuelle Layout in einer Stadt-Szene:</p>
+
+      <figure style="margin:16px 0">
+        <a href="images/basics/new-ui-2026.png" target="_blank" rel="noopener">
+          <img src="images/basics/new-ui-2026.png" alt="RO Zero UI 2026 — Character-Fenster oben links, EXP-Bar unten, neues Party- und Action-Layout" loading="lazy" style="width:100%;max-width:1200px;border-radius:6px;border:1px solid var(--border);background:var(--bg-1);padding:6px;image-rendering:pixelated">
+        </a>
+        <figcaption style="font-size:13px;color:var(--text-dim);margin-top:6px">Quell-Screenshot ist nativ klein (586×329); Klick öffnet die Originalauflösung in einem neuen Tab. Annotationen zu den drei Hauptbereichen unten.</figcaption>
+      </figure>
+
+      <h3>Was hat sich geändert?</h3>
+      <div class="card-grid">
+        <div class="card">
+          <h4>📍 Oben links — Charakter-Hauptfenster</h4>
+          <p>Neues, kompakteres Design für HP- und SP-Balken, Job-/Base-Level-Anzeige, Status-Effekt-Icons und Charakter-Portrait. Ersetzt die ältere reine Balken-Anzeige an derselben Stelle. Buffs/Debuffs werden jetzt direkt am Fenster gestapelt statt in einer separaten Leiste.</p>
+        </div>
+        <div class="card">
+          <h4>📍 Unten — EXP-Bar als Streifen</h4>
+          <p>Der EXP-Balken liegt jetzt durchgehend am unteren Bildschirmrand — kein versteckter Balken mehr neben den Hotkey-Slots. Base-EXP und Job-EXP sind übereinander gestapelt sichtbar, sodass beide Progressionen auf einen Blick lesbar sind.</p>
+        </div>
+        <div class="card">
+          <h4>📍 Party-Menü neu gestaltet</h4>
+          <p>Die Mitglieder-Liste ist klarer aufgebaut: Rolle (Leader / Member), HP-Bar pro Member und Quick-Buttons für Invite, Leader-Transfer und Leave direkt am Frame. Ersetzt die ältere reine Text-Liste, die nur den Member-Status anzeigte.</p>
+        </div>
+      </div>
+
+      <div class="info-box tip">
+        <strong>Übergang von der alten UI:</strong> Alle vertrauten Hotkeys (<kbd>Alt+E</kbd>, <kbd>Alt+S</kbd>, <kbd>Alt+P</kbd> etc.) funktionieren weiter — nur die optische Anordnung der Standard-Fenster wurde modernisiert. Das ältere <strong>MENU-Poring-Redesign</strong> (Mai 2025, Symbolleiste unten rechts plus Hint-System) ist weiterhin aktiv und wird unter <a href="#menu">MENU-Poring &amp; Hint-System</a> separat dokumentiert.
+      </div>
+    </section>
+
+    <section id="zero-notes">
+      <h2>📌 RO-Zero-Besonderheiten</h2>
+      <ul>
+        <li>RO Zero verwendet Pre-Renewal-Formeln (multiplikativer Card-Mod, Soft+Hard-DEF-Split, Pre-Renewal-MATK).</li>
+        <li>Cast-Time ist vollständig variabel (kein Fixed-Cast-Anteil) — 150 DEX = instant.</li>
+        <li>ASPD nutzt die Pre-Renewal-Waffen-Delay-Tabelle.</li>
+        <li>HP/SP-Skalierung: JobBaseHP × (1 + VIT/100) bzw. JobBaseSP × (1 + INT/100) — multiplikativ, nicht additiv wie Renewal.</li>
+        <li>Crit-Formel bleibt 1 + LUK/3; Verteidiger LUK/5 senkt Angreifer-Crit.</li>
+        <li>Elementar-Matrix entspricht der Standard-Pre-Renewal-Lv1-Tabelle (Zero hat sie nicht modifiziert).</li>
+        <li>Größen-Modifikatoren entsprechen Vanilla Pre-Renewal — Rebellion-Schusswaffen verwenden dasselbe Schema.</li>
+        <li>Status-Resist-Werte nutzen lineare Pre-Renewal-Formeln — 100 % im Primär-Stat heißt Immunität.</li>
+      </ul>
+    </section>
+
+    <section id="menu">
+      <h2>🍑 MENU-Poring &amp; Hint-System</h2>
+      <p>Zero hat keine klassische Tutorial-Overlay-Lösung, sondern ein jederzeit aufrufbares Hint-Panel — du entscheidest, wann und was du nachlesen willst. Hier die drei Schritte vom Login bis zur Hint-Übersicht:</p>
+
+      <div class="card" id="step1" style="margin-bottom:16px">
+        <h4>Schritt 1 — MENU (Pink Poring) öffnen</h4>
+        <p>Nach dem Login findest du unten rechts das <strong>MENU-Icon</strong> in Form eines Pink Poring. Klick drauf und wähle dann die <strong>Hint-Box (Fragezeichen-Icon)</strong>.</p>
+        <img src="images/basics/2025_05_20_67c6c53490854b97a5ba5608bf15b17a.png" alt="MENU-Poring und Hint-Icon in der UI" style="max-width:100%;border-radius:6px;border:1px solid var(--border);background:var(--bg-1);padding:6px;margin:8px 0">
+        <div class="translated-table-block">
+          
+          <p class="translated-summary">Das Bild zeigt das Hauptmenü-Interface mit Symbolen für die Spielsysteme — der rote Pfeil markiert den Hilfe-Button.</p>
+          <ul>
+            <li><strong>Character</strong> — Persönlicher Status</li>
+            <li><strong>Equipment</strong> — Ausrüstung</li>
+            <li><strong>Inventory</strong> — Inventar</li>
+            <li><strong>Skills</strong> — Fertigkeiten</li>
+            <li><strong>Party</strong> — Gruppe</li>
+            <li><strong>Guild</strong> — Gilde</li>
+            <li><strong>Quest Log</strong> — Aufgabenliste</li>
+            <li><strong>World Map</strong> — Weltkarte</li>
+            <li><strong>Navigation</strong> — Navigation</li>
+            <li><strong>Options</strong> — Optionen</li>
+            <li><strong>Bank</strong> — Bank</li>
+            <li><strong>Replay</strong> — Wiedergabe</li>
+            <li><strong>Mail</strong> — Post</li>
+            <li><strong>Achievements</strong> — Erfolge</li>
+            <li><strong>Cash Shop</strong> — Shop</li>
+            <li><strong>Shortcut Guide</strong> — Tastenkürzel-Guide</li>
+            <li><strong>Attendance</strong> — Anwesenheit</li>
+            <li><strong>Recruitment Center</strong> — Vermittlungsstelle</li>
+            <li><strong>Help</strong> — Hilfefenster</li>
+            <li><strong>Auto Battle</strong> — Automatischer Kampf</li>
+            <li><strong>Reputation</strong> — Ansehen</li>
+          </ul>
+          <p class="translated-notes">Der „MENU"-Button unten rechts schließt oder öffnet dieses Fenster.</p>
+        </div>
+      </div>
+
+      <div class="card" id="step2" style="margin-bottom:16px">
+        <h4>Schritt 2 — „Vorschlagsliste" aufrufen</h4>
+        <p>Beim ersten Klick wird ein <strong>zufälliger Hint</strong> angezeigt. Um gezielt zu suchen, klickst du auf <strong>„Vorschlagsliste durchsuchen"</strong> — damit landest du auf der Übersichtsseite aller verfügbaren Hints.</p>
+        <img src="images/basics/2025_05_20_b379e472f682491ea8c1572c00a9c351.png" alt="Hint-Vorschlagsliste mit Auto-Attack-Erklärung" style="max-width:100%;border-radius:6px;border:1px solid var(--border);background:var(--bg-1);padding:6px;margin:8px 0">
+        <div class="translated-table-block">
+          
+          <p class="translated-summary">Ein Hilfefenster im Spiel, das erklärt, wie der Auto-Attack-Modus funktioniert.</p>
+          <ul>
+            <li><strong>Modus:</strong> Auto-Attack</li>
+            <li><strong>Beschreibung:</strong> Wenn du beim Angriff auf ein Monster die <kbd>Strg</kbd>-Taste gedrückt hältst, wird der Auto-Attack-Modus aktiviert, bis das Monster besiegt ist. Klicken auf eine andere Stelle hebt den Modus auf.</li>
+            <li><strong>Permanent-Modus:</strong> Bei Eingabe von <code>/noctrl</code> kann der Auto-Attack-Modus auch ohne Halten der Strg-Taste aktiviert werden. Erneutes <code>/noctrl</code> deaktiviert den Modus wieder.</li>
+            <li><strong>Verwandt:</strong> Kampf → Angriff</li>
+            <li><strong>Aktion:</strong> Vorschlagsliste durchsuchen</li>
+          </ul>
+          <p class="translated-notes">Das Fenster enthält außerdem Steuerelemente wie „Beim Start öffnen", „Schließen" und eine Seitenzahlanzeige (1/1).</p>
+        </div>
+      </div>
+
+      <div class="card" id="step3" style="margin-bottom:16px">
+        <h4>Schritt 3 — Hint-Startseite (Kategorien-Übersicht)</h4>
+        <p>Von hier aus führen die Kategorien direkt zu den Themen, die dich interessieren — einfach anklicken und in die Tiefe gehen.</p>
+        <img src="images/basics/2025_05_20_0f30d680e6db4eb2b4a093f3359844e8.png" alt="Hint-Startseite mit Kategorien" style="max-width:100%;border-radius:6px;border:1px solid var(--border);background:var(--bg-1);padding:6px;margin:8px 0">
+        <div class="translated-table-block">
+          
+          <p class="translated-summary">Das In-Game-Hilfefenster mit Kategorien zum Spielablauf sowie eine Übersicht der Hauptmenü-Icons am unteren rechten Bildschirmrand.</p>
+          <ul>
+            <li><strong>Quest</strong> — Aufbau und Ablauf von Missionen</li>
+            <li><strong>Combat</strong> — Grundlagen zu Kampf, Targeting und Cooldowns</li>
+            <li><strong>Item</strong> — Itemtypen, Crafting, Handel</li>
+            <li><strong>Game Options Window</strong> — UI, Hotkeys, Client-Verhalten</li>
+            <li><strong>Remove Restriction Effects</strong> — Status-Effekte aufheben</li>
+            <li><strong>Browse Recommended List</strong> — Vorschlagsliste durchsuchen</li>
+            <li><strong>Inventory / Skill Window / Party / World Map / Navigation / Options</strong></li>
+            <li><strong>Mail / Achievement System / Help / Cash Shop / Shortcut Guide / Attendance</strong></li>
+            <li><strong>Brokerage</strong> — Vermittlungsstelle</li>
+            <li><strong>Reputation</strong> — Ansehens-System</li>
+            <li><strong>Auto Combat</strong> — Auto-Hunt (siehe <a href="auto-hunt.html">Auto-Hunt-Seite</a>)</li>
+          </ul>
+          <p class="translated-notes">Die Liste enthält die grundlegenden Spielfunktionen. Die Icons rechts stellen das zentrale Charakter- und System-Management dar.</p>
+        </div>
+      </div>
+
+      <div class="info-box note">
+        <strong>Hint-Inhalte werden per Patch erweitert</strong> — Änderungen der offiziellen Seite haben stets Vorrang gegenüber dieser Wiki-Seite.
+      </div>
+    </section>
+
+    <section id="stats">
+      <h2>📊 Stat-Effekte (Pre-Renewal)</h2>
+      <p>Jeder Stat-Punkt hat eine direkte Wirkung — und alle 10 Punkte gibt es zusätzlich einen quadratischen Bonus (z.B. STR-ATK-Bonus = floor(STR/10)²). Die Tabelle zeigt sowohl den Pro-Punkt-Beitrag als auch die Pro-10-Schwelle.</p>
+<div class="stat-grid"><div class="stat-card">  <div class="stat-card-head"><span class="stat-name">STR</span><span class="stat-tag">Stärke — Melee-ATK &amp; Tragelimit</span></div>  <table>    <thead><tr><th>Effekt</th><th>Pro Punkt</th><th>Pro 10 (Bonus)</th><th>Anmerkung</th></tr></thead>    <tbody><tr><td><strong>ATK (Melee)</strong></td><td class="formula">+1 pro Punkt</td><td class="formula">floor(STR/10)² Bonus alle 10</td><td class="note"></td></tr><tr><td><strong>ATK (Ranged)</strong></td><td class="formula">kein Beitrag</td><td class="formula">—</td><td class="note">Ranged-Waffen nutzen DEX statt STR</td></tr><tr><td><strong>Trage-Limit</strong></td><td class="formula">+30 pro Punkt</td><td class="formula">—</td><td class="note">Basis 20.000 + STR×30</td></tr></tbody>  </table></div><div class="stat-card">  <div class="stat-card-head"><span class="stat-name">AGI</span><span class="stat-tag">Agility — FLEE &amp; Angriffsgeschwindigkeit</span></div>  <table>    <thead><tr><th>Effekt</th><th>Pro Punkt</th><th>Pro 10 (Bonus)</th><th>Anmerkung</th></tr></thead>    <tbody><tr><td><strong>FLEE</strong></td><td class="formula">+1 pro Punkt</td><td class="formula">—</td><td class="note">Basis FLEE = BaseLvl + AGI</td></tr><tr><td><strong>ASPD</strong></td><td class="formula">skaliert (Hauptbeitrag)</td><td class="formula">(AGI×4 + DEX)/4 — waffenabhängig</td><td class="note">AGI dominanter Faktor</td></tr><tr><td><strong>Stun-Resist</strong></td><td class="formula">+0,1 % pro Punkt</td><td class="formula">+1 % pro 10</td><td class="note">Sekundär; primär VIT</td></tr></tbody>  </table></div><div class="stat-card">  <div class="stat-card-head"><span class="stat-name">VIT</span><span class="stat-tag">Vitality — Max-HP, DEF &amp; Status-Resists</span></div>  <table>    <thead><tr><th>Effekt</th><th>Pro Punkt</th><th>Pro 10 (Bonus)</th><th>Anmerkung</th></tr></thead>    <tbody><tr><td><strong>Max-HP</strong></td><td class="formula">+1 % der Job-Basis-HP</td><td class="formula">—</td><td class="note">MaxHP = JobBaseHP × (1 + VIT/100)</td></tr><tr><td><strong>DEF (soft)</strong></td><td class="formula">+1 pro Punkt</td><td class="formula">—</td><td class="note">Reduziert Schaden flach</td></tr><tr><td><strong>MDEF (soft)</strong></td><td class="formula">+0,5 pro Punkt</td><td class="formula">+1 pro 2</td><td class="note">floor(VIT/2)</td></tr><tr><td><strong>HP-Regen</strong></td><td class="formula">skaliert</td><td class="formula">—</td><td class="note">Tick = MaxHP/200 + VIT/5</td></tr><tr><td><strong>Status: Stun</strong></td><td class="formula">+1 % pro Punkt</td><td class="formula">—</td><td class="note">100 VIT = immun</td></tr><tr><td><strong>Status: Poison</strong></td><td class="formula">+1 % pro Punkt</td><td class="formula">—</td><td class="note">100 VIT = immun</td></tr><tr><td><strong>Status: Silence</strong></td><td class="formula">+1 % pro Punkt</td><td class="formula">—</td><td class="note">100 VIT = immun</td></tr><tr><td><strong>Status: Blind</strong></td><td class="formula">+0,7 % pro Punkt</td><td class="formula">—</td><td class="note">Kombiniert mit INT</td></tr><tr><td><strong>Status: Bleeding</strong></td><td class="formula">+1 % pro Punkt</td><td class="formula">—</td><td class="note"></td></tr><tr><td><strong>Heal-Effekt</strong></td><td class="formula">+0,2 % erhalten</td><td class="formula">+2 % pro 10</td><td class="note">Auf empfangene Heilung</td></tr></tbody>  </table></div><div class="stat-card">  <div class="stat-card-head"><span class="stat-name">INT</span><span class="stat-tag">Intelligence — Magie-Schaden, MDEF &amp; SP</span></div>  <table>    <thead><tr><th>Effekt</th><th>Pro Punkt</th><th>Pro 10 (Bonus)</th><th>Anmerkung</th></tr></thead>    <tbody><tr><td><strong>MATK (Min)</strong></td><td class="formula">+1 pro Punkt</td><td class="formula">floor(INT/7)² Bonus alle 10</td><td class="note">MATK_min = INT + floor(INT/7)²</td></tr><tr><td><strong>MATK (Max)</strong></td><td class="formula">+1 pro Punkt</td><td class="formula">floor(INT/5)² Bonus alle 10</td><td class="note">MATK_max = INT + floor(INT/5)²</td></tr><tr><td><strong>Max-SP</strong></td><td class="formula">+1 % der Basis-SP</td><td class="formula">—</td><td class="note">MaxSP = JobBaseSP × (1 + INT/100)</td></tr><tr><td><strong>SP-Regen</strong></td><td class="formula">skaliert</td><td class="formula">+1 pro 6</td><td class="note">Tick = MaxSP/100 + INT/6 (+1 ab 120)</td></tr><tr><td><strong>MDEF (hard)</strong></td><td class="formula">+1 pro Punkt</td><td class="formula">—</td><td class="note">% Reduktion Magie-Schaden</td></tr><tr><td><strong>Status: Sleep</strong></td><td class="formula">+1 % pro Punkt</td><td class="formula">—</td><td class="note">100 INT = immun</td></tr><tr><td><strong>Status: Blind</strong></td><td class="formula">+0,3 % pro Punkt</td><td class="formula">—</td><td class="note">Kombiniert mit VIT</td></tr><tr><td><strong>Status: Stone</strong></td><td class="formula">+0,5 % pro Punkt</td><td class="formula">—</td><td class="note"></td></tr></tbody>  </table></div><div class="stat-card">  <div class="stat-card-head"><span class="stat-name">DEX</span><span class="stat-tag">Dexterity — Ranged-ATK, HIT, Cast-Time</span></div>  <table>    <thead><tr><th>Effekt</th><th>Pro Punkt</th><th>Pro 10 (Bonus)</th><th>Anmerkung</th></tr></thead>    <tbody><tr><td><strong>ATK (Ranged)</strong></td><td class="formula">+1 pro Punkt</td><td class="formula">floor(DEX/10)² Bonus alle 10</td><td class="note">Wie STR für Melee</td></tr><tr><td><strong>ATK (Melee)</strong></td><td class="formula">+0,2 pro Punkt</td><td class="formula">—</td><td class="note">floor(DEX/5) zusätzlich</td></tr><tr><td><strong>HIT</strong></td><td class="formula">+1 pro Punkt</td><td class="formula">—</td><td class="note">Basis HIT = BaseLvl + DEX</td></tr><tr><td><strong>Variable Cast-Time</strong></td><td class="formula">reduziert</td><td class="formula">—</td><td class="note">VCT = Basis × (1 - DEX/150) — 150 DEX = instant</td></tr><tr><td><strong>ASPD</strong></td><td class="formula">minor</td><td class="formula">—</td><td class="note">~1/4 der Wirkung von AGI</td></tr><tr><td><strong>Min-ATK (Waffe)</strong></td><td class="formula">skaliert</td><td class="formula">—</td><td class="note">Hebt Waffen-ATK-Floor</td></tr></tbody>  </table></div><div class="stat-card">  <div class="stat-card-head"><span class="stat-name">LUK</span><span class="stat-tag">Luck — Crit &amp; Status-Resists</span></div>  <table>    <thead><tr><th>Effekt</th><th>Pro Punkt</th><th>Pro 10 (Bonus)</th><th>Anmerkung</th></tr></thead>    <tbody><tr><td><strong>Crit-Rate</strong></td><td class="formula">+0,33 pro Punkt</td><td class="formula">+1 pro 3</td><td class="note">Crit = 1 + LUK/3</td></tr><tr><td><strong>ATK</strong></td><td class="formula">+0,2 pro Punkt</td><td class="formula">+1 pro 5</td><td class="note">floor(LUK/5)</td></tr><tr><td><strong>MATK</strong></td><td class="formula">+0,33 pro Punkt</td><td class="formula">+1 pro 3</td><td class="note">floor(LUK/3)</td></tr><tr><td><strong>HIT</strong></td><td class="formula">+0,2 pro Punkt</td><td class="formula">+1 pro 5</td><td class="note">floor(LUK/5)</td></tr><tr><td><strong>Perfect Dodge</strong></td><td class="formula">+0,1 pro Punkt</td><td class="formula">+1 pro 10</td><td class="note">Lucky Dodge = 1 + LUK/10</td></tr><tr><td><strong>Status: Curse</strong></td><td class="formula">+1 % pro Punkt</td><td class="formula">—</td><td class="note"></td></tr><tr><td><strong>Status: Poison</strong></td><td class="formula">+0,25 % pro Punkt</td><td class="formula">—</td><td class="note"></td></tr><tr><td><strong>Crit-Resistenz</strong></td><td class="formula">−0,2 pro LUK</td><td class="formula">—</td><td class="note">Verteidiger LUK/5 senkt Angreifer-Crit</td></tr></tbody>  </table></div></div>
+    </section>
+
+    <section id="element">
+      <h2>🌪️ Elementar-Modifikator-Tabelle (Lv 1)</h2>
+      <p>Schadens-Multiplikator beim Treffen eines Verteidigers eines bestimmten Elements mit einer Waffe/Skill eines anderen Elements. <strong>Reihen = Verteidiger</strong>, <strong>Spalten = Angreifer</strong>. 100 % = neutral, &lt;100 = Resistenz, &gt;100 = Schwäche, 0 = immun, negativ = heilt.</p>
+
+<input type="radio" name="elv" id="elv1" class="elem-tabs-input" checked>
+<input type="radio" name="elv" id="elv2" class="elem-tabs-input">
+<input type="radio" name="elv" id="elv3" class="elem-tabs-input">
+<input type="radio" name="elv" id="elv4" class="elem-tabs-input">
+<div class="elem-wrap"><div class="elem-tabs"><label for="elv1">Lv 1 (Standard-Defender)</label><label for="elv2">Lv 2</label><label for="elv3">Lv 3</label><label for="elv4">Lv 4</label></div><div class="elem-panel elem-1" style="overflow-x:auto"><table class="element-matrix"><tr><th class="row-label">Verteidiger ↓ / Angreifer →</th><th>Neutral</th><th>Water</th><th>Earth</th><th>Fire</th><th>Wind</th><th>Poison</th><th>Holy</th><th>Shadow</th><th>Ghost</th><th>Undead</th></tr><tr><th class="row-label">Neutral</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Water</th><td class="elem-neutral">100</td><td class="elem-near-neutral">90</td><td class="elem-neutral">100</td><td class="elem-weak">150</td><td class="elem-near-neutral">90</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Earth</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-near-neutral">90</td><td class="elem-near-neutral">90</td><td class="elem-weak">150</td><td class="elem-resist">50</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Fire</th><td class="elem-neutral">100</td><td class="elem-weak">150</td><td class="elem-resist">50</td><td class="elem-near-neutral">90</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Wind</th><td class="elem-neutral">100</td><td class="elem-resist">50</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-near-neutral">90</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Poison</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-resist">50</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td><td class="elem-resist">50</td><td class="elem-strong-resist">25</td><td class="elem-resist">50</td></tr><tr><th class="row-label">Holy</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-resist">50</td><td class="elem-immune">0</td><td class="elem-mild-weak">125</td><td class="elem-mild-resist">75</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Shadow</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-resist">50</td><td class="elem-mild-weak">125</td><td class="elem-immune">0</td><td class="elem-mild-resist">75</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Ghost</th><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-mild-resist">75</td><td class="elem-mild-resist">75</td><td class="elem-mild-weak">125</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Undead</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-mild-weak">125</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-weak">150</td><td class="elem-heal">-25</td><td class="elem-mild-resist">75</td><td class="elem-immune">0</td></tr></table></div><div class="elem-panel elem-2" style="overflow-x:auto"><table class="element-matrix"><tr><th class="row-label">Verteidiger ↓ / Angreifer →</th><th>Neutral</th><th>Water</th><th>Earth</th><th>Fire</th><th>Wind</th><th>Poison</th><th>Holy</th><th>Shadow</th><th>Ghost</th><th>Undead</th></tr><tr><th class="row-label">Neutral</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Water</th><td class="elem-neutral">100</td><td class="elem-mild-resist">75</td><td class="elem-neutral">100</td><td class="elem-strong-weak">175</td><td class="elem-near-neutral">80</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Earth</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-mild-resist">75</td><td class="elem-near-neutral">80</td><td class="elem-strong-weak">175</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Fire</th><td class="elem-neutral">100</td><td class="elem-strong-weak">175</td><td class="elem-strong-resist">25</td><td class="elem-mild-resist">75</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Wind</th><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-mild-resist">75</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Poison</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-immune">0</td><td class="elem-strong-resist">25</td></tr><tr><th class="row-label">Holy</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-immune">0</td><td class="elem-weak">150</td><td class="elem-resist">50</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Shadow</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-weak">150</td><td class="elem-immune">0</td><td class="elem-resist">50</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Ghost</th><td class="elem-immune">0</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-resist">50</td><td class="elem-resist">50</td><td class="elem-weak">150</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Undead</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-weak">150</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-strong-weak">175</td><td class="elem-heal">-50</td><td class="elem-resist">50</td><td class="elem-immune">0</td></tr></table></div><div class="elem-panel elem-3" style="overflow-x:auto"><table class="element-matrix"><tr><th class="row-label">Verteidiger ↓ / Angreifer →</th><th>Neutral</th><th>Water</th><th>Earth</th><th>Fire</th><th>Wind</th><th>Poison</th><th>Holy</th><th>Shadow</th><th>Ghost</th><th>Undead</th></tr><tr><th class="row-label">Neutral</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Water</th><td class="elem-neutral">100</td><td class="elem-resist">50</td><td class="elem-neutral">100</td><td class="elem-stronger">200</td><td class="elem-mild-resist">70</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Earth</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-resist">50</td><td class="elem-mild-resist">70</td><td class="elem-stronger">200</td><td class="elem-immune">0</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Fire</th><td class="elem-neutral">100</td><td class="elem-stronger">200</td><td class="elem-immune">0</td><td class="elem-resist">50</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Wind</th><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-resist">50</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Poison</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-heal">-25</td><td class="elem-immune">0</td></tr><tr><th class="row-label">Holy</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-heal">-25</td><td class="elem-strong-weak">175</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Shadow</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-strong-weak">175</td><td class="elem-heal">-25</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Ghost</th><td class="elem-heal">-25</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-strong-resist">25</td><td class="elem-strong-weak">175</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Undead</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-weak">175</td><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-stronger">200</td><td class="elem-heal">-75</td><td class="elem-strong-resist">25</td><td class="elem-heal">-25</td></tr></table></div><div class="elem-panel elem-4" style="overflow-x:auto"><table class="element-matrix"><tr><th class="row-label">Verteidiger ↓ / Angreifer →</th><th>Neutral</th><th>Water</th><th>Earth</th><th>Fire</th><th>Wind</th><th>Poison</th><th>Holy</th><th>Shadow</th><th>Ghost</th><th>Undead</th></tr><tr><th class="row-label">Neutral</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-50</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Water</th><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td><td class="elem-stronger">200</td><td class="elem-mild-resist">60</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-50</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Earth</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-mild-resist">60</td><td class="elem-stronger">200</td><td class="elem-heal">-25</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-50</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Fire</th><td class="elem-neutral">100</td><td class="elem-stronger">200</td><td class="elem-heal">-25</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-50</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Wind</th><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-strong-resist">25</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-50</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Poison</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-50</td><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-heal">-50</td><td class="elem-heal">-25</td></tr><tr><th class="row-label">Holy</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-heal">-50</td><td class="elem-stronger">200</td><td class="elem-immune">0</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Shadow</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-heal">-25</td><td class="elem-stronger">200</td><td class="elem-heal">-50</td><td class="elem-immune">0</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Ghost</th><td class="elem-heal">-50</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-immune">0</td><td class="elem-immune">0</td><td class="elem-stronger">200</td><td class="elem-neutral">100</td></tr><tr><th class="row-label">Undead</th><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-neutral">100</td><td class="elem-stronger">200</td><td class="elem-neutral">100</td><td class="elem-heal">-50</td><td class="elem-stronger">200</td><td class="elem-heal">-100</td><td class="elem-immune">0</td><td class="elem-heal">-50</td></tr></table></div></div>
+
+      <p class="muted">Wechsle zwischen den Tabs für die vier Defender-Element-Level. Lv 1 ist der Standard, Lv 4 das Maximum (z.B. „Fire-Lv-4-Defender" wie der Stormy Drake in Sunken Ship). Mit steigendem Level wird die Abweichung von 100&nbsp;% verstärkt.</p>
+
+      <div class="info-box note">
+        <strong>RO-Zero-spezifisch:</strong> Zero verwendet die Standard-Pre-Renewal-Element-Tabelle unverändert. Item-Effekte wie „Wind Armor +20 % Wind Resistance" werden <em>zusätzlich</em> angewendet — siehe <a href="items.html">Item-Datenbank</a> für Item-Modifikatoren.
+      </div>
+    </section>
+
+    <section id="waffen-groesse">
+      <h2>⚔️ Waffenklasse vs Monster-Größe</h2>
+      <p>Pre-Renewal-Größenmodifikatoren — das Verhältnis von Waffen-ATK zu Monster-Größe (Small / Medium / Large). 100 % = voller Schaden, 75 % / 50 % = entsprechend reduziert.</p>
+
+<div class="table-wrap"><table><thead><tr><th>Waffenklasse</th><th>Small</th><th>Medium</th><th>Large</th></tr></thead><tbody><tr><td><strong>Bare Hand (Knuckle)</strong></td><td>100 %</td><td>100 %</td><td>100 %</td></tr><tr><td><strong>Dagger</strong></td><td>100 %</td><td>75 %</td><td>50 %</td></tr><tr><td><strong>One-Handed Sword</strong></td><td>75 %</td><td>100 %</td><td>75 %</td></tr><tr><td><strong>Two-Handed Sword</strong></td><td>75 %</td><td>75 %</td><td>100 %</td></tr><tr><td><strong>One-Handed Spear</strong></td><td>75 %</td><td>100 %</td><td>100 %</td></tr><tr><td><strong>Two-Handed Spear</strong></td><td>50 %</td><td>100 %</td><td>100 %</td></tr><tr><td><strong>One-Handed Axe</strong></td><td>50 %</td><td>75 %</td><td>100 %</td></tr><tr><td><strong>Two-Handed Axe</strong></td><td>50 %</td><td>75 %</td><td>100 %</td></tr><tr><td><strong>Mace</strong></td><td>75 %</td><td>100 %</td><td>100 %</td></tr><tr><td><strong>Two-Handed Mace</strong></td><td>75 %</td><td>100 %</td><td>100 %</td></tr><tr><td><strong>Bow</strong></td><td>100 %</td><td>100 %</td><td>75 %</td></tr><tr><td><strong>Staff (1H / 2H)</strong></td><td>100 %</td><td>100 %</td><td>100 %</td></tr><tr><td><strong>Book</strong></td><td>100 %</td><td>100 %</td><td>50 %</td></tr><tr><td><strong>Whip</strong></td><td>75 %</td><td>100 %</td><td>75 %</td></tr><tr><td><strong>Musical Instrument</strong></td><td>75 %</td><td>100 %</td><td>75 %</td></tr><tr><td><strong>Katar</strong></td><td>75 %</td><td>100 %</td><td>75 %</td></tr><tr><td><strong>Revolver</strong></td><td>100 %</td><td>100 %</td><td>75 %</td></tr><tr><td><strong>Rifle</strong></td><td>75 %</td><td>100 %</td><td>100 %</td></tr><tr><td><strong>Shotgun</strong></td><td>75 %</td><td>100 %</td><td>100 %</td></tr><tr><td><strong>Gatling Gun</strong></td><td>100 %</td><td>100 %</td><td>75 %</td></tr><tr><td><strong>Grenade Launcher</strong></td><td>75 %</td><td>100 %</td><td>100 %</td></tr></tbody></table></div>
+
+      <div class="info-box note">
+        <strong>Tipp:</strong> Item-Effekte wie „Ignores size penalty" heben die Reduktion auf — bei <a href="items.html">Item-Datenbank</a> nachschauen, ob deine Waffe so einen Modifier hat.
+      </div>
+    </section>
+
+    <section id="hint">
+      <h2>💡 Praxis-Tipps</h2>
+      <ul>
+        <li><strong>Pflicht für Einsteiger:</strong> Combat- und Items-Sektionen klären viele Zero-Besonderheiten, die klassische RO-Veteranen überraschen können.</li>
+        <li><strong>Auto-Attack:</strong> Strg-Halten beim Angriff aktiviert Auto-Attack auf das Ziel; <code>/noctrl</code> macht es permanent.</li>
+        <li><strong>Daily-Tipp:</strong> Der erste Hint-Klick ist absichtlich randomisiert — gut als Mini-Info-Happen pro Login.</li>
+        <li><strong>MENU bleibt im Kampf erreichbar</strong> — kein Tutorial-Overlay, sondern jederzeit aufrufbar.</li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer">
+  Datenbasis: <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · iRO Wiki · <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · Pre-Renewal-Formeln verifiziert gegen kRO Zero. Screenshots © Gravity / GNJOY TW.
+</footer>
+
+</body>
+</html>

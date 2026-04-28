@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klasse Crusader — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html" class="active">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+  <div class="page-hero">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      
+      <div>
+        <span class="eyebrow">Klassen · Prontera</span>
+        <h1>Crusader</h1>
+        <p class="lead">2nd Job aus dem Swordsman-Pfad. Schild + Speer-Hybrid mit Holy-Skills. Die höchste Holy-Resist im Spiel und solides Tank-Toolkit.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Grand Cross Exorcist</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Hocheffizienter AoE-Mobber</p>
+      <p>Grand Cross(åå­è»å¯©å¤) ist der Signature-Move des Crusaders. In Zero glänzt dieser Build beim Clearen Undead- und Demon-lastiger Maps wie Glast Heim oder Pyramid. Er erfordert sauberes HP/SP-Management, bietet dafür aber Top-Speed beim Leveln.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>INT</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>STR</strong> <span class="stat-val">40-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">50-70</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Grand Cross (Lv. 10)</strong> — Dein primäres AoE-Werkzeug. Verursacht Holy-Schaden in einer 3x3-Fläche um dich herum.</li>
+  <li><strong>Faith (Lv. 10)</strong> — Pflicht. Erhöht HP und Holy-Resistenz, um den Eigenschaden abzufedern.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Grand Cross trifft 3 Mal. Stirbt ein Monster bereits beim ersten Hit, sind die übrigen Treffer verschenkt. Time deine Pulls für maximale Effizienz.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Shield Reflect Tank</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Die unverrückbare Mauer</p>
+      <p>Dieser Build setzt voll auf Defensive und den Reflect-Shield-Skill(åå°ç¾). Indem du große Gruppen mobst und sie sich an deinem Shield selbst 'totschlagen' lässt, wirst du zum aufwandsarmen Hocheffizienz-Farmer.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>VIT</strong> <span class="stat-val">99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">70-80</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>STR</strong> <span class="stat-val">40-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Reflect Shield (Lv. 10)</strong> — Wirft einen Teil des physischen Schadens auf den Angreifer zurück.</li>
+  <li><strong>Shield Boomerang (Lv. 5)</strong> — Pulling-Tool auf Distanz. Der Schaden skaliert mit dem Schild-Gewicht.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Der Shield-Schaden berechnet sich aus dem GEWICHT des Schildes, nicht aus deinem Waffen-ATK. Nutze den schwersten Shield, der dir zur Verfügung steht.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Holy Cross Duelist</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Single-Target-Burst-Hunter</p>
+      <p>Setzt voll auf Holy Cross(èåå­æ»æ). Dieser Build ist der König im 1v1-Kampf, besonders gegen Shadow/Undead-Ziele. Die HP-Kosten sind viel niedriger als bei Grand Cross — sicherer für Solo-Leveln.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>STR</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">50-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">50-70</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Holy Cross (Lv. 10)</strong> — Schadensstarker Holy-Schlag mit Chance, das Ziel zu blenden (Blind).</li>
+  <li><strong>Spear Quicken (Lv. 10)</strong> — Massiver ASPD-Boost mit Spear. Pflicht zum Spammen.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Mit einem Two-Handed Spear verdoppelt sich der Holy-Cross-Schaden. Nutze immer einen 2H-Spear, außer du brauchst zwingend einen Shield.
+    </div>
+  </section>
+
+  <section>
+    <h2>Komplette Skill-Liste</h2>
+    <p>Alle 29 Skills der Swordsman → Crusader Klasse. Quelle: ratemyserver.net.</p>
+
+    <h3>1. Job — Swordsman (10 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Sword Mastery <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den Schaden mit Daggers und Swords (nur einhändig) um 4*SkillLV. Dieser Schaden ignoriert Modifikationen durch Armor- und VIT-DEF, nicht aber durch Elementar- und Card-Modifikatoren und wirkt bei Multi-Hit-Angriffen auf alle Treffer.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Two-Handed Sword Mastery <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Sword Mastery Lv 1</p>
+      <p class="skill-desc">Erhöht den Schaden mit Two-Handed Swords um 4*SkillLV. Dieser Schaden ignoriert Modifikationen durch Armor- und VIT-DEF, nicht aber durch Elementar- und Card-Modifikatoren und wirkt bei Multi-Hit-Angriffen auf alle Treffer.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Increase Recuperative Power <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Heilt ((5*SkillLV) + (Maximum HP*0.002*SkillLV)) HP pro 10 vollen Sekunden, die du auf einer Cell stehen bleibst. Erhöht die Wirkung von Heilitems um (10*SkillLV) % (kumulativ mit dem Bonus durch VIT).</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Bash <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ein Nahkampfangriff mit ATK von (100+30*SkillLV) %. Gewährt einen HIT-Bonus von 5*SkillLV. Hat der Charakter zusätzlich Fatal Blow, fügen die Stufen 6–10 eine Stun-Chance von 5 %*(Bash SkillLV - 5) plus einen Bonus abhängig vom BaseLV hinzu.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Provoke <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Senkt DEF und VIT-DEF des Gegners um (5+5*SkillLV) % und erhöht dessen ATK um (2+3*SkillLV) %. Monster mit Undead-Property sowie Boss-Monster sind immun.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Magnum Break <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Bash Lv 5</p>
+      <p class="skill-desc">5x5-Cells-Splash-Angriff mit Fire-Property, ATK (100+20*SkillLV) % und +10*SkillLV HIT-Bonus. Getroffene Gegner werden 2 Cells zurückgestoßen. Verbraucht 15 HP pro Einsatz, kann den Charakter aber nicht töten. Nach dem Einsatz erhältst du 10 Sekunden lang einen 20 %igen Fire-Elementar-Bonus auf ATK. Nach dem Cast wird die Angriffssequenz nicht unterbrochen.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Endure <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Provoke Lv 5</p>
+      <p class="skill-desc">Lässt den Charakter die "Flinch"-Animation bei Treffern überspringen und verhindert so "Stun-Lock". Du nimmst weiterhin vollen Schaden, machst aber unterbrechungsfrei weiter, was du gerade tust. Ein sitzender Charakter steht unter Endure bei einem Treffer nicht auf. Der Effekt endet nach 7 Monster-Treffern. Bei Treffern durch Spieler gibt es jedoch KEIN Maximum. Gewährt +1*SkillLV MDEF. Nach dem ersten Cast musst du 10 Sekunden warten, bevor du den Skill erneut casten kannst. Der Endure-Effekt wirkt während War of Emperium nicht — du erhältst nur den MDEF-Bonus.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Moving HP Recovery <span class="skill-tag">Passive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Der Charakter regeneriert HP beim Laufen. Die Rate beträgt 50 % der Stand-Regeneration und wird nicht durch Increase Recuperative Power beeinflusst.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Fatal Blow <span class="skill-tag">Passive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Fügt beim Einsatz von Bash Lv 6 oder höher eine Stun-Chance auf das Ziel hinzu. Die Basis-Stun-Chance beträgt 5 %*(Bash SkillLV - 5) mit einem zusätzlichen Modifikator durch das BaseLV des Charakters und einer Mindestchance von 0 %. [Bash LV 6] 5 % Stun [Bash LV 7] 10 % Stun [Bash LV 8] 15 % Stun [Bash LV 9] 20 % Stun [Bash LV 10] 25 % Stun</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Auto Berserk <span class="skill-tag">Passive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Sinkt deine HP unter 25 %, erhältst du den Effekt von Provoke Lv 10 auf dich selbst — also +32 % ATK und -55 % VIT-DEF. Der Effekt hält an, bis dein HP wieder über 25 % steigt. Der Skill kann aktiv oder inaktiv geschaltet werden und funktioniert sogar dann noch, wenn er bereits dein gesamtes SP verbraucht hat.</p>
+    </div>
+    </div>
+
+    <h3>2. Job — Crusader (19 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Divine Protection <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Cure Lv 1</p>
+      <p class="skill-desc">Reduziert den Schaden durch Monster mit Undead-Property und der Demon-Familie um (3*SkillLV)+[0.04*(BaseLV + 1)]. Der Schaden wird nach den DEF-Abzügen subtrahiert. Wirkt nicht gegen Spieler. Basisinkrement ohne BaseLV-Modifikation:</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Demon Bane <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Divine Protection Lv 3</p>
+      <p class="skill-desc">Erhöht den Schaden gegen Monster mit Undead-Property und der Demon-Familie um (3*SkillLV)+[0.05*(BaseLV + 1)]. Der Schaden ignoriert die DEF-Reduktion durch Rüstung, nicht aber durch VIT. Der Skill-Bonus wächst mit steigendem BaseLV. Wirkt nicht gegen Spieler. Basisinkrement ohne BaseLV-Modifikation:</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Heal <span class="skill-tag">Support / Buff · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Demon Bane Lv 5 , Faith Lv 10</p>
+      <p class="skill-desc">Heilt die HP eines Ziels um [(BaseLV+INT)/8]*(4+8*SkillLV). Auf Monster mit Undead-Property angewandt, wirkt es als Holy-Angriff, der MDEF und INT ignoriert, aber nur halben Schaden macht (HealValue*ElementModifier/2). Um es auf ein Monster zu nutzen, musst du es per Shift-Click anklicken oder /noshift aktivieren.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Cure <span class="skill-tag">Support / Buff · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Faith Lv 5</p>
+      <p class="skill-desc">Heilt Blind, Confusion und Silence (Einschränkung: Du kannst dich selbst nicht von Silence befreien, da du unter Silence nicht casten kannst). Wirkt nicht gegen Spieler.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Spear Mastery <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den Schaden mit allen Spears um +4*SkillLV. Auf einem Peco Peco beträgt der Schadensbonus +5*SkillLV. Dieser Schaden ignoriert Modifikationen durch Armor- und VIT-DEF, nicht aber durch Elementar- und Card-Modifikatoren und wirkt bei Multi-Hit-Angriffen auf alle Treffer.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Riding <span class="skill-tag">Passive · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erlaubt dem Charakter, ein Peco Peco zu reiten. Berittene Charaktere erhalten zusätzliche 25 % Laufgeschwindigkeit (kumulativ mit AGI UP) und ein um 1000 erhöhtes maximales Tragegewicht. Allerdings greifen sie nur mit halber Geschwindigkeit an — diese Strafe lässt sich durch Stufen in Cavalry Mastery reduzieren oder ausgleichen. Beritten beträgt der Größen-Modifikator von Spear gegen Medium 100 % statt 75 %. Das Peco Peco muss beim Peco Peco Breeder in Prontera (55/350) für 2500z gemietet werden. Steigt der Charakter ab (durch Klick auf den "OFF"-Button im Ausrüstungsfenster), verschwindet das Peco Peco und muss neu gemietet werden.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Cavalry Mastery <span class="skill-tag">Passive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Riding (Peco Peco Ride) Lv 1</p>
+      <p class="skill-desc">Hilft, die Weapon-Swing-Geschwindigkeit beim Reiten eines Peco Peco wieder auf das Normalniveau zu bringen. Die Swing-Geschwindigkeit beim Reiten beträgt (50+10*SkillLV) % der unberittenen ASPD. In ASPD-Formeln: Weapon Delay*(2 - 0.2*SkillLV)*(250 - AGI - [DEX/4])/250.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Faith <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht die maximale HP um 200 und die Resistenz gegen Holy-Angriffe um 5 % pro SkillLV.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Auto Guard <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Verleiht dir die Fähigkeit, Angriffe komplett zu blocken. Erfordert einen ausgerüsteten Shield. Beim Blocken bist du auf SkillLV 1–5 für 0,3 Sekunden bewegungsunfähig, auf SkillLV 6–9 für 0,2 Sek. und auf SkillLV 10 für 0,1 Sek.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Shield Charge <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Auto Guard Lv 5</p>
+      <p class="skill-desc">Schlägt einen Gegner mit dem Shield. Stößt zurück und hat eine Stun-Chance. Erfordert einen ausgerüsteten Shield und ignoriert Größen-Modifikatoren. Schaden: (100+20*SkillLV) % ATK, Stun-Chance: (15+5*SkillLV) %, Knockback: 4+SkillLV Cells.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Shield Boomerang <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Shield Charge (Smite) Lv 3</p>
+      <p class="skill-desc">Wirft den Shield auf einen Gegner. Schwerere und höher refinierte Shields machen mehr Schaden. Schaden: 100 %+30*SkillLV. Erfordert einen ausgerüsteten Shield und ignoriert Größen-Modifikatoren.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Reflect Shield <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Shield Boomerang Lv 3</p>
+      <p class="skill-desc">Wirft einen Teil des erlittenen Schadens auf den Gegner zurück. Nur bei Nahkampfangriffen. Reflektierter Schaden: (10+3*SkillLV) % des erlittenen Schadens. Erfordert einen ausgerüsteten Shield und ignoriert Größen-Modifikatoren.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Holy Cross <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Faith Lv 7</p>
+      <p class="skill-desc">Trifft einen Gegner mit einem starken, kreuzförmigen Holy-Angriff. Hat eine Chance, Blind zu verursachen. Schaden: (100+35*SkillLV) %, Blind-Chance: (3*SkillLV) %.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Grand Cross <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Holy Cross Lv 6 , Faith Lv 10</p>
+      <p class="skill-desc">Führt 3 kreuzförmige Holy-Splash-Angriffe aus, deren Wirkungsbereich um dich zentriert ist. Gegner mit Undead-Property und der Demon-Familie werden geblendet (Spieler nicht). Schaden pro Treffer: (100+40*SkillLV) %*(ATK+MATK)*holy_property_fix, wobei: - ATK der Schaden ist, den du dem Monster mit einem normalen (Neutral-Property-)Angriff zufügen würdest (Masteries zählen nicht; Waffen-Cards, die ATK oder STR erhöhen, wirken — Cards, die % mehr Schaden geben, NICHT). - MATK der Schaden ist, den du dem Monster mit einem Neutral-Property-Zauber zufügen würdest (dieser Wert KANN negativ sein, etwa wenn ein Mob höheren INT hat als deinen MATK; Cards/Waffen mit zusätzlichem INT wirken). Während des Casts ist deine DEF um 1/3 reduziert. Nach Abschluss erleidest du selbst pro Treffer 20 % deiner aktuellen HP + ([(100+40*SkillLV) %*(ATK+MATK)]/2)*holy_property_fix Schaden, wobei: - ATK der Schaden ist, den du DIR SELBST mit einem normalen Angriff zufügen würdest (Thara Frog Card wirkt und reduziert den Schaden; die "20 % der aktuellen HP" lassen sich NICHT umgehen oder reduzieren!). - MATK der Schaden ist, den du DIR SELBST mit einem Neutral-Property-Zauber zufügen würdest. Der Schaden (auf dich selbst) wird ZWEIFACH reduziert — zuerst durch "halben Schaden auf dich", dann durch den Faith-Skill (der Holy-Schaden halbiert) — Spieler erhalten effektiv also 1/4 Schaden. Du darfst während des Casts den Shield nicht wechseln. Der Cast kann nicht unterbrochen werden, und der Schaden ignoriert Größen-Modifikatoren.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Devotion <span class="skill-tag">Support / Buff · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Reflect Shield Lv 5 , Grand Cross Lv 4</p>
+      <p class="skill-desc">Schützt Party-Mitglieder, indem du den vollen Schaden für sie übernimmst. Sie müssen in Reichweite sein; verlassen sie diese, wird der Skill aufgehoben und muss neu gecastet werden. Der erlittene Schaden basiert auf der DEF der getroffenen Person, nicht auf der des Crusaders, der den Hit nimmt. Hat der Caster eigene, klasseneigene Enhancements aktiv (z. B. Endure (Endure-Transfer ist in WoE deaktiviert), Providence oder Reflect Shield), profitieren die Party-Mitglieder ebenfalls davon. Der Skill kann nicht auf andere Crusader gewirkt werden. Der Level-Unterschied zwischen Caster und Ziel darf höchstens 10 betragen (innerhalb der normalen EXP-Share-Range). Die Anzahl möglicher Geschützter beträgt 1*SkillLV. Sinkt die HP des Crusaders unter 25 %, wird Devotion abgebrochen.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Providence <span class="skill-tag">Support / Buff · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Divine Protection Lv 5 , Heal Lv 5</p>
+      <p class="skill-desc">Erhöht die DEF gegen Holy- und Demon-Angriffe um 5 % pro SkillLV.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Defender <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Shield Boomerang Lv 1</p>
+      <p class="skill-desc">Senkt den ATK von Fernangriffen gegen den Caster um (5+15*SkillLV) %, reduziert dabei aber auch die ASPD um (25-5*SkillLV) % und die Laufgeschwindigkeit um 1/3, solange der Skill aktiv ist. Je höher die Stufe, desto geringer die Mali — bei SkillLV 5 gibt es keine Speed-Abzüge mehr. Kann via Devotion an Party-Mitglieder weitergegeben werden, allerdings betrifft die Bewegungsstrafe sie ebenfalls. Der Caster muss einen Shield ausgerüstet haben.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Spear Quicken <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Spear Mastery Lv 10</p>
+      <p class="skill-desc">Erhöht die ASPD von Two-Handed-Spear-Waffen um (20+SkillLV) %.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Shrink <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Wird beim Casten aktiviert und beim erneuten Casten oder nach Ablauf der Dauer deaktiviert. Erfolgreiche Auto-Guard-Verteidigungen haben eine (5*Auto Guard LV) % Chance, den geblockten Gegner 2 Cells zurückzustoßen.</p>
+    </div>
+    </div>
+  </section>
+
+  <section><h2>Level-Milestones</h2><ul><li><strong>1st Job 1–40:</strong> Swordsman-Routen wie Knight.</li><li><strong>2nd Job 1–50:</strong> Glast Heim Churchyard (Holy gegen Undead) ist ideal für Grand Cross.</li><li><strong>2nd Job 50–99:</strong> Abyss Lake (Demon-Drachen) für Demon-Bane-Build.</li></ul></section>
+
+  <p>Cross-Links: <a href="klassen.html">Klassen-Übersicht</a> · <a href="leveling.html">Level-Routen</a> · <a href="ausruestung.html">Ausrüstung</a> · <a href="md-equipment.html">MD-Equipment</a></p>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://ratemyserver.net/" target="_blank" rel="noopener">RateMyServer</a>
+</footer>
+
+</body>
+</html>

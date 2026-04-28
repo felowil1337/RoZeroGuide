@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klasse Assassin — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html" class="active">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+  <div class="page-hero">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      
+      <div>
+        <span class="eyebrow">Klassen · Morroc</span>
+        <h1>Assassin</h1>
+        <p class="lead">2nd Job aus dem Thief-Pfad. Trägt zwei Waffen gleichzeitig (Katar oder Dual-Dagger), Cloaking für Positionierung, Enchant Poison für Damage-Boost.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Sonic Blow Burst</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Der Elite-MVP- &amp; Elite-Monster-Jäger</p>
+      <p>Assassins sind in Ragnarok Zero die unangefochtenen Könige des Single-Target-Bursts. Dieser Build konzentriert sich darauf, den Schaden von Sonic Blow zu maximieren, um Elite-Monster mit einem Schlag zu erledigen und MVP-Wettkämpfe zu dominieren.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>STR</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">50-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">40-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Sonic Blow (Lv. 10)</strong> — Dein primäres Burst-Werkzeug. Massiver Multiplikator gegen Einzelziele.</li>
+  <li><strong>Enchant Poison (Lv. 10)</strong> — Pflicht gegen neutrale Monster. Boostet den Schaden des Poison-Elements.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Nutze Sonic Acceleration (Quest-Skill), um Trefferquote und Schaden deines Sonic Blow zu verdoppeln. Pflicht für diesen Build.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Double Attack Crit</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Anhaltender DPS &amp; der 'bequeme' Farmer</p>
+      <p>Dieser Build tauscht Burst gegen anhaltende, schnelle Physical-Angriffe. Mit Daggers oder Katars mit hohem Crit/Double Attack farmst du stundenlang mit minimalem SP-Verbrauch.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>AGI</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>STR</strong> <span class="stat-val">70-80</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>LUK</strong> <span class="stat-val">40-50</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Double Attack (Lv. 10)</strong> — Passive Chance, mit Daggers doppelten Schaden zu verursachen.</li>
+  <li><strong>Katar Mastery (Lv. 10)</strong> — Entscheidend für Katar-basierte Crit-Builds.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Double Attack hat Vorrang vor Crits. Für einen 100%-Crit-Build musst du eine Katar nutzen und KEINEN Dagger.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Grimtooth Mobber</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Hocheffizientes Dungeon-Clearing</p>
+      <p>Assassins haben in Zero zwei primäre AoE-Pfade: Grimtooth und das überarbeitete Venom Splasher. Dieser Build konzentriert sich darauf, im Hiding-Zustand ganze Mobs aus sicherer Position mit Grimtooth zu räumen, während Venom Splasher für massiven explosiven Burst-Schaden sorgt.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>STR</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">50-70</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">40-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Grimtooth (Lv. 5)</strong> — Dein primäres AoE-Werkzeug. Benötigt den Hiding-Zustand.</li>
+  <li><strong>Venom Splasher (Lv. 10)</strong> — Explosive AoE mit hohem Burst. Die Zero-Engine macht das extrem potent.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Positioniere dich an einer Wand oder einem Hindernis. Die Monster ballen sich, sodass du mit Grimtooth alle leichter triffst.
+    </div>
+  </section>
+
+  <section>
+    <h2>Komplette Skill-Liste</h2>
+    <p>Alle 22 Skills der Thief → Assassin Klasse. Quelle: ratemyserver.net.</p>
+
+    <h3>1. Job — Thief (10 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Double Attack <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Gibt eine Chance von (5*SkillLV)%, mit einer Waffe der Klasse Dagger zwei Hits gleichzeitig auszuführen, und gibt +1 HIT pro SkillLV (gilt nur für Double Attacks). Trägt ein Assassin zwei Dagger-Waffen, wirkt es nur auf die Waffe in der rechten Hand. Erhöht außerdem den Off-Hand-Schaden (linke Hand) einer Katar-Waffe um (1+2*SkillLV)% ATK.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Increase Dodge <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht die Flee-Rate um +3*SkillLV. Bei Assassins steigert dieser Skill zusätzlich das Lauftempo um 1% pro SkillLV und gibt als Assassin oder Rogue weitere +1 Flee-Rate pro SkillLV. Der Lauftempo-Bonus addiert sich nicht zur Tempoerhöhung durch Cloaking.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Steal <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Versucht, ein Item vom anvisierten Monster zu &quot;stehlen&quot;. Es können nur Items gestohlen werden, die das Monster regulär dropped. Ein erfolgreicher Steal-Versuch beeinflusst nicht, was beim Tod des Monsters droppt. Nach einem Erfolg kann am selben Monster nicht erneut gestohlen werden. Boss-Monster sowie Monster im Freeze- oder Stone-Curse-Status können nicht bestohlen werden. Die Formel lautet: DropRatio*(DEX - MonsterDEX + 10 + 3*SkillLV + )/100, wobei DropRatio die prozentuale Drop-Chance des jeweiligen Items ist. Liegt das Ergebnis des Steal-Checks unter der AdjustedDropRatio eines Items, kann dieses Item gestohlen werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Hiding <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Steal Lv 5</p>
+      <p class="skill-desc">Schaltet den Hide-Effekt am Charakter an/aus. Versteckte Charaktere können sich nicht bewegen, nicht angreifen und keine Skills nutzen (mit Ausnahme bestimmter Rogue-Skills) und regenerieren weder HP noch SP. Der Hide-Effekt macht den Charakter für andere Spieler und Monster unsichtbar. Skills und Zauber, die auf dich gerichtet sind, schlagen fehl, und alles, was dich angreift, hört auf (sofern der letzte Treffer dich nicht doch noch erwischt und enttarnt!). Attention Concentrate, Ruwach, Detecting und Sight können versteckte Charaktere aufdecken. Insekten, Dämonen und Boss-Monster sehen versteckte Ziele. Verbraucht 10 SP für den Cast und entzieht während des Versteckens kontinuierlich SP. Das Ausschalten des Hide-Effekts verbraucht kein SP.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Envenom <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ein Angriff, der zusätzlich zum Normalschaden 15*SkillLV ATK aufaddiert (unmodifiziert durch Armor und VIT-DEF). Dieser Bonusschaden wird immer ausgeteilt, unabhängig davon, ob der reguläre Angriff trifft. Envenom hat eine Chance von (10+4*SkillLV)%, das Ziel zu vergiften. Vergiftete Ziele haben 25% weniger DEF und verlieren alle 3 Sekunden 3% ihrer Maximum HP, sofern dadurch nicht unter 25% Maximum HP gefallen würde. Beim Vergifteten färbt sich der gesamte Bildschirm violett. Monster der Property Undead und Boss-Monster können nicht vergiftet werden.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Detoxify <span class="skill-tag">Support / Buff · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Envenom Lv 3</p>
+      <p class="skill-desc">Heilt den Poison-Status des Ziels.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Sprinkle Sand <span class="skill-tag">Offensive (Earth Property) · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ein Angriff mit 130% normalem ATK und 20% Chance, Blind zu verursachen. Hat zwar keine Cast-Time und keinen Cooldown, lässt sich aber nicht spammen.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Back Sliding <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Bewegt dich 5 Zellen rückwärts (abhängig von deiner Blickrichtung).</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Pick Stone <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Fügt deinem Inventar einen Stone hinzu. Funktioniert nicht bei Overweight (mehr als 50% der Gesamtgewichtskapazität).</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Throw Stone <span class="skill-tag">Attack · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ein Angriff, der immer 50 Schadenspunkte verursacht (Schadensreduktions-Karten greifen aber weiterhin) und mit 3% Chance Stun beim Ziel auslöst. Verbraucht pro Anwendung einen Stone. Nützlich, um Link-Monster von der Gruppe wegzulocken oder für ähnliche, listige Thief-Tricks.</p>
+    </div>
+    </div>
+
+    <h3>2. Job — Assassin (12 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Right-Hand Mastery <span class="skill-tag">Passive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Beim Tragen zweier Waffen beträgt der Schaden der Waffe in der rechten Hand (50+10*SkillLV)%. WIRKT NICHT BEI KATARS, DA DIESE ALS ZWEIHANDWAFFEN GELTEN.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Left-Hand Mastery <span class="skill-tag">Passive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Righthand Mastery Lv 2</p>
+      <p class="skill-desc">Beim Tragen zweier Waffen beträgt der Schaden der Waffe in der linken Hand (30+10*SkillLV)%. WIRKT NICHT BEI KATARS, DA DIESE ALS ZWEIHANDWAFFEN GELTEN.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Katar Mastery <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den Schaden mit Waffen der Klasse Katar um 3*SkillLV. Dieser Schaden ignoriert Modifikationen durch Armor und VIT-Verteidigung, aber nicht durch Elementar- und Card-Modifikatoren, und wirkt bei Multi-Hit-Angriffen auf alle Treffer.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Cloaking <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Hiding Lv 2</p>
+      <p class="skill-desc">Verleiht dem Charakter den Cloaked-Effekt: Du bist für Spieler und Monster unsichtbar, kannst dich aber weiterhin bewegen. Cloaked-Charaktere regenerieren weder HP noch SP; du kannst angreifen, doch das beendet die Tarnung. Ein Angriff aus dem Cloaked-Zustand verdoppelt die Critical-Rate dieses einen Treffers. Insekten, Dämonen und Boss-Monster durchschauen die Unsichtbarkeit. Der Cloaked-Effekt lässt sich jederzeit abbrechen: durch erneutes Casten des Skills (keine SP-Kosten), beim Treffer, bei SP 0 oder beim Betreten des Wirkungsbereichs von Attention Concentrate, Ruwach oder Sight. Auf niedrigeren Skill-Leveln sind Angriffe und Skills nicht möglich, und du benötigst eine Wand neben dir, um dich bewegen zu können. Der Bewegungstempo-Bonus stackt nicht mit dem von Improve Dodge.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Sonic Blow <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Katar Mastery Lv 4</p>
+      <p class="skill-desc">Eine Serie aus 8 schnellen Hits mit einem modifizierten Gesamt-ATK von (400+40*SkillLV)% und (10+2*SkillLV)% Chance, das Ziel zu stunnen. Der Schaden wird sofort angewendet, auch wenn die Animation länger dauert. Der Skill kann verfehlen und ist nur mit Katars einsetzbar.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Grimtooth <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Cloaking Lv 2 , Sonic Blow Lv 5</p>
+      <p class="skill-desc">Ein Fernangriff, der eine 3x3-Fläche um das Ziel mit (100+20*SkillLV)% ATK trifft. Nur im Hiding-Zustand einsetzbar (Cloaked reicht nicht). Nur mit Waffen der Klasse Katar nutzbar.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Enchant Poison <span class="skill-tag">Support / Buff · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Envenom Lv 1</p>
+      <p class="skill-desc">Verleiht den ausgerüsteten Waffen die Poison-Property. Wechsel oder Ablegen einer der Waffen hebt den Effekt für jede betroffene Waffe auf. Jeder Treffer während Enchant Poison hat eine Chance von (2.5+0.5*SkillLV)%, beim Ziel den Poison-Effekt auszulösen.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Poison React <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Enchant Poison Lv 3</p>
+      <p class="skill-desc">Versucht, während der Skill aktiv ist, 1–6 Angriffe gegen dich zu kontern (mit Lv 5 Envenom) ODER 1 Angriff eines Monsters mit Poison-Property (mit verstärktem Schaden). Die Erfolgsrate beträgt 100% für den Boosted Counter und 50% für den Envenom Counter. Höhere Skill-Level erhöhen den Schaden des Boosted Counters um +(30*SkillLV)% und steigern die Anzahl der Envenom Counter.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Venom Dust <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Enchant Poison Lv 5</p>
+      <p class="skill-desc">Erzeugt eine Giftwolke, die vertikal und horizontal an die Zielzelle angrenzende Felder bedeckt. Alles außer Boss-Monstern, das auf der Wolke steht, wird vergiftet.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Venom Splasher <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Poison React Lv 5 , Venom Dust Lv 5</p>
+      <p class="skill-desc">Verwandelt das Ziel in eine Giftbombe. Damit der Skill greift, muss das Ziel weniger als 3/4 HP haben. Beim Einsatz des Skills erscheint ein Timer über dem Ziel. War der Skill erfolgreich und erreicht der Timer 0, explodiert das Ziel und nimmt einen Treffer mit Poison-Property in Höhe von (500+50*SkillLV)% ATK; der Skill Poison React addiert passiv (30*SkillLV)% hinzu. Die umliegende 5x5-Fläche erhält Splash-Schaden in Höhe des ursprünglichen Schadens geteilt durch die Anzahl der Mobs (inklusive des explodierenden Mobs). Waffenelemente und Waffen-Karten erhöhen den Schaden nicht. Der Skill nutzt das Waffenelement. Nach dem erfolgreichen Setzen einer Bombe gibt es einen Delay von 7.5 + 0.5*SkillLV Sekunden, in dem keine weitere Bombe gesetzt werden kann.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Sonic Acceleration <span class="skill-tag">Passive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den HIT von Sonic Blow um +50 und den Schaden um +10%.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Throw Venom Knife <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Schleudert einen vergifteten Dagger mit hoher Chance, das Ziel zu vergiften. Dieser Skill benötigt einen ausgerüsteten Dagger und verbraucht ihn beim Einsatz.</p>
+    </div>
+    </div>
+  </section>
+
+  <section><h2>Level-Milestones</h2><ul><li><strong>1st Job 1–40:</strong> Payon-Cave 1F, Pyramid 1F.</li><li><strong>2nd Job 1–50:</strong> Sphinx 2F (Mummy-Kombo), Pyramid 4F.</li><li><strong>2nd Job 50–99:</strong> Abyss Lake (Anolian/Drachen).</li></ul></section>
+
+  <p>Cross-Links: <a href="klassen.html">Klassen-Übersicht</a> · <a href="leveling.html">Level-Routen</a> · <a href="ausruestung.html">Ausrüstung</a> · <a href="md-equipment.html">MD-Equipment</a></p>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://ratemyserver.net/" target="_blank" rel="noopener">RateMyServer</a>
+</footer>
+
+</body>
+</html>

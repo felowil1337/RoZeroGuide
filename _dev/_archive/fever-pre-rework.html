@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fever-Felder — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#hint">💡 Hint-System</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot — Übersicht</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">↳ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">↳ Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-bug" class="anchor-l2">↳ Return-to-Town-Bug</a></li>
+            <li><a href="auto-hunt.html#autopot-limits" class="anchor-l2">↳ Einschränkungen</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">↳ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">↳ Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#pvp">🛡️ PvP &amp; Restriktionen</a></li>
+            <li><a href="auto-hunt.html#death">💀 Death-Handling</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger-AFK-farmen</a></li>
+            <li><a href="auto-hunt.html#patch">📊 March-2026-Patch</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li><a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a></li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li><a href="quests.html"><span class="emoji">📜</span>Quest-Walkthroughs</a></li>
+        <li><a href="fever.html" class="active"><span class="emoji">🔥</span>Fever-Felder (Lv-Boost)</a></li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li><a href="items-md-equip.html"><span class="emoji">🛡️</span>Memorial-Set Items</a></li>
+        <li><a href="crafting.html"><span class="emoji">🔨</span>Memorial-Crafting</a></li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options 附加能力</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★ 活化</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>Tier-2 ★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>Tier-2 ★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet (附魔)</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        document.querySelectorAll('.sidebar details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Zero-exklusiv · Aktuell spielbar</span>
+      <h1>Fever-Felder & Fever-Equipment</h1>
+      <p class="lead">Die 7 offiziellen Fever-Maps, Spawn-Mechaniken, Mythril-Farming und alle verfügbaren Equipment-Drops mit vollständigen Stats und Set-Boni.</p>
+    </div>
+
+    <section>
+      <h2>🔥 Fever-Felder & Fever-Dungeons</h2>
+      <p>Fever-Felder sind <strong>permanent betretbare Spezialkarten</strong> mit einem <strong>roten Portal</strong> (statt blau). Sie sind Zero-exklusiv und droppen Equipment mit speziellen <strong>Fever-Zufalls-Optionen</strong> (bis zu 4 Options, 3 garantiert auf Boss-Drops).</p>
+
+      <div class="info-box note">
+        <strong>Spawn-Mechanik:</strong> Töte X normale Monster → <strong>Champion</strong>-Variante spawnt. Töte Y Champions → <strong>Boss</strong> spawnt. Töte Z spezifische Mobs → <strong>map-exklusiver MVP</strong>. Beispiel Sograt: 2.000× Desert Hode → Desert Phreeoni. Kills zählen map-weit von allen Spielern (Dynamic-Field).
+      </div>
+    </section>
+
+    <section>
+      <h2>🗺️ Die 7 offiziellen Fever-Maps</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>🌲 Payon Forest Fever Field</h4>
+          <p class="meta">pay_fild06 · Mob-Lv 38–44 · Beginner-Fever-Map</p>
+          <p>Wolves, Smokie, Choco, Spore. Droppt <strong>Mythril Ore</strong>.</p>
+        </div>
+        <div class="card">
+          <h4>🧙 Geffen Fever Field <span class="badge violet">Dynamic</span></h4>
+          <p class="meta">gef_fild02 · Orc-Themed</p>
+          <p>Orc Warrior / Orc Lady-Reihe. Fever-Bosses: <strong>Dark Orc Lord</strong> (2.000× Dark Orc Archer Kills) + <strong>Dark Orc Hero</strong> (2.000× Dark High Orc Kills). Droppt Orcish-Weapon-Varianten.</p>
+        </div>
+        <div class="card">
+          <h4>🏜️ Sograt Desert Fever Field <span class="badge violet">Dynamic</span></h4>
+          <p class="meta">moc_fild18 · 2 süd, 1 ost von Morocc</p>
+          <p>Desert Hode → Dark Hode (Champion) → <strong>Dark/Desert Phreeoni</strong> (MVP nach 2.000× Desert Hode). Droppt 2H-Sword mit 3 Boss-Tier-Melee-Options.</p>
+        </div>
+        <div class="card">
+          <h4>👻 Glast Heim Fever Dungeons (4 Sub-Maps)</h4>
+          <p class="meta">gl_step + 3 weitere — Flame-vs-Ice-Fraktion</p>
+          <p>Two-Faction-System: Flame Ghosts vs Ice Ghosts. Kills einer Fraktion <strong>inkrementieren</strong> deren Boss-Counter und <strong>dekrementieren</strong> die Gegner-Seite. 1.000 Kills → Boss (despawnt nach 15 min).</p>
+        </div>
+        <div class="card">
+          <h4>🌋 Magma Dungeon Lv 3 Fever Field</h4>
+          <p class="meta">mag_dun03 · Fire-Element</p>
+          <p>Kaho-/Explosion-/Nightmare-Terror-Reihe. Droppt <strong>Lava Leather Armor [1]</strong> und Set-Varianten. <strong>Lava Ore</strong> + <strong>Lava Essence</strong> droppen hier.</p>
+        </div>
+        <div class="card">
+          <h4>🌊 Abyss Lake Cave Lv 4</h4>
+          <p class="meta">abyss_04 · „Fever in Name Only"</p>
+          <p><strong>Kein MVP, keine Fever-Equipment-Drops!</strong> Nur <strong>Mythril Ore</strong> + <strong>Blacksmith's Blessing Shard</strong>. Die beste reine Mythril-Farm-Map.</p>
+        </div>
+        <div class="card">
+          <h4>🕰️ Clock Tower (Dynamic Field)</h4>
+          <p class="meta">c_tower — Boss-Counter alle 5 min via NPC-Schild</p>
+          <p>Fever-Bosses: <strong>Erzsebet</strong> (Alice-Line), <strong>Sieglouze</strong>, <strong>Extra Joker</strong>. Boss spawnt am letzten Mob-Kill-Ort.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🎁 Glast Heim Fever Equipment — Verifizierte Stats</h2>
+      <p>Die umfangreichste öffentlich dokumentierte Fever-Map. Die meisten Items sind <strong>Lv 60</strong>, das Staff of Blue Flame [2] ist Endgame-Lv 175.</p>
+
+      <div class="item-row">
+        <div class="item-img">🔮</div>
+        <div class="item-info">
+          <div class="item-name">Staff of Blue Flame [2]</div>
+          <div class="item-stats">
+            2H Rod · ATK 110 · Gewicht 80 · Lv 175 · Wizard/Acolyte/Soul Linker · 2 Slots · <strong>MATK +300</strong> · INT +7 · +1% MATK pro 2 Refine<br>
+            +7: +5% Fire/Earth/Water/Holy Magic · +9: +10% · +11: −20% Damage taken von allen Sizes · +13: −15% After-Cast-Delay<br>
+            <em>Craft-NPC: Altos @ gl_step 110,127 · Enchant-NPC: Sarah @ gl_step 177,133 · Enchant-Cost: 1 Mithril pro Versuch (30% Break-Risiko, 0% mit Gel Star)</em>
+          </div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🔥</div>
+        <div class="item-info">
+          <div class="item-name">Blaze Staff [1]</div>
+          <div class="item-stats">1H Staff · ATK 70 · Gewicht 70 · Lv 60 · Mage/Aco · MATK +125 · MaxSP +100 · +10% Meteor Storm / Fire Pillar · +7/+9 jeweils +5% extra · <em>Drop: Flame Ghost</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">❄️</div>
+        <div class="item-info">
+          <div class="item-name">Ice Staff [1]</div>
+          <div class="item-stats">1H Staff · ATK 70 · Gewicht 70 · Lv 60 · Mage/Aco · MATK +125 · MaxSP +100 · +10% Storm Gust / Frost Nova / Frost Diver · <em>Drop: Ice Ghost</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">⚔️</div>
+        <div class="item-info">
+          <div class="item-name">Royal Knight's Greatsword [1]</div>
+          <div class="item-stats">2H Sword · ATK 165 · Gewicht 150 · Lv 60 · Swordsman · +10% ASPD · CRIT +5 · +7: +10% Crit-Damage · +9: +10% Crit-Damage, ASPD +1 · <em>Drop: Raydric</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🔱</div>
+        <div class="item-info">
+          <div class="item-name">Royal Knight's Lance [1]</div>
+          <div class="item-stats">2H Spear · ATK 180 · Gewicht 250 · Lv 60 · Swordsman · +10% Holy Cross / Pierce · +7/+9 jeweils +5% extra · <em>Drop: Raydric</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🛡️</div>
+        <div class="item-info">
+          <div class="item-name">Khalitzburg's Armor [1]</div>
+          <div class="item-stats">Armor · DEF 35 · Gewicht 100 · Lv 75 · alle Klassen · MaxHP +150 · +7: +150 HP · +9: +250 HP · <em>Drop: Khalitzburg</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">👑</div>
+        <div class="item-info">
+          <div class="item-name">Khalitzburg's Helm [1]</div>
+          <div class="item-stats">Upper Headgear · DEF 10 · Gewicht 70 · Lv 60 · alle Klassen · CRIT +3 · +7: +2 CRIT · +9: +5% Crit-Damage · <em>Craftable</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🧹</div>
+        <div class="item-info">
+          <div class="item-name">Witch's Broom [1]</div>
+          <div class="item-stats">1H Staff · ATK 50 · Gewicht 40 · Lv 60 · Mage/Aco · MATK +125 · +5% Magic vs Formless · <strong>Quagmire-on-Hit</strong> · +7: −10% VCT · +9: +10% Magic vs Formless · <em>Drop: Alice / Erzsebet</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">📖</div>
+        <div class="item-info">
+          <div class="item-name">Prisoner's Diary [1]</div>
+          <div class="item-stats">Book · ATK 125 · Gewicht 50 · Lv 60 · Sage/Priest · +10% Physical vs Undead · Set-Synergie mit Jumpsuit · <em>Drop: Prison Breaker</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">👔</div>
+        <div class="item-info">
+          <div class="item-name">Jumpsuit</div>
+          <div class="item-stats">Armor · DEF 5 · Gewicht 150 · Lv 60 · alle Klassen · HIT/FLEE scalen mit Refine · Set-Synergie mit Shackles · <em>Drop: Zombie/Skeleton Prisoner</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🗡️</div>
+        <div class="item-info">
+          <div class="item-name">Prison Watcher [1]</div>
+          <div class="item-stats">Katar · ATK 140 · Gewicht 100 · Lv 60 · Assassin · <strong>+20% Sonic Blow Damage</strong> · +1% ASPD pro 2 Refine · <em>Drop: Injustice</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🗡️</div>
+        <div class="item-info">
+          <div class="item-name">Guardian's Sword [1]</div>
+          <div class="item-stats">1H Sword · ATK 130 · Gewicht 150 · Lv 60 · Crusader · MATK +120 · <strong>+50 HP pro Faith-Lv</strong> · <em>Drop: Rybio</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">⛓️</div>
+        <div class="item-info">
+          <div class="item-name">Shackles [1]</div>
+          <div class="item-stats">Accessory · Gewicht 240 · Lv 10 · alle Klassen · ATK +5 · +1 ATK pro Refine · Set-Synergien · <em>Drop: Injustice, Phendark</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🎭</div>
+        <div class="item-info">
+          <div class="item-name">Zealotus Mask</div>
+          <div class="item-stats">Upper+Mid Headgear · DEF 3 · Gewicht 40 · Lv 70 · +5% Phys vs Demi-Human · −5% Damage von Demi-Human · <em>Drop: Zealotus</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🐝</div>
+        <div class="item-info">
+          <div class="item-name">Sting Hat</div>
+          <div class="item-stats">Upper · DEF 10 · Gewicht 100 · Lv 60 · alle Klassen · STR +2 · VIT +1 · MDEF +3 · +10% Earth-Damage / +5% Fire-Damage · <em>Drop: Sting</em></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🕰️ Clock Tower Fever Equipment</h2>
+      <div class="item-row">
+        <div class="item-img">🧹</div>
+        <div class="item-info">
+          <div class="item-name">Witch's Broom [1]</div>
+          <div class="item-stats">1H Staff · MATK +125 · +5% vs Formless · Quagmire-on-Hit · +7: −10% VCT · +9: +10% vs Formless · <em>Drop: Erzsebet / Alice</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🐰</div>
+        <div class="item-info">
+          <div class="item-name">Bunny Shirt / Rabbit Shirt [1]</div>
+          <div class="item-stats">Armor · DEF 10 · Gewicht 50 · Lv 75 · Mage/Aco · MaxHP +150 · MaxSP +75 · MATK +2 pro Refine · +7/+9: +75 HP, +25 SP · <em>Drop: Erzsebet</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">👢</div>
+        <div class="item-info">
+          <div class="item-name">Safety Shoes [1]</div>
+          <div class="item-stats">Shoes · DEF 60 · Gewicht 35 · Lv 60 · Swordsman · <strong>Indestructible</strong> · <em>Drop: Sieglouze</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🤛</div>
+        <div class="item-info">
+          <div class="item-name">Joker's Nails [1]</div>
+          <div class="item-stats">
+            Knuckle · ATK 90 · Gewicht 40 · Lv 60 · Monk/Priest · STR +2 · +10% Triple Attack · +1% TA pro Refine · +1% ASPD pro 2 Refine · +7: +15% Chain Combo · +9: +15% Combo Finish · <em>Drop: Extra Joker</em>
+          </div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🎧</div>
+        <div class="item-info">
+          <div class="item-name">Clock Tower Manager's Headset</div>
+          <div class="item-stats">Mid Helm · DEF 10 · Gewicht 10 · Craftable · MATK +20 · mit Clock Tower Manager Card: −15% VCT + Movement Speed</div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">⏱️</div>
+        <div class="item-info">
+          <div class="item-name">Pocket Watch Hairpin</div>
+          <div class="item-stats">Mid Helm · DEF 10 · Gewicht 10 · Craftable · ATK +20 · mit Clock Card: DEF +20, MaxSP +100 · mit Alarm Card: MaxHP +1000</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🌋 Magma Dungeon Fever Equipment</h2>
+      <div class="item-row">
+        <div class="item-img">🔥</div>
+        <div class="item-info">
+          <div class="item-name">Lava Leather Armor [1] (ID 15378)</div>
+          <div class="item-stats">Armor · DEF 85 · Gewicht 150 · Lv 175 · alle Klassen · <strong>ATK +100</strong> · +7: DEF +100 · +9: +50 DEF · 1 Slot · Re-rollable mit <strong>Lava Essence</strong> (2–3 Options aus Fever-Armor-Table)</div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🔥</div>
+        <div class="item-info">
+          <div class="item-name">Lava Leather Suits [1] (ID 15379)</div>
+          <div class="item-stats">Armor-Variante · Gleiche Re-roll-Mechanik via Lava Essence</div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🔥</div>
+        <div class="item-info">
+          <div class="item-name">Lava Leather Robe [1] (ID 15380)</div>
+          <div class="item-stats">Armor-Variante · Gleiche Re-roll-Mechanik</div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🔥</div>
+        <div class="item-info">
+          <div class="item-name">Lava Leather Shoes (ID 22200)</div>
+          <div class="item-stats">Shoes-Variante</div>
+        </div>
+      </div>
+
+      <div class="info-box note">
+        <strong>Material-Loop:</strong> Lava Ore droppt von allen Magma-Mobs. <strong>30× Lava Ore + Lava Ore Extractor → 1× Mythril Ore</strong>. Seltener Drop: <strong>Lava Essence</strong> (für Re-Rolls).
+      </div>
+    </section>
+
+    <section>
+      <h2>🥷 Ninja-Katar & Huuma Fever Drops (Glast Heim)</h2>
+      <div class="item-row">
+        <div class="item-img">🗡️</div>
+        <div class="item-info">
+          <div class="item-name">Fox Armguard [1]</div>
+          <div class="item-stats">Accessory · DEF 1 · Gewicht 20 · Lv 100 · Ninja · ATK +3 · <strong>−3% VCT</strong> · <em>Drop: Corrupted Sting</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🌸</div>
+        <div class="item-info">
+          <div class="item-name">Huuma Swirling Petal [2]</div>
+          <div class="item-stats">Huuma · ATK 240 · Gewicht 150 · Lv 100 · Ninja · ATK +3% · +7: +15% Swirling Petal · +9: −0.5s CD · <em>Drop: Corrupted Sting</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">❄️</div>
+        <div class="item-info">
+          <div class="item-name">Huuma Fluttering Snow [2]</div>
+          <div class="item-stats">Huuma · ATK 180 · Gewicht 130 · Lv 100 · Ninja · MATK +260 · +5% MATK · +7: +35% Freezing Spear · +9: +40% Snow Flake · <em>Drop: Corrupted Gargoyle</em></div>
+        </div>
+      </div>
+
+      <div class="item-row">
+        <div class="item-img">🗡️</div>
+        <div class="item-info">
+          <div class="item-name">Nata Dagger [2]</div>
+          <div class="item-stats">Dagger · ATK 140 · Gewicht 70 · Lv 100 · Ninja · ATK +2% · +7: +10% Kunai · +9: +10% Kunai · <em>Drop: Prison Breaker</em></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>💎 Mythril Ore — Farming-Tier-Liste</h2>
+      <p>Baseline-Drop-Rate: <strong>0,03%</strong> auf allen Fever-Maps.</p>
+      <ol>
+        <li><strong>Abyss Lake Cave Lv 4</strong> — „Fever in Name Only", kein MVP, nur Mythril + Blacksmith's Blessing Shard. <strong>Beste reine Mythril-Farm!</strong></li>
+        <li><strong>Glast Heim Fever Dungeons</strong> — Mythril ist Enchant-Currency für Blue Flame Staff, daher konzentrierte Farmer-Präsenz</li>
+        <li><strong>Magma Dungeon Lv 3</strong> — Mythril via Lava Ore Extractor (30 Lava Ore → 1 Mythril) auch möglich</li>
+        <li>Sograt / Geffen / Payon / Clock Tower — Baseline-Rate, aber primär Equipment-Fokus</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>📊 Fever Drop-Garantien</h2>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Mob-Typ</th><th>Weapon Options</th><th>Armor Options</th><th>Garantiert</th></tr></thead>
+        <tbody>
+          <tr><td>Normaler Fever-Mob</td><td>bis 3</td><td>2 (Garment/Shoes)</td><td>2</td></tr>
+          <tr><td>Champion</td><td>bis 3</td><td>2</td><td>2–3</td></tr>
+          <tr><td>Boss (Fever Boss)</td><td>bis 4</td><td>4</td><td>3 (4. zufällig)</td></tr>
+          <tr><td>Map-MVP</td><td>exklusiver Pool</td><td>exklusiv</td><td>variabel</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p><em>Pillar-of-Light-Farbe auf dem Ground-Drop zeigt Option-Anzahl — Quick-Visual-ID ohne aufheben zu müssen.</em></p>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank">Project Zero Wiki</a> · <a href="https://www.rozskill.me/" target="_blank">rozskill.me</a>
+</footer>
+
+</body>
+</html>

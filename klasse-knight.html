@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klasse Knight — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html" class="active">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+  <div class="page-hero">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      
+      <div>
+        <span class="eyebrow">Klassen · Prontera</span>
+        <h1>Knight</h1>
+        <p class="lead">2nd Job aus dem Swordsman-Pfad. Klassischer DPS-Krieger mit Spear- oder Two-Handed-Sword-Spezialisierung und PecoPeco-Mount für Move-Speed.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Pierce Machine</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Der ultimative SP-nachhaltige Farm-Build</p>
+      <p>In Ragnarok Zero ist die Knight-Klasse der König des nachhaltigen Farmens. Das 'Eternal Machine'-Konzept setzt darauf, SP-Regeneration und INT zu stapeln, um Pierce (è¿åºæ»å») dauerhaft einsetzen zu können. Das ist der Goldstandard für ertragreiche Maps wie Centipedes.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>STR</strong> <span class="stat-val">80-90</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">40-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">40-50</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Pierce (Lv. 10)</strong> — Dein primäres Farm-Werkzeug. Massiver Schaden gegen Large-Monster.</li>
+  <li><strong>Two-Hand Quicken (Lv. 10)</strong> — Essenziell für ASPD. Selbst wenn du einen Spear nutzt — Spear Quicken ist ein Lord-Knight-Skill.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Die 'Zero'-Version der Beetle Card ist alternativlos. Sie liefert SP-Regeneration beim Besiegen von Monstern.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Bowling Bash AGI</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Schnelles Mob-Clearing &amp; Leveln</p>
+      <p>Dieser Build tauscht die Spear-Spezialisierung gegen Two-Handed Swords. Er setzt auf hohe ASPD und den Bowling Bash (ä¿é½¡çæ)-Skill, um ganze Monster-Packs auf einen Schlag wegzuräumen. Ideal für Maps mit hoher Monsterdichte.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>AGI</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>STR</strong> <span class="stat-val">70-80</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">40-50</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Bowling Bash (Lv. 10)</strong> — Der AoE-König. In Zero sind die Gutter Lines entfernt, dadurch ist der Skill zu 100 % zuverlässig beim Mobben.</li>
+  <li><strong>Two-Hand Quicken (Lv. 10)</strong> — Pflicht für hohe ASPD und schnellere BB-Cast-Animation.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Da Gutter Lines in Zero wegfallen, kannst du dich voll auf das Positioning konzentrieren. Der Bowling-Bash-Schaden ist am höchsten, wenn du Mobs in andere Ziele stößt und dadurch den Kollisions-Multiplikator auslöst.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>VIT Tank / WoE</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Der unaufhaltsame Frontline-Beschützer</p>
+      <p>Der reine VIT-Build ist für Gruppen-Content und Guild Wars ausgelegt. Du bist nicht da, um zu killen — du bist da, um am Leben zu bleiben, Schaden zu schlucken und Gegner mit Stun-Skills zu kontrollieren.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>VIT</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>STR</strong> <span class="stat-val">50-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">40-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Provoke (Lv. 10)</strong> — Essenziell, um Bosse abzulenken und im PvP die gegnerische Verteidigung zu senken.</li>
+  <li><strong>Endure (Lv. 10)</strong> — Hält dich in Bewegung, selbst wenn du gleichzeitig von 20+ Gegnern getroffen wirst.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Als Tank ist dein Job das 'Potting'. Halte dein Inventar voll mit White Potions und lege sie auf eine Taste, die du spammen kannst.
+    </div>
+  </section>
+
+  <section>
+    <h2>Komplette Skill-Liste</h2>
+    <p>Alle 22 Skills der Swordsman → Knight Klasse. Quelle: ratemyserver.net.</p>
+
+    <h3>1. Job — Swordsman (10 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Sword Mastery <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den Schaden mit Daggers und Swords (nur einhändig) um 4*SkillLV. Dieser Schaden ignoriert Modifikationen durch Armor- und VIT-DEF, nicht aber durch Elementar- und Card-Modifikatoren und wirkt bei Multi-Hit-Angriffen auf alle Treffer.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Two-Handed Sword Mastery <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Sword Mastery Lv 1</p>
+      <p class="skill-desc">Erhöht den Schaden mit Two-Handed Swords um 4*SkillLV. Dieser Schaden ignoriert Modifikationen durch Armor- und VIT-DEF, nicht aber durch Elementar- und Card-Modifikatoren und wirkt bei Multi-Hit-Angriffen auf alle Treffer.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Increase Recuperative Power <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Heilt ((5*SkillLV) + (Maximum HP*0.002*SkillLV)) HP pro 10 vollen Sekunden, die du auf einer Cell stehen bleibst. Erhöht die Wirkung von Heilitems um (10*SkillLV) % (kumulativ mit dem Bonus durch VIT).</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Bash <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Ein Nahkampfangriff mit ATK von (100+30*SkillLV) %. Gewährt einen HIT-Bonus von 5*SkillLV. Hat der Charakter zusätzlich Fatal Blow, fügen die Stufen 6–10 eine Stun-Chance von 5 %*(Bash SkillLV - 5) plus einen Bonus abhängig vom BaseLV hinzu.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Provoke <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Senkt DEF und VIT-DEF des Gegners um (5+5*SkillLV) % und erhöht dessen ATK um (2+3*SkillLV) %. Monster mit Undead-Property sowie Boss-Monster sind immun.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Magnum Break <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Bash Lv 5</p>
+      <p class="skill-desc">5x5-Cells-Splash-Angriff mit Fire-Property, ATK (100+20*SkillLV) % und +10*SkillLV HIT-Bonus. Getroffene Gegner werden 2 Cells zurückgestoßen. Verbraucht 15 HP pro Einsatz, kann den Charakter aber nicht töten. Nach dem Einsatz erhältst du 10 Sekunden lang einen 20 %igen Fire-Elementar-Bonus auf ATK. Nach dem Cast wird die Angriffssequenz nicht unterbrochen.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Endure <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Provoke Lv 5</p>
+      <p class="skill-desc">Lässt den Charakter die "Flinch"-Animation bei Treffern überspringen und verhindert so "Stun-Lock". Du nimmst weiterhin vollen Schaden, machst aber unterbrechungsfrei weiter, was du gerade tust. Ein sitzender Charakter steht unter Endure bei einem Treffer nicht auf. Der Effekt endet nach 7 Monster-Treffern. Bei Treffern durch Spieler gibt es jedoch KEIN Maximum. Gewährt +1*SkillLV MDEF. Nach dem ersten Cast musst du 10 Sekunden warten, bevor du den Skill erneut casten kannst. Der Endure-Effekt wirkt während War of Emperium nicht — du erhältst nur den MDEF-Bonus.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Moving HP Recovery <span class="skill-tag">Passive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Der Charakter regeneriert HP beim Laufen. Die Rate beträgt 50 % der Stand-Regeneration und wird nicht durch Increase Recuperative Power beeinflusst.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Fatal Blow <span class="skill-tag">Passive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Fügt beim Einsatz von Bash Lv 6 oder höher eine Stun-Chance auf das Ziel hinzu. Die Basis-Stun-Chance beträgt 5 %*(Bash SkillLV - 5) mit einem zusätzlichen Modifikator durch das BaseLV des Charakters und einer Mindestchance von 0 %. [Bash LV 6] 5 % Stun [Bash LV 7] 10 % Stun [Bash LV 8] 15 % Stun [Bash LV 9] 20 % Stun [Bash LV 10] 25 % Stun</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Auto Berserk <span class="skill-tag">Passive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Sinkt deine HP unter 25 %, erhältst du den Effekt von Provoke Lv 10 auf dich selbst — also +32 % ATK und -55 % VIT-DEF. Der Effekt hält an, bis dein HP wieder über 25 % steigt. Der Skill kann aktiv oder inaktiv geschaltet werden und funktioniert sogar dann noch, wenn er bereits dein gesamtes SP verbraucht hat.</p>
+    </div>
+    </div>
+
+    <h3>2. Job — Knight (12 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Spear Mastery <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den Schaden mit allen Spears um +4*SkillLV. Auf einem Peco Peco beträgt der Schadensbonus +5*SkillLV. Dieser Schaden ignoriert Modifikationen durch Armor- und VIT-DEF, nicht aber durch Elementar- und Card-Modifikatoren und wirkt bei Multi-Hit-Angriffen auf alle Treffer.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Pierce <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Spear Mastery Lv 1</p>
+      <p class="skill-desc">Trifft mit ATK (100+10*SkillLV) %. Die Anzahl der Treffer hängt von der Zielgröße ab: Small = 1, Medium = 2, Large = 3. Spieler zählen als Medium. Nur mit Spears nutzbar. [Small] 1 Hit [Medium] 2 Hits [Big] 3 Hits</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Brandish Spear <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Riding (Peco Peco Ride) Lv 1 , Spear Stab Lv 3</p>
+      <p class="skill-desc">Ein Flächenangriff mit ATK (100+20*SkillLV) %. Nur einsetzbar, während du beritten bist und eine Spear-Waffe führst. Während der Cast Time ist die Charakter-DEF auf 2/3 reduziert. Die betroffene Fläche variiert mit der Stufe: Level 1–3: Bereich A; Level 4–6: A+B; Level 7–9: A+B+C; Level 10: A+B+C+D. Wie in folgendem Diagramm: .DDD. CCCCC BBBBB AAAAA AAXAA, wobei X die Position des Knights ist.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Spear Stab <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Pierce Lv 5</p>
+      <p class="skill-desc">One-Cell-Splash (ja, nur 1x1) Nahkampfangriff mit ATK (100+20*SkillLV) %. Ziele werden 6 Cells zurückgestoßen. Nur mit Spear-Waffen nutzbar.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Spear Boomerang <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Pierce Lv 3</p>
+      <p class="skill-desc">Ein Fernkampfangriff mit ATK (100+50*SkillLV) %. Nur mit Spear-Waffen nutzbar.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Two-Hand Quicken <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Two-Handed Sword Mastery Lv 1</p>
+      <p class="skill-desc">Senkt das Weapon-Swing-Delay (erhöht die Angriffsgeschwindigkeit) mit Two-Handed Swords um 30 %. Funktioniert nur mit Two-Handed-Sword-Waffen. Der Effekt endet, sobald die Waffe abgelegt wird.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Auto Counter <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Two-Handed Sword Mastery Lv 1</p>
+      <p class="skill-desc">Versetzt den Charakter bis zum Ablauf der Dauer in die Counter-Stance. Wird er in dieser Haltung von vorn angegriffen, blockt er den Angriff und kontert. In der Counter-Stance kann sich der Charakter nicht bewegen. Der Konterangriff verdoppelt die Critical Rate, garantiert aber keinen Treffer.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Bowling Bash <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Bash Lv 10 , Magnum Break Lv 3 , Two-Handed Sword Mastery Lv 5 , Two-Hand Quicken Lv 10 , Auto Counter Lv 5</p>
+      <p class="skill-desc">Trifft einen Gegner mit ATK (100+40*SkillLV) %. Der Gegner wird bis zu 5 Cells zurückgestoßen. Trifft er dabei andere Gegner, wird der Treffer dort zu einem 3x3-Cell-Nahkampf-Splash mit zusätzlichem Schaden an diesen Sekundärzielen. Während des Casts ist die Charakter-DEF auf 2/3 reduziert.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Riding <span class="skill-tag">Passive · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erlaubt dem Charakter, ein Peco Peco zu reiten. Berittene Charaktere erhalten zusätzliche 25 % Laufgeschwindigkeit (kumulativ mit AGI UP) und ein um 1000 erhöhtes maximales Tragegewicht. Allerdings greifen sie nur mit halber Geschwindigkeit an — diese Strafe lässt sich durch Stufen in Cavalry Mastery reduzieren oder ausgleichen. Beritten beträgt der Größen-Modifikator von Spear gegen Medium 100 % statt 75 %. Das Peco Peco muss beim Peco Peco Breeder in Prontera (55/350) für 2500z gemietet werden. Steigt der Charakter ab (durch Klick auf den "OFF"-Button im Ausrüstungsfenster), verschwindet das Peco Peco und muss neu gemietet werden.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Cavalry Mastery <span class="skill-tag">Passive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Riding (Peco Peco Ride) Lv 1</p>
+      <p class="skill-desc">Hilft, die Weapon-Swing-Geschwindigkeit beim Reiten eines Peco Peco wieder auf das Normalniveau zu bringen. Die Swing-Geschwindigkeit beim Reiten beträgt (50+10*SkillLV) % der unberittenen ASPD. In ASPD-Formeln: Weapon Delay*(2 - 0.2*SkillLV)*(250 - AGI - [DEX/4])/250.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>One-Hand Quicken <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Senkt das Weapon-Swing-Delay mit One-Handed Swords um 30 %. Beim Casten wird der Effekt jeglicher ASPD-Potion aufgehoben, du kannst aber nach dem Cast wieder eine solche Potion einsetzen. Funktioniert nur mit One-Hand-Sword-Waffen; der Effekt endet beim Wechsel auf einen anderen Waffentyp.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Charge Attack <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Stürme sofort auf einen einzelnen Gegner zu, der sich auf Distanz befindet. Je weiter der Gegner entfernt ist, desto höher dein ATK — aber auch desto länger die Cast Time des Skills.</p>
+    </div>
+    </div>
+  </section>
+
+  <section><h2>Level-Milestones</h2><ul><li><strong>1st Job 1–10:</strong> Swordsman-Trainingsfeld (Süd-Prontera Felder).</li><li><strong>1st Job 10–40:</strong> Payon-Cave 1F → Orcs / Geographers.</li><li><strong>2nd Job 1–50:</strong> Orcs Memory MD, Sograt-Desert-Zonen, Anolian-Spots.</li><li><strong>2nd Job 50–99:</strong> Glast Heim Churchyard / Magma Dungeon.</li></ul><p>Vollständige Routen: <a href="leveling.html">Level-Routen 1–99</a>.</p></section>
+
+  <p>Cross-Links: <a href="klassen.html">Klassen-Übersicht</a> · <a href="leveling.html">Level-Routen</a> · <a href="ausruestung.html">Ausrüstung</a> · <a href="md-equipment.html">MD-Equipment</a></p>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://ratemyserver.net/" target="_blank" rel="noopener">RateMyServer</a>
+</footer>
+
+</body>
+</html>

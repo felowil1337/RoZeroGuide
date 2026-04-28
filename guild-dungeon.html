@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guild Dungeons — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html" class="active"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Guild Content · Castle-Reward · WoE-Endgame</span>
+      <h1>🏰 Guild Dungeons</h1>
+      <p class="lead">Vier exklusive PvP-aktive Hunting-Maps für Guild-Mitglieder mit Castle-Besitz oder per Eintrittsgebühr (30.000 Zeny). Eigene Mob-Ökonomie mit <em>Guild Coins</em> und <em>Guild Medals</em>, exklusiven Cards, kompletter <em>Lesser/Greater Guild</em>-Waffen- und Rüstungs-Reihe inklusive Enchant-System.</p>
+    </div>
+
+    <div class="info-box note">
+      <strong>Quelle:</strong> Komplett aus <a href="https://old.criatura-academy.com/updates/guild-dungeons/" target="_blank" rel="noopener">Criatura Academy · Guild Dungeons</a>. Items, Monster und Skill-Namen bleiben bewusst Englisch (Spielsprache); Texte sind deutsch. Stats stammen aus kRO Zero — auf Global können einzelne Werte abweichen.
+    </div>
+
+    <section>
+      <h2>🧭 Was sind Guild Dungeons?</h2>
+      <p>Guild Dungeons sind <strong>vier separate, persistente Hunting-Maps</strong>, jeweils einer der vier WoE-Regionen (<em>Valkyrie</em>, <em>Britoniah</em>, <em>Balder</em>, <em>Luina</em>) zugeordnet. Hier farmst du nicht nur exklusive Mobs, sondern kämpfst auch gegen andere Spieler — der Hauptanreiz ist das Sammeln von <strong>Guild Coins</strong> und <strong>Guild Medals</strong> für die <em>Lesser/Greater Guild</em>-Ausrüstung.</p>
+
+      <p>Anders als die <a href="instanzen.html">Memorial-Dungeons</a> sind sie:</p>
+      <ul>
+        <li><strong>PvP aktiv</strong> — Maps sind dauerhaft offen-PvP, Vorsicht beim Solo-Farm</li>
+        <li><strong>EXP-Verlust beim Tod</strong> — Tod im Dungeon kostet EXP wie auf normalen Maps (kein Sicherheitsmodus)</li>
+        <li><strong>Während WoE gesperrt</strong> — in der WoE-Zeit werden Spieler aus dem Dungeon zum Save-Point teleportiert</li>
+        <li><strong>Single-MVP-fokussiert</strong> — jede Map hat eigene MVPs/Bosse mit eigenen Drop-Pools</li>
+        <li><strong>Castle-Reward</strong> — Mitglieder einer Castle-besitzenden Gilde betreten kostenlos</li>
+      </ul>
+
+      <div class="info-box note">
+        Cross-Link: Für die <em>habitatbasierten</em> MVP-Maps mit Lucy-Quest-Integration siehe <a href="mvp.html">MVP-System</a>. Guild Dungeons sind ein <strong>separates</strong> Subsystem und verwenden weder Lucy-Discharge-Quests noch MVP-Aura-Fragmente.
+      </div>
+    </section>
+
+    <section>
+      <h2>🔑 Zugangs-Voraussetzungen</h2>
+      <ul class="entry-meta">
+        <li><strong>Mit Castle in der Region:</strong> kostenlos für jedes Mitglied der Castle-besitzenden Gilde</li>
+        <li><strong>Ohne Castle:</strong> 30.000 Zeny pro Eintritt am NPC der jeweiligen Region</li>
+        <li><strong>Während WoE:</strong> Zugang gesperrt, Spieler werden aus dem Dungeon entfernt</li>
+        <li><strong>Tod-Penalty:</strong> EXP-Verlust wie auf normalen Maps</li>
+      </ul>
+      <p>Geht das Castle in einer WoE verloren, verliert die Gilde lediglich den <em>kostenlosen</em> Zugang — der Dungeon bleibt aber für 30.000 Zeny pro Run weiterhin erreichbar. Das macht ihn zu einem Mix aus WoE-Reward und allgemeiner Endgame-Farm-Map.</p>
+    </section>
+
+    <section id="overview">
+      <h2>🗺️ Die vier Guild Dungeons</h2>
+      <p>Jeder Dungeon ist einer Region zugeordnet — die Castle-besitzenden Gilden dieser Region erhalten freien Zutritt:</p>
+      <table>
+        <thead>
+          <tr><th>Region</th><th>Hauptstadt</th><th>Eingangs-Position</th><th>Eintritt (ohne Castle)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><a href="#gld-valkyrie">Valkyrie</a></td><td>Prontera</td><td><code>prt_gld 156/99</code></td><td>30.000 Zeny</td></tr>
+          <tr><td><a href="#gld-britoniah">Britoniah</a></td><td>Geffen</td><td><code>gef_fild13 195/241</code></td><td>30.000 Zeny</td></tr>
+          <tr><td><a href="#gld-balder">Balder</a></td><td>Payon</td><td><code>pay_gld 200/180</code></td><td>30.000 Zeny</td></tr>
+          <tr><td><a href="#gld-luina">Luina</a></td><td>Aldebaran</td><td><code>alde_gld 213/148</code></td><td>30.000 Zeny</td></tr>
+        </tbody>
+      </table>
+      <p class="entry-jump"><a href="#gld-valkyrie">Valkyrie</a><a href="#gld-britoniah">Britoniah</a><a href="#gld-balder">Balder</a><a href="#gld-luina">Luina</a><a href="#gld-coins">Guild Coins &amp; Medals</a><a href="#gld-potions">Potions</a><a href="#gld-cards">Cards</a><a href="#gld-weapons">Waffen</a><a href="#gld-armor">Rüstung</a><a href="#gld-enchants">Enchants</a><a href="#gld-npcs">NPCs</a></p>
+    </section>
+
+    <section id="gld-valkyrie">
+      <h2>🗡️ Valkyrie-Realm — Prontera</h2>
+      <ul class="entry-meta">
+        <li><strong>Hauptstadt:</strong> Prontera</li>
+        <li><strong>Eingang:</strong> <code>prt_gld 156/99</code></li>
+        <li><strong>Eintritt:</strong> kostenlos für Castle-besitzende Gilden · 30.000 Zeny ohne Castle</li>
+        <li><strong>Theme:</strong> Insect-Mobs (Caterpillar, Creamy Fear) + Old Treasure Chest MVP</li>
+      </ul>
+
+      <div class="entry-grid wide">
+        <div class="entry-card is-monster" id="gld-mob-creamy-fear">
+          <div class="entry-card-head">
+            <img alt="Creamy Fear" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/creamy-fear.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Creamy+Fear" rel="noopener" target="_blank">Creamy Fear</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 117</li><li><strong>HP:</strong> 54.633</li><li><strong>Familie:</strong> Insect</li><li><strong>Element:</strong> Wind LV1</li><li><strong>EXP / JEXP:</strong> 7.749 / 7.425</li></ul>
+          <ul class="entry-stats"><li>Drops: Butterfly Wing, Silver Robe [1], Honey, Fancy Flower, Creamy Fear Card</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-creamy-fear">Monster-DB ↗</a> · <a href="https://www.divine-pride.net/database/search?searchquery=Creamy+Fear" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-caterpillar">
+          <div class="entry-card-head">
+            <img alt="Caterpillar" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/caterpillar.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Caterpillar" rel="noopener" target="_blank">Caterpillar</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 121</li><li><strong>HP:</strong> 77.721</li><li><strong>Familie:</strong> Insect</li><li><strong>Element:</strong> Earth LV1</li><li><strong>EXP / JEXP:</strong> 9.597 / 8.772</li></ul>
+          <ul class="entry-stats"><li>Drops: Feather, Brigan, Great Nature, Old Blue Box, Star Crumb, Caterpillar Card</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-caterpillar">Monster-DB ↗</a> · <a href="https://www.divine-pride.net/database/search?searchquery=Caterpillar" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-enraged-caterpillar">
+          <div class="entry-card-head">
+            <img alt="Enraged Caterpillar" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/caterpillar.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Enraged+Caterpillar" rel="noopener" target="_blank">Enraged Caterpillar</a>
+            <span class="entry-type">MVP</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 121</li><li><strong>HP:</strong> 388.865</li><li><strong>Familie:</strong> Insect</li><li><strong>Element:</strong> Earth LV1</li><li><strong>EXP / JEXP:</strong> 47.985 / 131.580</li></ul>
+          <ul class="entry-stats"><li>MVP-Variante des Caterpillars · 5× HP, 5× EXP, ~15× JEXP</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-enraged-caterpillar">Monster-DB ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-old-treasure-chest">
+          <div class="entry-card-head">
+            <img alt="Old Treasure Chest" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/old-treasure-chest.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Old+Treasure+Chest" rel="noopener" target="_blank">Old Treasure Chest</a>
+            <span class="entry-type">MVP</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 99 (MVP)</li><li><strong>HP:</strong> 20</li><li><strong>Familie:</strong> Formless</li><li><strong>Element:</strong> Fire LV4</li></ul>
+          <ul class="entry-stats"><li>Schatztruhen-MVP — extrem niedrige HP, aber hohe Spawn-Konkurrenz im PvP</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-old-treasure-chest">Monster-DB ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gld-britoniah">
+      <h2>💀 Britoniah-Realm — Geffen</h2>
+      <ul class="entry-meta">
+        <li><strong>Hauptstadt:</strong> Geffen</li>
+        <li><strong>Eingang:</strong> <code>gef_fild13 195/241</code></li>
+        <li><strong>Eintritt:</strong> kostenlos für Castle-besitzende Gilden · 30.000 Zeny ohne Castle</li>
+        <li><strong>Theme:</strong> Undead-Map mit Wraith Dead und Zombie-Master-MVP</li>
+      </ul>
+
+      <div class="entry-grid wide">
+        <div class="entry-card is-monster" id="gld-mob-wraith-dead">
+          <div class="entry-card-head">
+            <img alt="Wraith Dead" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/wraith-dead.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Wraith+Dead" rel="noopener" target="_blank">Wraith Dead</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 121</li><li><strong>HP:</strong> 112.260</li><li><strong>Familie:</strong> Undead</li><li><strong>Element:</strong> Undead LV4</li><li><strong>EXP / JEXP:</strong> 10.053 / 8.316</li></ul>
+          <ul class="entry-stats"><li>Drops: Fabric, Veil, Manteau [1], Red Gemstone, 3carat Diamond, Wraith Dead Card</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-wraith-dead">Monster-DB ↗</a> · <a href="https://www.divine-pride.net/database/search?searchquery=Wraith+Dead" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-zombie-master">
+          <div class="entry-card-head">
+            <img alt="Zombie Master" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/zombie-master.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Zombie+Master" rel="noopener" target="_blank">Zombie Master</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 119</li><li><strong>HP:</strong> 75.891</li><li><strong>Familie:</strong> Undead</li><li><strong>Element:</strong> Undead LV1</li><li><strong>EXP / JEXP:</strong> 8.673 / 7.170</li></ul>
+          <ul class="entry-stats"><li>Drops: Tattered Clothes, Sticky Mucus, Ruby, Opal, Zombie Master Card</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-zombie-master">Monster-DB ↗</a> · <a href="https://www.divine-pride.net/database/search?searchquery=Zombie+Master" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-leader-zombie-master">
+          <div class="entry-card-head">
+            <img alt="Leader Zombie Master" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/zombie-master.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Leader+Zombie+Master" rel="noopener" target="_blank">Leader Zombie Master</a>
+            <span class="entry-type">MVP</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 119</li><li><strong>HP:</strong> 379.455</li><li><strong>Familie:</strong> Undead</li><li><strong>Element:</strong> Undead LV1</li><li><strong>EXP / JEXP:</strong> 43.365 / 107.550</li></ul>
+          <ul class="entry-stats"><li>MVP-Variante des Zombie Masters · 5× HP, ~5× EXP, 15× JEXP</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-leader-zombie-master">Monster-DB ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gld-balder">
+      <h2>🐗 Balder-Realm — Payon</h2>
+      <ul class="entry-meta">
+        <li><strong>Hauptstadt:</strong> Payon</li>
+        <li><strong>Eingang:</strong> <code>pay_gld 200/180</code></li>
+        <li><strong>Eintritt:</strong> kostenlos für Castle-besitzende Gilden · 30.000 Zeny ohne Castle</li>
+        <li><strong>Theme:</strong> Brute-Map mit Leib Olmai &amp; Gullinbursti, Moonlight Flower als Boss</li>
+      </ul>
+
+      <div class="entry-grid wide">
+        <div class="entry-card is-monster" id="gld-mob-gullinbursti">
+          <div class="entry-card-head">
+            <img alt="Gullinbursti" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/gullinbursti.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Gullinbursti" rel="noopener" target="_blank">Gullinbursti</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 118</li><li><strong>HP:</strong> 78.000</li><li><strong>Familie:</strong> Brute</li><li><strong>Element:</strong> Earth LV2</li><li><strong>EXP / JEXP:</strong> 8.814 / 7.552</li></ul>
+          <ul class="entry-stats"><li>Drops u. a. Gullinbursti Card (+10 % EXP vs Fish)</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-gullinbursti">Monster-DB ↗</a> · <a href="https://www.divine-pride.net/database/search?searchquery=Gullinbursti" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-savage">
+          <div class="entry-card-head">
+            <img alt="Savage" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/savage.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Savage" rel="noopener" target="_blank">Savage</a>
+            <span class="entry-type">Normal · Add</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Familie:</strong> Brute</li><li><strong>Element:</strong> Earth</li></ul>
+          <ul class="entry-stats"><li>Reguläres Add-Spawn · klassischer Pre-Renewal-Brute-Mob</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-savage">Monster-DB ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-leib-olmai">
+          <div class="entry-card-head">
+            <img alt="Leib Olmai" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/leib-olmai.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Leib+Olmai" rel="noopener" target="_blank">Leib Olmai</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 120</li><li><strong>HP:</strong> 105.000</li><li><strong>Familie:</strong> Brute</li><li><strong>Element:</strong> Earth LV1</li><li><strong>EXP / JEXP:</strong> 9.766 / 8.462</li></ul>
+          <ul class="entry-stats"><li>Drops u. a. Leib Olmai Card (Red Blood vs Brute, +10 % Fire-Resist)</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-leib-olmai">Monster-DB ↗</a> · <a href="https://www.divine-pride.net/database/search?searchquery=Leib+Olmai" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-robust-leib-olmai">
+          <div class="entry-card-head">
+            <img alt="Robust Leib Olmai" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/leib-olmai.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Robust+Leib+Olmai" rel="noopener" target="_blank">Robust Leib Olmai</a>
+            <span class="entry-type">MVP</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 120</li><li><strong>HP:</strong> 1.050.000</li><li><strong>Familie:</strong> Brute</li><li><strong>Element:</strong> Earth LV1</li><li><strong>EXP / JEXP:</strong> 48.830 / 126.930</li></ul>
+          <ul class="entry-stats"><li>MVP-Variante mit 10× HP des regulären Leib Olmai</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-robust-leib-olmai">Monster-DB ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-moonlight-flower">
+          <div class="entry-card-head">
+            <img alt="Moonlight Flower" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/moonlight-flower.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Moonlight+Flower" rel="noopener" target="_blank">Moonlight Flower</a>
+            <span class="entry-type">Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 79 (Boss)</li><li><strong>HP:</strong> 324.000</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Fire LV3</li><li><strong>EXP / JEXP:</strong> 183.744 / 135.720</li></ul>
+          <ul class="entry-stats"><li>Boss-MVP der Map · klassische Moonlight Flower-Mechanik (Lord of Vermilion)</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-moonlight-flower">Monster-DB ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gld-luina">
+      <h2>🐝 Luina-Realm — Aldebaran</h2>
+      <ul class="entry-meta">
+        <li><strong>Hauptstadt:</strong> Aldebaran</li>
+        <li><strong>Eingang:</strong> <code>alde_gld 213/148</code></li>
+        <li><strong>Eintritt:</strong> kostenlos für Castle-besitzende Gilden · 30.000 Zeny ohne Castle</li>
+        <li><strong>Theme:</strong> Insect-Map mit Hornets, Ancient Worms, Mistress als Boss</li>
+      </ul>
+
+      <div class="entry-grid wide">
+        <div class="entry-card is-monster" id="gld-mob-giant-hornet">
+          <div class="entry-card-head">
+            <img alt="Giant Hornet" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/giant-hornet.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Giant+Hornet" rel="noopener" target="_blank">Giant Hornet</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 116</li><li><strong>HP:</strong> 52.000</li><li><strong>Familie:</strong> Insect</li><li><strong>Element:</strong> Wind LV1</li><li><strong>EXP / JEXP:</strong> 7.882 / 7.076</li></ul>
+          <ul class="entry-stats"><li>Drops u. a. Giant Hornet Card (Wind of Verdure vs Insect, +10 % Wind-Resist)</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-giant-hornet">Monster-DB ↗</a> · <a href="https://www.divine-pride.net/database/search?searchquery=Giant+Hornet" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-leader-giant-hornet">
+          <div class="entry-card-head">
+            <img alt="Leader Giant Hornet" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/giant-hornet.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Leader+Giant+Hornet" rel="noopener" target="_blank">Leader Giant Hornet</a>
+            <span class="entry-type">MVP</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 116</li><li><strong>HP:</strong> 260.000</li><li><strong>Familie:</strong> Insect</li><li><strong>Element:</strong> Wind LV1</li><li><strong>EXP / JEXP:</strong> 39.410 / 106.140</li></ul>
+          <ul class="entry-stats"><li>MVP-Variante mit 5× HP des regulären Hornets</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-leader-giant-hornet">Monster-DB ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-ancient-worm">
+          <div class="entry-card-head">
+            <img alt="Ancient Worm" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/ancient-worm.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Ancient+Worm" rel="noopener" target="_blank">Ancient Worm</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 122</li><li><strong>HP:</strong> 99.000</li><li><strong>Familie:</strong> Insect</li><li><strong>Element:</strong> Poison LV1</li><li><strong>EXP / JEXP:</strong> 10.498 / 9.028</li></ul>
+          <ul class="entry-stats"><li>Drops u. a. Ancient Worm Card (+10 % EXP vs Demon)</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-ancient-worm">Monster-DB ↗</a> · <a href="https://www.divine-pride.net/database/search?searchquery=Ancient+Worm" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-argiope">
+          <div class="entry-card-head">
+            <img alt="Argiope" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/argiope.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Argiope" rel="noopener" target="_blank">Argiope</a>
+            <span class="entry-type">Normal · Add</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Familie:</strong> Insect</li><li><strong>Element:</strong> Poison</li></ul>
+          <ul class="entry-stats"><li>Reguläres Add-Spawn · klassischer Pre-Renewal-Insect-Mob</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-argiope">Monster-DB ↗</a></div>
+        </div>
+        <div class="entry-card is-monster" id="gld-mob-mistress">
+          <div class="entry-card-head">
+            <img alt="Mistress" class="entry-icon" loading="lazy" src="images/guild-dungeon/monsters/mistress.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Mistress" rel="noopener" target="_blank">Mistress</a>
+            <span class="entry-type">Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 78 (Boss)</li><li><strong>HP:</strong> 378.000</li><li><strong>Familie:</strong> Insect</li><li><strong>Element:</strong> Wind LV4</li><li><strong>EXP / JEXP:</strong> 184.140 / 150.660</li></ul>
+          <ul class="entry-stats"><li>Boss-MVP der Map · klassische Mistress-Mechanik mit Lord of Vermilion / Provoke</li></ul>
+          <div class="entry-card-foot"><a href="monster.html#gld-mob-mistress">Monster-DB ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gld-coins">
+      <h2>🪙 Guild Coins &amp; Medals — Währungs-System</h2>
+      <p>Alle Guild-Dungeon-Mobs droppen <strong>Guild Coin Pouches</strong>. Diese öffnen zu zufälligen Mengen Guild Coins. <strong>Guild Medals</strong> wurden mit dem 2019.12.11-Update ergänzt und werden für hochwertige Items / Enchant-Resets benötigt.</p>
+
+      <div class="entry-grid">
+        <div class="entry-card" id="gld-item-25630">
+          <div class="entry-card-head">
+            <img alt="Guild Coin" class="entry-icon" loading="lazy" src="images/guild-dungeon/items/25630.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/25630" rel="noopener" target="_blank">Guild Coin</a>
+            <span class="entry-type">Currency</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 25630</li><li><strong>Gewicht:</strong> 0</li><li><strong>Quelle:</strong> Guild Coin Pouch · Mob-Drops</li><li><strong>Tausch:</strong> Guild Coin Merchant <code>prt_in 210/161</code></li></ul>
+          <div class="entry-card-foot"><span>kRO #25630</span><a href="https://divine-pride.net/database/item/25630" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-item-1000030">
+          <div class="entry-card-head">
+            <img alt="Guild Medal" class="entry-icon" loading="lazy" src="images/guild-dungeon/items/1000030.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/1000030" rel="noopener" target="_blank">Guild Medal</a>
+            <span class="entry-type">Currency</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 1000030</li><li><strong>Gewicht:</strong> 5</li><li><strong>Hinzugefügt:</strong> 2019.12.11</li><li><strong>Verwendung:</strong> Premium-Tausch / Enchant-Reset</li></ul>
+          <div class="entry-card-foot"><span>kRO #1000030</span><a href="https://divine-pride.net/database/item/1000030" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-item-23712">
+          <div class="entry-card-head">
+            <img alt="Guild Coin Pouch" class="entry-icon" loading="lazy" src="images/guild-dungeon/items/23712.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/23712" rel="noopener" target="_blank">Guild Coin Pouch</a>
+            <span class="entry-type">Loot Bag</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 23712</li><li><strong>Gewicht:</strong> 10</li><li><strong>Inhalt:</strong> zufällige Anzahl Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #23712</span><a href="https://divine-pride.net/database/item/23712" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-item-100110">
+          <div class="entry-card-head">
+            <img alt="Thick Guild Coin Pouch" class="entry-icon" loading="lazy" src="images/guild-dungeon/items/100110.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/100110" rel="noopener" target="_blank">Thick Guild Coin Pouch</a>
+            <span class="entry-type">Loot Bag</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 100110</li><li><strong>Gewicht:</strong> 20</li><li><strong>Hinzugefügt:</strong> 2019.12.11</li><li><strong>Inhalt:</strong> größere Menge Guild Coins als Standard-Pouch</li></ul>
+          <div class="entry-card-foot"><span>kRO #100110</span><a href="https://divine-pride.net/database/item/100110" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-item-100115">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Enchant Box" class="entry-icon" loading="lazy" src="images/guild-dungeon/items/100115.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/100115" rel="noopener" target="_blank">Greater Guild Enchant Box</a>
+            <span class="entry-type">Enchant-Box</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 100115</li><li><strong>Quelle:</strong> Greater Guild Merchant</li><li><strong>Inhalt:</strong> zufälliger Greater-Guild-Enchant (Resist / Amplify)</li></ul>
+          <div class="entry-card-foot"><span>kRO #100115</span><a href="https://divine-pride.net/database/item/100115" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gld-potions">
+      <h2>🧪 Siege Potions &amp; Verbrauchsgüter</h2>
+      <p>Beim Guild Coin Merchant erhältst du HP/SP-Potions in Siege-Qualität — wichtig für WoE und PvP im Dungeon.</p>
+
+      <div class="entry-grid">
+        <div class="entry-card" id="gld-item-11547">
+          <div class="entry-card-head">
+            <img alt="Violet Siege Potion" class="entry-icon" loading="lazy" src="images/guild-dungeon/items/11547.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/11547" rel="noopener" target="_blank">Violet Siege Potion</a>
+            <span class="entry-type">Potion</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 11547</li><li><strong>Wirkung:</strong> ~500 HP / 60 SP</li><li><strong>Preis:</strong> 2 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #11547</span><a href="https://divine-pride.net/database/item/11547" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-item-1100001">
+          <div class="entry-card-head">
+            <img alt="Large Violet Siege Potion" class="entry-icon" loading="lazy" src="images/guild-dungeon/items/1100001.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/1100001" rel="noopener" target="_blank">Large Violet Siege Potion</a>
+            <span class="entry-type">Potion</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 1100001</li><li><strong>Wirkung:</strong> ~750 HP / 100 SP</li><li><strong>Preis:</strong> 5 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #1100001</span><a href="https://divine-pride.net/database/item/1100001" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-item-12676">
+          <div class="entry-card-head">
+            <img alt="Violet Siege Potion Box" class="entry-icon" loading="lazy" src="images/guild-dungeon/items/12676.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/12676" rel="noopener" target="_blank">Violet Siege Potion Box</a>
+            <span class="entry-type">Potion-Box</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 12676</li><li><strong>Inhalt:</strong> 50× Violet Siege Potion</li><li><strong>Preis:</strong> 90 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #12676</span><a href="https://divine-pride.net/database/item/12676" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-item-22545">
+          <div class="entry-card-head">
+            <img alt="[Event] Speed Potion" class="entry-icon" loading="lazy" src="images/guild-dungeon/items/22545.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/22545" rel="noopener" target="_blank">[Event] Speed Potion</a>
+            <span class="entry-type">Buff Potion</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 22545</li><li><strong>Preis:</strong> 3 Guild Medals</li><li><strong>Hinweis:</strong> nicht handelbar</li></ul>
+          <div class="entry-card-foot"><span>kRO #22545</span><a href="https://divine-pride.net/database/item/22545" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-item-23312">
+          <div class="entry-card-head">
+            <img alt="Chemicals Bag" class="entry-icon" loading="lazy" src="images/guild-dungeon/items/23312.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/23312" rel="noopener" target="_blank">Chemicals Bag</a>
+            <span class="entry-type">Bag</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 23312</li><li><strong>Preis:</strong> 50 Guild Medals</li></ul>
+          <div class="entry-card-foot"><span>kRO #23312</span><a href="https://divine-pride.net/database/item/23312" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gld-cards">
+      <h2>🃏 Guild-Dungeon-Cards</h2>
+      <p>Jeder MVP- und Standard-Mob droppt eine eigene Card. Besonders wertvoll: <em>Zombie Master</em>, <em>Wraith Dead</em> und <em>Leib Olmai</em>.</p>
+
+      <div class="entry-grid wide">
+        <div class="entry-card" id="gld-card-4274">
+          <div class="entry-card-head">
+            <span class="entry-icon">🃏</span>
+            <a class="entry-name" href="https://divine-pride.net/database/item/4274" rel="noopener" target="_blank">Zombie Master Card</a>
+            <span class="entry-type">Weapon Card</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 4274</li><li><strong>Effekt:</strong> Melee-Kill auf Undead = +5 SP</li><li><strong>Drop:</strong> Zombie Master / Leader Zombie Master</li></ul>
+          <div class="entry-card-foot"><span>kRO #4274</span><a href="https://divine-pride.net/database/item/4274" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-card-4189">
+          <div class="entry-card-head">
+            <span class="entry-icon">🃏</span>
+            <a class="entry-name" href="https://divine-pride.net/database/item/4189" rel="noopener" target="_blank">Wraith Dead Card</a>
+            <span class="entry-type">Armor Card</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 4189</li><li><strong>Effekt:</strong> 6 % Curse-Chance auf eingehenden physischen Schaden</li><li><strong>Drop:</strong> Wraith Dead</li></ul>
+          <div class="entry-card-foot"><span>kRO #4189</span><a href="https://divine-pride.net/database/item/4189" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-card-4298">
+          <div class="entry-card-head">
+            <span class="entry-icon">🃏</span>
+            <a class="entry-name" href="https://divine-pride.net/database/item/4298" rel="noopener" target="_blank">Creamy Fear Card</a>
+            <span class="entry-type">Armor Card</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 4298</li><li><strong>Effekt:</strong> 6 % Confusion-Chance auf eingehenden physischen Schaden</li><li><strong>Drop:</strong> Creamy Fear</li></ul>
+          <div class="entry-card-foot"><span>kRO #4298</span><a href="https://divine-pride.net/database/item/4298" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-card-4289">
+          <div class="entry-card-head">
+            <span class="entry-icon">🃏</span>
+            <a class="entry-name" href="https://divine-pride.net/database/item/4289" rel="noopener" target="_blank">Caterpillar Card</a>
+            <span class="entry-type">Weapon Card</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 4289</li><li><strong>Effekt:</strong> Melee-Kill auf Plant = +5 SP</li><li><strong>Drop:</strong> Caterpillar / Enraged Caterpillar</li></ul>
+          <div class="entry-card-foot"><span>kRO #4289</span><a href="https://divine-pride.net/database/item/4289" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-card-4164">
+          <div class="entry-card-head">
+            <span class="entry-icon">🃏</span>
+            <a class="entry-name" href="https://divine-pride.net/database/item/4164" rel="noopener" target="_blank">Gullinbursti Card</a>
+            <span class="entry-type">Weapon Card</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 4164</li><li><strong>Effekt:</strong> +10 % EXP vs Fish, +20 % erhaltener Schaden</li><li><strong>Drop:</strong> Gullinbursti</li></ul>
+          <div class="entry-card-foot"><span>kRO #4164</span><a href="https://divine-pride.net/database/item/4164" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-card-4188">
+          <div class="entry-card-head">
+            <span class="entry-icon">🃏</span>
+            <a class="entry-name" href="https://divine-pride.net/database/item/4188" rel="noopener" target="_blank">Leib Olmai Card</a>
+            <span class="entry-type">Weapon Card</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 4188</li><li><strong>Effekt:</strong> Red-Blood-Drop-Chance vs Brute, +10 % Fire-Resist</li><li><strong>Drop:</strong> Leib Olmai / Robust Leib Olmai</li></ul>
+          <div class="entry-card-foot"><span>kRO #4188</span><a href="https://divine-pride.net/database/item/4188" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-card-4271">
+          <div class="entry-card-head">
+            <span class="entry-icon">🃏</span>
+            <a class="entry-name" href="https://divine-pride.net/database/item/4271" rel="noopener" target="_blank">Giant Hornet Card</a>
+            <span class="entry-type">Weapon Card</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 4271</li><li><strong>Effekt:</strong> Wind-of-Verdure-Drop vs Insect, +10 % Wind-Resist</li><li><strong>Drop:</strong> Giant Hornet / Leader Giant Hornet</li></ul>
+          <div class="entry-card-foot"><span>kRO #4271</span><a href="https://divine-pride.net/database/item/4271" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-card-4249">
+          <div class="entry-card-head">
+            <span class="entry-icon">🃏</span>
+            <a class="entry-name" href="https://divine-pride.net/database/item/4249" rel="noopener" target="_blank">Ancient Worm Card</a>
+            <span class="entry-type">Weapon Card</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 4249</li><li><strong>Effekt:</strong> +10 % EXP vs Demon, +20 % erhaltener Schaden</li><li><strong>Drop:</strong> Ancient Worm</li></ul>
+          <div class="entry-card-foot"><span>kRO #4249</span><a href="https://divine-pride.net/database/item/4249" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gld-weapons">
+      <h2>⚔️ Lesser &amp; Greater Guild Weapons</h2>
+      <p><strong>Lesser Guild Weapons</strong> kosten 1.000 Guild Coins, ab Lvl 70. Charakteristik: <em>+20–25 % Schaden gegen Spieler</em>, <em>ignoriert 5–10 % DEF</em>, <em>+1 % pro Refine</em>. <strong>Greater Guild</strong>-Versionen werden aus 1.000 Guild Coins + einer +7 Lesser-Waffe gefertigt — höhere ATK/MATK, enchantbar.</p>
+
+      <h3>Lesser Guild — Lvl 70</h3>
+      <div class="entry-grid">
+        <div class="entry-card" id="gld-weap-1329">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Cleaver" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/1329.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/1329" rel="noopener" target="_blank">Lesser Guild Cleaver</a>
+            <span class="entry-type">1H-Axe</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 1329 · <strong>ATK:</strong> 110</li><li><strong>Klasse:</strong> Merchant / Blacksmith</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #1329</span><a href="https://divine-pride.net/database/item/1329" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-16085">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Morning Star" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/16085.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/16085" rel="noopener" target="_blank">Lesser Guild Morning Star</a>
+            <span class="entry-type">Mace</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 16085</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #16085</span><a href="https://divine-pride.net/database/item/16085" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-32015">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Pike" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/32015.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/32015" rel="noopener" target="_blank">Lesser Guild Pike</a>
+            <span class="entry-type">Spear</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 32015</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #32015</span><a href="https://divine-pride.net/database/item/32015" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-13490">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Flamberge" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/13490.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/13490" rel="noopener" target="_blank">Lesser Guild Flamberge</a>
+            <span class="entry-type">1H-Sword</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 13490</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #13490</span><a href="https://divine-pride.net/database/item/13490" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-28036">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Jamadhar" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/28036.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/28036" rel="noopener" target="_blank">Lesser Guild Jamadhar</a>
+            <span class="entry-type">Katar</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 28036</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #28036</span><a href="https://divine-pride.net/database/item/28036" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-21044">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Claymore" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/21044.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/21044" rel="noopener" target="_blank">Lesser Guild Claymore</a>
+            <span class="entry-type">2H-Sword</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 21044 · <strong>ATK:</strong> 175</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #21044</span><a href="https://divine-pride.net/database/item/21044" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-1859">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Fist" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/1859.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/1859" rel="noopener" target="_blank">Lesser Guild Fist</a>
+            <span class="entry-type">Knuckle</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 1859</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #1859</span><a href="https://divine-pride.net/database/item/1859" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-26146">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Healing Staff" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/26146.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/26146" rel="noopener" target="_blank">Lesser Guild Healing Staff</a>
+            <span class="entry-type">Staff (Heal)</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 26146</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #26146</span><a href="https://divine-pride.net/database/item/26146" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-28133">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Two-handed Ax" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/28133.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/28133" rel="noopener" target="_blank">Lesser Guild Two-handed Ax</a>
+            <span class="entry-type">2H-Axe</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 28133</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #28133</span><a href="https://divine-pride.net/database/item/28133" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-26019">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Lance" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/26019.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/26019" rel="noopener" target="_blank">Lesser Guild Lance</a>
+            <span class="entry-type">2H-Spear</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 26019</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #26019</span><a href="https://divine-pride.net/database/item/26019" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-2052">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Staff" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/2052.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/2052" rel="noopener" target="_blank">Lesser Guild Staff</a>
+            <span class="entry-type">2H-Staff</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 2052 · <strong>MATK:</strong> 180</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #2052</span><a href="https://divine-pride.net/database/item/2052" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-18175">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Hunter Bow" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/18175.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/18175" rel="noopener" target="_blank">Lesser Guild Hunter Bow</a>
+            <span class="entry-type">Bow</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 18175</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #18175</span><a href="https://divine-pride.net/database/item/18175" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-32103">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Guitar" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/32103.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/32103" rel="noopener" target="_blank">Lesser Guild Guitar</a>
+            <span class="entry-type">Instrument</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 32103</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #32103</span><a href="https://divine-pride.net/database/item/32103" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-26210">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Lariat" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/26210.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/26210" rel="noopener" target="_blank">Lesser Guild Lariat</a>
+            <span class="entry-type">Whip</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 26210</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #26210</span><a href="https://divine-pride.net/database/item/26210" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-28751">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Gladius" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/28751.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/28751" rel="noopener" target="_blank">Lesser Guild Gladius</a>
+            <span class="entry-type">Dagger</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 28751</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #28751</span><a href="https://divine-pride.net/database/item/28751" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-26147">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Arc Wand" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/26147.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/26147" rel="noopener" target="_blank">Lesser Guild Arc Wand</a>
+            <span class="entry-type">Wand</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 26147</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #26147</span><a href="https://divine-pride.net/database/item/26147" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-650000">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Huuma Shuriken" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/650000.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/650000" rel="noopener" target="_blank">Lesser Guild Huuma Shuriken</a>
+            <span class="entry-type">Huuma Shuriken</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 650000</li><li><strong>Preis:</strong> 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #650000</span><a href="https://divine-pride.net/database/item/650000" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+
+      <h3>Greater Guild — Upgrade aus +7 Lesser</h3>
+      <p>Crafting beim <em>Greater Guild Merchant</em> (<code>prt_in 206/161</code>): 1.000 Guild Coins + +7 Lesser-Waffe ergeben die Greater-Variante mit höheren Stats und Enchant-Slot.</p>
+      <div class="entry-grid">
+        <div class="entry-card" id="gld-weap-520001">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Cleaver" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/520001.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/520001" rel="noopener" target="_blank">Greater Guild Cleaver</a>
+            <span class="entry-type">1H-Axe</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 520001</li><li><strong>Crafting:</strong> +7 Lesser Cleaver + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #520001</span><a href="https://divine-pride.net/database/item/520001" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-590004">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Morning Star" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/590004.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/590004" rel="noopener" target="_blank">Greater Guild Morning Star</a>
+            <span class="entry-type">Mace</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 590004</li><li><strong>Crafting:</strong> +7 Lesser Morning Star + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #590004</span><a href="https://divine-pride.net/database/item/590004" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-530001">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Pike" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/530001.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/530001" rel="noopener" target="_blank">Greater Guild Pike</a>
+            <span class="entry-type">Spear</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 530001</li><li><strong>Crafting:</strong> +7 Lesser Pike + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #530001</span><a href="https://divine-pride.net/database/item/530001" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-500006">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Flamberge" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/500006.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/500006" rel="noopener" target="_blank">Greater Guild Flamberge</a>
+            <span class="entry-type">1H-Sword</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 500006</li><li><strong>Crafting:</strong> +7 Lesser Flamberge + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #500006</span><a href="https://divine-pride.net/database/item/500006" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-610004">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Jamadhar" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/610004.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/610004" rel="noopener" target="_blank">Greater Guild Jamadhar</a>
+            <span class="entry-type">Katar</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 610004</li><li><strong>Crafting:</strong> +7 Lesser Jamadhar + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #610004</span><a href="https://divine-pride.net/database/item/610004" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-600005">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Claymore" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/600005.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/600005" rel="noopener" target="_blank">Greater Guild Claymore</a>
+            <span class="entry-type">2H-Sword</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 600005</li><li><strong>Crafting:</strong> +7 Lesser Claymore + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #600005</span><a href="https://divine-pride.net/database/item/600005" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-560003">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Fist" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/560003.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/560003" rel="noopener" target="_blank">Greater Guild Fist</a>
+            <span class="entry-type">Knuckle</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 560003</li><li><strong>Crafting:</strong> +7 Lesser Fist + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #560003</span><a href="https://divine-pride.net/database/item/560003" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-550004">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Healing Staff" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/550004.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/550004" rel="noopener" target="_blank">Greater Guild Healing Staff</a>
+            <span class="entry-type">Staff (Heal)</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 550004</li><li><strong>Crafting:</strong> +7 Lesser Healing Staff + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #550004</span><a href="https://divine-pride.net/database/item/550004" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-620001">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Two-handed Ax" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/620001.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/620001" rel="noopener" target="_blank">Greater Guild Two-handed Ax</a>
+            <span class="entry-type">2H-Axe</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 620001</li><li><strong>Crafting:</strong> +7 Lesser Two-handed Ax + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #620001</span><a href="https://divine-pride.net/database/item/620001" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-630001">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Lance" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/630001.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/630001" rel="noopener" target="_blank">Greater Guild Lance</a>
+            <span class="entry-type">2H-Spear</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 630001</li><li><strong>Crafting:</strong> +7 Lesser Lance + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #630001</span><a href="https://divine-pride.net/database/item/630001" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-640001">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Staff" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/640001.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/640001" rel="noopener" target="_blank">Greater Guild Staff</a>
+            <span class="entry-type">2H-Staff</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 640001</li><li><strong>Crafting:</strong> +7 Lesser Staff + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #640001</span><a href="https://divine-pride.net/database/item/640001" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-700005">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Hunter Bow" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/700005.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/700005" rel="noopener" target="_blank">Greater Guild Hunter Bow</a>
+            <span class="entry-type">Bow</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 700005</li><li><strong>Crafting:</strong> +7 Lesser Hunter Bow + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #700005</span><a href="https://divine-pride.net/database/item/700005" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-570003">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Guitar" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/570003.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/570003" rel="noopener" target="_blank">Greater Guild Guitar</a>
+            <span class="entry-type">Instrument</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 570003</li><li><strong>Crafting:</strong> +7 Lesser Guitar + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #570003</span><a href="https://divine-pride.net/database/item/570003" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-580003">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Lariat" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/580003.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/580003" rel="noopener" target="_blank">Greater Guild Lariat</a>
+            <span class="entry-type">Whip</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 580003</li><li><strong>Crafting:</strong> +7 Lesser Lariat + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #580003</span><a href="https://divine-pride.net/database/item/580003" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-510005">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Gladius" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/510005.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/510005" rel="noopener" target="_blank">Greater Guild Gladius</a>
+            <span class="entry-type">Dagger</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 510005</li><li><strong>Crafting:</strong> +7 Lesser Gladius + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #510005</span><a href="https://divine-pride.net/database/item/510005" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-550005">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Arc Wand" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/550005.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/550005" rel="noopener" target="_blank">Greater Guild Arc Wand</a>
+            <span class="entry-type">Wand</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 550005</li><li><strong>Crafting:</strong> +7 Lesser Arc Wand + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #550005</span><a href="https://divine-pride.net/database/item/550005" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-weap-650001">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Huuma Shuriken" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/650001.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/650001" rel="noopener" target="_blank">Greater Guild Huuma Shuriken</a>
+            <span class="entry-type">Huuma Shuriken</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 650001</li><li><strong>Crafting:</strong> +7 Lesser Huuma Shuriken + 1.000 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #650001</span><a href="https://divine-pride.net/database/item/650001" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gld-armor">
+      <h2>🛡️ Lesser &amp; Greater Guild Armor</h2>
+      <p><strong>Lesser Guild Armor</strong> kostet je 200 Guild Coins. <strong>Greater</strong>-Versionen werden aus 500 Guild Coins + +7 Lesser-Teil gefertigt und besitzen einen Enchant-Slot.</p>
+
+      <h3>Lesser Guild Armor — 200 Guild Coins je Teil</h3>
+      <div class="entry-grid">
+        <div class="entry-card" id="gld-armor-15216">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Robe [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/15216.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/15216" rel="noopener" target="_blank">Lesser Guild Robe <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 15216 · <strong>DEF:</strong> 25</li><li>+700 MaxHP · +50 MaxSP</li><li><strong>Preis:</strong> 200 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #15216</span><a href="https://divine-pride.net/database/item/15216" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-15217">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Suit [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/15217.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/15217" rel="noopener" target="_blank">Lesser Guild Suit <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 15217 · <strong>DEF:</strong> 30</li><li>+800 MaxHP</li><li><strong>Preis:</strong> 200 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #15217</span><a href="https://divine-pride.net/database/item/15217" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-15218">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Plate [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/15218.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/15218" rel="noopener" target="_blank">Lesser Guild Plate <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 15218 · <strong>DEF:</strong> 30</li><li>+900 MaxHP</li><li><strong>Preis:</strong> 200 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #15218</span><a href="https://divine-pride.net/database/item/15218" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-20864">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Manteau [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/20864.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/20864" rel="noopener" target="_blank">Lesser Guild Manteau <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 20864 · <strong>DEF:</strong> 16</li><li>+250 MaxHP</li><li><strong>Preis:</strong> 200 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #20864</span><a href="https://divine-pride.net/database/item/20864" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-20865">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Muffler [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/20865.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/20865" rel="noopener" target="_blank">Lesser Guild Muffler <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 20865 · <strong>DEF:</strong> 7</li><li>+150 MaxHP</li><li><strong>Preis:</strong> 200 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #20865</span><a href="https://divine-pride.net/database/item/20865" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-22146">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Shoes [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/22146.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/22146" rel="noopener" target="_blank">Lesser Guild Shoes <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 22146 · <strong>DEF:</strong> 7</li><li>+250 MaxHP</li><li><strong>Preis:</strong> 200 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #22146</span><a href="https://divine-pride.net/database/item/22146" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-22147">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Boots [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/22147.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/22147" rel="noopener" target="_blank">Lesser Guild Boots <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 22147 · <strong>DEF:</strong> 12</li><li>+400 MaxHP</li><li><strong>Preis:</strong> 200 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #22147</span><a href="https://divine-pride.net/database/item/22147" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-22148">
+          <div class="entry-card-head">
+            <img alt="Lesser Guild Greaves [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/22148.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/22148" rel="noopener" target="_blank">Lesser Guild Greaves <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 22148 · <strong>DEF:</strong> 15</li><li>+500 MaxHP</li><li><strong>Preis:</strong> 200 Guild Coins</li></ul>
+          <div class="entry-card-foot"><span>kRO #22148</span><a href="https://divine-pride.net/database/item/22148" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+
+      <h3>Greater Guild Armor — 500 Guild Coins + +7 Lesser-Teil</h3>
+      <div class="entry-grid">
+        <div class="entry-card" id="gld-armor-450012">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Robe [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/450012.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/450012" rel="noopener" target="_blank">Greater Guild Robe <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 450012</li><li>Erhöhte Stats vs Lesser · enchantbar · +5–7 % Damage/Heal bei +7 Refine</li></ul>
+          <div class="entry-card-foot"><span>kRO #450012</span><a href="https://divine-pride.net/database/item/450012" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-450013">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Suit [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/450013.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/450013" rel="noopener" target="_blank">Greater Guild Suit <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 450013</li><li>Erhöhte Stats · enchantbar · +5–7 % Damage bei +7</li></ul>
+          <div class="entry-card-foot"><span>kRO #450013</span><a href="https://divine-pride.net/database/item/450013" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-450014">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Plate [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/450014.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/450014" rel="noopener" target="_blank">Greater Guild Plate <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 450014</li><li>Erhöhte Stats · enchantbar · +5–7 % Damage bei +7</li></ul>
+          <div class="entry-card-foot"><span>kRO #450014</span><a href="https://divine-pride.net/database/item/450014" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-480008">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Manteau [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/480008.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/480008" rel="noopener" target="_blank">Greater Guild Manteau <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 480008</li><li>Erhöhte Stats · enchantbar</li></ul>
+          <div class="entry-card-foot"><span>kRO #480008</span><a href="https://divine-pride.net/database/item/480008" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-480007">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Muffler [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/480007.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/480007" rel="noopener" target="_blank">Greater Guild Muffler <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 480007</li><li>Erhöhte Stats · enchantbar</li></ul>
+          <div class="entry-card-foot"><span>kRO #480007</span><a href="https://divine-pride.net/database/item/480007" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-470011">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Shoes [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/470011.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/470011" rel="noopener" target="_blank">Greater Guild Shoes <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 470011</li><li>Erhöhte Stats · enchantbar</li></ul>
+          <div class="entry-card-foot"><span>kRO #470011</span><a href="https://divine-pride.net/database/item/470011" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-470012">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Boots [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/470012.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/470012" rel="noopener" target="_blank">Greater Guild Boots <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 470012</li><li>Erhöhte Stats · enchantbar</li></ul>
+          <div class="entry-card-foot"><span>kRO #470012</span><a href="https://divine-pride.net/database/item/470012" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gld-armor-470013">
+          <div class="entry-card-head">
+            <img alt="Greater Guild Greaves [1]" class="entry-icon" loading="lazy" src="images/guild-dungeon/equip/470013.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/470013" rel="noopener" target="_blank">Greater Guild Greaves <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 470013</li><li>Erhöhte Stats · enchantbar</li></ul>
+          <div class="entry-card-foot"><span>kRO #470013</span><a href="https://divine-pride.net/database/item/470013" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gld-enchants">
+      <h2>🔮 Enchant-System (Resist &amp; Amplify)</h2>
+      <p>Mit dem 2019.12.11-Update erhielten Greater-Guild-Rüstungen <strong>Resist</strong>-Enchants (−15 % Schaden gegen einen Skill bei Lv 1) und Greater-Guild-Waffen <strong>Amplify</strong>-Enchants (+7 % Damage auf einen Skill bei Lv 1). Anwendung über <em>Sertis Maple</em> in Prontera.</p>
+
+      <div class="info-box note">
+        <strong>Enchant-Reset:</strong> 700.000 Zeny + 2 Guild Medals (25 % Erfolgschance) ODER 25 Gel Star (100 % Erfolg).
+      </div>
+
+      <h3>Resist-Enchants (Armor) — Lv 1 = −15 % Damage</h3>
+      <div class="entry-grid">
+        <div class="entry-card" id="gld-ench-1000055"><div class="entry-card-head"><img alt="Resist: Storm Gust" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000055.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000055" rel="noopener" target="_blank">Resist: Storm Gust Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000055</li><li>−15 % Storm Gust Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000056"><div class="entry-card-head"><img alt="Resist: Meteor Storm" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000056.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000056" rel="noopener" target="_blank">Resist: Meteor Storm Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000056</li><li>−15 % Meteor Storm Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000057"><div class="entry-card-head"><img alt="Resist: Lord of Vermilion" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000057.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000057" rel="noopener" target="_blank">Resist: Lord of Vermilion Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000057</li><li>−15 % Lord of Vermilion Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000058"><div class="entry-card-head"><img alt="Resist: Magnus Exorcismus" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000058.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000058" rel="noopener" target="_blank">Resist: Magnus Exorcismus Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000058</li><li>−15 % Magnus Exorcismus Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000059"><div class="entry-card-head"><img alt="Resist: Meteor Assault" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000059.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000059" rel="noopener" target="_blank">Resist: Meteor Assault Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000059</li><li>−15 % Meteor Assault Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000060"><div class="entry-card-head"><img alt="Resist: Spiral Pierce" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000060.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000060" rel="noopener" target="_blank">Resist: Spiral Pierce Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000060</li><li>−15 % Spiral Pierce Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000061"><div class="entry-card-head"><img alt="Resist: Acid Demonstration" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000061.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000061" rel="noopener" target="_blank">Resist: Acid Demonstration Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000061</li><li>−15 % Acid Demonstration Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000062"><div class="entry-card-head"><img alt="Resist: Pierce" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000062.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000062" rel="noopener" target="_blank">Resist: Pierce Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000062</li><li>−15 % Pierce Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000063"><div class="entry-card-head"><img alt="Resist: Bowling Bash" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000063.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000063" rel="noopener" target="_blank">Resist: Bowling Bash Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000063</li><li>−15 % Bowling Bash Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000064"><div class="entry-card-head"><img alt="Resist: Water Ball" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000064.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000064" rel="noopener" target="_blank">Resist: Water Ball Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000064</li><li>−15 % Water Ball Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000065"><div class="entry-card-head"><img alt="Resist: Sonic Blow" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000065.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000065" rel="noopener" target="_blank">Resist: Sonic Blow Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000065</li><li>−15 % Sonic Blow Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000066"><div class="entry-card-head"><img alt="Resist: Shield Chain" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000066.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000066" rel="noopener" target="_blank">Resist: Shield Chain Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000066</li><li>−15 % Shield Chain Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000067"><div class="entry-card-head"><img alt="Resist: Shield Boomerang" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000067.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000067" rel="noopener" target="_blank">Resist: Shield Boomerang Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000067</li><li>−15 % Shield Boomerang Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000068"><div class="entry-card-head"><img alt="Resist: Holy Cross" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000068.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000068" rel="noopener" target="_blank">Resist: Holy Cross Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000068</li><li>−15 % Holy Cross Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000069"><div class="entry-card-head"><img alt="Resist: Falcon Assault" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000069.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000069" rel="noopener" target="_blank">Resist: Falcon Assault Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000069</li><li>−15 % Falcon Assault Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000070"><div class="entry-card-head"><img alt="Resist: Blitz Beat" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000070.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000070" rel="noopener" target="_blank">Resist: Blitz Beat Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000070</li><li>−15 % Blitz Beat Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000071"><div class="entry-card-head"><img alt="Resist: Asura Strike" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000071.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000071" rel="noopener" target="_blank">Resist: Asura Strike Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000071</li><li>−15 % Asura Strike Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000072"><div class="entry-card-head"><img alt="Resist: Investigate" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000072.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000072" rel="noopener" target="_blank">Resist: Investigate Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000072</li><li>−15 % Investigate Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000073"><div class="entry-card-head"><img alt="Resist: Arrow Vulcan" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000073.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000073" rel="noopener" target="_blank">Resist: Arrow Vulcan Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000073</li><li>−15 % Arrow Vulcan Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000074"><div class="entry-card-head"><img alt="Resist: Double Strafe" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000074.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000074" rel="noopener" target="_blank">Resist: Double Strafe Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000074</li><li>−15 % Double Strafe Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000076"><div class="entry-card-head"><img alt="Resist: Sharp Shooting" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000076.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000076" rel="noopener" target="_blank">Resist: Sharp Shooting Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000076</li><li>−15 % Sharp Shooting Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000078"><div class="entry-card-head"><img alt="Resist: Napalm Vulcan / Gravitational Field" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000078.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000078" rel="noopener" target="_blank">Resist: Napalm Vulcan Lv1</a><span class="entry-type">Resist Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000078</li><li>−15 % Napalm Vulcan / Gravitational Field</li></ul></div>
+      </div>
+
+      <h3>Amplify-Enchants (Weapon) — Lv 1 = +7 % Damage</h3>
+      <div class="entry-grid">
+        <div class="entry-card" id="gld-ench-1000031"><div class="entry-card-head"><img alt="Amplify: Storm Gust" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000031.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000031" rel="noopener" target="_blank">Amplify: Storm Gust Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000031</li><li>+7 % Storm Gust Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000032"><div class="entry-card-head"><img alt="Amplify: Meteor Storm" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000032.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000032" rel="noopener" target="_blank">Amplify: Meteor Storm Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000032</li><li>+7 % Meteor Storm Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000033"><div class="entry-card-head"><img alt="Amplify: Lord of Vermilion" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000033.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000033" rel="noopener" target="_blank">Amplify: Lord of Vermilion Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000033</li><li>+7 % Lord of Vermilion Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000034"><div class="entry-card-head"><img alt="Amplify: Magnus Exorcismus" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000034.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000034" rel="noopener" target="_blank">Amplify: Magnus Exorcismus Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000034</li><li>+7 % Magnus Exorcismus Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000035"><div class="entry-card-head"><img alt="Amplify: Meteor Assault" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000035.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000035" rel="noopener" target="_blank">Amplify: Meteor Assault Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000035</li><li>+7 % Meteor Assault Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000036"><div class="entry-card-head"><img alt="Amplify: Spiral Pierce" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000036.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000036" rel="noopener" target="_blank">Amplify: Spiral Pierce Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000036</li><li>+7 % Spiral Pierce Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000037"><div class="entry-card-head"><img alt="Amplify: Acid Demonstration" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000037.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000037" rel="noopener" target="_blank">Amplify: Acid Demonstration Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000037</li><li>+7 % Acid Demonstration Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000038"><div class="entry-card-head"><img alt="Amplify: Pierce" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000038.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000038" rel="noopener" target="_blank">Amplify: Pierce Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000038</li><li>+7 % Pierce Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000039"><div class="entry-card-head"><img alt="Amplify: Bowling Bash" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000039.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000039" rel="noopener" target="_blank">Amplify: Bowling Bash Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000039</li><li>+7 % Bowling Bash Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000040"><div class="entry-card-head"><img alt="Amplify: Water Ball" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000040.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000040" rel="noopener" target="_blank">Amplify: Water Ball Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000040</li><li>+7 % Water Ball Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000041"><div class="entry-card-head"><img alt="Amplify: Sonic Blow" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000041.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000041" rel="noopener" target="_blank">Amplify: Sonic Blow Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000041</li><li>+7 % Sonic Blow Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000042"><div class="entry-card-head"><img alt="Amplify: Shield Chain" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000042.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000042" rel="noopener" target="_blank">Amplify: Shield Chain Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000042</li><li>+7 % Shield Chain Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000043"><div class="entry-card-head"><img alt="Amplify: Shield Boomerang" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000043.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000043" rel="noopener" target="_blank">Amplify: Shield Boomerang Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000043</li><li>+7 % Shield Boomerang Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000044"><div class="entry-card-head"><img alt="Amplify: Holy Cross" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000044.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000044" rel="noopener" target="_blank">Amplify: Holy Cross Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000044</li><li>+7 % Holy Cross Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000045"><div class="entry-card-head"><img alt="Amplify: Falcon Assault" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000045.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000045" rel="noopener" target="_blank">Amplify: Falcon Assault Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000045</li><li>+7 % Falcon Assault Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000046"><div class="entry-card-head"><img alt="Amplify: Blitz Beat" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000046.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000046" rel="noopener" target="_blank">Amplify: Blitz Beat Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000046</li><li>+7 % Blitz Beat Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000047"><div class="entry-card-head"><img alt="Amplify: Asura Strike" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000047.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000047" rel="noopener" target="_blank">Amplify: Asura Strike Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000047</li><li>+7 % Asura Strike Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000048"><div class="entry-card-head"><img alt="Amplify: Investigate" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000048.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000048" rel="noopener" target="_blank">Amplify: Investigate Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000048</li><li>+7 % Investigate Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000049"><div class="entry-card-head"><img alt="Amplify: Arrow Vulcan" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000049.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000049" rel="noopener" target="_blank">Amplify: Arrow Vulcan Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000049</li><li>+7 % Arrow Vulcan Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000050"><div class="entry-card-head"><img alt="Amplify: Double Strafe" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000050.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000050" rel="noopener" target="_blank">Amplify: Double Strafe Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000050</li><li>+7 % Double Strafe Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000051"><div class="entry-card-head"><img alt="Amplify: Killing Stroke" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000051.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000051" rel="noopener" target="_blank">Amplify: Killing Stroke Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000051</li><li>+7 % Killing Stroke Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000052"><div class="entry-card-head"><img alt="Amplify: Sharp Shooting" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000052.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000052" rel="noopener" target="_blank">Amplify: Sharp Shooting Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000052</li><li>+7 % Sharp Shooting Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000053"><div class="entry-card-head"><img alt="Amplify: Napalm Vulcan" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000053.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000053" rel="noopener" target="_blank">Amplify: Napalm Vulcan Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000053</li><li>+7 % Napalm Vulcan Damage</li></ul></div>
+        <div class="entry-card" id="gld-ench-1000054"><div class="entry-card-head"><img alt="Amplify: Gravitational Field" class="entry-icon" loading="lazy" src="images/guild-dungeon/enchants/1000054.png"/><a class="entry-name" href="https://divine-pride.net/database/item/1000054" rel="noopener" target="_blank">Amplify: Gravitational Field Lv1</a><span class="entry-type">Amplify Enchant</span></div><ul class="entry-meta"><li><strong>ID:</strong> 1000054</li><li>+7 % Gravitational Field Damage</li></ul></div>
+      </div>
+    </section>
+
+    <section id="gld-npcs">
+      <h2>📍 NPCs &amp; Services</h2>
+      <ul class="entry-meta">
+        <li><strong>Guild Coin Merchant:</strong> <code>prt_in 210/161</code> — konsolidiert ehemalige Armor-/Potion-Vendoren (seit 2019.12.11)</li>
+        <li><strong>Greater Guild Merchant:</strong> <code>prt_in 206/161</code> — Crafting der Greater-Guild-Ausrüstung</li>
+        <li><strong>Sertis Maple:</strong> <code>prt_in 202/164</code> — Anwenden &amp; Reset von Enchants</li>
+        <li><strong>Guild Office:</strong> <code>prontera 75/102</code> — Gilden-Verwaltung &amp; allgemeine Services</li>
+      </ul>
+    </section>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://www.rozskill.me/" target="_blank" rel="noopener">rozskill.me</a>
+</footer>
+
+</body>
+</html>

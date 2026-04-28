@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Level-Routen &amp; Episode 1 — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html" class="active"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Lv 1–99 · Aktuell spielbar</span>
+      <h1>Level-Routen & EXP-Booster</h1>
+      <p class="lead">Map-Empfehlungen pro Level-Range, vollständiger Episode-1-Walkthrough mit allen Quests und Belohnungs-Equipment, EXP-Booster mit Acquisition-Details und 2. Job-Transfer-NPCs.</p>
+    </div>
+
+    <section>
+      <h2>📈 Level-Routen 1–99</h2>
+      <p>Zero hat die Monster-HP rebalanciert, daher sind die besten Maps anders als auf Renewal-Servern. Diese Liste basiert auf TWRoZ-verifiziertem Community-Wissen.</p>
+
+      <div class="info-box note">
+        <strong>Kernregel:</strong> Kein EXP-Penalty, aber die <strong>Drop-Rate sinkt um 50%</strong> wenn Level-Differenz zum Mob ≥ 40. Episode-1-Quest (unten) gibt den größten initialen EXP-Bump.
+      </div>
+
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Level</th><th>Map</th><th>Mob</th><th>Tier</th><th>Notizen</th></tr></thead>
+        <tbody>
+          <tr><td>1–11</td><td>Criatura Academy</td><td>Tutorial-Mobs</td><td>S</td><td>Free-Gear + Base 11 allein aus Quest-Kette</td></tr>
+          <tr><td>12–22</td><td>pay_fild07 / mjolnir_02</td><td>Wolf, Coco, Savage Babe</td><td>A</td><td>Eden 12–26 Quest-Stack</td></tr>
+          <tr><td>23–35</td><td>prt_fild08, gef_fild03</td><td>Poporing, Stainer, Hode</td><td>A</td><td>Besser als Payon Cave auf Zero</td></tr>
+          <tr><td>36–45</td><td>gef_fild10 (außerhalb Orc)</td><td>Orc Warrior, Orc Lady</td><td><strong>S</strong></td><td>Orc Voucher Daily + Eden 40–49</td></tr>
+          <tr><td>46–55</td><td>iz_dun01 Byalan F1–F2</td><td>Hydra, Vadon, Marina</td><td>A</td><td>Aco/Mage-Favorit</td></tr>
+          <tr><td>56–65</td><td>orcsdun02</td><td>Orc Skel, Orc Zombie</td><td><strong>S</strong></td><td>Heal-Bomb Prime, Eden 50–59</td></tr>
+          <tr><td>66–75</td><td>gl_sew02–04 GH Culvert</td><td>Zombie Prisoner, Injustice</td><td>A</td><td>Holy/Fire bevorzugt, Eden 60–69</td></tr>
+          <tr><td>76–85</td><td>c_tower2 / c_tower3</td><td>Clock, Punk, Alarm</td><td><strong>S</strong></td><td>Top-Tier auf Zero (HP scaled down)</td></tr>
+          <tr><td>86–94</td><td>gl_church / gl_chyard</td><td>Wraith, Evil Druid</td><td>A</td><td>Undead/Holy-Resist wichtig</td></tr>
+          <tr><td>95–99</td><td>juperos_01 / 02</td><td>Venatu, Dimik</td><td>A</td><td>Pre-Trans Sweet Spot</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>🏫 Criatura Academy — die Starter-Zone (iz_ac01)</h2>
+      <p>Jeder neue Charakter spawnt hier — vor dem Episode-1-Walkthrough. Die Academy ist eine geschlossene Tutorial-Zone: <strong>Kafra-Storage und Mail funktionieren hier NICHT</strong>. Erledige alle Tutorial-NPCs vor dem Verlassen.</p>
+      <ul>
+        <li><code>Captain Carocc</code> @ iz_ac01 198,213 — Start-Dialog</li>
+        <li><code>Criatura Academy Staff</code> @ 122,207 — Apple Juice trinken → 30 Novice Potions + 2 Kafra-Tickets</li>
+        <li><code>Information Staff</code> (daneben) — Combination-Book-Quest</li>
+        <li><code>Academy Receptionist</code> @ 102,44 — 300 Novice Potions + Novice-Gear-Set + Criatura Hair Coupon</li>
+        <li><code>Otter Samssoon</code> @ 69,36 — Gratis Haircut/Color (einmalig)</li>
+        <li><code>Dacquoise</code> — Cafeteria (nur Novices)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Episode 1 — Was ist das?</h2>
+      <p>Die <strong>Episode-1-Questreihe</strong> ist die große Tutorial- und Story-Kette für frische Charaktere. Sie beginnt direkt nach dem Schiffbruch in <strong>Izlude</strong> beim <em>Naive Swordsman</em> (Leno), führt über die kurze <strong>Shipwreck-Island</strong>-Sequenz und mündet anschließend in eine ausgedehnte Story-Kette quer durch <strong>Payon, Izlude, Alberta</strong> und <strong>Prontera Castle</strong>. Die Kette gibt mehrere tausend Base-EXP, Job-EXP, Starter-Items, eine <em>Starter Armor Box</em> mit Lv-10-Set und am Ende ein <em>Royal-Inspectorate-Waffenticket</em> auf Lv-20-Niveau.</p>
+
+      <div class="info-box tip">
+        <strong>Empfohlener Einstieg:</strong> Direkt nach dem Job-Change (1st Class). Die XP-Pools sind statisch und somit absolut betrachtet ein größerer Schub für Lv 30er als für Lv 60er. Die Inspectorate-Waffe lohnt sich aber bis weit ins Mid-Game.
+      </div>
+
+      <h3>📜 Episode 1 — Quest-Walkthrough</h3>
+
+      <article id="quest-lenos-motion-sickness" class="entry-card">
+        <header class="entry-card-head">
+          <img src="images/npcs/naive_swordsman.png" alt="Naive Swordsman" class="entry-icon">
+          <span class="entry-name">Quest 1 · Leno's Motion Sickness</span>
+          <span class="entry-type">Izlude · Hafen</span>
+        </header>
+        <ul class="entry-meta">
+          <li><strong>NPC:</strong> Naive Swordsman / (Leno)</li>
+          <li><strong>Navi:</strong> <code>/navi izlude 180/213</code></li>
+        </ul>
+        <p><strong>Was du tust:</strong> Leno steht seekrank am Hafen und kann sich kaum auf den Beinen halten. Du bleibst bei ihm sitzen, kurz darauf taucht die Novizin Lumin auf und beschafft einen Bananensaft als Gegenmittel. Nach der Szene überlässt Leno dir den unangerührten Saft und gibt dir einen Tipp Richtung <em>Criatura Academy</em>, wo du dich für deinen Job-Change vorbereiten sollst. Damit ist die Quest abgeschlossen.</p>
+        <p><strong>Belohnung:</strong> 4.479 Base-EXP · 50 Job-EXP · 5× Banana Juice</p>
+
+        <h4>Dialog-Screenshots</h4>
+        <div class="card-grid">
+          <figure><img src="images/quests/lenos-motion-sickness/01.png" alt="Leno seekrank am Hafen" loading="lazy"><figcaption>01 · Leno am Pier</figcaption></figure>
+          <figure><img src="images/quests/lenos-motion-sickness/04.png" alt="Lumin erscheint" loading="lazy"><figcaption>04 · Lumin taucht auf</figcaption></figure>
+          <figure><img src="images/quests/lenos-motion-sickness/13.png" alt="Lumin kommt zurück" loading="lazy"><figcaption>13 · Lumin kehrt zurück</figcaption></figure>
+          <figure><img src="images/quests/lenos-motion-sickness/15.png" alt="Leno bedankt sich" loading="lazy"><figcaption>15 · Leno nimmt den Saft</figcaption></figure>
+          <figure><img src="images/quests/lenos-motion-sickness/19.png" alt="Hinweis auf Morocc" loading="lazy"><figcaption>19 · Plan für später</figcaption></figure>
+        </div>
+      
+<ol class="quest-log"><li>Reise per Schiff von Shipwreck Island nach Izlude und sprich am Hafen den seekranken Schwertkämpfer (Naive Swordsman) auf <code>izlude 180/213</code> an.</li><li>Bleib in der Szene — Leno bedankt sich für die Hilfe an Bord, hat aber weiterhin starke Übelkeit.</li><li>Wähle den Dialog "Ihn ansprechen" anstatt ihn liegen zu lassen, sonst startet die Quest-Sequenz nicht.</li><li>Lumin (Novizin) erscheint zwei Felder links neben Leno und stellt sich vor.</li><li>Lumin bietet Banana Juice gegen die Seekrankheit an — Leno lehnt zunächst angewidert ab.</li><li>Lumin verschwindet kurz, um beim Heiler in der Criatura Academy ein passendes Mittel zu organisieren.</li><li>Warte auf das Wiedererscheinen von Lumin und nimm die Sondertränke entgegen.</li><li>Leno trinkt das Mittel und bedankt sich; die Übelkeit lässt nach.</li><li>Lumin verabschiedet sich Richtung Morocc (Thief-Job-Change) und verlässt die Szene.</li><li>Leno überlässt dir die übrigen 5× Banana Juice und gibt dir den Tipp, dich in der <em>Criatura Academy</em> auf den Job-Change vorzubereiten.</li><li>Dialog endet — Belohnung wird ausgegeben: 4.479 Base-EXP, 50 Job-EXP, 5× Banana Juice.</li><li>Folge-Hinweis von Leno: Trainings-Felder rund um Prontera, dann Payon-Cave als nächste Station.</li></ol>
+</article>
+
+      <article id="quest-shipwreck-escape" class="entry-card">
+        <header class="entry-card-head">
+          <img src="images/npcs/injured_person.png" alt="Injured Person" class="entry-icon">
+          <span class="entry-name">Quest 2 · Shipwreck Escape</span>
+          <span class="entry-type">Shipwreck Island</span>
+        </header>
+        <ul class="entry-meta">
+          <li><strong>NPCs:</strong> Injured Person → Captain Carocc</li>
+          <li><strong>Map:</strong> Shipwreck Island</li>
+        </ul>
+        <p><strong>Was du tust:</strong> Du strandest mit der Crew auf einer kleinen Insel. Zuerst sprichst du den verletzten Überlebenden an und erfährst, dass die Mannschaft verstreut ist. Anschließend findest du Captain Carocc, der die Lage einschätzt und dich beim Sammeln der restlichen Schiffsbrüchigen mitnimmt. Am Ende der Sequenz wird der nächste Schritt — der erste echte Kampf — direkt eingeleitet.</p>
+        <p><strong>Belohnung:</strong> 2.845 Base-EXP · 100 Job-EXP</p>
+        <p><strong>Anschluss:</strong> geht nahtlos in <a href="#quest-the-first-battle">The First Battle</a> über.</p>
+      
+<ol class="quest-log"><li>Tutorial-Sequenz: Du erwachst nach dem Schiffbruch an Land auf Shipwreck Island.</li><li>Sprich den <strong>Injured Person </strong> in der Nähe deiner Startposition an — er erklärt, dass die Crew verstreut ist.</li><li>Folge dem Pfad zu <strong>Captain Carocc </strong> und sprich ihn an.</li><li>Carocc übernimmt das Kommando und erklärt die Lage — beide Sprachen (Englisch / Koreanisch) lassen sich per Klick auf die Dialogblase umschalten.</li><li>Stimme zu, beim Sammeln der restlichen Schiffbrüchigen zu helfen.</li><li>Die Quest endet automatisch und leitet nahtlos in <a href="#quest-the-first-battle">The First Battle</a> über.</li><li>Belohnung wird ausgegeben: 2.845 Base-EXP, 100 Job-EXP.</li></ol>
+</article>
+
+      <article id="quest-the-first-battle" class="entry-card">
+        <header class="entry-card-head">
+          <img src="images/npcs/captain_carocc.png" alt="Captain Carocc" class="entry-icon">
+          <span class="entry-name">Quest 3 · The First Battle</span>
+          <span class="entry-type">Shipwreck Island</span>
+        </header>
+        <ul class="entry-meta">
+          <li><strong>NPC:</strong> Captain Carocc</li>
+          <li><strong>Map:</strong> Shipwreck Island</li>
+        </ul>
+        <p><strong>Was du tust:</strong> Direkter Anschluss an Shipwreck Escape. Captain Carocc führt dich in deinen ersten geskripteten Kampf gegen die Inselmonster — eine angeleitete Tutorial-Begegnung, die Targeting, Auto-Attack und Heal-Item-Nutzung absichert, bevor du die Insel verlässt.</p>
+        <p><strong>Belohnung:</strong> Story-Fortschritt (kein eigener EXP-/Item-Reward in der Criatura-Datenquelle).</p>
+      
+<ol class="quest-log"><li>Direkter Anschluss aus <a href="#quest-shipwreck-escape">Shipwreck Escape</a> — Captain Carocc führt das Tutorial weiter.</li><li>Der Captain erklärt die Grundmechaniken: Targeting per Klick, Auto-Attack, Inventar-Heal-Items.</li><li>Folge dem Captain in den eingegrenzten Tutorial-Bereich auf Shipwreck Island.</li><li>Engagiere die ersten Insel-Mobs (geskripteter Wave-Encounter) und teste das Targeting.</li><li>Verwende mindestens einmal ein Heal-Item aus dem Starter-Inventar, um die Item-Nutzung zu lernen.</li><li>Schließe den Kampf ab — der Captain bestätigt, dass du bereit für die Insel-Verlassen-Sequenz bist.</li><li>Story-Fortschritt freigeschaltet (kein eigener EXP-/Item-Reward in der Criatura-Datenquelle).</li></ol>
+</article>
+
+      <h3>🗺️ Episode 1 Part 1 — Story-Hauptkette (Payon → Prontera)</h3>
+      <p>Nach Shipwreck Island startet die eigentliche, lange Episode-1-Kette in <strong>Payon</strong>. Sie führt dich quer durch Midgard und endet im Untergrund von Prontera Castle. Insgesamt sind es ~32 Quest-Schritte, die nacheinander abgehakt werden. Hier die kondensierte Reiseroute:</p>
+
+      <ol>
+        <li><strong>Payon</strong> <code>173,171</code> — <em>Iris</em> startet die Kette. Sie schickt dich zur Schmiede zu <em>Chaos</em>, der dir das Start-Equipment übergibt. Danach Rückmeldung bei Iris.</li>
+        <li><strong>Payon Forest</strong> — Treffe <em>Hallyang Hanul</em> und den <em>Archaeologist</em>. Töte 5 Porings und sammle 5 <em>Archaeologist Research Journals</em>, dann zurück zum Archäologen.</li>
+        <li><strong>Payon Cave 1F</strong> — Suche den verborgenen Ort, ziehe das namenlose Schwert heraus, sprich mit der <em>Silver-haired Girl</em> und triff <em>Shigrun</em>, die aus der Höhle entkommt.</li>
+        <li><strong>Payon Forest → Payon</strong> — Bericht an Archäologen, dann an Iris.</li>
+        <li><strong>Izlude</strong> — Sprich mit <em>Verito</em>, <em>Shukern</em> und <em>Estalda</em>, um Informationen einzusammeln.</li>
+        <li><strong>Alberta</strong> — Triff <em>Lushak</em> und den Schmied <em>Walter</em>. Walter schickt dich zurück in den Payon Forest: 5 Willows + 5 Fabres töten, <em>Barren Trunk</em> und <em>Shiny Hard Ore</em> sammeln. Walter schmiedet daraus die <strong>Shining Armor</strong>, die du Lushak bringst.</li>
+        <li><strong>Prontera Castle</strong> — <em>Royal Guard Knight</em> bringt dich ins <em>Royal Palace Inspectorate</em>. Chefermittler <em>Sahario</em> übergibt dir das <em>Inspectorate-Team-Token</em>.</li>
+        <li><strong>Prontera Underground Culvert</strong> — Token validieren lassen, Familiars und Thief Bugs töten, 5 Samples sammeln, Bericht an Sahario.</li>
+        <li><strong>Prontera Field</strong> — 10 Stainer killen, Bericht an Sahario.</li>
+        <li><strong>Prontera Pub</strong> — auf den <em>Golden Mask</em> warten (Stealth-Auftrag scheitert), dann beim <em>Bartender</em> melden, dann zurück zu Sahario.</li>
+        <li><strong>Prontera Castle Banquet Room</strong> — Treffen mit <em>Commander Spiegel</em>. Anschließend ins Castle-Untergeschoss: 10 Zombies töten, 5 Überlebende mit <em>Restorative Medicine</em> stabilisieren und 5 Leichen verbrennen, bevor sie wieder aufstehen.</li>
+        <li><strong>Castle Basement 2F</strong> — 10 verwandelte Ghouls erlegen, dann den <em>Zombie of Anger</em> umlegen und das <em>Ymir's Heart Fragment</em> bergen. Final-Bericht bei Spiegel und schließlich Sahario.</li>
+      </ol>
+
+      <div class="info-box tip">
+        <strong>Belohnungsbox:</strong> Sahario übergibt am Ende eine <em>Special Reward Box</em> mit jeweils 10× <em>[Event] Speed Potion</em>, <em>Unlimited Drink</em>, <em>Challenge Drink</em>, <em>Power Drink</em>, <em>Finest Course Meal</em>, <em>Mimir's Spring Water</em> und <em>Life Insurance</em>. Plus die Lv-20-Inspectorate-Waffe (siehe unten).
+      </div>
+
+      <section>
+        <h3>🎁 Episode-1-Belohnungen</h3>
+        <p>Die wichtigsten Belohnungs- und Schlüssel-Items aus der Episode-1-Kette als Item-Cards. Die Stats der einzelnen Set-Teile findest du weiter unten in den Tabellen.</p>
+
+        <div class="entry-grid">
+          <div class="entry-card" id="quest-reward-starter-armor-box">
+            <header class="entry-card-head">
+              <span class="entry-icon">📦</span>
+              <span class="entry-name">Starter Armor Box</span>
+              <span class="entry-type">Quest-Belohnungsbox · Lv-10-Set</span>
+            </header>
+            <ul class="entry-meta">
+              <li>Quest-Belohnung Episode 1 · öffnet auf Base 10</li>
+              <li>Enthält das komplette High-Adventurer-Set [1] (alle Klassen, account-bound)</li>
+              <li>Inhalt: <em>High Adventurer Suit</em>, <em>High Adventurer Hood</em>, <em>High Adventurer Sandals</em>, <em>High Adventurer Clip</em></li>
+              <li>Plus 1× <em>Beginner Metal Weapon Ticket</em> (Lv-1-Waffe nach Wahl)</li>
+              <li>Komplett-Set-Bonus: ATK +10, MATK +10, MaxHP +150, MaxSP +50, HIT +10</li>
+            </ul>
+            <p class="entry-foot"><a href="https://www.divine-pride.net/database/search?searchquery=Starter+Armor+Box" target="_blank" rel="noopener">Divine Pride suchen</a></p>
+          </div>
+
+          <div class="entry-card" id="quest-reward-shining-armor">
+            <header class="entry-card-head">
+              <span class="entry-icon">🛡️</span>
+              <span class="entry-name">Shining Armor</span>
+              <span class="entry-type">Geschmiedete Quest-Rüstung</span>
+            </header>
+            <ul class="entry-meta">
+              <li>Quest-Belohnung Episode 1 · Story-Kette in Alberta</li>
+              <li>Geschmiedet von <em>Walter</em> aus 1× <em>Barren Trunk</em> + 1× <em>Shiny Hard Ore</em></li>
+              <li>Materialien droppen im Payon Forest (Willow / Fabre)</li>
+              <li>Wird anschließend an <em>Lushak</em> übergeben — kein Permanent-Item für den Spieler</li>
+            </ul>
+            <p class="entry-foot"><a href="https://www.divine-pride.net/database/search?searchquery=Shining+Armor" target="_blank" rel="noopener">Divine Pride suchen</a></p>
+          </div>
+
+          <div class="entry-card" id="quest-reward-royal-inspectorate-weapon-ticket">
+            <header class="entry-card-head">
+              <span class="entry-icon">🎟️</span>
+              <span class="entry-name">Royal-Inspectorate-Waffenticket</span>
+              <span class="entry-type">Lv-20-Waffenticket · klassen-spezifisch</span>
+            </header>
+            <ul class="entry-meta">
+              <li>Quest-Belohnung Episode 1 Part 1 · Übergabe durch Sahario am Ende der Story-Kette</li>
+              <li>Tauschbar gegen 1× Royal-Inspectorate-Waffe der eigenen Klasse (Lv-20-Tier)</li>
+              <li>Auswahl u.a.: Two Hand Sword, Lance, Two Hand Axe, Mace, Dagger, Staff, Katar, Bow, Huuma Shuriken</li>
+              <li>Mid-Game-Standardwaffe bis ~Lv 50 — siehe Tabelle unten</li>
+            </ul>
+            <p class="entry-foot"><a href="https://www.divine-pride.net/database/search?searchquery=Royal+Inspectorate" target="_blank" rel="noopener">Divine Pride suchen</a></p>
+          </div>
+
+          <div class="entry-card" id="quest-reward-inspectorate-team-token">
+            <header class="entry-card-head">
+              <span class="entry-icon">🪪</span>
+              <span class="entry-name">Inspectorate-Team-Token</span>
+              <span class="entry-type">Key-Item · Story-Quest</span>
+            </header>
+            <ul class="entry-meta">
+              <li>Quest-Item Episode 1 · von Sahario im Royal Palace Inspectorate</li>
+              <li>Wird im Prontera Underground Culvert validiert</li>
+              <li>Schaltet die Ermittlungs-Schritte (Familiars, Thief Bugs, Samples) frei</li>
+              <li>Reines Story-Item — kein Trade, keine Stats</li>
+            </ul>
+            <p class="entry-foot"><a href="https://www.divine-pride.net/database/search?searchquery=Inspectorate+Token" target="_blank" rel="noopener">Divine Pride suchen</a></p>
+          </div>
+
+          <div class="entry-card" id="quest-reward-restorative-medicine">
+            <header class="entry-card-head">
+              <span class="entry-icon">💊</span>
+              <span class="entry-name">Restorative Medicine</span>
+              <span class="entry-type">Quest-Item · Castle Banquet</span>
+            </header>
+            <ul class="entry-meta">
+              <li>Quest-Item Episode 1 · Castle Banquet Room (Spiegel-Auftrag)</li>
+              <li>5× verwendet, um Überlebende im Castle-Untergeschoss zu stabilisieren</li>
+              <li>Wird im Quest-Kontext bereitgestellt — kein Crafting nötig</li>
+              <li>Reines Story-Item — nur in der Quest-Sequenz nutzbar</li>
+            </ul>
+            <p class="entry-foot"><a href="https://www.divine-pride.net/database/search?searchquery=Restorative+Medicine" target="_blank" rel="noopener">Divine Pride suchen</a></p>
+          </div>
+        </div>
+      </section>
+
+      <h3>🎒 Episode-1-Belohnungen — komplettes Gear</h3>
+
+      <h4>Novice Starter Gear (sofort, alle account-bound, Lv 1, Novice-only)</h4>
+      <div class="entry-grid">
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Novice New Cutter" class="entry-icon" loading="lazy" src="images/equip/510046.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/510046" rel="noopener" target="_blank">Novice New Cutter <span class="entry-slot">[3]</span></a>
+            <span class="entry-type">Dagger</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Criatura Academy · Receptionist (Novice-Set)</li><li><strong>Level:</strong> 1 · <strong>ATK:</strong> 60 · <strong>Slots:</strong> 3</li><li><strong>Klasse:</strong> alle (Novice) · account-bound</li></ul>
+          <ul class="entry-stats"><li>Frühes Karten-Slot-Vehikel — 3 Slots auf einer Lv-1-Waffe</li></ul>
+          <div class="entry-card-foot"><span>kRO #510046</span><a href="https://www.divine-pride.net/database/item/510046" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Novice False Eggshell" class="entry-icon" loading="lazy" src="images/equip/5055.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/5055" rel="noopener" target="_blank">Novice False Eggshell</a>
+            <span class="entry-type">Top-Headgear</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Criatura Academy · Receptionist (Novice-Set)</li><li><strong>Level:</strong> 1 · <strong>DEF:</strong> 6</li><li><strong>Klasse:</strong> alle (Novice) · account-bound</li></ul>
+          <ul class="entry-stats"><li>Standard-Headgear bis zum Job-Change</li></ul>
+          <div class="entry-card-foot"><span>kRO #5055</span><a href="https://www.divine-pride.net/database/item/5055" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Novice Beach Sandals" class="entry-icon" loading="lazy" src="images/equip/2414.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/2414" rel="noopener" target="_blank">Novice Beach Sandals</a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Criatura Academy · Receptionist (Novice-Set)</li><li><strong>Level:</strong> 1 · <strong>DEF:</strong> 5</li><li><strong>Klasse:</strong> alle (Novice) · account-bound</li></ul>
+          <ul class="entry-stats"><li>Set-Bonus mit Novice Guard + Grim Novice Hood: MaxHP +50, MaxSP +10</li></ul>
+          <div class="entry-card-foot"><span>kRO #2414</span><a href="https://www.divine-pride.net/database/item/2414" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Novice Guard" class="entry-icon" loading="lazy" src="images/equip/2112.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/2112" rel="noopener" target="_blank">Novice Guard</a>
+            <span class="entry-type">Shield</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Criatura Academy · Receptionist (Novice-Set)</li><li><strong>Level:</strong> 1 · <strong>DEF:</strong> 20</li><li><strong>Klasse:</strong> alle (Novice) · account-bound</li></ul>
+          <ul class="entry-stats"><li>Set-Bonus mit Grim Novice Hood + Beach Sandals: MaxHP +50, MaxSP +10</li></ul>
+          <div class="entry-card-foot"><span>kRO #2112</span><a href="https://www.divine-pride.net/database/item/2112" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Grim Novice Hood" class="entry-icon" loading="lazy" src="images/equip/2510.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/2510" rel="noopener" target="_blank">Grim Novice Hood</a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Criatura Academy · Receptionist (Novice-Set)</li><li><strong>Level:</strong> 1 · <strong>DEF:</strong> 4</li><li><strong>Klasse:</strong> alle (Novice) · account-bound</li></ul>
+          <ul class="entry-stats"><li>Set-Bonus mit Novice Guard + Beach Sandals: MaxHP +50, MaxSP +10</li></ul>
+          <div class="entry-card-foot"><span>kRO #2510</span><a href="https://www.divine-pride.net/database/item/2510" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Tattered Novice Ninja Suit" class="entry-icon" loading="lazy" src="images/equip/2352.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/2352" rel="noopener" target="_blank">Tattered Novice Ninja Suit</a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Criatura Academy · Receptionist (Novice-Set)</li><li><strong>Level:</strong> 1 · <strong>DEF:</strong> 25</li><li><strong>Klasse:</strong> alle (Novice) · account-bound</li></ul>
+          <ul class="entry-stats"><li>Höchste DEF im Novice-Starter-Set</li></ul>
+          <div class="entry-card-foot"><span>kRO #2352</span><a href="https://www.divine-pride.net/database/item/2352" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+      <p><strong>Novice Magnifier:</strong> Ctrl + Left-Click auf unidentifizierte Items. Mehrere Charges pro Stack. <strong>Novice Gear Exchange Vending Machine</strong> (an jedem Job-Changer): 5 Novice-Teile → bis zu 16 Kafra Storage Tickets + 1 Hair Coupon.</p>
+
+      <h4>Starter Armor Box — öffnet auf Base 10</h4>
+      <p>Die Box enthält das <strong>High-Adventurer-Set</strong> (für alle Klassen, account-bound) plus ein <strong>Beginner Metal Weapon Ticket</strong>. Das Set ersetzt die Novice-Teile und trägt locker bis Lv 30+:</p>
+      <div class="info-box note"><strong>Komplett-Set-Bonus</strong> (alle vier Teile getragen): ATK +10, MATK +10, MaxHP +150, MaxSP +50, HIT +10.</div>
+      <div class="entry-grid">
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="High Adventurer Suit" class="entry-icon" loading="lazy" src="images/equip/15410.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/15410" rel="noopener" target="_blank">High Adventurer Suit <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Starter Armor Box (Episode 1)</li><li><strong>Level:</strong> 10 · <strong>DEF:</strong> 35 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> alle · account-bound</li></ul>
+          <ul class="entry-stats"><li>MaxHP +300</li><li>MaxSP +100</li></ul>
+          <div class="entry-card-foot"><span>kRO #15410</span><a href="https://www.divine-pride.net/database/item/15410" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="High Adventurer Hood" class="entry-icon" loading="lazy" src="images/equip/20953.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/20953" rel="noopener" target="_blank">High Adventurer Hood <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Starter Armor Box (Episode 1)</li><li><strong>Level:</strong> 10 · <strong>DEF:</strong> 25 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> alle · account-bound</li></ul>
+          <ul class="entry-stats"><li>HIT +10</li></ul>
+          <div class="entry-card-foot"><span>kRO #20953</span><a href="https://www.divine-pride.net/database/item/20953" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="High Adventurer Sandals" class="entry-icon" loading="lazy" src="images/equip/22215.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/22215" rel="noopener" target="_blank">High Adventurer Sandals <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Starter Armor Box (Episode 1)</li><li><strong>Level:</strong> 10 · <strong>DEF:</strong> 25 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> alle · account-bound</li></ul>
+          <ul class="entry-stats"><li>ATK +15</li><li>MATK +15</li></ul>
+          <div class="entry-card-foot"><span>kRO #22215</span><a href="https://www.divine-pride.net/database/item/22215" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="High Adventurer Clip" class="entry-icon" loading="lazy" src="images/equip/32252.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/32252" rel="noopener" target="_blank">High Adventurer Clip <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Starter Armor Box (Episode 1)</li><li><strong>Level:</strong> 10 · <strong>DEF:</strong> 2 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> alle · account-bound</li></ul>
+          <ul class="entry-stats"><li>ASPD +5%</li><li>Variable Cast Time −5%</li></ul>
+          <div class="entry-card-foot"><span>kRO #32252</span><a href="https://www.divine-pride.net/database/item/32252" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+
+      <h4>Beginner Metal Weapons (1 freie Wahl per Ticket, Lv 1)</h4>
+      <p>Skaliert ab Base 20 alle 10 Level um +3 ATK bis Lv 90. <em>+7-Refine</em> gibt zusätzliche Boni. Alle Waffen account-bound.</p>
+      <div class="entry-grid">
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Beginner Metal Two-Hand Sword" class="entry-icon" loading="lazy" src="images/equip/600006.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/600006" rel="noopener" target="_blank">Beginner Metal Two-Hand Sword <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">2-Hand Sword</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Beginner Metal Weapon Ticket</li><li><strong>Level:</strong> 1 · <strong>ATK:</strong> 110 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> Swordsman · account-bound</li></ul>
+          <ul class="entry-stats"><li>Bowling Bash Damage +15%</li><li>Skaliert: ab Base 20 alle 10 Level +3 ATK (bis Lv 90)</li><li>+7-Refine: ATK +20</li></ul>
+          <div class="entry-card-foot"><span>kRO #600006</span><a href="https://www.divine-pride.net/database/item/600006" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Beginner Metal Lance" class="entry-icon" loading="lazy" src="images/equip/630002.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/630002" rel="noopener" target="_blank">Beginner Metal Lance <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">2-Hand Spear</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Beginner Metal Weapon Ticket</li><li><strong>Level:</strong> 1 · <strong>ATK:</strong> 100 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> Swordsman · account-bound</li></ul>
+          <ul class="entry-stats"><li>Holy Cross Damage +15%</li><li>Skaliert: ab Base 20 alle 10 Level +3 ATK (bis Lv 90)</li><li>+7-Refine: ATK +20</li></ul>
+          <div class="entry-card-foot"><span>kRO #630002</span><a href="https://www.divine-pride.net/database/item/630002" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Beginner Metal Mace" class="entry-icon" loading="lazy" src="images/equip/590005.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/590005" rel="noopener" target="_blank">Beginner Metal Mace <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Mace</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Beginner Metal Weapon Ticket</li><li><strong>Level:</strong> 1 · <strong>ATK:</strong> 80 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> Novice / Swordsman / Acolyte / Merchant · account-bound</li></ul>
+          <ul class="entry-stats"><li>MATK +70, MaxSP +50</li><li>Priest Heal Effect +15%</li><li>Monk Chain Combo Damage +15%</li><li>Skaliert: ab Base 20 alle 10 Level +3 ATK (bis Lv 90)</li><li>+7-Refine: ATK +20, Heal +5%</li></ul>
+          <div class="entry-card-foot"><span>kRO #590005</span><a href="https://www.divine-pride.net/database/item/590005" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Beginner Metal Two Hand Axe" class="entry-icon" loading="lazy" src="images/equip/620002.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/620002" rel="noopener" target="_blank">Beginner Metal Two Hand Axe <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">2-Hand Axe</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Beginner Metal Weapon Ticket</li><li><strong>Level:</strong> 1 · <strong>ATK:</strong> 120 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> Swordsman / Merchant · account-bound</li></ul>
+          <ul class="entry-stats"><li>Blacksmith Critical Damage +3%</li><li>Alchemist Acid Terror Damage +15%</li><li>Skaliert: ab Base 20 alle 10 Level +3 ATK (bis Lv 90)</li><li>+7-Refine: ATK +20, Critical Damage +5%</li></ul>
+          <div class="entry-card-foot"><span>kRO #620002</span><a href="https://www.divine-pride.net/database/item/620002" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Beginner Metal Dagger" class="entry-icon" loading="lazy" src="images/equip/510007.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/510007" rel="noopener" target="_blank">Beginner Metal Dagger <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Dagger</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Beginner Metal Weapon Ticket</li><li><strong>Level:</strong> 1 · <strong>ATK:</strong> 70 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> Multi-Klasse · account-bound</li></ul>
+          <ul class="entry-stats"><li>Raid Damage +15%</li><li>Back Stab Damage +15%</li><li>Skaliert: ab Base 20 alle 10 Level +3 ATK (bis Lv 90)</li><li>+7-Refine: ASPD +10%</li></ul>
+          <div class="entry-card-foot"><span>kRO #510007</span><a href="https://www.divine-pride.net/database/item/510007" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Beginner Metal Staff" class="entry-icon" loading="lazy" src="images/equip/640003.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/640003" rel="noopener" target="_blank">Beginner Metal Staff <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">2-Hand Staff</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Beginner Metal Weapon Ticket</li><li><strong>Level:</strong> 1 · <strong>ATK:</strong> 50 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> Mage / Acolyte · account-bound</li></ul>
+          <ul class="entry-stats"><li>MATK +110</li><li>Lord of Vermilion Damage +15%</li><li>Skaliert: ab Base 20 alle 10 Level +3 ATK (bis Lv 90)</li><li>+7-Refine: MATK +2%</li></ul>
+          <div class="entry-card-foot"><span>kRO #640003</span><a href="https://www.divine-pride.net/database/item/640003" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Beginner Metal Katar" class="entry-icon" loading="lazy" src="images/equip/610005.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/610005" rel="noopener" target="_blank">Beginner Metal Katar <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Katar</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Beginner Metal Weapon Ticket</li><li><strong>Level:</strong> 1 · <strong>ATK:</strong> 100 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> Assassin · account-bound</li></ul>
+          <ul class="entry-stats"><li>Sonic Blow Damage +15%</li><li>Skaliert: ab Base 20 alle 10 Level +3 ATK (bis Lv 90)</li><li>+7-Refine: Critical Damage +5%</li></ul>
+          <div class="entry-card-foot"><span>kRO #610005</span><a href="https://www.divine-pride.net/database/item/610005" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Beginner Metal Bow" class="entry-icon" loading="lazy" src="images/equip/700006.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/700006" rel="noopener" target="_blank">Beginner Metal Bow <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Bow</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Beginner Metal Weapon Ticket</li><li><strong>Level:</strong> 1 · <strong>ATK:</strong> 80 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> Archer · account-bound</li></ul>
+          <ul class="entry-stats"><li>Blitz Beat Damage +15%</li><li>Double Strafe Damage +15%</li><li>Skaliert: ab Base 20 alle 10 Level +3 ATK (bis Lv 90)</li><li>+7-Refine: zusätzlich +7% Skill-Damage</li></ul>
+          <div class="entry-card-foot"><span>kRO #700006</span><a href="https://www.divine-pride.net/database/item/700006" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Beginner Metal Huuma Shuriken" class="entry-icon" loading="lazy" src="images/equip/650002.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/650002" rel="noopener" target="_blank">Beginner Metal Huuma Shuriken <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shuriken</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Beginner Metal Weapon Ticket</li><li><strong>Level:</strong> 1 · <strong>ATK:</strong> 120 · <strong>Slots:</strong> 1</li><li><strong>Klasse:</strong> Ninja · account-bound</li></ul>
+          <ul class="entry-stats"><li>Throw Huuma Shuriken Damage +15%</li><li>Skaliert: ab Base 20 alle 10 Level +3 ATK (bis Lv 90)</li><li>+7-Refine: ATK +20</li></ul>
+          <div class="entry-card-foot"><span>kRO #650002</span><a href="https://www.divine-pride.net/database/item/650002" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+
+      <h4>Royal Inspectorate Weapons (am Ende der Story-Kette, Lv-20-Tier)</h4>
+      <p>Ersetzen die Beginner-Metal-Waffe nach Episode 1 Part 1. Klare Stat-Verdopplung gegenüber dem Lv-1-Pendant — die Standard-Mid-Game-Waffe bis ~Lv 50.</p>
+      <div class="entry-grid">
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Royal Inspectorate Two Hand Sword" class="entry-icon" loading="lazy" src="images/equip/21061.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/21061" rel="noopener" target="_blank">Royal Inspectorate Two Hand Sword</a>
+            <span class="entry-type">2-Hand Sword</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Royal-Inspectorate-Waffenticket (Sahario)</li><li><strong>Level:</strong> 20 · <strong>ATK:</strong> 176</li><li><strong>Klasse:</strong> Swordsman</li></ul>
+          <ul class="entry-stats"><li>+7-Refine: ATK +20</li></ul>
+          <div class="entry-card-foot"><span>kRO #21061</span><a href="https://www.divine-pride.net/database/item/21061" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Royal Inspectorate Lance" class="entry-icon" loading="lazy" src="images/equip/630016.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/630016" rel="noopener" target="_blank">Royal Inspectorate Lance</a>
+            <span class="entry-type">2-Hand Spear</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Royal-Inspectorate-Waffenticket (Sahario)</li><li><strong>Level:</strong> 20 · <strong>ATK:</strong> 160</li><li><strong>Klasse:</strong> Swordsman</li></ul>
+          <ul class="entry-stats"><li>+7-Refine: ATK +20</li></ul>
+          <div class="entry-card-foot"><span>kRO #630016</span><a href="https://www.divine-pride.net/database/item/630016" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Royal Inspectorate Two Hand Axe" class="entry-icon" loading="lazy" src="images/equip/620013.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/620013" rel="noopener" target="_blank">Royal Inspectorate Two Hand Axe</a>
+            <span class="entry-type">2-Hand Axe</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Royal-Inspectorate-Waffenticket (Sahario)</li><li><strong>Level:</strong> 20 · <strong>ATK:</strong> 192</li><li><strong>Klasse:</strong> Swordsman / Merchant · indestructible</li></ul>
+          <ul class="entry-stats"><li>Indestructible (geht beim Refine nicht kaputt)</li><li>+7-Refine: Critical Damage +5%</li></ul>
+          <div class="entry-card-foot"><span>kRO #620013</span><a href="https://www.divine-pride.net/database/item/620013" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Royal Inspectorate Mace" class="entry-icon" loading="lazy" src="images/equip/590031.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/590031" rel="noopener" target="_blank">Royal Inspectorate Mace</a>
+            <span class="entry-type">Mace</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Royal-Inspectorate-Waffenticket (Sahario)</li><li><strong>Level:</strong> 20 · <strong>ATK:</strong> 192 · <strong>MATK:</strong> 112</li><li><strong>Klasse:</strong> Acolyte</li></ul>
+          <ul class="entry-stats"><li>+7-Refine: MATK +20</li></ul>
+          <div class="entry-card-foot"><span>kRO #590031</span><a href="https://www.divine-pride.net/database/item/590031" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Royal Inspectorate Dagger" class="entry-icon" loading="lazy" src="images/equip/510045.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/510045" rel="noopener" target="_blank">Royal Inspectorate Dagger</a>
+            <span class="entry-type">Dagger</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Royal-Inspectorate-Waffenticket (Sahario)</li><li><strong>Level:</strong> 20 · <strong>ATK:</strong> 112</li><li><strong>Klasse:</strong> Thief / Rogue</li></ul>
+          <ul class="entry-stats"><li>+7-Refine: ASPD +10%</li></ul>
+          <div class="entry-card-foot"><span>kRO #510045</span><a href="https://www.divine-pride.net/database/item/510045" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Royal Inspectorate Staff" class="entry-icon" loading="lazy" src="images/equip/640029.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/640029" rel="noopener" target="_blank">Royal Inspectorate Staff</a>
+            <span class="entry-type">2-Hand Staff</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Royal-Inspectorate-Waffenticket (Sahario)</li><li><strong>Level:</strong> 20 · <strong>ATK:</strong> 80 · <strong>MATK:</strong> 176</li><li><strong>Klasse:</strong> Mage</li></ul>
+          <ul class="entry-stats"><li>+7-Refine: MATK +2%</li></ul>
+          <div class="entry-card-foot"><span>kRO #640029</span><a href="https://www.divine-pride.net/database/item/640029" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Royal Inspectorate Katar" class="entry-icon" loading="lazy" src="images/equip/610030.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/610030" rel="noopener" target="_blank">Royal Inspectorate Katar</a>
+            <span class="entry-type">Katar</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Royal-Inspectorate-Waffenticket (Sahario)</li><li><strong>Level:</strong> 20 · <strong>ATK:</strong> 160</li><li><strong>Klasse:</strong> Assassin</li></ul>
+          <ul class="entry-stats"><li>+7-Refine: Critical Damage +5%</li></ul>
+          <div class="entry-card-foot"><span>kRO #610030</span><a href="https://www.divine-pride.net/database/item/610030" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Royal Inspectorate Bow" class="entry-icon" loading="lazy" src="images/equip/700044.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/700044" rel="noopener" target="_blank">Royal Inspectorate Bow</a>
+            <span class="entry-type">Bow</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Royal-Inspectorate-Waffenticket (Sahario)</li><li><strong>Level:</strong> 20 · <strong>ATK:</strong> 128</li><li><strong>Klasse:</strong> Archer</li></ul>
+          <ul class="entry-stats"><li>Standard-Bow für Archer-Linie bis ~Lv 50</li></ul>
+          <div class="entry-card-foot"><span>kRO #700044</span><a href="https://www.divine-pride.net/database/item/700044" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head">
+            <img alt="Royal Inspectorate Huuma Shuriken" class="entry-icon" loading="lazy" src="images/equip/650014.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/item/650014" rel="noopener" target="_blank">Royal Inspectorate Huuma Shuriken</a>
+            <span class="entry-type">Shuriken</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Quelle:</strong> Royal-Inspectorate-Waffenticket (Sahario)</li><li><strong>Level:</strong> 20 · <strong>ATK:</strong> 192</li><li><strong>Klasse:</strong> Ninja · indestructible</li></ul>
+          <ul class="entry-stats"><li>Indestructible (geht beim Refine nicht kaputt)</li><li>+7-Refine: ATK +20</li></ul>
+          <div class="entry-card-foot"><span>kRO #650014</span><a href="https://www.divine-pride.net/database/item/650014" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+
+      <h3>Nach Episode 1</h3>
+      <p>Sobald die Story-Kette und die Memorial-Tutorials erledigt sind, sind die nächsten sinnvollen Schritte:</p>
+      <ul>
+        <li><strong>Eden-Group-Missionen</strong> auf Eden 2F (<code>moc_para01</code>) — wichtigste Daily-EXP-Quelle bis Lv 99 (siehe unten, mit Disclaimer).</li>
+        <li><strong>Erste Memorial Dungeons:</strong> <a href="md-poring-village.html">Poring Village</a> (Einstieg, ab Lv ~30) und <a href="md-prontera-culvert.html">Prontera Culvert</a> (ab Lv ~40).</li>
+      </ul>
+
+      <div class="info-box future">
+        <strong>🔮 Trans-Fortsetzung:</strong> Die Trans-only Episode-Erweiterung (Sigrun, Memorial Dungeon Xavier, Thanatos Tower MD) ist auf TWRoZ noch nicht verfügbar.
+      </div>
+    </section>
+
+    <section>
+      <h2>🏆 Eden-Group Missionen — Top-5 EXP/h</h2>
+
+      <div class="info-box warning">
+        <strong>⚠️ Unklar ob Eden Group im Global-Release existiert.</strong> Bitte vor dem Planen <em>verifizieren</em>, bevor man die Leveling-Strategie darauf aufbaut. Eden ist ursprünglich ein Renewal-Konzept; RO Zero kann eine eigene Variante haben, eine umgebaute Version anbieten — oder es schlicht weglassen. Die Daten unten stammen aus TWRoZ und sind dort verifiziert, aber für den Global-Release nicht bestätigt.
+      </div>
+
+      <p>Mission Boards auf Eden 2F (<code>moc_para01</code>). Rewards bei <code>Sprakki @ 35,39</code>. Daily Reset 4:00 Server. 3h Cooldown pro Mission. Wahl zwischen normalem EXP (Base+Job) oder Doubled-Job-EXP.</p>
+      <ol>
+        <li><strong>Eden 70–79: Stings</strong> (gef_fild10) — beste EXP/h Mid-Game</li>
+        <li><strong>Eden 86–99: Anolian / Alligator</strong> (cmd_fild03, iz_dun04)</li>
+        <li><strong>Eden 60–69: Orc Skel / Zombie</strong> (orcsdun02)</li>
+        <li><strong>Eden 40–49: Orc Warrior</strong> (gef_fild10) — 40er Power-Spike</li>
+        <li><strong>Eden 50–59: Greatest General / Bigfoot</strong> (pay_fild04 / pay_fild05)</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>📅 Regionale Daily-Quests</h2>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Region</th><th>Key-NPC</th><th>Min Lv</th><th>Currency</th></tr></thead>
+        <tbody>
+          <tr><td>Kunlun</td><td>NPC in Alberta (10kz)</td><td>90+</td><td>Tiger Footskin / Buddhist Gem</td></tr>
+          <tr><td>Louyang</td><td>Suei (Dragon Soul Quest)</td><td>70+</td><td>Earth Dragon Coin</td></tr>
+          <tr><td>Amatsu</td><td>Suzuki Sukoshi (Amatsu Dun Entry)</td><td>70+</td><td>Spirit Stone</td></tr>
+          <tr><td>Hugel</td><td>Marin (hugel)</td><td>60+</td><td>Fancy Apple, Monster Race Coins</td></tr>
+          <tr><td>Einbroch/Einbech</td><td>Mine Foreman / Lighthalzen Pair</td><td>60+</td><td>Coal, Steel, Iron Ore</td></tr>
+          <tr><td>Veins</td><td>Veins Siblings (Karakas, Laica)</td><td>90+</td><td>Rough Mineral</td></tr>
+          <tr><td>Moscovia</td><td>Boyarsky (Forest Spirit Chain)</td><td>75+</td><td>Les / Worn Coin</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p><em>Cooldowns: 16–23h pro Quest. Erster Complete einer Region gibt einmalig Consumable-Bonus + erhöhten EXP. Wiederholungen geben nur standard EXP.</em></p>
+    </section>
+
+    <section>
+      <h2>⏫ EXP-Booster — Details</h2>
+      <p>Alle auf Zero bestätigten EXP-Booster mit Acquisition und Stacking-Verhalten:</p>
+
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Booster</th><th>Quelle</th><th>Dauer</th><th>Bonus</th><th>Stackt mit?</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Inn Buff</strong></td><td>Inn Employee in aktuell „gebuffter" Stadt. Server-wide Announcement stündlich — RNG welche Stadt aktuell aktiv ist (Prontera, Izlude, Payon, Geffen, Morroc, Alberta)</td><td>30 min</td><td>+10% Base/Job EXP</td><td>Ja, mit allem</td></tr>
+          <tr><td><strong>Emily (Poring Village)</strong></td><td>NPC Emily @ Poring Village 9-Uhr-Position (porin_vil)</td><td>30 min</td><td>+10% EXP + Inc. Agi + Blessing</td><td>Ja — aber <strong>nur bis Base 50</strong> nutzbar</td></tr>
+          <tr><td><strong>Premium Package (VIP)</strong></td><td>Cash-Shop — „Essential Package"</td><td>30 Tage</td><td><strong>+20% EXP + +20% Drop</strong></td><td>Additiv</td></tr>
+          <tr><td><strong>Battle Manual</strong></td><td>Cash-Shop, Events</td><td>30 min</td><td>+50% EXP (Mobs + Quest-Turn-Ins)</td><td>Multiplikativ mit VIP</td></tr>
+          <tr><td><strong>Thick Battle Manual</strong></td><td>Cash-Shop Variante</td><td>60 min</td><td>+55% EXP</td><td>Wie Battle Manual</td></tr>
+          <tr><td><strong>Party-Bonus</strong></td><td>Automatisch in valider Party</td><td>Während Party</td><td>+20% pro Member ab 2 (bis ~+100% bei 6)</td><td>Ja</td></tr>
+          <tr><td><strong>Eden-Mission-Reward</strong></td><td>Eden HQ Mission Board (Quest-Reward selbst, kein Buff)</td><td>Per Turn-in, 3h CD</td><td>Großer EXP-Chunk (von Battle Manual multipliziert)</td><td>Ja</td></tr>
+          <tr><td><strong>Regional First-Clear</strong></td><td>Erster Daily-Complete pro Region</td><td>Einmalig</td><td>Bonus-Consumables + erhöhter EXP</td><td>Ja</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <div class="info-box note">
+        <strong>Party-Regeln (wichtig):</strong> Members müssen innerhalb <strong>31×31 Tiles</strong> vom Leader sein. Nur <strong>1 Char pro Master Account</strong> zählt zum Party-Bonus. Level-Share-Range: <strong>±15 Base-Level</strong>. Leader offline/out-of-range → kein Bonus für andere.
+      </div>
+
+      <h3>Zusätzliche EXP-Quellen</h3>
+      <ul>
+        <li><strong>Criatura Academy Graduation Rewards</strong> — einmalig pro Char</li>
+        <li><strong>Daily Login / Attendance</strong> — periodische Battle Manuals & kleine Items</li>
+        <li><strong>Feature Events</strong> — server-wide +50–100% EXP-Wochenenden</li>
+        <li><strong>Memorial-Dungeon First-Clear</strong> — chunk EXP (z.B. Poring Village)</li>
+        <li><strong>Achievements</strong> — kleine EXP-Pools bei Unlocks</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📍 2. Job-Transfer-NPCs</h2>
+      <p>Standorte der Job-Change-NPCs für die zweite Klasse — alle Coords als <code>/navi</code>-fähige Strings.</p>
+
+      <div class="card-grid">
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">⚔️</span><span class="entry-name">Knight</span></header>
+          <p>Chivalry-Hauptquartier in Prontera Inn.</p>
+          <p><code>prt_in 88,101</code></p>
+        </article>
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">🛡️</span><span class="entry-name">Crusader</span></header>
+          <p>Über Prontera Church zur Castle-Außenmauer.</p>
+          <p><code>prt_church 95,125</code> → <code>prt_castle 261,101</code></p>
+        </article>
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">🔮</span><span class="entry-name">Wizard</span></header>
+          <p>Geffen Tower oben — Catherine Medichi.</p>
+          <p><code>geffen_in</code> (Tower-Top)</p>
+        </article>
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">📚</span><span class="entry-name">Sage</span></header>
+          <p>Schrein-Akademie in Juno: erst Registrierung, dann Test.</p>
+          <p><code>yuno_in03 154,35</code> · <code>yuno_in03 107,176</code></p>
+        </article>
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">🏹</span><span class="entry-name">Hunter</span></header>
+          <p>Hugel Hunter Guild im Innenhaus.</p>
+          <p><code>hu_in01 386,373</code></p>
+        </article>
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">🎵</span><span class="entry-name">Bard / Dancer</span></header>
+          <p>Wandering Bard im Comodo-Innenraum.</p>
+          <p><code>cmd_in02</code></p>
+        </article>
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">✝️</span><span class="entry-name">Priest</span></header>
+          <p>Prontera Church — Hauptnave.</p>
+          <p><code>prt_church 184,41</code></p>
+        </article>
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">🥋</span><span class="entry-name">Monk</span></header>
+          <p>St. Capitolina Abbey nahe Prontera.</p>
+          <p><code>prt_monk 268,247</code></p>
+        </article>
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">🗡️</span><span class="entry-name">Assassin</span></header>
+          <p>Assassin Guild südöstlich von Morroc.</p>
+          <p><code>moc_fild16 205,296</code></p>
+        </article>
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">🕵️</span><span class="entry-name">Rogue</span></header>
+          <p>Pharos-Lighthouse via Comodo-Kafra.</p>
+          <p><code>cmd_fild07</code></p>
+        </article>
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">🔨</span><span class="entry-name">Blacksmith</span></header>
+          <p>Schmiedegilde in Einbroch.</p>
+          <p><code>einbroch 255,109</code></p>
+        </article>
+        <article class="entry-card">
+          <header class="entry-card-head"><span class="entry-icon">⚗️</span><span class="entry-name">Alchemist</span></header>
+          <p>Al De Baran Südwest, Innenhaus.</p>
+          <p><code>aldeba_in 168,108</code></p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://www.rozskill.me/" target="_blank" rel="noopener">rozskill.me</a>
+</footer>
+
+</body>
+</html>

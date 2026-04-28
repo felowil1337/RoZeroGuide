@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>70MD Expedition Enchant — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html" class="active"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">70MD</span>
+      <h1>Expedition Squad Enchant</h1>
+      <p class="lead">Exklusive Enchants für das <strong>70MD-Equipment</strong> der Expedition-Squad-Memorial-Dungeons — die mittlere Progressionsstufe.</p>
+    </div>
+
+    <div class="entry-jump">
+      <a href="items.html">📦 Item-Datenbank</a>
+      <a href="items-md-equip.html">🛡️ Memorial-Set</a>
+      <a href="crafting.html">🔨 Crafting</a>
+      <a href="instanzen.html">🏰 Memorial-Dungeons</a>
+    </div>
+    <section>
+      <span class="source-note">Offizielle Quelle: roz.gnjoy.com.tw · News ID 218154 · 02.02.2026</span>
+
+      <h2>📍 NPC &amp; Standort</h2>
+      <div class="card">
+        <h4>Enchant Association — Expedition-Filiale</h4>
+        <p><strong>Position:</strong> <code>prt_in 135/28</code></p>
+        <p><strong>Navigate:</strong> <code>/navi prt_in 135/28</code></p>
+        <p><strong>Funktion:</strong> Enchantet Memorial-Dungeon-Equipment mit dem Expedition-Squad-Pool.</p>
+      </div>
+
+      
+<img class="chinese-img small" src="images/dungeon-enchants/2026_02_02_ee392492c0b041348e571619821e92ba.png" alt="Memory Artisan's Workshop · NPC-Standort" loading="lazy">
+<div class="translated-table-block">
+<p class="translated-summary">Dieses Bild zeigt den Standort der 'Werkstatt des Erinnerungsschmieds' in Prontera sowie zwei NPCs für Verzauberungen, die für Jobs der 1. und 2. Klasse zuständig sind.</p>
+<ul>
+<li>Location: Memory Artisan's Workshop (prontera 48 227)</li>
+<li>NPC: Enchantment Association Staff - Person in charge of 1st Class Jobs</li>
+<li>NPC: Enchantment Association Staff - Person in charge of 2nd Class Jobs</li>
+</ul>
+<p class="translated-notes"><em>Die Karte befindet sich in Prontera bei den Koordinaten 48 227. Die abgebildeten NPCs sind für die Verzauberung von Ausrüstung zuständig, unterteilt nach Klassenrang.</em></p>
+</div>
+    </section>
+
+    <section>
+      <h2>🎯 Zielausrüstung</h2>
+      <p>Dieser Pool ist für das <strong>70er-Memorial-Dungeon-Equipment</strong> der <em>Expedition Squad</em>-Serie. Parallele Pools:</p>
+      <ul>
+        <li><a href="enchant-subjugation.html">60MD Subjugation Enchant</a></li>
+        <li><a href="enchant-annihilation.html">80MD Annihilation Enchant</a></li>
+      </ul>
+      
+      <!-- EMBED:START exp-items -->
+            <div style="margin-top:32px;border-top:2px dashed var(--border);padding-top:16px">
+              <h4>📦 Expedition-Set — Zielausrüstung</h4>
+              <p style="color:var(--text-dim);font-size:13px;margin-top:0">Acht Items im Expedition-Set, gecraftet aus dem Subjugation-Set.</p>
+              <div class="entry-grid">
+                <div class="entry-card" id="item-28541">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28541.png" alt="Expedition Magic Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28541" target="_blank" rel="noopener">Expedition Magic Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Ring [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>INT +3</li></ul>
+  <div class="entry-card-foot"><span>kRO #28541</span><a href="https://divine-pride.net/database/item/28541" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20868">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20868.png" alt="Expedition Manteau [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20868" target="_blank" rel="noopener">Expedition Manteau <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Sash [1]</li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 14</li></ul>
+  <ul class="entry-stats"><li>+8% Neutral resistance</li><li>FLEE +15</li><li>When +3 or higher, FLEE +3</li></ul>
+  <div class="entry-card-foot"><span>kRO #20868</span><a href="https://divine-pride.net/database/item/20868" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22152">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22152.png" alt="Expedition Shoes [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22152" target="_blank" rel="noopener">Expedition Shoes <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Boots [1]</li><li><strong>Gewicht:</strong> 25 · <strong>DEF:</strong> 14</li></ul>
+  <ul class="entry-stats"><li>+10% HP Recovery</li><li>+7% SP Recovery</li><li>When +3 or higher, VIT +1</li></ul>
+  <div class="entry-card-foot"><span>kRO #22152</span><a href="https://divine-pride.net/database/item/22152" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28540">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28540.png" alt="Expedition Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28540" target="_blank" rel="noopener">Expedition Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Ring [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>STR +3</li></ul>
+  <div class="entry-card-foot"><span>kRO #28540</span><a href="https://divine-pride.net/database/item/28540" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15221">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15221.png" alt="Expedition Armor [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15221" target="_blank" rel="noopener">Expedition Armor <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Armor [1]</li><li><strong>Gewicht:</strong> 50 · <strong>DEF:</strong> 56</li></ul>
+  <ul class="entry-stats"><li>Max HP +500, MaxSP +30, MDEF +5, DEF +30</li><li>When wearing Expedition Manteau, Boots, &amp; Ring: ATK +20</li><li>If total Set is refined higher than +21: Increased ASPD (-5% after attack delay), -5% variable casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15221</span><a href="https://divine-pride.net/database/item/15221" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15222">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15222.png" alt="Expedition Robe [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15222" target="_blank" rel="noopener">Expedition Robe <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Armor [1]</li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 51</li></ul>
+  <ul class="entry-stats"><li>Max HP +400, MaxSP +50, MDEF +5, DEF +30</li><li>When wearing Expedition Muffler, Shoes, &amp; Magic Ring: MATK +20</li><li>If total Set is refined higher than +21: -5% variable &amp; fixed casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15222</span><a href="https://divine-pride.net/database/item/15222" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20869">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20869.png" alt="Expedition Muffler [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20869" target="_blank" rel="noopener">Expedition Muffler <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Sash [1]</li><li><strong>Gewicht:</strong> 25 · <strong>DEF:</strong> 13</li></ul>
+  <ul class="entry-stats"><li>+9% Neutral resistance</li><li>FLEE +12</li><li>When +3 or higher, +1% additional Neutral resistance</li></ul>
+  <div class="entry-card-foot"><span>kRO #20869</span><a href="https://divine-pride.net/database/item/20869" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22151">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22151.png" alt="Expedition Boots [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22151" target="_blank" rel="noopener">Expedition Boots <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Boots [1]</li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 16</li></ul>
+  <ul class="entry-stats"><li>+15% HP Recovery</li><li>+5% SP Recovery</li><li>When +3 or higher, AGI +1</li></ul>
+  <div class="entry-card-foot"><span>kRO #22151</span><a href="https://divine-pride.net/database/item/22151" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+              </div>
+            </div>
+      <!-- EMBED:END exp-items -->
+    </section>
+
+    <section>
+      <h2>📋 Ability-Listen</h2>
+      <p>Alle verfügbaren Enchants in den offiziellen Tabellen:</p>
+
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die möglichen Effekte und Wahrscheinlichkeiten für die vierte Slot-Verzauberung bei Ausrüstungsgegenständen mit einem Veredelungsgrad zwischen +0 und +8, sowie die Kosten für das Zurücksetzen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Schritt</th><th>Verzauberungsmaterial</th><th>Verzauberungseffekt (100% Erfolgsrate, zufällige Auswahl)</th><th>Effektbeschreibung</th><th>Erscheinungsrate (%)</th></tr></thead>
+<tbody>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>AGI+1</td><td>AGI+1</td><td>6.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>DEX+1</td><td>DEX+1</td><td>6.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>STR+1</td><td>STR+1</td><td>6.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>INT+1</td><td>INT+1</td><td>6.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>VIT+1</td><td>VIT+1</td><td>6.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>LUK+1</td><td>LUK+1</td><td>6.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>AGI+2</td><td>AGI+2</td><td>5.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>DEX+2</td><td>DEX+2</td><td>5.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>STR+2</td><td>STR+2</td><td>5.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>INT+2</td><td>INT+2</td><td>5.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>VIT+2</td><td>VIT+2</td><td>5.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>LUK+2</td><td>LUK+2</td><td>5.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>FLEE+3</td><td>FLEE+3</td><td>5.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>Critical Lv1</td><td>CRI+1</td><td>5.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>DEF+15</td><td>DEF+15</td><td>5.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>MDEF+2</td><td>MDEF+2</td><td>5.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>HP50</td><td>HP50</td><td>6.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>HP100</td><td>HP100</td><td>5.00%</td></tr>
+<tr><td>Fourth Slot Enchantment</td><td>Zeny 100,000</td><td>HP200</td><td>HP200</td><td>3.00%</td></tr>
+<tr><td>Reset (1)</td><td>Zeny 1,000,000</td><td>Enchantment Reset</td><td>Reset Success Rate: 70%</td><td>-</td></tr>
+<tr><td>Reset (2)</td><td>Aegirium *1</td><td>Enchantment Reset</td><td>Reset Success Rate: 100%</td><td>-</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Tabelle beschreibt die vierte Slot-Verzauberung für Gegenstände mit Refine +0 bis +8. Das Zurücksetzen der Verzauberung ist entweder gegen Zeny (mit 70% Erfolgsrate) oder mit Aegirium (mit 100% Erfolgsrate) möglich.</em></p>
+</div>
+
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die möglichen Effekte, Erfolgschancen und Kosten für die Verzauberung des vierten Slots bei Garment und Shoes ab einer Veredelung von +9.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Stufe</th><th>Verzauberungsmaterial</th><th>Garment Slot Effekt</th><th>Garment Slot Beschreibung</th><th>Garment Slot Chance (%)</th><th>Shoes Slot Effekt</th><th>Shoes Slot Beschreibung</th><th>Shoes Slot Chance (%)</th></tr></thead>
+<tbody>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>AGI+1</td><td>AGI+1</td><td>7.13%</td><td>AGI+1</td><td>AGI+1</td><td>7.58%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>DEX+1</td><td>DEX+1</td><td>7.13%</td><td>DEX+1</td><td>DEX+1</td><td>7.58%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>STR+1</td><td>STR+1</td><td>7.13%</td><td>STR+1</td><td>STR+1</td><td>7.58%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>INT+1</td><td>VIT+1</td><td>7.13%</td><td>INT+1</td><td>VIT+1</td><td>7.58%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>LUK+1</td><td>LUK+1</td><td>7.13%</td><td>LUK+1</td><td>LUK+1</td><td>7.58%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>AGI+1</td><td>AGI+1</td><td>0.89%</td><td>AGI+1</td><td>AGI+2</td><td>3.57%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>DEX+2</td><td>DEX+2</td><td>0.89%</td><td>DEX+2</td><td>DEX+2</td><td>3.57%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>STR+2</td><td>STR+2</td><td>0.89%</td><td>STR+2</td><td>STR+2</td><td>3.57%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>INT+2</td><td>INT+2</td><td>0.89%</td><td>INT+2</td><td>INT+2</td><td>3.57%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>VIT+2</td><td>VIT+2</td><td>0.89%</td><td>VIT+2</td><td>VIT+2</td><td>3.57%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>LUK+2</td><td>LUK+2</td><td>0.89%</td><td>LUK+2</td><td>LUK+2</td><td>3.57%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>FLEE+3</td><td>FLEE+3</td><td>3.48%</td><td>FLEE+3</td><td>FLEE+3</td><td>4.90%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>CRI+1</td><td>CRI+1</td><td>3.48%</td><td>CRI+1</td><td>CRI+1</td><td>4.90%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>DEF+15</td><td>DEF+15</td><td>3.48%</td><td>DEF+15</td><td>DEF+15</td><td>4.90%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>MDEF+2</td><td>MDEF+2</td><td>3.48%</td><td>MDEF+2</td><td>MDEF+2</td><td>4.90%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>HP50</td><td>HP50</td><td>10.70%</td><td>HP50</td><td>HP50</td><td>4.90%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>HP100</td><td>HP100</td><td>8.91%</td><td>HP100</td><td>HP100</td><td>3.50%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>HP200</td><td>HP200</td><td>7.58%</td><td>HP200</td><td>HP200</td><td>2.60%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>HP300</td><td>HP300</td><td>6.31%</td><td>HP300</td><td>HP300</td><td>1.70%</td></tr>
+<tr><td>FOURTH-SLOT ENCHANT</td><td>Zeny 100,000</td><td>HP400</td><td>HP400</td><td>4.46%</td><td>HP400</td><td>HP400</td><td>0.80%</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Tabelle listet die Wahrscheinlichkeiten für Verzauberungen im vierten Slot auf. Reset-Optionen bieten unterschiedliche Erfolgschancen basierend auf den Kosten (Zeny vs. Aegirium).</em></p>
+</div>
+
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle listet die möglichen Verzauberungsboni und deren Auftrittswahrscheinlichkeiten für Rüstungen von Charakteren der 1. Klasse mit einer Verfeinerung von mindestens +9 auf.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Stufe</th><th>Verzauberungsmaterial</th><th>Fähigkeits-Bezeichnung (Zufällige Ziehung)</th><th>Fähigkeitsbeschreibung</th><th>Auftrittswahrscheinlichkeit (%)</th></tr></thead>
+<tbody>
+<tr><td></td><td></td><td>AGI+1</td><td>AGI+1</td><td>5.20%</td></tr>
+<tr><td></td><td></td><td>DEX+1</td><td>DEX+1</td><td>5.20%</td></tr>
+<tr><td></td><td></td><td>STR+1</td><td>STR+1</td><td>5.20%</td></tr>
+<tr><td></td><td></td><td>INT+1</td><td>INT+1</td><td>5.20%</td></tr>
+<tr><td></td><td></td><td>VIT+1</td><td>VIT+1</td><td>5.20%</td></tr>
+<tr><td></td><td></td><td>LUK+1</td><td>LUK+1</td><td>5.20%</td></tr>
+<tr><td></td><td></td><td>DEX+2</td><td>DEX+2</td><td>4.90%</td></tr>
+<tr><td></td><td></td><td>STR+2</td><td>DEX+2</td><td>4.90%</td></tr>
+<tr><td></td><td></td><td>STR+2</td><td>STR+2</td><td>4.90%</td></tr>
+<tr><td></td><td></td><td>INT+2</td><td>INT+2</td><td>4.90%</td></tr>
+<tr><td></td><td></td><td>VIT+2</td><td>VIT+2</td><td>4.90%</td></tr>
+<tr><td></td><td></td><td>LUK+2</td><td>LUK+2</td><td>4.90%</td></tr>
+<tr><td></td><td></td><td>FLEE+3</td><td>FLEE+3</td><td>4.90%</td></tr>
+<tr><td></td><td></td><td>CRI+1</td><td>CRI+1</td><td>4.30%</td></tr>
+<tr><td></td><td></td><td>DEF+15</td><td>DEF+15</td><td>4.30%</td></tr>
+<tr><td></td><td></td><td>MDEF+2</td><td>MDEF+2</td><td>4.30%</td></tr>
+<tr><td></td><td></td><td>HP50</td><td>HP50</td><td>5.20%</td></tr>
+<tr><td></td><td></td><td>HP100</td><td>HP100</td><td>5.20%</td></tr>
+<tr><td></td><td></td><td>HP200</td><td>HP200</td><td>5.20%</td></tr>
+<tr><td></td><td></td><td>HP300</td><td>HP300</td><td>3.50%</td></tr>
+<tr><td></td><td></td><td>HP400</td><td>HP400</td><td>1.30%</td></tr>
+<tr><td></td><td><a class="essence-link" href="items.html#essence-29387"><img class="essence-inline-icon" src="images/equip/29387.png" alt="Swordsman Essence Lv1" loading="lazy"/>Swordsman Essence Lv1</a></td><td><a class="essence-link" href="items.html#essence-29387"><img class="essence-inline-icon" src="images/equip/29387.png" alt="Swordsman Essence Lv1" loading="lazy"/>Swordsman Essence Lv1</a></td><td>Bash SP -10. For every 2 Bash levels, ATK speed increases (Post-attack delay -1%).</td><td>0.20%</td></tr>
+<tr><td></td><td><a class="essence-link" href="items.html#essence-29388"><img class="essence-inline-icon" src="images/equip/29388.png" alt="Merchant Essence Lv1" loading="lazy"/>Merchant Essence Lv1</a></td><td><a class="essence-link" href="items.html#essence-29388"><img class="essence-inline-icon" src="images/equip/29388.png" alt="Merchant Essence Lv1" loading="lazy"/>Merchant Essence Lv1</a></td><td>Discount +1 level, ATK +2. For every 2 Vending levels, ATK speed increases (Post-attack delay -1%).</td><td>0.20%</td></tr>
+<tr><td></td><td><a class="essence-link" href="items.html#essence-29389"><img class="essence-inline-icon" src="images/equip/29389.png" alt="Thief Essence Lv1" loading="lazy"/>Thief Essence Lv1</a></td><td><a class="essence-link" href="items.html#essence-29389"><img class="essence-inline-icon" src="images/equip/29389.png" alt="Thief Essence Lv1" loading="lazy"/>Thief Essence Lv1</a></td><td>When equipped as Thief class, ATK +30. For every 2 Steal levels, ATK speed increases (Post-attack delay -1%).</td><td>0.20%</td></tr>
+<tr><td></td><td><a class="essence-link" href="items.html#essence-29390"><img class="essence-inline-icon" src="images/equip/29390.png" alt="Mage Essence Lv1" loading="lazy"/>Mage Essence Lv1</a></td><td><a class="essence-link" href="items.html#essence-29390"><img class="essence-inline-icon" src="images/equip/29390.png" alt="Mage Essence Lv1" loading="lazy"/>Mage Essence Lv1</a></td><td>Cold / Fire / Lightning Bolt damage +20%. For every 2 Firewall levels, Variable Cast Time -1%.</td><td>0.20%</td></tr>
+<tr><td></td><td><a class="essence-link" href="items.html#essence-29397"><img class="essence-inline-icon" src="images/equip/29397.png" alt="Acolyte Essence Lv2" loading="lazy"/>Acolyte Essence Lv2</a></td><td><a class="essence-link" href="items.html#essence-29397"><img class="essence-inline-icon" src="images/equip/29397.png" alt="Acolyte Essence Lv2" loading="lazy"/>Acolyte Essence Lv2</a></td><td>Heal / Increase AGI / Blessing SP -15%. For every 2 Heal levels, Healing +1%. Armor refine +2, MHP +70, MSP +30.</td><td>0.10%</td></tr>
+<tr><td></td><td><a class="essence-link" href="items.html#essence-29398"><img class="essence-inline-icon" src="images/equip/29398.png" alt="Archer Essence Lv2" loading="lazy"/>Archer Essence Lv2</a></td><td><a class="essence-link" href="items.html#essence-29398"><img class="essence-inline-icon" src="images/equip/29398.png" alt="Archer Essence Lv2" loading="lazy"/>Archer Essence Lv2</a></td><td>Double Strafe SP -5. For every 1 Owl's Eye level, Bow ATK +1%. Armor refine +2, Arrow Shower damage +5%.</td><td>0.10%</td></tr>
+<tr><td>Verzauberungsrücksetzung (I)</td><td>Zeny 1,000,000</td><td></td><td>Enchantment Reset: Reset Success Rate 70%</td><td></td></tr>
+<tr><td>Verzauberungsrücksetzung (II)</td><td>Jesta*1</td><td></td><td>Enchantment Reset: Reset Success Rate 100%</td><td></td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Tabelle beschreibt Verzauberungsoptionen für Rüstungsgegenstände. Es gibt zwei Optionen für das Zurücksetzen der Verzauberung mit unterschiedlichen Erfolgsraten und Materialkosten.</em></p>
+</div>
+
+<div class="info-box note">
+        <strong>Hinweis:</strong> Die ursprüngliche tabellarische Auflistung an dieser Stelle stammte aus einem Screenshot mit nicht ausreichend lesbarer OCR-Erkennung (gemixte 70MD-Waffen-Endows + 1st-Job-Essences). Stattdessen sind die <strong>12 First-Job-Essences</strong>, die im 70MD-Expedition-Pool auf <strong>+9-Armor</strong> rollen können, hier als Item-Cards gelistet — vollständige Effekte und kRO-IDs. Mehr Kontext im <a href="md-equip-enchanting.html#first-job-essences">Equipment-Enchanting-Hub</a>.
+      </div>
+      <div class="entry-grid wide">
+      <div class="entry-card" id="essence-29390-70md">
+        <div class="entry-card-head">
+          <img alt="Mage Essence Lv1" class="entry-icon" loading="lazy" src="images/equip/29390.png"/>
+          <a class="entry-name" href="items.html#essence-29390">Mage Essence Lv1</a>
+          <span class="entry-type">Lower</span>
+        </div>
+        <ul class="entry-stats">
+        <li>Increases [Cold Bolt], [Fire Bolt], and [Lightning Bolt] damage by 20%.</li>
+        <li>For every 2 levels in [Fire Wall], -1% variable casting.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29390</span><a href="https://www.divine-pride.net/database/item/29390" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      <div class="entry-card" id="essence-29396-70md">
+        <div class="entry-card-head">
+          <img alt="Mage Essence Lv2" class="entry-icon" loading="lazy" src="images/equip/29396.png"/>
+          <a class="entry-name" href="items.html#essence-29396">Mage Essence Lv2</a>
+          <span class="entry-type">Higher</span>
+        </div>
+        <ul class="entry-stats">
+        <li>Increases [Cold Bolt], [Fire Bolt], and [Lightning Bolt] damage by 20%.</li>
+        <li>For every level in [Fire Wall], -1% variable casting.</li>
+        <li>For every +2 armor refine, MaxSP +50.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29396</span><a href="https://www.divine-pride.net/database/item/29396" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      <div class="entry-card" id="essence-29391-70md">
+        <div class="entry-card-head">
+          <img alt="Acolyte Essence Lv1" class="entry-icon" loading="lazy" src="images/equip/29391.png"/>
+          <a class="entry-name" href="items.html#essence-29391">Acolyte Essence Lv1</a>
+          <span class="entry-type">Lower</span>
+        </div>
+        <ul class="entry-stats">
+        <li>Decreases [Heal], [Increase Agility], and [Blessing] SP consumption by 15%.</li>
+        <li>For every 2 levels in [Heal], +1% Heal amount.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29391</span><a href="https://www.divine-pride.net/database/item/29391" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      <div class="entry-card" id="essence-29397-70md">
+        <div class="entry-card-head">
+          <img alt="Acolyte Essence Lv2" class="entry-icon" loading="lazy" src="images/equip/29397.png"/>
+          <a class="entry-name" href="items.html#essence-29397">Acolyte Essence Lv2</a>
+          <span class="entry-type">Higher</span>
+        </div>
+        <ul class="entry-stats">
+        <li>Decreases [Heal], [Increase Agility], and [Blessing] SP consumption by 15%.</li>
+        <li>For every level in [Heal], +1% Heal amount.</li>
+        <li>For every +2 armor refine, MaxHP +70, MaxSP +30.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29397</span><a href="https://www.divine-pride.net/database/item/29397" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      <div class="entry-card" id="essence-29392-70md">
+        <div class="entry-card-head">
+          <img alt="Archer Essence Lv1" class="entry-icon" loading="lazy" src="images/equip/29392.png"/>
+          <a class="entry-name" href="items.html#essence-29392">Archer Essence Lv1</a>
+          <span class="entry-type">Lower</span>
+        </div>
+        <ul class="entry-stats">
+        <li>Decreases [Double Strafe] SP consumption by 5 SP.</li>
+        <li>For every level in [Eagle Eye], +1% Bow damage.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29392</span><a href="https://www.divine-pride.net/database/item/29392" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      <div class="entry-card" id="essence-29398-70md">
+        <div class="entry-card-head">
+          <img alt="Archer Essence Lv2" class="entry-icon" loading="lazy" src="images/equip/29398.png"/>
+          <a class="entry-name" href="items.html#essence-29398">Archer Essence Lv2</a>
+          <span class="entry-type">Higher</span>
+        </div>
+        <ul class="entry-stats">
+        <li>Decreases [Double Strafe] SP consumption by 5 SP.</li>
+        <li>For every level in [Eagle Eye], +2% Bow damage.</li>
+        <li>For every +2 armor refine, +5% [Arrow Shower] damage.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29398</span><a href="https://www.divine-pride.net/database/item/29398" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      <div class="entry-card" id="essence-29387-70md">
+        <div class="entry-card-head">
+          <img alt="Swordsman Essence Lv1" class="entry-icon" loading="lazy" src="images/equip/29387.png"/>
+          <a class="entry-name" href="items.html#essence-29387">Swordsman Essence Lv1</a>
+          <span class="entry-type">Lower</span>
+        </div>
+        <ul class="entry-stats">
+        <li>Decreases [Magnum Break] SP consumption by 10 SP.</li>
+        <li>For every 2 levels in [Bash], +1% ASPD.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29387</span><a href="https://www.divine-pride.net/database/item/29387" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      <div class="entry-card" id="essence-29393-70md">
+        <div class="entry-card-head">
+          <img alt="Swordsman Essence Lv2" class="entry-icon" loading="lazy" src="images/equip/29393.png"/>
+          <a class="entry-name" href="items.html#essence-29393">Swordsman Essence Lv2</a>
+          <span class="entry-type">Higher</span>
+        </div>
+        <ul class="entry-stats">
+        <li>Decreases [Magnum Break] SP consumption by 10 SP.</li>
+        <li>For every level in [Bash], +1% ASPD.</li>
+        <li>For every +2 armor refine, +15% [Magnum Break] damage.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29393</span><a href="https://www.divine-pride.net/database/item/29393" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      <div class="entry-card" id="essence-29389-70md">
+        <div class="entry-card-head">
+          <img alt="Thief Essence Lv1" class="entry-icon" loading="lazy" src="images/equip/29389.png"/>
+          <a class="entry-name" href="items.html#essence-29389">Thief Essence Lv1</a>
+          <span class="entry-type">Lower</span>
+        </div>
+        <ul class="entry-stats">
+        <li>When using [Steal], ATK +30 for 60 seconds.</li>
+        <li>For every 2 levels in [Steal], +1% ASPD.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29389</span><a href="https://www.divine-pride.net/database/item/29389" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      <div class="entry-card" id="essence-29395-70md">
+        <div class="entry-card-head">
+          <img alt="Thief Essence Lv2" class="entry-icon" loading="lazy" src="images/equip/29395.png"/>
+          <a class="entry-name" href="items.html#essence-29395">Thief Essence Lv2</a>
+          <span class="entry-type">Higher</span>
+        </div>
+        <ul class="entry-stats">
+        <li>When using [Steal], ATK +30 for 60 seconds.</li>
+        <li>For every level in [Steal], +1% ASPD.</li>
+        <li>For every +2 armor refine, FLEE +10.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29395</span><a href="https://www.divine-pride.net/database/item/29395" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      <div class="entry-card" id="essence-29388-70md">
+        <div class="entry-card-head">
+          <img alt="Merchant Essence Lv1" class="entry-icon" loading="lazy" src="images/equip/29388.png"/>
+          <a class="entry-name" href="items.html#essence-29388">Merchant Essence Lv1</a>
+          <span class="entry-type">Lower</span>
+        </div>
+        <ul class="entry-stats">
+        <li>For every level in [Discount], ATK +2.</li>
+        <li>For every 2 levels in [Overcharge], +1% ASPD.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29388</span><a href="https://www.divine-pride.net/database/item/29388" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      <div class="entry-card" id="essence-29394-70md">
+        <div class="entry-card-head">
+          <img alt="Merchant Essence Lv2" class="entry-icon" loading="lazy" src="images/equip/29394.png"/>
+          <a class="entry-name" href="items.html#essence-29394">Merchant Essence Lv2</a>
+          <span class="entry-type">Higher</span>
+        </div>
+        <ul class="entry-stats">
+        <li>For every level in [Discount], ATK +2.</li>
+        <li>For every level in [Overcharge], +1% ASPD.</li>
+        <li>For every +2 armor refine, MaxHP +100.</li>
+        </ul>
+        <div class="entry-card-foot"><span>kRO #29394</span><a href="https://www.divine-pride.net/database/item/29394" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+      </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>💡 Praxis-Tipps</h2>
+      <ul>
+        <li><strong>70MD als Pflicht:</strong> Der Expedition-Enchant ist nur sinnvoll, wenn das 70MD-Equipment vorhanden ist — Zugang erhältst du via <a href="instanzen.html">Memorial-Dungeons</a></li>
+        <li><strong>Enchant-Slots bedacht füllen:</strong> Einige Slots sind class-spezifisch sinnvoll — Build planen, dann enchanten</li>
+        <li><strong>Progressions-Upgrade:</strong> Nach 70MD ist 80MD der nächste Sprung — Blick auf <a href="enchant-annihilation.html">Annihilation-Pool</a> lohnt sich bereits während 70MD-Farm</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>⚠️ Hinweise</h2>
+      <div class="info-box warning">
+        <ol>
+          <li>Gravity behält sich Änderungen vor.</li>
+          <li>Aktueller Stand stets auf der <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=218154" target="_blank">Originalseite</a>.</li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer">
+  Quelle: <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=218154" target="_blank">roz.gnjoy.com.tw</a> (News ID 218154) · Screenshots © Gravity / GNJOY TW
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MVP-System — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html" class="active"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">魔物 · MVP-地域的統治者</span>
+      <h1>MVP-System: Die "Herrscher der Regionen"</h1>
+      <p class="lead">MVPs sind der Schwierigkeits-Gipfel von RO Zero. Dediziertes Lebensraum-System, Quest-Integration über NPC Lucy, und exklusive Waffen- &amp; Rüstungs-Zufalls-Optionen nur für MVP-Drops.</p>
+    </div>
+
+    <section>
+      <span class="source-note">Offizielle Quelle: roz.gnjoy.com.tw · News ID 217850 (17.09.2025) + 217849 / 217968</span>
+
+      <h2>👹 Was sind MVPs?</h2>
+      <p>In <em>RO Zero</em> sind <strong>MVPs (地域的統治者)</strong> die „Regional-Herrscher" — sie stellen den <strong>Endgame-Schwierigkeitsgrad</strong> dar und werden mit jedem Patch <em>stärker</em>, um dem Fortschritt der Spieler entgegenzuwirken.</p>
+
+      <p>Das MVP-System besteht aus vier verzahnten Teilsystemen:</p>
+      <ol>
+        <li>Exklusive Lebensraum-Maps</li>
+        <li>Exklusive Massaker-Quests via NPC Lucy</li>
+        <li>Exklusive Reward-Boxen</li>
+        <li>Exklusive Sonder-Systeme: <a href="battle-doll.html">MVP-Kampfpuppen</a> + Waffen-/Rüstungs-Enchants</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>🗺️ MVP-Lebensraum-Maps</h2>
+      <p>In Zero haben MVPs <strong>eigene Habitat-Maps</strong>, die in zwei Kategorien unterteilt sind:</p>
+
+      <div class="card-grid">
+        <div class="card">
+          <h4>🟢 Standard-Habitat (一般棲息地)</h4>
+          <p>Nur MVP-Spawns auf der Map, <strong>keine PvP</strong>. Geeignet für alle Abenteurer, auch kleine Gruppen / Solo.</p>
+          <p><strong>Exklusiv-Feature:</strong> <em>Keine Todesstrafe</em> in MVP-Habitats — du kannst unbegrenzt Wipes machen und Mechanik lernen.</p>
+        </div>
+        <div class="card">
+          <h4>🟣 PK-Habitat (PK棲息地)</h4>
+          <p>Gleiche MVP-Spawns, aber <strong>PvP aktiv</strong>. Gilden und Allianzen greifen sich um den Kill. Nur sinnvoll als größere Gruppe.</p>
+          <p><strong>Reward-Unterschied:</strong> Der MVP dropt dort ca. <strong>300× „MVP-Aura-Fragmente"</strong> (gegenüber 100 in Standard).</p>
+        </div>
+      </div>
+
+      <img class="chinese-img medium" src="images_en/mvp/2025_09_12_18c6eb5df5d844bd96d14f764412b92a.png" alt="Portal-Farben-Übersicht">
+<div class="translated-table-block">
+<p class="translated-summary">Ein UI-Fenster, das die Auswahl zwischen drei verschiedenen Karten-Typen zeigt, basierend auf der Farbe des Portals.</p>
+<ul>
+<li>Go to Normal Map (Rotes Portal)</li>
+<li>Go to PK Map (Gelbes Portal)</li>
+<li>Go to Origin Map (Weißes Portal)</li>
+</ul>
+<p class="translated-notes"><em>Der Hinweis unten besagt, dass die Zielkarte anhand der Farbe des Teleportations-Portals bestimmt werden kann.</em></p>
+</div>
+    </section>
+
+    <section>
+      <h2>📜 NPC Lucy: Discharge-Quests</h2>
+      <div class="card">
+        <h4>Midgard-Empfangsdame Lucy (米德加爾特接待員-露西)</h4>
+        <p><strong>Position:</strong> <code>prt_in 45 102</code> — Königreich-Gilden-Anwerbung</p>
+        <p><strong>Services:</strong></p>
+        <ul>
+          <li><strong>Quest-Annahme:</strong> „[MVP] Massaker-Discharge-Qualifikation" — beauftragt dich, einen bestimmten MVP zu besiegen</li>
+          <li><strong>Fragment-Tausch:</strong> <em>MVP-Aura-Fragmente</em> → Discharge-Reward-Box (Standard)</li>
+          <li><strong>Segens-Tausch:</strong> <em>Schmied-Segens-Pulver</em> → <strong>Schmied-Segen</strong> (鐵匠的祝福!)</li>
+        </ul>
+      </div>
+
+      <div class="info-box warning">
+        <strong>Quest-Kill-Logik:</strong> Nur der Charakter, der <em>den finalen Treffer</em> auf den MVP landet, erfüllt die Quest — <strong>plus die Party-Mitglieder, die diesen Moment im Sichtfeld des MVP und am Leben sind</strong>. Aus-Range oder tot = Quest-Progress geht verloren.
+      </div>
+    </section>
+
+    <section>
+      <h2>🎁 Reward-Verteilung pro Kill</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>🥇 Der MVP-Winner</h4>
+          <p>Der Charakter mit dem „MVP"-Status (größter Damage-Beitrag) darf die <strong>„Subjugation Reward Box (Advanced)"</strong> aufheben. Beste Rewards.</p>
+        </div>
+        <div class="card">
+          <h4>🥈 Quest-Completer</h4>
+          <p>Wer Lucys Quest abschließt, erhält die <strong>„Subjugation Reward Box (Standard)"</strong> bei der Rückkehr.</p>
+        </div>
+        <div class="card">
+          <h4>🥉 Alle Anwesenden</h4>
+          <p>Karten-Random-Drops: <strong>„MVP Aura Fragments"</strong>, die jeder auf der Map aufheben kann.<br>
+          · Normal Habitat: ~100 Drops<br>
+          · PK Habitat: ~300 Drops</p>
+        </div>
+      </div>
+
+      <img class="chinese-img" src="images_en/mvp/mvp2.png" alt="Subjugation Reward Box contents — Standard and Advanced">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabellen zeigen die möglichen zufälligen Belohnungen aus den Standard- und fortgeschrittenen Unterwerfungs-Boxen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Gegenstand</th><th>Menge</th></tr></thead>
+<tbody>
+<tr><td>MVP Battle Doll</td><td>x1 (Standard) / x1 (Advanced)</td></tr>
+<tr><td>MVP Costume Box</td><td>x1 (Standard) / x1 (Advanced)</td></tr>
+<tr><td>MVP Aura Fragment</td><td>x1 ~ 3 (Standard) / x2 ~ 3 (Advanced)</td></tr>
+<tr><td>Smith's Blessing</td><td>x1 (Standard) / x2 (Advanced)</td></tr>
+<tr><td>Smith's Blessing Powder</td><td>x2 ~ 3 (Standard) / x3 ~ 4 (Advanced)</td></tr>
+<tr><td>Yggdrasil Blessing</td><td>x1 ~ 3 (Standard) / x2 ~ 3 (Advanced)</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Tabellen listen die zufälligen Beuteinhalte für 'Subjugation Reward Box (Standard)' und 'Subjugation Reward Box (Advanced)' auf.</em></p>
+</div>
+    </section>
+
+    <section>
+      <h2>👤 NPC Lucy in Detail</h2>
+      <p>Die Midgard Receptionist Lucy vergibt Subjugation-Quests und tauscht MVP Aura Fragments oder Blacksmith Blessing Powder. Hier das NPC-UI mit Dialog + Quest-Optionen:</p>
+      <img class="chinese-img" src="images_en/mvp/mvp3.png" alt="Lucy NPC dialogue with quest options">
+<div class="translated-table-block">
+<p class="translated-summary">Ein Dialogfenster mit der NPC-Rezeptionistin Lucy, die den Spieler zur Teilnahme an MVP-Unterwerfungsschlachten einlädt.</p>
+<ul>
+<li>I... I'm too weak, sorry.</li>
+<li>Exchange Monster Aura (Fragments).</li>
+<li>Midgard Alchemy - Equivalent Exchange (Blacksmith Blessing).</li>
+<li>Apply for [MVP] Subjugation Battle Participation.</li>
+</ul>
+<p class="translated-notes"><em>Die Liste zeigt verschiedene Optionen für den Austausch von Gegenständen oder die Anmeldung zu Events. Der Spieler hat die Option 'Apply for [MVP] Subjugation Battle Participation' ausgewählt.</em></p>
+</div>
+      <span class="img-caption">Midgard Receptionist Lucy bei <code>prt_in 45 102</code></span>
+    </section>
+
+    <section>
+      <h2>🗡️ MVP-Waffen-Enchants (MVP武器附加能力)</h2>
+      <p>Einige Waffen, die <strong>nur von MVPs droppen</strong>, haben einen exklusiven Zufalls-Options-Pool (<em>附加能力</em>). Auch wenn dieselbe Waffe regulär droppbar wäre — der <strong>MVP-Drop</strong> hat einen tieferen Enchant-Pool.</p>
+
+      <h3>Betroffene Waffen (Stand 17.09.2025)</h3>
+      <div class="info-box note">
+        火靈之劍 · 火靈拳刃 · 黃金之錘 · 秘錘冷月 · 秘銀長錘 · 月靈短劍 · 幸運短劍 · 砂塵短劍 · 血斧 · 獸人刀 · 智天使之斧 · 熾天使之弓 · 圓柄馬刀 · 騎兵之劍 · 海東劍 · 狂擊之劍 · 無影之牙 · 骷髏魔杖
+      </div>
+
+      
+<figure style="margin:12px 0">
+  <a href="images/mvp/2025_09_12_ac17f68504894b77afe1737694609d86.png" target="_blank" rel="noopener">
+    <img class="howto-img" src="images/mvp/2025_09_12_ac17f68504894b77afe1737694609d86.png" alt="" loading="lazy" style="max-width:100%;border-radius:6px;border:1px solid var(--border);background:var(--bg-1);padding:6px">
+  </a>
+</figure>
+<div class="translated-table-block">
+<p class="translated-summary">Insgesamt 67 Zufalls-Options-Einträge über 4 Tiers.</p>
+<h5 class="tier-label">Tier 1 (第一條)</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Melee Ability</th><th>Value</th><th>Ranged Ability</th><th>Value</th><th>Magic Ability</th><th>Value</th></tr></thead>
+<tbody>
+<tr><td>ATK</td><td>5 ~ 30</td><td>ATK</td><td>5 ~ 30</td><td>MATK</td><td>5 ~ 30</td></tr>
+<tr><td>ATK (%)</td><td>1 ~ 5</td><td>ATK (%)</td><td>1 ~ 5</td><td>MATK (%)</td><td>1 ~ 5</td></tr>
+</tbody></table></div>
+<h5 class="tier-label">Tier 2 (第二條)</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Melee Ability</th><th>Value</th><th>Ranged Ability</th><th>Value</th><th>Magic Ability</th><th>Value</th></tr></thead>
+<tbody>
+<tr><td>ASPD</td><td>1</td><td>ASPD</td><td>1</td><td>FLEE</td><td>10 ~ 20</td></tr>
+<tr><td>Angriffsgeschwindigkeit (%)</td><td>5 ~ 7</td><td>Angriffsgeschwindigkeit (%)</td><td>5 ~ 7</td><td>Heilungsmenge (%)</td><td>5 ~ 10</td></tr>
+<tr><td>HIT</td><td>5 ~ 20</td><td>HIT</td><td>5 ~ 20</td><td>Variable Cast Time (%)</td><td>5 ~ 10</td></tr>
+<tr><td>FLEE</td><td>10 ~ 20</td><td>FLEE</td><td>10 ~ 20</td><td>Magischer Schaden gegen Neutral (%)</td><td>5 ~ 10</td></tr>
+<tr><td>CRI</td><td>2 ~ 5</td><td>CRI</td><td>2 ~ 5</td><td>Magischer Schaden gegen Water (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Betäubungsschaden (%)</td><td>5 ~ 10</td><td>Betäubungsschaden (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Earth (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Neutral (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Neutral (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Fire (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Water (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Water (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Wind (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Earth (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Earth (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Poison (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Fire (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Fire (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Holy (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Wind (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Wind (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Shadow (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Poison (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Poison (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Ghost (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Holy (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Holy (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Undead (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Shadow (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Shadow (%)</td><td>5 ~ 10</td><td>None</td><td>None</td></tr>
+<tr><td>Phys. Schaden gegen Ghost (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Ghost (%)</td><td>5 ~ 10</td><td>None</td><td>None</td></tr>
+<tr><td>Phys. Schaden gegen Undead (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Undead (%)</td><td>5 ~ 10</td><td>None</td><td>None</td></tr>
+</tbody></table></div>
+<h5 class="tier-label">Tier 3 (第三條)</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Melee Ability</th><th>Value</th><th>Ranged Ability</th><th>Value</th><th>Magic Ability</th><th>Value</th></tr></thead>
+<tbody>
+<tr><td>Phys. Schaden gegen Formless (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Formless (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Formless (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Undead (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Undead (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Undead (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Brute (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Brute (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Brute (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Plant (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Plant (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Plant (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Insect (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Insect (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Insect (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Fish (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Fish (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Fish (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Demon (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Demon (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Demon (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Demi-Human (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Demi-Human (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Demi-Human (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Angel (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Angel (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Angel (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Dragon (%)</td><td>5 ~ 10</td><td>Phys. Schaden gegen Dragon (%)</td><td>5 ~ 10</td><td>Magischer Schaden gegen Dragon (%)</td><td>5 ~ 10</td></tr>
+<tr><td>DEF ignore Formless (%)</td><td>5 ~ 15</td><td>DEF ignore Formless (%)</td><td>5 ~ 15</td><td>MDEF ignore Formless (%)</td><td>5 ~ 15</td></tr>
+<tr><td>DEF ignore Undead (%)</td><td>5 ~ 15</td><td>DEF ignore Undead (%)</td><td>5 ~ 15</td><td>MDEF ignore Undead (%)</td><td>5 ~ 15</td></tr>
+<tr><td>DEF ignore Brute (%)</td><td>5 ~ 15</td><td>DEF ignore Brute (%)</td><td>5 ~ 15</td><td>MDEF ignore Brute (%)</td><td>5 ~ 15</td></tr>
+<tr><td>DEF ignore Plant (%)</td><td>5 ~ 15</td><td>DEF ignore Plant (%)</td><td>5 ~ 15</td><td>MDEF ignore Plant (%)</td><td>5 ~ 15</td></tr>
+<tr><td>DEF ignore Insect (%)</td><td>5 ~ 15</td><td>DEF ignore Insect (%)</td><td>5 ~ 15</td><td>MDEF ignore Insect (%)</td><td>5 ~ 15</td></tr>
+<tr><td>DEF ignore Fish (%)</td><td>5 ~ 15</td><td>DEF ignore Fish (%)</td><td>5 ~ 15</td><td>MDEF ignore Fish (%)</td><td>5 ~ 15</td></tr>
+<tr><td>DEF ignore Demon (%)</td><td>5 ~ 15</td><td>DEF ignore Demon (%)</td><td>5 ~ 15</td><td>MDEF ignore Demon (%)</td><td>5 ~ 15</td></tr>
+<tr><td>DEF ignore Demi-Human (%)</td><td>5 ~ 15</td><td>DEF ignore Demi-Human (%)</td><td>5 ~ 15</td><td>MDEF ignore Demi-Human (%)</td><td>5 ~ 15</td></tr>
+<tr><td>DEF ignore Angel (%)</td><td>5 ~ 15</td><td>DEF ignore Angel (%)</td><td>5 ~ 15</td><td>MDEF ignore Angel (%)</td><td>5 ~ 15</td></tr>
+<tr><td>DEF ignore Dragon (%)</td><td>5 ~ 15</td><td>DEF ignore Dragon (%)</td><td>5 ~ 15</td><td>MDEF ignore Dragon (%)</td><td>5 ~ 15</td></tr>
+<tr><td>DEF ignore Normal Mob (%)</td><td>5 ~ 10</td><td>DEF ignore Normal Mob (%)</td><td>5 ~ 10</td><td>MDEF ignore Normal Mob (%)</td><td>5 ~ 10</td></tr>
+<tr><td>Phys. Schaden gegen Normal Mob (%)</td><td>3 ~ 7</td><td>Phys. Schaden gegen Normal Mob (%)</td><td>3 ~ 7</td><td>Magischer Schaden gegen Normal Mob (%)</td><td>3 ~ 7</td></tr>
+<tr><td>Phys. Schaden gegen Boss Mob (%)</td><td>3 ~ 7</td><td>Phys. Schaden gegen Boss Mob (%)</td><td>3 ~ 7</td><td>Magischer Schaden gegen Boss Mob (%)</td><td>3 ~ 7</td></tr>
+<tr><td>None</td><td>None</td><td>None</td><td>None</td><td>Heilungsmenge (%)</td><td>5 ~ 10</td></tr>
+</tbody></table></div>
+<h5 class="tier-label">Tier 4 (第四條)</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Melee Ability</th><th>Value</th><th>Ranged Ability</th><th>Value</th><th>Magic Ability</th><th>Value</th></tr></thead>
+<tbody>
+<tr><td>ATK</td><td>10 ~ 25</td><td>ATK</td><td>10 ~ 25</td><td>MATK</td><td>10 ~ 25</td></tr>
+<tr><td>ATK (%)</td><td>1 ~ 7</td><td>ATK (%)</td><td>1 ~ 7</td><td>MATK (%)</td><td>1 ~ 7</td></tr>
+<tr><td>ASPD</td><td>1 ~ 3</td><td>ASPD</td><td>1 ~ 3</td><td>Variable Cast Time (%)</td><td>5 ~ 15</td></tr>
+<tr><td>HIT</td><td>5 ~ 25</td><td>HIT</td><td>5 ~ 25</td><td>Magischer Schaden gegen Neutral (%)</td><td>5 ~ 20</td></tr>
+<tr><td>FLEE</td><td>10 ~ 25</td><td>FLEE</td><td>10 ~ 25</td><td>Magischer Schaden gegen Water (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Neutral (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Neutral (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Earth (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Water (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Water (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Fire (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Earth (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Earth (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Wind (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Fire (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Fire (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Poison (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Wind (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Wind (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Holy (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Poison (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Poison (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Shadow (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Holy (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Holy (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Ghost (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Shadow (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Shadow (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Undead (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Ghost (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Ghost (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Formless (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Undead (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Undead (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Undead (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Formless (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Formless (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Brute (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Undead (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Undead (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Plant (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Brute (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Brute (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Insect (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Plant (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Plant (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Fish (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Insect (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Insect (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Demon (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Fish (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Fish (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Demi-Human (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Demon (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Demon (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Angel (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Demi-Human (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Demi-Human (%)</td><td>5 ~ 20</td><td>Magischer Schaden gegen Dragon (%)</td><td>5 ~ 20</td></tr>
+<tr><td>Phys. Schaden gegen Angel (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Angel (%)</td><td>5 ~ 20</td><td>None</td><td>None</td></tr>
+<tr><td>Phys. Schaden gegen Dragon (%)</td><td>5 ~ 20</td><td>Phys. Schaden gegen Dragon (%)</td><td>5 ~ 20</td><td>None</td><td>None</td></tr>
+</tbody></table></div>
+</div>
+    </section>
+
+    <section>
+      <h2>🛡️ MVP-Rüstungs-Enchants (MVP防具附加能力)</h2>
+      <p>Seit dem <strong>Patch 06.11.2025</strong> gibt es den MVP-Enchant-Pool auch für Rüstungen.</p>
+
+      <h3>Betroffene Rüstungen</h3>
+      <div class="info-box note">
+        魔法外套 (Magisches Mantel) · 伯爵斗篷 (Grafen-Umhang)
+      </div>
+
+      
+<figure style="margin:12px 0">
+  <a href="images/mvp/2025_11_06_fc223b6d134645ab97dae786695658df.png" target="_blank" rel="noopener">
+    <img class="howto-img" src="images/mvp/2025_11_06_fc223b6d134645ab97dae786695658df.png" alt="" loading="lazy" style="max-width:100%;border-radius:6px;border:1px solid var(--border);background:var(--bg-1);padding:6px">
+  </a>
+</figure>
+<div class="translated-table-block">
+<p class="translated-summary">Insgesamt 57 Zufalls-Options-Einträge über 4 Tiers.</p>
+<h5 class="tier-label">Tier 1 (第一條)</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>鎧甲 (Armor)</th><th>Wert</th><th>披肩 (Garment)</th><th>Wert</th></tr></thead>
+<tbody>
+<tr><td>MaxHP</td><td>150~350</td><td>MaxHP</td><td>150~250</td></tr>
+<tr><td>MaxSP</td><td>25~50</td><td>MaxSP</td><td>25~50</td></tr>
+<tr><td>MaxHP (%)</td><td>1~5</td><td>MaxHP (%)</td><td>1~5</td></tr>
+<tr><td>MaxSP (%)</td><td>1~5</td><td>MaxSP (%)</td><td>1~5</td></tr>
+</tbody></table></div>
+<h5 class="tier-label">Tier 2 (第二條)</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>鎧甲 (Armor)</th><th>Wert</th><th>披肩 (Garment)</th><th>Wert</th></tr></thead>
+<tbody>
+<tr><td>HP-Regenerationsrate (%)</td><td>15~50</td><td>FLEE</td><td>5~15</td></tr>
+<tr><td>SP-Regenerationsrate (%)</td><td>15~50</td><td>DEF</td><td>10~50</td></tr>
+<tr><td>FLEE</td><td>5~15</td><td>MDEF</td><td>2~5</td></tr>
+<tr><td>DEF</td><td>10~30</td><td>Heileffekt</td><td>5~10</td></tr>
+<tr><td>MDEF</td><td>1~5</td><td>Variable Zauberzeit</td><td>5~10</td></tr>
+<tr><td>Heileffekt</td><td>3~7</td><td>Reduzierter physischer Schaden von Neutral-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Variable Zauberzeit</td><td>5~10</td><td>Reduzierter physischer Schaden von Water-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter physischer Schaden von Neutral-Gegnern (%)</td><td>5~10</td><td>Reduzierter physischer Schaden von Earth-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter physischer Schaden von Water-Gegnern (%)</td><td>5~10</td><td>Reduzierter physischer Schaden von Fire-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter physischer Schaden von Earth-Gegnern (%)</td><td>5~10</td><td>Reduzierter physischer Schaden von Wind-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter physischer Schaden von Fire-Gegnern (%)</td><td>5~10</td><td>Reduzierter physischer Schaden von Poison-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter physischer Schaden von Wind-Gegnern (%)</td><td>5~10</td><td>Reduzierter physischer Schaden von Holy-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter physischer Schaden von Poison-Gegnern (%)</td><td>5~10</td><td>Reduzierter physischer Schaden von Shadow-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter physischer Schaden von Holy-Gegnern (%)</td><td>5~10</td><td>Reduzierter physischer Schaden von Ghost-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter physischer Schaden von Shadow-Gegnern (%)</td><td>5~10</td><td>Reduzierter physischer Schaden von Undead-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter physischer Schaden von Ghost-Gegnern (%)</td><td>5~10</td><td>Reduzierter magischer Schaden von Neutral-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter physischer Schaden von Undead-Gegnern (%)</td><td>5~10</td><td>Reduzierter magischer Schaden von Water-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter magischer Schaden von Neutral-Gegnern (%)</td><td>5~10</td><td>Reduzierter magischer Schaden von Earth-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter magischer Schaden von Water-Gegnern (%)</td><td>5~10</td><td>Reduzierter magischer Schaden von Fire-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter magischer Schaden von Earth-Gegnern (%)</td><td>5~10</td><td>Reduzierter magischer Schaden von Wind-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter magischer Schaden von Fire-Gegnern (%)</td><td>5~10</td><td>Reduzierter magischer Schaden von Poison-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter magischer Schaden von Wind-Gegnern (%)</td><td>5~10</td><td>Reduzierter magischer Schaden von Holy-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter magischer Schaden von Poison-Gegnern (%)</td><td>5~10</td><td>Reduzierter magischer Schaden von Shadow-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter magischer Schaden von Holy-Gegnern (%)</td><td>5~10</td><td>Reduzierter magischer Schaden von Ghost-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter magischer Schaden von Shadow-Gegnern (%)</td><td>5~10</td><td>Reduzierter magischer Schaden von Undead-Gegnern (%)</td><td>5~10</td></tr>
+<tr><td>Reduzierter magischer Schaden von Ghost-Gegnern (%)</td><td>5~10</td><td>Water-Resistenz (%)</td><td>1~5</td></tr>
+<tr><td>Reduzierter magischer Schaden von Undead-Gegnern (%)</td><td>5~10</td><td>Earth-Resistenz (%)</td><td>1~5</td></tr>
+<tr><td>-</td><td>-</td><td>Fire-Resistenz (%)</td><td>1~5</td></tr>
+<tr><td>-</td><td>-</td><td>Wind-Resistenz (%)</td><td>1~5</td></tr>
+<tr><td>-</td><td>-</td><td>Poison-Resistenz (%)</td><td>1~5</td></tr>
+<tr><td>-</td><td>-</td><td>Ghost-Resistenz (%)</td><td>1~5</td></tr>
+<tr><td>-</td><td>-</td><td>Holy-Resistenz (%)</td><td>1~5</td></tr>
+<tr><td>-</td><td>-</td><td>Shadow-Resistenz (%)</td><td>1~5</td></tr>
+<tr><td>-</td><td>-</td><td>Undead-Resistenz (%)</td><td>1~5</td></tr>
+</tbody></table></div>
+<h5 class="tier-label">Tier 3 (第三條)</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>鎧甲 (Armor)</th><th>Wert</th><th>披肩 (Garment)</th><th>Wert</th></tr></thead>
+<tbody>
+<tr><td>MaxHP</td><td>150~300</td><td>MaxHP</td><td>150~300</td></tr>
+<tr><td>MaxSP</td><td>25~50</td><td>MaxSP</td><td>25~50</td></tr>
+<tr><td>Formless-Resistenz (%)</td><td>3~7</td><td>Formless-Resistenz (%)</td><td>3~7</td></tr>
+<tr><td>Undead-Resistenz (%)</td><td>3~7</td><td>Undead-Resistenz (%)</td><td>3~7</td></tr>
+<tr><td>Brute-Resistenz (%)</td><td>3~7</td><td>Brute-Resistenz (%)</td><td>3~7</td></tr>
+<tr><td>Plant-Resistenz (%)</td><td>3~7</td><td>Plant-Resistenz (%)</td><td>3~7</td></tr>
+<tr><td>Insect-Resistenz (%)</td><td>3~7</td><td>Insect-Resistenz (%)</td><td>3~7</td></tr>
+<tr><td>Fish-Resistenz (%)</td><td>3~7</td><td>Fish-Resistenz (%)</td><td>3~7</td></tr>
+<tr><td>Demon-Resistenz (%)</td><td>3~7</td><td>Demon-Resistenz (%)</td><td>3~7</td></tr>
+<tr><td>Demi-Human-Resistenz (%)</td><td>3~7</td><td>Demi-Human-Resistenz (%)</td><td>3~7</td></tr>
+<tr><td>Angel-Resistenz (%)</td><td>3~7</td><td>Angel-Resistenz (%)</td><td>3~7</td></tr>
+<tr><td>Dragon-Resistenz (%)</td><td>3~7</td><td>Dragon-Resistenz (%)</td><td>3~7</td></tr>
+</tbody></table></div>
+<h5 class="tier-label">Tier 4 (第三四 / 第四條)</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>鎧甲 (Armor)</th><th>披肩 (Garment)</th><th>Wert</th></tr></thead>
+<tbody>
+<tr><td>Unzerstörbar</td><td>Reduzierter physischer Schaden von Small-Gegnern</td><td>1~5</td></tr>
+<tr><td>Rüstung dauerhaft mit Water-Attribut belegen</td><td>Reduzierter physischer Schaden von Medium-Gegnern</td><td>1~5</td></tr>
+<tr><td>Rüstung dauerhaft mit Earth-Attribut belegen</td><td>Reduzierter physischer Schaden von Large-Gegnern</td><td>1~5</td></tr>
+<tr><td>Rüstung dauerhaft with Fire-Attribut belegen</td><td>Reduzierter magischer Schaden von Small-Gegnern</td><td>1~5</td></tr>
+<tr><td>Rüstung dauerhaft mit Wind-Attribut belegen</td><td>Reduzierter magischer Schaden von Medium-Gegnern</td><td>1~5</td></tr>
+<tr><td>Rüstung dauerhaft mit Holy-Attribut belegen</td><td>Reduzierter magischer Schaden von Large-Gegnern</td><td>1~5</td></tr>
+<tr><td>Rüstung dauerhaft mit Shadow-Attribut belegen</td><td>None</td><td>None</td></tr>
+</tbody></table></div>
+</div>
+    </section>
+
+    <section>
+      <h2>💎 Sonder-Drops bei MVP-Tod</h2>
+      <ul>
+        <li><strong>MVP-Aura-Fragmente:</strong> Spezial-Trigger-Drop, zufällig auf der gesamten Habitat-Map verstreut (s.o.)</li>
+        <li><strong>MVP-Kampfpuppe:</strong> Chance auf eine MVP-Puppe (siehe <a href="battle-doll.html">Kampfpuppen-System</a>)</li>
+        <li><strong>Schmied-Segens-Pulver:</strong> Aus Reward-Boxen, gegen <em>Schmied-Segen</em> bei Lucy tauschbar</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>💡 Strategie-Empfehlungen</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>🎯 Solo / Small Group</h4>
+          <p>Standard-Habitat bevorzugen — keine Todesstrafe = perfekt zum Mechanik-Lernen. Bei Progress: Lucy-Quest einreichen für garantierte Reward-Box.</p>
+        </div>
+        <div class="card">
+          <h4>👥 Gilden-Push</h4>
+          <p>PK-Habitat nur wenn 8–12+ organisierte Spieler. Aura-Fragmente-Mass-Farm lohnt sich bei Kontrolle über Map.</p>
+        </div>
+        <div class="card">
+          <h4>⚔️ Schmied-Segen sammeln</h4>
+          <p>Segens-Pulver aus Boxen hamstern → Schmied-Segen tauschen → auf Top-Weapon/Armor upgraden (senkt Fail-Risiko beim Refinen). Siehe <a href="stern-grade.html">Aktivierungs-System</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>⚠️ Hinweise</h2>
+      <div class="info-box warning">
+        MVPs werden mit jedem Patch stärker. Aktuelle HP/Damage-Werte immer auf der <a href="https://roz.gnjoy.com.tw/Notice/Version" target="_blank">Version-Notice-Seite</a> prüfen. Die Enchant-Pools werden ebenfalls mit jedem Patch erweitert.
+      </div>
+    </section>
+
+  
+  
+  
+  
+  </main>
+</div>
+
+<footer class="footer">
+  Quelle: <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217850" target="_blank">roz.gnjoy.com.tw — MVP-地域的統治者</a> · <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217849" target="_blank">MVP武器附加能力</a> · <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=217968" target="_blank">MVP防具附加能力</a> · Screenshots © Gravity / GNJOY TW
+</footer>
+
+</body>
+</html>

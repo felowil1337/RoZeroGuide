@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fever Glast Heim — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html" class="active">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Fever Region · 4 Sub-Maps · Endgame</span>
+      <h1>👻 Glast Heim Fever Dungeons</h1>
+      <p class="lead">Vier zusammenhängende Glast-Heim-Sub-Maps mit jeweils eigenem Boss-Counter-System: <strong>Staircase</strong> (Two-Faction Flame vs Ice), <strong>Chivalry 2F</strong> &amp; <strong>Underprison 2F</strong> (dominant-mob-getriebene Boss-Stats), <strong>Cave 1</strong> (Fever-Mode-Mass-Spawn). Endgame-Crafting: <em>Staff of Blue Flame</em>.</p>
+    </div>
+    <div class="info-box note">Quelle: <a href="https://old.criatura-academy.com/updates/glastheim/" target="_blank" rel="noopener">Criatura Academy · Glast Heim</a> · ← <a href="fever.html">Fever-Übersicht</a> · <a href="items.html">Items</a> · <a href="monster.html">Monster</a></div>
+
+    <section>
+      <h2>🗺️ Map-Überblick</h2>
+      <ul class="entry-meta">
+        <li><strong>Sub-Maps:</strong> <code>gl_step</code> (Staircase) · <code>gl_knt02</code> (Chivalry 2F) · <code>gl_prison01</code> (Underprison 2F) · <code>gl_dun01</code> (Cave 1)</li>
+        <li><strong>Mob-Lv:</strong> 82–125 (Awakened Bosses bis Lv 125)</li>
+        <li><strong>Item-Lv:</strong> Großteils Lv 60–75 · Lv-100-Ninja-Drops aus 2019.04.10-Update · Endgame: Staff of Blue Flame</li>
+      </ul>
+      <p class="entry-jump"><a href="#gh-mechanics">Mechaniken</a><a href="#gh-staircase">Staircase</a><a href="#gh-chivalry">Chivalry 2F</a><a href="#gh-underprison">Underprison 2F</a><a href="#gh-cave">Cave 1</a><a href="#gh-blue-flame">Staff of Blue Flame</a></p>
+    </section>
+
+    <section id="gh-mechanics">
+      <h2>⚙️ Mechaniken pro Sub-Map</h2>
+      <p>Glast Heim kombiniert vier unterschiedliche Fever-Systeme unter einem Dach. Jede Sub-Map hat ihr eigenes Boss-Trigger-Prinzip — es lohnt sich, die Unterschiede zu kennen, bevor man entscheidet, wo man farmt.</p>
+
+      <div class="info-box tip"><strong>Staircase Two-Faction:</strong> Flame Ghost und Ice Ghost haben gegensätzliche Boss-Counter. <em>Kills auf einer Faktion erhöhen ihren eigenen Counter und reduzieren gleichzeitig den Counter der Gegenseite.</em> Bei Erreichen der Schwelle spawnt der entsprechende <strong>Awakened</strong>-Boss.</div>
+      <p>Das Two-Faction-System ist das strategisch interessanteste Mechanikenpaket in ganz Glast Heim. Konkret: Wer Flame Ghosts tötet, treibt den Awakened Flame Ghost-Counter hoch — senkt aber gleichzeitig den Ice-Counter. Eine Gruppe kann also aktiv bestimmen, <em>welchen</em> der beiden Awakened-Bosse sie spawnen will, indem sie gezielt die entsprechende Fraktion farmt. Es empfiehlt sich daher, im Map-Chat kurz abzustimmen: Will die aktuelle Gruppe den Fire-Boss oder den Ice-Boss? Dann farmt konsequent eine Seite. Nach dem Spawn eines Awakened-Bosses reset der gegnerische Counter nicht vollständig — er setzt sich aber durch neue Kills der jeweils anderen Fraktion wieder auf.</p>
+
+      <div class="info-box tip"><strong>Chivalry 2F &amp; Underprison 2F:</strong> Boss-Stats werden durch den jeweils am häufigsten getöteten Special-Mob bestimmt — exakte Schwelle laut Criatura unklar.</div>
+      <p>Auf Chivalry 2F und Underprison 2F bestimmt der dominante Special-Mob, mit welchen Stats der Fever-Boss erscheint. Die Mechanik ist von Criatura nicht vollständig dokumentiert — die genaue Schwelle und der Reset-Zeitraum sind unbekannt. Praktisch bedeutet es: Wer viele Raydrics (Chivalry) oder viele Phendarks/Rybios (Underprison) tötet, beeinflusst die Boss-Ausprägung. Ein stärkerer Boss bietet in der Regel bessere Drop-Chancen.</p>
+
+      <div class="info-box tip"><strong>Cave 1 Fever Mode:</strong> Sting und Arclouze mit ⭐-Markierung zählen auf einen 10.000-Kill-Counter. Bei Vollstand wird 30 min lang Fever Mode aktiviert — die nicht-⭐-Versionen spawnen massiv und sind leichter zu killen.</div>
+      <p>Cave 1 ist ein klassischer Grinding-Loop: Die ⭐-markierten Sting und Arclouze sind die „harten" Versionen — mehr HP, mehr Widerstand. Nur sie zählen auf den 10.000-Kill-Fever-Counter. Ist der Counter voll, werden für 30 Minuten die leichteren, nicht-markierten Versionen in massiv erhöhter Zahl gespawnt — optimal für EXP-Farming. Danach startet der Counter von 0. Mit einer gut koordinierten Gruppe lässt sich der 10.000-Kill-Counter in einer Session mehrfach umrunden.</p>
+    </section>
+
+    <section id="gh-staircase">
+      <h2>🌀 Staircase Dungeon (gl_step)</h2>
+      <p>Hauptmap der Region. Hier wohnen die NPCs für das Endgame-Crafting: <em>Altos</em> (<code>gl_step 110/127</code>) baut den Staff of Blue Flame, <em>Sarah</em> handelt die Enchant-Reagenzien.</p>
+      <div class="entry-grid wide">
+        <div class="entry-card is-monster" id="gh-mob-wind-ghost">
+          <div class="entry-card-head">
+            <img alt="Wind Ghost" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/wind-ghost.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Wind+Ghost" rel="noopener" target="_blank">Wind Ghost</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 97</li><li><strong>HP:</strong> 12.100</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Wind LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.510 / 1.221</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-gargoyle">
+          <div class="entry-card-head">
+            <img alt="Gargoyle" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/gargoyle.png"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Gargoyle" rel="noopener" target="_blank">Gargoyle</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 100</li><li><strong>HP:</strong> 9.233</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Wind LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.387 / 1.316</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-cramp">
+          <div class="entry-card-head">
+            <img alt="Cramp" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/cramp.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Cramp" rel="noopener" target="_blank">Cramp</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 82</li><li><strong>HP:</strong> 3.935</li><li><strong>Familie:</strong> Brute</li><li><strong>Element:</strong> Poison LV2</li><li><strong>Größe:</strong> Small</li><li><strong>EXP / JEXP:</strong> 970 / 905</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-raydric">
+          <div class="entry-card-head">
+            <img alt="Raydric" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/raydric.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Raydric" rel="noopener" target="_blank">Raydric</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 115</li><li><strong>HP:</strong> 21.981</li><li><strong>Familie:</strong> Demi-Human</li><li><strong>Element:</strong> Shadow LV2</li><li><strong>Größe:</strong> Large</li><li><strong>EXP / JEXP:</strong> 2.246 / 2.150</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-flame-ghost">
+          <div class="entry-card-head">
+            <img alt="Flame Ghost" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/flame-ghost.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Flame+Ghost" rel="noopener" target="_blank">Flame Ghost</a>
+            <span class="entry-type">Faction-Mob</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 107</li><li><strong>HP:</strong> 14.100</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Fire LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.704 / 1.207</li></ul>
+          <ul class="entry-stats"><li>Drop: <a href="#gh-item-26138">Blaze Staff [1]</a></li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-ice-ghost">
+          <div class="entry-card-head">
+            <img alt="Ice Ghost" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/ice-ghost.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Ice+Ghost" rel="noopener" target="_blank">Ice Ghost</a>
+            <span class="entry-type">Faction-Mob</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 107</li><li><strong>HP:</strong> 14.100</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Water LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.704 / 1.207</li></ul>
+          <ul class="entry-stats"><li>Drop: <a href="#gh-item-26139">Ice Staff [1]</a></li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-corrupted-gargoyle">
+          <div class="entry-card-head">
+            <img alt="Corrupted Gargoyle" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/corrupted-gargoyle.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Corrupted+Gargoyle" rel="noopener" target="_blank">Corrupted Gargoyle</a>
+            <span class="entry-type">Champion · Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 105</li><li><strong>HP:</strong> 73.864</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Water LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 13.870 / 13.160</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-corrupted-raydric">
+          <div class="entry-card-head">
+            <img alt="Corrupted Raydric" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/corrupted-raydric.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Corrupted+Raydric" rel="noopener" target="_blank">Corrupted Raydric</a>
+            <span class="entry-type">Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 120</li><li><strong>HP:</strong> 147.264</li><li><strong>Familie:</strong> Demi-Human</li><li><strong>Element:</strong> Shadow LV2</li><li><strong>Größe:</strong> Large</li><li><strong>EXP / JEXP:</strong> 18.000 / 13.690</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-awakened-flame-ghost">
+          <div class="entry-card-head">
+            <img alt="Awakened Flame Ghost" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/flame-ghost.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Awakened+Flame+Ghost" rel="noopener" target="_blank">Awakened Flame Ghost</a>
+            <span class="entry-type">Awakened Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 125</li><li><strong>HP:</strong> 1.550.000</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Fire LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 697.500 / 348.750</li></ul>
+          <ul class="entry-stats"><li>Spawnt durch Fire-Faction-Counter; gegensätzlich zu Ice Ghost</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-awakened-ice-ghost">
+          <div class="entry-card-head">
+            <img alt="Awakened Ice Ghost" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/ice-ghost.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Awakened+Ice+Ghost" rel="noopener" target="_blank">Awakened Ice Ghost</a>
+            <span class="entry-type">Awakened Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 125</li><li><strong>HP:</strong> 1.550.000</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Water LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 697.500 / 348.750</li></ul>
+          <ul class="entry-stats"><li>Spawnt durch Ice-Faction-Counter; gegensätzlich zu Flame Ghost</li></ul>
+        </div>
+      </div>
+
+      <h3>🛡️ Staircase-Items</h3>
+      <div class="entry-grid">
+        <div class="entry-card" id="gh-item-26138">
+          <div class="entry-card-head">
+            <img alt="Blaze Staff [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/26138.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/26138" rel="noopener" target="_blank">Blaze Staff <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">1H-Staff</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 26138 · <strong>Lv:</strong> 60 · <strong>ATK:</strong> 70 · <strong>Gewicht:</strong> 70</li><li><strong>Drop:</strong> Flame Ghost</li><li><strong>Klasse:</strong> Mage / Acolyte</li></ul>
+          <ul class="entry-stats"><li>MATK +125, MaxSP +100</li><li>+10 % Meteor Storm / Fire Pillar Damage (Update 2018.02.28)</li><li>+7: zusätzlich +5 %</li><li>+9: nochmals +5 %</li></ul>
+          <div class="entry-card-foot"><span>kRO #26138</span><a href="https://divine-pride.net/database/item/26138" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-26139">
+          <div class="entry-card-head">
+            <img alt="Ice Staff [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/26139.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/26139" rel="noopener" target="_blank">Ice Staff <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">1H-Staff</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 26139 · <strong>Lv:</strong> 60 · <strong>ATK:</strong> 70 · <strong>Gewicht:</strong> 70</li><li><strong>Drop:</strong> Ice Ghost</li><li><strong>Klasse:</strong> Mage / Acolyte</li></ul>
+          <ul class="entry-stats"><li>MATK +125, MaxSP +100</li><li>+10 % Storm Gust / Frost Nova / Frost Diver Damage (Update 2018.02.28)</li><li>+7: zusätzlich +5 %</li><li>+9: nochmals +5 %</li></ul>
+          <div class="entry-card-foot"><span>kRO #26139</span><a href="https://divine-pride.net/database/item/26139" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-2049">
+          <div class="entry-card-head">
+            <img alt="Staff of Blue Flame [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/2049.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/2049" rel="noopener" target="_blank">Staff of Blue Flame <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">2H-Staff · craftbar</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 2049 · <strong>Lv:</strong> 60 · <strong>ATK:</strong> 45 · <strong>Gewicht:</strong> 130</li><li><strong>Crafting:</strong> Altos @ <code>gl_step 110/127</code></li><li><strong>Klasse:</strong> Mage</li></ul>
+          <ul class="entry-stats"><li>MATK +230, MaxSP +150, INT +5</li><li>+5 % Water- und Fire-Damage</li><li>Chance: −30 % Variable Cast Time für 7 sec</li><li>+7 / +9: jeweils +10 % Bonus-Damage</li><li>+9: zusätzlich −5 % VCT</li><li>Bis zu 2× enchantbar — siehe <a href="#gh-blue-flame">Enchant-Pool</a></li></ul>
+          <div class="entry-card-foot"><span>kRO #2049</span><a href="https://divine-pride.net/database/item/2049" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gh-chivalry">
+      <h2>⚔️ Chivalry 2F (gl_knt02)</h2>
+      <p>Knight-themed Map mit Raydric-Familie und dem Bloody Knight als Top-Boss.</p>
+      <div class="entry-grid wide">
+        <div class="entry-card is-monster" id="gh-mob-raydric-archer">
+          <div class="entry-card-head">
+            <img alt="Raydric Archer" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/raydric-archer.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Raydric+Archer" rel="noopener" target="_blank">Raydric Archer</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 82</li><li><strong>HP:</strong> 4.809</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Shadow LV2</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 970 / 905</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-corrupted-raydric-archer">
+          <div class="entry-card-head">
+            <img alt="Corrupted Raydric Archer" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/corrupted-raydric-archer.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Corrupted+Raydric+Archer" rel="noopener" target="_blank">Corrupted Raydric Archer</a>
+            <span class="entry-type">Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 105</li><li><strong>HP:</strong> 124.232</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Shadow LV2</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 16.529 / 12.190</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-abysmal-knight">
+          <div class="entry-card-head">
+            <img alt="Abysmal Knight" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/abysmal-knight.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Abysmal+Knight" rel="noopener" target="_blank">Abysmal Knight</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 122</li><li><strong>HP:</strong> 34.686</li><li><strong>Familie:</strong> Demi-Human</li><li><strong>Element:</strong> Shadow LV4</li><li><strong>Größe:</strong> Large</li><li><strong>EXP / JEXP:</strong> 3.071 / 2.948</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-khalitzburg">
+          <div class="entry-card-head">
+            <img alt="Khalitzburg" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/khalitzburg.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Khalitzburg" rel="noopener" target="_blank">Khalitzburg</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 118</li><li><strong>HP:</strong> 27.456</li><li><strong>Familie:</strong> Undead</li><li><strong>Element:</strong> Undead LV1</li><li><strong>Größe:</strong> Large</li><li><strong>EXP / JEXP:</strong> 2.866 / 2.368</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-alice">
+          <div class="entry-card-head">
+            <img alt="Alice" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/alice.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Alice" rel="noopener" target="_blank">Alice</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 100</li><li><strong>HP:</strong> 9.233</li><li><strong>Familie:</strong> Demi-Human</li><li><strong>Element:</strong> Neutral LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.387 / 1.316</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-bloody-knight">
+          <div class="entry-card-head">
+            <img alt="Bloody Knight" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/bloody-knight.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Bloody+Knight" rel="noopener" target="_blank">Bloody Knight</a>
+            <span class="entry-type">MVP</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 116</li><li><strong>HP:</strong> 342.500</li><li><strong>Familie:</strong> Formless</li><li><strong>Element:</strong> Shadow LV4</li><li><strong>Größe:</strong> Large</li><li><strong>EXP / JEXP:</strong> 233.880 / 21.480</li></ul>
+        </div>
+      </div>
+
+      <h3>🛡️ Chivalry-Items</h3>
+      <div class="entry-grid">
+        <div class="entry-card" id="gh-item-21039">
+          <div class="entry-card-head">
+            <img alt="Royal Knight's Greatsword [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/21039.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/21039" rel="noopener" target="_blank">Royal Knight's Greatsword <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">2H-Sword</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 21039 · <strong>Lv:</strong> 60 · <strong>ATK:</strong> 165 · <strong>Gewicht:</strong> 150</li><li><strong>Drop:</strong> Raydric · <strong>Klasse:</strong> Swordsman</li></ul>
+          <ul class="entry-stats"><li>+10 % ASPD, CRIT +5</li><li>+7: +10 % Critical Damage</li><li>+9: +10 % Critical Damage, ASPD +1</li></ul>
+          <div class="entry-card-foot"><span>kRO #21039</span><a href="https://divine-pride.net/database/item/21039" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-26016">
+          <div class="entry-card-head">
+            <img alt="Royal Knight's Lance [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/26016.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/26016" rel="noopener" target="_blank">Royal Knight's Lance <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">2H-Spear</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 26016 · <strong>Lv:</strong> 60 · <strong>ATK:</strong> 180 · <strong>Gewicht:</strong> 250</li><li><strong>Drop:</strong> Raydric · <strong>Klasse:</strong> Swordsman</li></ul>
+          <ul class="entry-stats"><li>+10 % Holy Cross / Pierce Damage</li><li>+7 / +9: jeweils +5 %</li></ul>
+          <div class="entry-card-foot"><span>kRO #26016</span><a href="https://divine-pride.net/database/item/26016" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-15281">
+          <div class="entry-card-head">
+            <img alt="Khalitzburg's Armor [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/15281.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/15281" rel="noopener" target="_blank">Khalitzburg's Armor <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 15281 · <strong>Lv:</strong> 75 · <strong>DEF:</strong> 35 · <strong>Gewicht:</strong> 100</li><li><strong>Drop:</strong> Khalitzburg · <strong>Klasse:</strong> alle</li></ul>
+          <ul class="entry-stats"><li>MaxHP +150</li><li>+7: +150 MaxHP zusätzlich</li><li>+9: +250 MaxHP zusätzlich</li></ul>
+          <div class="entry-card-foot"><span>kRO #15281</span><a href="https://divine-pride.net/database/item/15281" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-19332">
+          <div class="entry-card-head">
+            <img alt="Khalitzburg's Helm [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/19332.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/19332" rel="noopener" target="_blank">Khalitzburg's Helm <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Upper Headgear · craftbar</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 19332 · <strong>Lv:</strong> 60 · <strong>DEF:</strong> 10 · <strong>Gewicht:</strong> 70</li><li><strong>Crafting:</strong> Atelier Manus · <strong>Klasse:</strong> alle</li></ul>
+          <ul class="entry-stats"><li>CRIT +3</li><li>+7: zusätzlich CRIT +2</li><li>+9: +5 % Critical Damage</li></ul>
+          <div class="entry-card-foot"><span>kRO #19332</span><a href="https://divine-pride.net/database/item/19332" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-26140-gh">
+          <div class="entry-card-head">
+            <img alt="Witch's Broom [1]" class="entry-icon" loading="lazy" src="images/fever-clock-tower/items/26140.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/26140" rel="noopener" target="_blank">Witch's Broom <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">1H-Staff</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 26140 · <strong>Lv:</strong> 60 · <strong>ATK:</strong> 50 · <strong>Gewicht:</strong> 40</li><li><strong>Drop:</strong> Alice (auch <a href="fever-clock-tower.html#ct-mob-erzsebet">Erzsebet @ Clock Tower</a>)</li><li><strong>Klasse:</strong> Mage / Acolyte</li></ul>
+          <ul class="entry-stats"><li>MATK +125</li><li>+5 % Magie-Damage gegen Formless</li><li>Quagmire-on-Hit (gegen Ranged halbiert)</li><li>+7: −10 % Variable Cast Time</li><li>+9: +10 % Magie-Damage gegen Formless</li></ul>
+          <div class="entry-card-foot"><span>kRO #26140</span><a href="https://divine-pride.net/database/item/26140" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gh-underprison">
+      <h2>⛓️ Underprison 2F (gl_prison01)</h2>
+      <p>Prison-themed Map mit Zealotus als Top-Boss. Boss-Stats werden vom dominanten Special-Mob bestimmt.</p>
+      <div class="entry-grid wide">
+        <div class="entry-card is-monster" id="gh-mob-skeleton-prisoner">
+          <div class="entry-card-head">
+            <img alt="Skeleton Prisoner" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/skel-prisoner.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Skeleton+Prisoner" rel="noopener" target="_blank">Skeleton Prisoner</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 91</li><li><strong>HP:</strong> 8.378</li><li><strong>Familie:</strong> Undead</li><li><strong>Element:</strong> Undead LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.342 / 1.088</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-zombie-prisoner">
+          <div class="entry-card-head">
+            <img alt="Zombie Prisoner" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/zombie-prisoner.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Zombie+Prisoner" rel="noopener" target="_blank">Zombie Prisoner</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 89</li><li><strong>HP:</strong> 6.902</li><li><strong>Familie:</strong> Undead</li><li><strong>Element:</strong> Undead LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.194 / 976</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-phendark">
+          <div class="entry-card-head">
+            <img alt="Phendark" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/phendark.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Phendark" rel="noopener" target="_blank">Phendark</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 102</li><li><strong>HP:</strong> 12.408</li><li><strong>Familie:</strong> Demi-Human</li><li><strong>Element:</strong> Neutral LV2</li><li><strong>Größe:</strong> Large</li><li><strong>EXP / JEXP:</strong> 1.565 / 1.487</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-rybio">
+          <div class="entry-card-head">
+            <img alt="Rybio" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/rybio.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Rybio" rel="noopener" target="_blank">Rybio</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 98</li><li><strong>HP:</strong> 9.939</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Neutral LV2</li><li><strong>Größe:</strong> Large</li><li><strong>EXP / JEXP:</strong> 1.349 / 1.278</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-injustice">
+          <div class="entry-card-head">
+            <img alt="Injustice" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/injustice.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Injustice" rel="noopener" target="_blank">Injustice</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 95</li><li><strong>HP:</strong> 8.087</li><li><strong>Familie:</strong> Demon</li><li><strong>Element:</strong> Neutral LV2</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.292 / 1.221</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-prison-breaker">
+          <div class="entry-card-head">
+            <img alt="Prison Breaker" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/prison-breaker.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Prison+Breaker" rel="noopener" target="_blank">Prison Breaker</a>
+            <span class="entry-type">Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 109</li><li><strong>HP:</strong> 14.761</li><li><strong>Familie:</strong> Demi-Human</li><li><strong>Element:</strong> Undead LV2</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.476 / 1.328</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-zealotus">
+          <div class="entry-card-head">
+            <img alt="Zealotus" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/zealotus.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Zealotus" rel="noopener" target="_blank">Zealotus</a>
+            <span class="entry-type">MVP</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 105</li><li><strong>HP:</strong> 623.000</li><li><strong>Familie:</strong> Demi-Human</li><li><strong>Element:</strong> Neutral LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 123.450 / 61.725</li></ul>
+        </div>
+      </div>
+
+      <h3>🛡️ Underprison-Items</h3>
+      <div class="entry-grid">
+        <div class="entry-card" id="gh-item-28619">
+          <div class="entry-card-head">
+            <img alt="Prisoner's Diary [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/28619.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/28619" rel="noopener" target="_blank">Prisoner's Diary <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Book</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 28619 · <strong>Lv:</strong> 60 · <strong>ATK:</strong> 125 · <strong>Gewicht:</strong> 50</li><li><strong>Drop:</strong> Prison Breaker · <strong>Klasse:</strong> Sage / Priest</li></ul>
+          <ul class="entry-stats"><li>+10 % Physical Damage gegen Undead</li><li>Mit Jumpsuit: niedrige Chance auf +30 % CRIT für 6 sec</li><li>+7: +5 % zusätzlich</li><li>+9: +10 % zusätzlich, ASPD +1</li></ul>
+          <div class="entry-card-foot"><span>kRO #28619</span><a href="https://divine-pride.net/database/item/28619" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-15040">
+          <div class="entry-card-head">
+            <img alt="Jumpsuit" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/15040.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/15040" rel="noopener" target="_blank">Jumpsuit</a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 15040 · <strong>Lv:</strong> 60 · <strong>DEF:</strong> 5 · <strong>Gewicht:</strong> 150</li><li><strong>Drop:</strong> Zombie / Skeleton Prisoner · <strong>Klasse:</strong> alle</li></ul>
+          <ul class="entry-stats"><li>HIT &amp; FLEE skalieren mit Refine</li><li>Mit Shackles: ATK +5 plus weitere Skalierung pro Shackles-Refine</li></ul>
+          <div class="entry-card-foot"><span>kRO #15040</span><a href="https://divine-pride.net/database/item/15040" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-28032">
+          <div class="entry-card-head">
+            <img alt="Prison Watcher [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/28032.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/28032" rel="noopener" target="_blank">Prison Watcher <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Katar</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 28032 · <strong>Lv:</strong> 60 · <strong>ATK:</strong> 140 · <strong>Gewicht:</strong> 100</li><li><strong>Drop:</strong> Injustice · <strong>Klasse:</strong> Assassin</li></ul>
+          <ul class="entry-stats"><li>+20 % Sonic Blow Damage</li><li>+1 % ASPD pro 2 Refine</li><li>+7: +10 % Critical Damage</li><li>+9: +10 % zusätzlich</li></ul>
+          <div class="entry-card-foot"><span>kRO #28032</span><a href="https://divine-pride.net/database/item/28032" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-13487">
+          <div class="entry-card-head">
+            <img alt="Guardian's Sword [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/13487.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/13487" rel="noopener" target="_blank">Guardian's Sword <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">1H-Sword</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 13487 · <strong>Lv:</strong> 60 · <strong>ATK:</strong> 130 · <strong>Gewicht:</strong> 150</li><li><strong>Drop:</strong> Rybio · <strong>Klasse:</strong> Crusader</li></ul>
+          <ul class="entry-stats"><li>MATK +120, DEF +2</li><li>+50 MaxHP pro Faith-Lv</li><li>+7: +20 MaxHP pro Faith-Lv zusätzlich</li><li>+9: +30 MaxHP pro Faith-Lv zusätzlich</li></ul>
+          <div class="entry-card-foot"><span>kRO #13487</span><a href="https://divine-pride.net/database/item/13487" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-2913">
+          <div class="entry-card-head">
+            <img alt="Shackles [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/2913.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/2913" rel="noopener" target="_blank">Shackles <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 2913 · <strong>Lv:</strong> 10 · <strong>Gewicht:</strong> 240</li><li><strong>Drop:</strong> Injustice, Phendark · <strong>Klasse:</strong> alle</li></ul>
+          <ul class="entry-stats"><li>ATK +5</li><li>+1 ATK pro Shackles-Refine</li><li>Set-Boni mit Jumpsuit / Bloody Iron / Blindfold</li></ul>
+          <div class="entry-card-foot"><span>kRO #2913</span><a href="https://divine-pride.net/database/item/2913" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-5121">
+          <div class="entry-card-head">
+            <img alt="Zealotus Mask" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/5121.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/5121" rel="noopener" target="_blank">Zealotus Mask</a>
+            <span class="entry-type">Upper + Mid Headgear</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 5121 · <strong>Lv:</strong> 70 · <strong>DEF:</strong> 3 · <strong>Gewicht:</strong> 40</li><li><strong>Drop:</strong> Zealotus · <strong>Klasse:</strong> alle außer Novice</li></ul>
+          <ul class="entry-stats"><li>+5 % Physical Damage gegen Demi-Human</li><li>−5 % Damage von Demi-Human</li></ul>
+          <div class="entry-card-foot"><span>kRO #5121</span><a href="https://divine-pride.net/database/item/5121" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-13076">
+          <div class="entry-card-head">
+            <img alt="Nata Dagger [2]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/13076.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/13076" rel="noopener" target="_blank">Nata Dagger <span class="entry-slot">[2]</span></a>
+            <span class="entry-type">Dagger · Ninja</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 13076 · <strong>Lv:</strong> 100 · <strong>ATK:</strong> 140 · <strong>Gewicht:</strong> 70</li><li><strong>Drop:</strong> Prison Breaker (Einbroch Weapon Random Options) · <strong>Hinzugefügt:</strong> 2019.04.10</li></ul>
+          <ul class="entry-stats"><li>ATK +2 %</li><li>+7: +10 % Kunai Damage</li><li>+9: +10 % zusätzlich</li></ul>
+          <div class="entry-card-foot"><span>kRO #13076</span><a href="https://divine-pride.net/database/item/13076" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gh-cave">
+      <h2>🦂 Cave 1 (gl_dun01)</h2>
+      <p>Earth/Water-Map mit dem 10.000-Kill-Fever-Mode-Counter. Korridor zwischen den anderen Sub-Maps mit den meisten Champion-Drops.</p>
+      <div class="entry-grid wide">
+        <div class="entry-card is-monster" id="gh-mob-anolian">
+          <div class="entry-card-head">
+            <img alt="Anolian" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/anolian.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Anolian" rel="noopener" target="_blank">Anolian</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 109</li><li><strong>HP:</strong> 16.615</li><li><strong>Familie:</strong> Fish</li><li><strong>Element:</strong> Water LV1</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.887 / 1.801</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-arclouze">
+          <div class="entry-card-head">
+            <img alt="Arclouze" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/arclouze.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Arclouze" rel="noopener" target="_blank">Arclouze</a>
+            <span class="entry-type">⭐ Counter-Mob</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 107</li><li><strong>HP:</strong> 14.944</li><li><strong>Familie:</strong> Insect</li><li><strong>Element:</strong> Earth LV2</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.937 / 1.759</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-sting">
+          <div class="entry-card-head">
+            <img alt="Sting" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/sting.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Sting" rel="noopener" target="_blank">Sting</a>
+            <span class="entry-type">⭐ Counter-Mob</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 104</li><li><strong>HP:</strong> 12.633</li><li><strong>Familie:</strong> Formless</li><li><strong>Element:</strong> Earth LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 1.685 / 1.527</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-hunter-fly">
+          <div class="entry-card-head">
+            <img alt="Hunter Fly" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/hunter-fly.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Hunter+Fly" rel="noopener" target="_blank">Hunter Fly</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 63</li><li><strong>HP:</strong> 1.902</li><li><strong>Familie:</strong> Insect</li><li><strong>Element:</strong> Wind LV2</li><li><strong>Größe:</strong> Small</li><li><strong>EXP / JEXP:</strong> 588 / 532</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-cave-cramp">
+          <div class="entry-card-head">
+            <img alt="Cramp" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/cramp.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Cramp" rel="noopener" target="_blank">Cramp</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 82 · siehe Staircase-Eintrag</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-cave-gargoyle">
+          <div class="entry-card-head">
+            <img alt="Gargoyle" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/gargoyle-cave.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Gargoyle" rel="noopener" target="_blank">Gargoyle</a>
+            <span class="entry-type">Normal</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 100 · siehe Staircase-Eintrag</li></ul>
+        </div>
+        <div class="entry-card is-monster" id="gh-mob-corrupted-sting">
+          <div class="entry-card-head">
+            <img alt="Corrupted Sting" class="entry-icon" loading="lazy" src="images/fever-glastheim/monsters/corrupted-sting.gif"/>
+            <a class="entry-name" href="https://www.divine-pride.net/database/search?searchquery=Corrupted+Sting" rel="noopener" target="_blank">Corrupted Sting</a>
+            <span class="entry-type">Boss</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Level:</strong> 109</li><li><strong>HP:</strong> 81.114</li><li><strong>Familie:</strong> Formless</li><li><strong>Element:</strong> Earth LV3</li><li><strong>Größe:</strong> Medium</li><li><strong>EXP / JEXP:</strong> 14.930 / 12.940</li></ul>
+        </div>
+      </div>
+
+      <h3>🛡️ Cave-1-Items</h3>
+      <div class="entry-grid">
+        <div class="entry-card" id="gh-item-5509">
+          <div class="entry-card-head">
+            <img alt="Sting Hat" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/5509.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/5509" rel="noopener" target="_blank">Sting Hat</a>
+            <span class="entry-type">Upper Headgear</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 5509 · <strong>Lv:</strong> 60 · <strong>DEF:</strong> 10 · <strong>Gewicht:</strong> 100</li><li><strong>Drop:</strong> Sting · <strong>Klasse:</strong> alle</li></ul>
+          <ul class="entry-stats"><li>STR +2, VIT +1, MDEF +3</li><li>+10 % Earth-Damage, +5 % Fire-Damage</li><li>−5 % Damage von Earth-Mobs</li></ul>
+          <div class="entry-card-foot"><span>kRO #5509</span><a href="https://divine-pride.net/database/item/5509" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-490001">
+          <div class="entry-card-head">
+            <img alt="Fox Armguard [1]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/490001.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/490001" rel="noopener" target="_blank">Fox Armguard <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory · Ninja</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 490001 · <strong>Lv:</strong> 100 · <strong>DEF:</strong> 1 · <strong>Gewicht:</strong> 20</li><li><strong>Drop:</strong> Corrupted Sting · <strong>Hinzugefügt:</strong> 2019.04.10</li></ul>
+          <ul class="entry-stats"><li>ATK +3, −3 % Variable Cast Time</li><li>Refinable</li><li>+9: zusätzlich +2 ATK, −2 % VCT</li></ul>
+          <div class="entry-card-foot"><span>kRO #490001</span><a href="https://divine-pride.net/database/item/490001" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-13313">
+          <div class="entry-card-head">
+            <img alt="Huuma Swirling Petal [2]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/13313.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/13313" rel="noopener" target="_blank">Huuma Swirling Petal <span class="entry-slot">[2]</span></a>
+            <span class="entry-type">Huuma · Ninja</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 13313 · <strong>Lv:</strong> 100 · <strong>ATK:</strong> 240 · <strong>Gewicht:</strong> 150</li><li><strong>Drop:</strong> Corrupted Sting (Einbroch Random Option) · <strong>Hinzugefügt:</strong> 2019.04.10</li></ul>
+          <ul class="entry-stats"><li>ATK +3 %, Indestructible</li><li>+7: +15 % Swirling Petal Damage</li><li>+9: −0,5 sec Swirling Petal Cooldown</li></ul>
+          <div class="entry-card-foot"><span>kRO #13313</span><a href="https://divine-pride.net/database/item/13313" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+        <div class="entry-card" id="gh-item-13314">
+          <div class="entry-card-head">
+            <img alt="Huuma Fluttering Snow [2]" class="entry-icon" loading="lazy" src="images/fever-glastheim/items/13314.png"/>
+            <a class="entry-name" href="https://divine-pride.net/database/item/13314" rel="noopener" target="_blank">Huuma Fluttering Snow <span class="entry-slot">[2]</span></a>
+            <span class="entry-type">Huuma · Ninja</span>
+          </div>
+          <ul class="entry-meta"><li><strong>ID:</strong> 13314 · <strong>Lv:</strong> 100 · <strong>ATK:</strong> 180 · <strong>Gewicht:</strong> 130</li><li><strong>Drop:</strong> Corrupted Gargoyle (Einbroch Random Option) · <strong>Hinzugefügt:</strong> 2019.04.10</li></ul>
+          <ul class="entry-stats"><li>MATK +260, MATK +5 %, Indestructible</li><li>+7: +35 % Freezing Spear Damage</li><li>+9: +40 % Snow Flake Drift Damage</li></ul>
+          <div class="entry-card-foot"><span>kRO #13314</span><a href="https://divine-pride.net/database/item/13314" rel="noopener" target="_blank">Divine Pride ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gh-blue-flame">
+      <h2>🔮 Staff of Blue Flame · Crafting &amp; Enchant-Pool</h2>
+
+      <h3>🔨 Crafting-Flow</h3>
+      <p>Der Staff of Blue Flame ist das Endgame-Crafting-Ziel der Staircase-Map. Er vereint Feuer- und Eismagie in einem zweihändigen Stab. Das Herstellungsrezept ist simpel, aber die Zutaten brauchen Farming-Zeit:</p>
+      <ul class="entry-meta">
+        <li><strong>1× Blaze Staff [1]</strong> — Drop von Flame Ghost auf gl_step</li>
+        <li><strong>1× Ice Staff [1]</strong> — Drop von Ice Ghost auf gl_step</li>
+      </ul>
+      <p>Beide Stäbe werden bei <strong>Altos</strong> (<code>gl_step 110/127</code>) abgegeben. Altos kombiniert sie zu einem Staff of Blue Flame [1] — das Original-Item wird dabei verbraucht. Der fertige Stab hat dann 1 freien Socket und kann zweimal enchanted werden.</p>
+      <p>Zum Enchanting sprich <strong>Sarah</strong> an (ebenfalls auf gl_step). Sarah akzeptiert entweder <strong>Mithril</strong> (günstig, aber 30 % Zerstörungsrisiko pro Enchant-Versuch) oder <strong>Gel Star</strong> (teurer, 0 % Risiko). Bei Zerstörung durch Mithril ist der komplette Staff verloren — inklusive bereits gesetzter Enchants. Für wertvolle Enchants ist Gel Star empfohlen.</p>
+      <div class="info-box tip">Da der Flame Ghost-Counter und der Ice Ghost-Counter sich gegenseitig beeinflussen, dauert es länger, <em>beide</em> Stäbe zu farmen als nur einen. Planung: Erst auf Flame Ghosts farmen, bis der Blaze Staff gedropt ist — dann auf Ice Ghosts wechseln, auch wenn das den Ice-Counter hochbringt.</div>
+
+      <h3>📊 Enchant-Pool</h3>
+      <p>Bis zu 2 Enchant-Slots beim Crafter <em>Altos</em>. Risiko: 30 % Zerstörungschance pro Versuch mit Mithril, 0 % bei Verwendung von Gel Star (Premium-Reagenz).</p>
+
+      <h3>Incantation-Reihe (MATK + Variable Cast Time)</h3>
+      <table>
+        <thead><tr><th>Item</th><th>ID</th><th>Effekt</th></tr></thead>
+        <tbody>
+          <tr><td>Incantation 1</td><td>4885</td><td>MATK +5, −3 % VCT</td></tr>
+          <tr><td>Incantation 2</td><td>4886</td><td>MATK +10, −3 % VCT</td></tr>
+          <tr><td>Incantation 3</td><td>4887</td><td>MATK +15, −3 % VCT</td></tr>
+          <tr><td>Incantation 4</td><td>4888</td><td>MATK +20, −3 % VCT</td></tr>
+          <tr><td>Incantation 5</td><td>4889</td><td>MATK +30, −5 % VCT</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Spell-Reihe (höhere VCT-Werte)</h3>
+      <table>
+        <thead><tr><th>Item</th><th>ID</th><th>Effekt</th></tr></thead>
+        <tbody>
+          <tr><td>Spell 1</td><td>4815</td><td>MATK +6, −4 % VCT</td></tr>
+          <tr><td>Spell 2</td><td>4814</td><td>MATK +9, −6 % VCT</td></tr>
+          <tr><td>Spell 3</td><td>4813</td><td>MATK +12, −8 % VCT</td></tr>
+          <tr><td>Spell 4</td><td>4812</td><td>MATK +15, −10 % VCT</td></tr>
+        </tbody>
+      </table>
+
+      <h3>MATK-%-Reihe</h3>
+      <table>
+        <thead><tr><th>Item</th><th>ID</th><th>Effekt</th></tr></thead>
+        <tbody>
+          <tr><td>MATK 1</td><td>4760</td><td>MATK +1 %, −1 % Fixed Cast Time</td></tr>
+          <tr><td>MATK 2</td><td>4761</td><td>MATK +2 %, −1 % Fixed Cast Time</td></tr>
+          <tr><td>MATK 3</td><td>4806</td><td>MATK +3 %, −1 % Fixed Cast Time</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Stat- &amp; Resource-Enchants</h3>
+      <table>
+        <thead><tr><th>Reihe</th><th>Stufen / IDs</th></tr></thead>
+        <tbody>
+          <tr><td>INT-Enchant</td><td>INT+1 (4710) · INT+2 (4711) · INT+3 (4712) · INT+4 (4713)</td></tr>
+          <tr><td>VIT-Enchant</td><td>VIT+1 (4740) · VIT+2 (4741) · VIT+3 (4742) · VIT+4 (4743)</td></tr>
+          <tr><td>MaxHP</td><td>MHP+100 (4795) · MHP+200 (4796) · MHP+300 (4797)</td></tr>
+          <tr><td>MaxSP</td><td>SP+50 (4800) · SP+100 (4801)</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>📅 Changelog</h2>
+      <ul class="entry-meta">
+        <li><strong>2018-01-31:</strong> Original-Release Glast Heim Fever-Maps</li>
+        <li><strong>2018-02-28:</strong> EXP-Anpassung Flame/Ice Ghost · Blaze/Ice Staff Skill-Damage angepasst</li>
+        <li><strong>2019-04-10:</strong> Neue Lv-100-Drops: Fox Armguard, Huuma Swirling Petal, Huuma Fluttering Snow, Nata Dagger</li>
+      </ul>
+    </section>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a>
+</footer>
+
+</body>
+</html>

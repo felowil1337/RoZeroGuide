@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md Equip Overview — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html" class="active">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Memorial-Equipment · Überblick</span>
+      <h1>Memorial-Equipment — System-Überblick</h1>
+      <p class="lead">Wie das Vier-Grade-System funktioniert: Drops, Crafting-Kette, Set-Boni und der Enchant-Schritt. Wenn du nur einen Text liest, dann diesen.</p>
+    </div>
+
+    <div class="entry-jump">
+      <a href="md-equipment.html">← Hub</a>
+      <a href="md-equip-grades.html">🛡️ Grade-Items</a>
+      <a href="md-equip-crafting.html">🔨 Crafting</a>
+      <a href="md-equip-enchanting.html">🔮 Enchanting</a>
+    </div>
+
+    <section>
+      <h2>🎯 Die Idee in einem Satz</h2>
+      <p>Du grindest in den Pre-Trans-Memorial-Dungeons das <strong>Grade-IV-Subjugation-Set</strong> als Basis und rechnest dich dann über Crafting hoch zu Grade III, II und am Ende I (Conqueror). Jeder Schritt verbraucht das Vorgänger-Item plus Crystal- und Jello-Stone-Materialien. Am Ende lässt du die Teile bei der Enchant-Association in Prontera enchanten — das ist der eigentliche Power-Spike.</p>
+    </section>
+
+    <section>
+      <h2>📈 Die vier Grades</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h4>Grade IV — Subjugation</h4>
+          <p><strong>Quelle:</strong> Drop aus <a href="md-orcs-memory.html">Orc's Memory</a> (Armor, Sash) und <a href="md-prontera-culvert.html">Prontera Culvert</a> (Boots, Ring). 4 Items, je 0–2 Stück pro Run.</p>
+          <p><strong>Set-Bonus (Sash + Boots + Ring):</strong> ATK +15, MATK +15. <strong>Total-Refine ≥ +17:</strong> ASPD-Boost, −5 % Variable Cast.</p>
+        </div>
+        <div class="card">
+          <h4>Grade III — Expedition</h4>
+          <p><strong>Erwerb:</strong> Craften aus dem entsprechenden Subjugation-Teil + 50× Shimmering Crystal + 1–3× Jello-Stone (Farbe variiert nach Item-Slot).</p>
+          <p><strong>8 Items:</strong> 2 Armors, 2 Garments, 2 Shoes, 2 Accessories. Dadurch beginnt die Spezialisierung in physische und magische Varianten.</p>
+        </div>
+        <div class="card">
+          <h4>Grade II — Dispatching</h4>
+          <p><strong>Erwerb:</strong> Craften aus dem Expedition-Teil + 50× Azure Crystal + 2–6× Jello-Stone.</p>
+          <p><strong>16 Items.</strong> Hier verzweigt sich das Set in vier vollständige Sub-Sets (physisch-melee, physisch-ranged, magisch-DD, magisch-support), jedes mit eigenem 3-Teile-Bonus.</p>
+        </div>
+        <div class="card">
+          <h4>Grade I — Conqueror</h4>
+          <p><strong>Erwerb:</strong> Craften aus dem Dispatching-Teil + 50× Crimson Crystal + 3–10× Jello-Stone.</p>
+          <p><strong>16 Items.</strong> Endgame der Memorial-Equipment-Kette mit stärksten Stats und sehr starkem Total-Refine-Bonus ab +27 (−10 % After-Attack-Delay, −15 % Fixed Cast etc.).</p>
+        </div>
+      </div>
+      
+      <!-- EMBED:START ov-subjugation -->
+            <div style="margin-top:32px;border-top:2px dashed var(--border);padding-top:16px">
+              <h4>🛡️ Grade IV — Subjugation Set (4 Items, Drop)</h4>
+              <p style="color:var(--text-dim);font-size:13px;margin-top:0">Die vier Drop-Items aus den 60er-Memorial-Dungeons. Basis der gesamten Crafting-Kette.</p>
+              <div class="entry-grid">
+                <div class="entry-card" id="item-28539">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28539.png" alt="Subjugation Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28539" target="_blank" rel="noopener">Subjugation Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-subjugation-grade-iv-equipment">Subjugation Set (Grade IV)</a></div>
+  <ul class="entry-meta"><li><strong>Drop:</strong> <a href="instanzen.html#prontera-culvert">Prontera Culvert</a> <span class="mode-badge normal">normal</span> · <a href="instanzen.html#prontera-culvert">Prontera Culvert</a> <span class="mode-badge normal">normal</span> (0 - 2)</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>STR +2</li><li>INT +2</li></ul>
+  <div class="entry-card-foot"><span>kRO #28539</span><a href="https://divine-pride.net/database/item/28539" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22150">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22150.png" alt="Subjugation Boots [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22150" target="_blank" rel="noopener">Subjugation Boots <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-subjugation-grade-iv-equipment">Subjugation Set (Grade IV)</a></div>
+  <ul class="entry-meta"><li><strong>Drop:</strong> <a href="instanzen.html#prontera-culvert">Prontera Culvert</a> <span class="mode-badge normal">normal</span> · <a href="instanzen.html#prontera-culvert">Prontera Culvert</a> <span class="mode-badge normal">normal</span> (0 - 2)</li><li><strong>Gewicht:</strong> 25 · <strong>DEF:</strong> 12</li></ul>
+  <ul class="entry-stats"><li>+5% HP Recovery</li><li>+3% SP Recovery</li></ul>
+  <div class="entry-card-foot"><span>kRO #22150</span><a href="https://divine-pride.net/database/item/22150" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15220">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15220.png" alt="Subjugation Armor [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15220" target="_blank" rel="noopener">Subjugation Armor <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-subjugation-grade-iv-equipment">Subjugation Set (Grade IV)</a></div>
+  <ul class="entry-meta"><li><strong>Drop:</strong> <a href="instanzen.html#orc-s-memory">Orc&#x27;s Memory</a> <span class="mode-badge normal">normal</span> · <a href="instanzen.html#orcs-memory">Orcs Memory</a> <span class="mode-badge normal">normal</span> (0 - 2)</li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 46</li></ul>
+  <ul class="entry-stats"><li>Max HP +300, MaxSP +20, MDEF +5, DEF +20</li><li>When wearing Subjugation Sash, Boots, &amp; Ring: ATK +15, MATK +15</li><li>If total Set is refined higher than +17: Increased ASPD (-3% after attack delay), -5% variable casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15220</span><a href="https://divine-pride.net/database/item/15220" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20867">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20867.png" alt="Subjugation Sash [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20867" target="_blank" rel="noopener">Subjugation Sash <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-subjugation-grade-iv-equipment">Subjugation Set (Grade IV)</a></div>
+  <ul class="entry-meta"><li><strong>Drop:</strong> <a href="instanzen.html#orc-s-memory">Orc&#x27;s Memory</a> <span class="mode-badge normal">normal</span> · <a href="instanzen.html#orcs-memory">Orcs Memory</a> <span class="mode-badge normal">normal</span> (0 - 2)</li><li><strong>Gewicht:</strong> 20 · <strong>DEF:</strong> 12</li></ul>
+  <ul class="entry-stats"><li>+7% Neutral resistance</li><li>FLEE +10</li></ul>
+  <div class="entry-card-foot"><span>kRO #20867</span><a href="https://divine-pride.net/database/item/20867" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+              </div>
+            </div>
+      <!-- EMBED:END ov-subjugation -->
+    </section>
+
+    <section>
+      <h2>🔗 Crafting-Kette — wie ein Item entsteht</h2>
+      <p>Die Kette ist linear pro Slot. Beispiel für Armors:</p>
+      <div class="info-box note">
+        Subjugation Armor → + Crystal + Jello → Expedition Armor → + Crystal + Jello → Dispatching Chain Mail <em>oder</em> Cloth → + Crystal + Jello → Conqueror Chain Mail / Cloth.
+      </div>
+      <p>Ab Grade II (Dispatching) verästelt sich die Kette: aus <em>einem</em> Expedition-Teil können <em>zwei</em> Dispatching-Varianten entstehen (z. B. Chain Mail vs Cloth, Manteau vs Scouting Manteau). Du musst für jede Variante einen separaten Expedition-Vorgänger craften — d. h. wer das vollständige Conqueror-Set will, braucht entsprechend mehr Subjugation-Drops als nur 1× pro Slot.</p>
+      <p>Vollständige Material-Übersicht: <a href="md-equip-crafting.html">Crafting-Seite</a>.</p>
+      
+      <!-- EMBED:START ov-expedition -->
+            <div style="margin-top:32px;border-top:2px dashed var(--border);padding-top:16px">
+              <h4>🛡️ Grade III — Expedition Set (8 Items, gecraftet)</h4>
+              <p style="color:var(--text-dim);font-size:13px;margin-top:0">Erste Spezialisierung in physische und magische Varianten. Aus Subjugation-Teilen + Shimmering Crystal + Jello-Stones.</p>
+              <div class="entry-grid">
+                <div class="entry-card" id="item-28541">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28541.png" alt="Expedition Magic Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28541" target="_blank" rel="noopener">Expedition Magic Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Ring [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>INT +3</li></ul>
+  <div class="entry-card-foot"><span>kRO #28541</span><a href="https://divine-pride.net/database/item/28541" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20868">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20868.png" alt="Expedition Manteau [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20868" target="_blank" rel="noopener">Expedition Manteau <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Sash [1]</li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 14</li></ul>
+  <ul class="entry-stats"><li>+8% Neutral resistance</li><li>FLEE +15</li><li>When +3 or higher, FLEE +3</li></ul>
+  <div class="entry-card-foot"><span>kRO #20868</span><a href="https://divine-pride.net/database/item/20868" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22152">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22152.png" alt="Expedition Shoes [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22152" target="_blank" rel="noopener">Expedition Shoes <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Boots [1]</li><li><strong>Gewicht:</strong> 25 · <strong>DEF:</strong> 14</li></ul>
+  <ul class="entry-stats"><li>+10% HP Recovery</li><li>+7% SP Recovery</li><li>When +3 or higher, VIT +1</li></ul>
+  <div class="entry-card-foot"><span>kRO #22152</span><a href="https://divine-pride.net/database/item/22152" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28540">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28540.png" alt="Expedition Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28540" target="_blank" rel="noopener">Expedition Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Ring [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>STR +3</li></ul>
+  <div class="entry-card-foot"><span>kRO #28540</span><a href="https://divine-pride.net/database/item/28540" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15221">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15221.png" alt="Expedition Armor [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15221" target="_blank" rel="noopener">Expedition Armor <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Armor [1]</li><li><strong>Gewicht:</strong> 50 · <strong>DEF:</strong> 56</li></ul>
+  <ul class="entry-stats"><li>Max HP +500, MaxSP +30, MDEF +5, DEF +30</li><li>When wearing Expedition Manteau, Boots, &amp; Ring: ATK +20</li><li>If total Set is refined higher than +21: Increased ASPD (-5% after attack delay), -5% variable casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15221</span><a href="https://divine-pride.net/database/item/15221" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15222">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15222.png" alt="Expedition Robe [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15222" target="_blank" rel="noopener">Expedition Robe <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Armor [1]</li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 51</li></ul>
+  <ul class="entry-stats"><li>Max HP +400, MaxSP +50, MDEF +5, DEF +30</li><li>When wearing Expedition Muffler, Shoes, &amp; Magic Ring: MATK +20</li><li>If total Set is refined higher than +21: -5% variable &amp; fixed casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15222</span><a href="https://divine-pride.net/database/item/15222" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20869">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20869.png" alt="Expedition Muffler [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20869" target="_blank" rel="noopener">Expedition Muffler <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Sash [1]</li><li><strong>Gewicht:</strong> 25 · <strong>DEF:</strong> 13</li></ul>
+  <ul class="entry-stats"><li>+9% Neutral resistance</li><li>FLEE +12</li><li>When +3 or higher, +1% additional Neutral resistance</li></ul>
+  <div class="entry-card-foot"><span>kRO #20869</span><a href="https://divine-pride.net/database/item/20869" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22151">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22151.png" alt="Expedition Boots [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22151" target="_blank" rel="noopener">Expedition Boots <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-expedition-equipment-grade-iii">Expedition Set (Grade III)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Subjugation Boots [1]</li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 16</li></ul>
+  <ul class="entry-stats"><li>+15% HP Recovery</li><li>+5% SP Recovery</li><li>When +3 or higher, AGI +1</li></ul>
+  <div class="entry-card-foot"><span>kRO #22151</span><a href="https://divine-pride.net/database/item/22151" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+              </div>
+            </div>
+      <!-- EMBED:END ov-expedition -->
+    </section>
+
+    <section>
+      <h2>🏛️ Set-Bonus-System</h2>
+      <p>Jedes Grade-Set hat zwei Bonus-Schichten:</p>
+      <ul>
+        <li><strong>3-Teile-Bonus:</strong> Trägst du drei spezifische Teile aus dem Set zusammen, gibt es einen flat ATK- bzw MATK-Bonus. Welche drei Teile gemeint sind, steht im Tooltip jedes Items (z. B. <em>“When wearing Subjugation Sash, Boots, &amp; Ring: ATK +15, MATK +15”</em>).</li>
+        <li><strong>Total-Refine-Bonus:</strong> Zählt die Refine-Werte <em>aller</em> Set-Teile zusammen. Erst ab dem im Tooltip genannten Schwellwert greift dieser Bonus — typischerweise ASPD, Cast-Reduktion oder Damage-Bonus.
+          <ul>
+            <li>Grade IV: ab Total-Refine <strong>+17</strong></li>
+            <li>Grade III: ab Total-Refine <strong>+21</strong></li>
+            <li>Grade II: ab Total-Refine <strong>+25</strong></li>
+            <li>Grade I: ab Total-Refine <strong>+27</strong></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="info-box tip">Bei Grade I gibt es zusätzlich Per-Item-Refine-Schwellen (+5 und +7) für extra Stats pro Teil — nicht nur den Total-Refine-Bonus.</div>
+      
+      <!-- EMBED:START ov-dispatching -->
+            <div style="margin-top:32px;border-top:2px dashed var(--border);padding-top:16px">
+              <h4>🛡️ Grade II — Dispatching Set (16 Items, gecraftet)</h4>
+              <p style="color:var(--text-dim);font-size:13px;margin-top:0">Hier verzweigen sich die Sub-Sets vollständig (melee, ranged, magisch-DD, magisch-support).</p>
+              <div class="entry-grid">
+                <div class="entry-card" id="item-22156">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22156.png" alt="Dispatching Magic Shoes [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22156" target="_blank" rel="noopener">Dispatching Magic Shoes <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Shoes [1]</li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 15</li></ul>
+  <ul class="entry-stats"><li>+15% HP Recovery</li><li>+7% SP Recovery</li><li>When +5 or higher, +2% Heal effectiveness</li></ul>
+  <div class="entry-card-foot"><span>kRO #22156</span><a href="https://divine-pride.net/database/item/22156" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28542">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28542.png" alt="Dispatching Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28542" target="_blank" rel="noopener">Dispatching Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Ring [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>STR +3</li><li>AGI +1</li></ul>
+  <div class="entry-card-foot"><span>kRO #28542</span><a href="https://divine-pride.net/database/item/28542" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15224">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15224.png" alt="Dispatching Cloth [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15224" target="_blank" rel="noopener">Dispatching Cloth <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Armor [1]</li><li><strong>Gewicht:</strong> 60 · <strong>DEF:</strong> 63</li></ul>
+  <ul class="entry-stats"><li>DEX +1, AGI +1, Max HP +500, MaxSP +60, MDEF +5, DEF +40</li><li>When +5 or higher, DEF +15, MaxSP +20</li><li>When wearing Dispatching Scouting Manteau, Boots, &amp; Glove: ATK +25</li><li>If total Set is refined higher than +25: Increased ASPD (-7% after attack delay), +2% ranged physical damage, -10% fixed casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15224</span><a href="https://divine-pride.net/database/item/15224" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15225">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15225.png" alt="Dispatching Robe [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15225" target="_blank" rel="noopener">Dispatching Robe <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Robe [1]</li><li><strong>Gewicht:</strong> 55 · <strong>DEF:</strong> 61</li></ul>
+  <ul class="entry-stats"><li>INT +1, DEX +1, Max HP +500, MaxSP +70, MDEF +5, DEF +40</li><li>When +5 or higher, DEF +10, MaxSP +20</li><li>When wearing Dispatching Muffler, Shoes, &amp; Magic Ring: MATK +25</li><li>If total Set is refined higher than +25: MATK +2%, -7% variable casting, -10% fixed casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15225</span><a href="https://divine-pride.net/database/item/15225" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22154">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22154.png" alt="Dispatching Boots [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22154" target="_blank" rel="noopener">Dispatching Boots <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Boots [1]</li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 18</li></ul>
+  <ul class="entry-stats"><li>+15% HP Recovery</li><li>+7% SP Recovery</li><li>When +5 or higher, DEX +2</li></ul>
+  <div class="entry-card-foot"><span>kRO #22154</span><a href="https://divine-pride.net/database/item/22154" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28545">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28545.png" alt="Dispatching Necklace [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28545" target="_blank" rel="noopener">Dispatching Necklace <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Magic Ring [1]</li><li><strong>Gewicht:</strong> 0 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>INT +3</li><li>VIT +1</li></ul>
+  <div class="entry-card-foot"><span>kRO #28545</span><a href="https://divine-pride.net/database/item/28545" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28543">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28543.png" alt="Dispatching Glove [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28543" target="_blank" rel="noopener">Dispatching Glove <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Ring [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>DEX +3</li><li>AGI +1</li></ul>
+  <div class="entry-card-foot"><span>kRO #28543</span><a href="https://divine-pride.net/database/item/28543" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20871">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20871.png" alt="Dispatching Scouting Manteau [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20871" target="_blank" rel="noopener">Dispatching Scouting Manteau <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Manteau [1]</li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 15</li></ul>
+  <ul class="entry-stats"><li>Increased ASPD (-3% after attack delay)</li><li>FLEE +20</li><li>When +5 or higher, additional increased ASPD (-2% after attack delay)</li></ul>
+  <div class="entry-card-foot"><span>kRO #20871</span><a href="https://divine-pride.net/database/item/20871" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22153">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22153.png" alt="Dispatching Greaves [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22153" target="_blank" rel="noopener">Dispatching Greaves <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Boots [1]</li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 20</li></ul>
+  <ul class="entry-stats"><li>+18% HP Recovery</li><li>+5% SP Recovery</li><li>When +5 or higher, STR +2</li></ul>
+  <div class="entry-card-foot"><span>kRO #22153</span><a href="https://divine-pride.net/database/item/22153" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15226">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15226.png" alt="Dispatching Garment [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15226" target="_blank" rel="noopener">Dispatching Garment <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Robe [1]</li><li><strong>Gewicht:</strong> 50 · <strong>DEF:</strong> 59</li></ul>
+  <ul class="entry-stats"><li>INT +1, VIT +1, Max HP +600, MaxSP +60, MDEF +5, DEF +40</li><li>When +5 or higher, DEF +10, MaxHP +100</li><li>When wearing Dispatching Cape, Magic Shoes, &amp; Necklace: MATK +25</li><li>If total Set is refined higher than +25: +2% HP Recovery, -7% variable casting, -10% fixed casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15226</span><a href="https://divine-pride.net/database/item/15226" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20872">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20872.png" alt="Dispatching Muffler [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20872" target="_blank" rel="noopener">Dispatching Muffler <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Muffler [1]</li><li><strong>Gewicht:</strong> 35 · <strong>DEF:</strong> 14</li></ul>
+  <ul class="entry-stats"><li>-3% variable casting</li><li>FLEE +16</li><li>When +5 or higher, -4% additional variable casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #20872</span><a href="https://divine-pride.net/database/item/20872" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20870">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20870.png" alt="Dispatching Manteau [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20870" target="_blank" rel="noopener">Dispatching Manteau <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Manteau [1]</li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 16</li></ul>
+  <ul class="entry-stats"><li>Increased ASPD (-5% after attack delay)</li><li>FLEE +15</li><li>When +5 or higher, AGI +1</li></ul>
+  <div class="entry-card-foot"><span>kRO #20870</span><a href="https://divine-pride.net/database/item/20870" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20873">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20873.png" alt="Dispatching Cape [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20873" target="_blank" rel="noopener">Dispatching Cape <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Muffler [1]</li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 13</li></ul>
+  <ul class="entry-stats"><li>-5% variable casting</li><li>FLEE +12</li><li>When +5 or higher, +3% Neutral resistance</li></ul>
+  <div class="entry-card-foot"><span>kRO #20873</span><a href="https://divine-pride.net/database/item/20873" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22155">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22155.png" alt="Dispatching Shoes [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22155" target="_blank" rel="noopener">Dispatching Shoes <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Shoes [1]</li><li><strong>Gewicht:</strong> 35 · <strong>DEF:</strong> 16</li></ul>
+  <ul class="entry-stats"><li>+12% HP Recovery</li><li>+10% SP Recovery</li><li>When +5 or higher, INT +2</li></ul>
+  <div class="entry-card-foot"><span>kRO #22155</span><a href="https://divine-pride.net/database/item/22155" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28544">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28544.png" alt="Dispatching Magic Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28544" target="_blank" rel="noopener">Dispatching Magic Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Magic Ring [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>INT +3</li><li>DEX +1</li></ul>
+  <div class="entry-card-foot"><span>kRO #28544</span><a href="https://divine-pride.net/database/item/28544" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15223">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15223.png" alt="Dispatching Chain Mail [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15223" target="_blank" rel="noopener">Dispatching Chain Mail <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-dispatching-equipment-grade-ii">Dispatching Set (Grade II)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Expedition Armor [1]</li><li><strong>Gewicht:</strong> 60 · <strong>DEF:</strong> 66</li></ul>
+  <ul class="entry-stats"><li>STR +1, AGI +1, Max HP +700, MaxSP +50, MDEF +5, DEF +40</li><li>When +5 or higher, DEF +15, MaxHP +100</li><li>When wearing Dispatching Manteau, Greaves, &amp; Ring: ATK +25</li><li>If total Set is refined higher than +25: Increased ASPD (-7% after attack delay), +2% CRIT damage, -10% fixed casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15223</span><a href="https://divine-pride.net/database/item/15223" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+              </div>
+            </div>
+      <!-- EMBED:END ov-dispatching -->
+    </section>
+
+    <section>
+      <h2>🔮 Enchanting — der letzte Schritt</h2>
+      <p>Nach dem Crafting bringst du das Item zur <strong>Enchant Association</strong> in Prontera. Kosten: 100.000 Zeny pro Enchant-Versuch. Reset kostet entweder 100.000 Zeny mit 30 % Zerstörungsrisiko oder 1× Gel Star ohne Risiko.</p>
+      <p>Wenn ein Memorial-Armor-Teil auf <strong>+9</strong> refined ist und du es enchanten lässt, bekommt es zusätzlich einen zufälligen <strong>Job-Essence-Enchant</strong> — sehr starker klassen-spezifischer Bonus. Welcher Slot diesen Enchant aufnimmt, hängt vom Grade ab (Subjugation/Expedition: Slot 4, Dispatching: Slot 3, Conqueror: Slot 2).</p>
+      <p>Vollständige NPC-Liste, Slot-Tabellen und Pool-Beschreibungen: <a href="md-equip-enchanting.html">Enchanting-Seite</a>.</p>
+      
+      <!-- EMBED:START ov-conqueror -->
+            <div style="margin-top:32px;border-top:2px dashed var(--border);padding-top:16px">
+              <h4>🛡️ Grade I — Conqueror Set (16 Items, gecraftet)</h4>
+              <p style="color:var(--text-dim);font-size:13px;margin-top:0">Endgame der Memorial-Equipment-Kette. Items werden bei +9 enchant-fähig für Job-Essences.</p>
+              <div class="entry-grid">
+                <div class="entry-card" id="item-15227">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15227.png" alt="Conqueror Chain Mail [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15227" target="_blank" rel="noopener">Conqueror Chain Mail <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Chain Mail [1]</li><li><strong>Gewicht:</strong> 70 · <strong>DEF:</strong> 76</li></ul>
+  <ul class="entry-stats"><li>STR +2, AGI +2, MaxHP +900, MaxSP +60, MDEF +5, DEF +50</li><li>When +5 or higher, DEF +20, MaxHP +100</li><li>When +7 or higher, additional AGI +2</li><li>When wearing Conqueror Manteau, Greaves, &amp; Ring: ATK +30</li><li>If total Set is refined higher than +27: Increased ASPD (-10% after attack delay), +4% CRIT damage, -15% fixed casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15227</span><a href="https://divine-pride.net/database/item/15227" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28549">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28549.png" alt="Conqueror Necklace [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28549" target="_blank" rel="noopener">Conqueror Necklace <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Necklace [1]</li><li><strong>Gewicht:</strong> 0 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>INT +3</li><li>VIT +2</li></ul>
+  <div class="entry-card-foot"><span>kRO #28549</span><a href="https://divine-pride.net/database/item/28549" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20877">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20877.png" alt="Conqueror Cape [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20877" target="_blank" rel="noopener">Conqueror Cape <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Cape [1]</li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 15</li></ul>
+  <ul class="entry-stats"><li>-7% variable casting</li><li>FLEE +12</li><li>When +5 or higher, +3% Neutral resistance</li><li>When +7 or higher, +4% additional Neutral resistance</li></ul>
+  <div class="entry-card-foot"><span>kRO #20877</span><a href="https://divine-pride.net/database/item/20877" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15228">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15228.png" alt="Conqueror Cloth [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15228" target="_blank" rel="noopener">Conqueror Cloth <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Cloth [1]</li><li><strong>Gewicht:</strong> 65 · <strong>DEF:</strong> 71</li></ul>
+  <ul class="entry-stats"><li>DEX +2, AGI +2, MaxHP +700, MaxSP +80, MDEF +5, DEF +50</li><li>When +5 or higher, DEF +20, MaxSP +20</li><li>When +7 or higher, DEX +2</li><li>When wearing Conqueror Scouting Manteau, Boots, &amp; Glove: ATK +30</li><li>If total Set is refined higher than +27: Increased ASPD (-10% after attack delay), +4% ranged physical damage, -15% fixed casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15228</span><a href="https://divine-pride.net/database/item/15228" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15230">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15230.png" alt="Conqueror Garment [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15230" target="_blank" rel="noopener">Conqueror Garment <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Garment [1]</li><li><strong>Gewicht:</strong> 60 · <strong>DEF:</strong> 65</li></ul>
+  <ul class="entry-stats"><li>INT +2, VIT +2, MaxHP +800, MaxSP +70, MDEF +5, DEF +50</li><li>When +5 or higher, DEF +15, MaxHP +100</li><li>When +7 or higher, VIT +2</li><li>When wearing Conqueror Cape, Magic Shoes, &amp; Necklace: MATK +30</li><li>If total Set is refined higher than +27: +4% Heal effectiveness, -10% variable casting, -15% fixed casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15230</span><a href="https://divine-pride.net/database/item/15230" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28547">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28547.png" alt="Conqueror Glove [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28547" target="_blank" rel="noopener">Conqueror Glove <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Glove [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>DEX +3</li><li>AGI +2</li></ul>
+  <div class="entry-card-foot"><span>kRO #28547</span><a href="https://divine-pride.net/database/item/28547" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28546">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28546.png" alt="Conqueror Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28546" target="_blank" rel="noopener">Conqueror Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Ring [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>STR +3</li><li>AGI +2</li></ul>
+  <div class="entry-card-foot"><span>kRO #28546</span><a href="https://divine-pride.net/database/item/28546" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20874">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20874.png" alt="Conqueror Manteau [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20874" target="_blank" rel="noopener">Conqueror Manteau <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Manteau [1]</li><li><strong>Gewicht:</strong> 50 · <strong>DEF:</strong> 20</li></ul>
+  <ul class="entry-stats"><li>Increased ASPD (-7% after attack delay)</li><li>FLEE +18</li><li>When +5 or higher, AGI +1</li><li>When +7 or higher, +4% CRIT damage</li></ul>
+  <div class="entry-card-foot"><span>kRO #20874</span><a href="https://divine-pride.net/database/item/20874" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-15229">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/15229.png" alt="Conqueror Robe [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/15229" target="_blank" rel="noopener">Conqueror Robe <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Armor</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Robe [1]</li><li><strong>Gewicht:</strong> 65 · <strong>DEF:</strong> 66</li></ul>
+  <ul class="entry-stats"><li>INT +2, DEX +2, MaxHP +600, MaxSP +90, MDEF +5, DEF +50</li><li>When +5 or higher, DEF +15, MaxSP +20</li><li>When +7 or higher, DEX +2</li><li>When wearing Conqueror Muffler, Shoes, &amp; Magic Ring: MATK +30</li><li>If total Set is refined higher than +27: MATK +4%, -10% variable casting, -15% fixed casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #15229</span><a href="https://divine-pride.net/database/item/15229" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20875">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20875.png" alt="Conqueror Scouting Manteau [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20875" target="_blank" rel="noopener">Conqueror Scouting Manteau <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Scouting Manteau [1]</li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 18</li></ul>
+  <ul class="entry-stats"><li>Increased ASPD (-5% after attack delay)</li><li>FLEE +25</li><li>When +5 or higher, additional increased ASPD (-2% after attack delay)</li><li>When +7 or higher, +3% ranged physical damage</li></ul>
+  <div class="entry-card-foot"><span>kRO #20875</span><a href="https://divine-pride.net/database/item/20875" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-20876">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/20876.png" alt="Conqueror Muffler [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/20876" target="_blank" rel="noopener">Conqueror Muffler <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Garment</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Muffler [1]</li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 16</li></ul>
+  <ul class="entry-stats"><li>-5% variable casting</li><li>FLEE +16</li><li>When +5 or higher, -4% additional variable casting</li><li>When +7 or higher, -3% additional variable casting</li></ul>
+  <div class="entry-card-foot"><span>kRO #20876</span><a href="https://divine-pride.net/database/item/20876" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22160">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22160.png" alt="Conqueror Magic Shoes [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22160" target="_blank" rel="noopener">Conqueror Magic Shoes <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Magic Shoes [1]</li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 17</li></ul>
+  <ul class="entry-stats"><li>+17% HP Recovery</li><li>+10% SP Recovery</li><li>When +5 or higher, +2% Heal effectiveness</li><li>When +7 or higher, +4% additional Heal effectiveness</li></ul>
+  <div class="entry-card-foot"><span>kRO #22160</span><a href="https://divine-pride.net/database/item/22160" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22159">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22159.png" alt="Conqueror Shoes [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22159" target="_blank" rel="noopener">Conqueror Shoes <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Shoes [1]</li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 18</li></ul>
+  <ul class="entry-stats"><li>+15% HP Recovery</li><li>+12% SP Recovery</li><li>When +5 or higher, INT +2</li><li>When +7 or higher, MATK +20</li></ul>
+  <div class="entry-card-foot"><span>kRO #22159</span><a href="https://divine-pride.net/database/item/22159" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22157">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22157.png" alt="Conqueror Greaves [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22157" target="_blank" rel="noopener">Conqueror Greaves <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Greaves [1]</li><li><strong>Gewicht:</strong> 50 · <strong>DEF:</strong> 24</li></ul>
+  <ul class="entry-stats"><li>+20% HP Recovery</li><li>+7% SP Recovery</li><li>When +5 or higher, STR +2</li><li>When +7 or higher, ATK +20</li></ul>
+  <div class="entry-card-foot"><span>kRO #22157</span><a href="https://divine-pride.net/database/item/22157" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-22158">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/22158.png" alt="Conqueror Boots [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/22158" target="_blank" rel="noopener">Conqueror Boots <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Shoes</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Boots [1]</li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 22</li></ul>
+  <ul class="entry-stats"><li>+18% HP Recovery</li><li>+9% SP Recovery</li><li>When +5 or higher, DEX +2</li><li>When +7 or higher, FLEE +20</li></ul>
+  <div class="entry-card-foot"><span>kRO #22158</span><a href="https://divine-pride.net/database/item/22158" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28548">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28548.png" alt="Conqueror Magic Ring [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28548" target="_blank" rel="noopener">Conqueror Magic Ring <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Accessory</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-conqueror-equipment-grade-i">Conqueror Set (Grade I)</a></div>
+  <ul class="entry-meta"><li><strong>Crafted From:</strong> Dispatching Magic Ring [1]</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+  <ul class="entry-stats"><li>INT +3</li><li>DEX +2</li></ul>
+  <div class="entry-card-foot"><span>kRO #28548</span><a href="https://divine-pride.net/database/item/28548" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+              </div>
+            </div>
+      <!-- EMBED:END ov-conqueror -->
+    </section>
+
+    <section>
+      <h2>💎 Hard-Mode-Accessoires — separater Pfad</h2>
+      <p>Vier Slot-1-Accessoires (zwei Right-side, zwei Left-side), die <em>nicht</em> aus der Subjugation→Conqueror-Kette stammen. Sie werden direkt aus den Hard-Mode-Edelsteinen gecraftet (Cursed Emerald, Shiny Opal, Sea Sapphire, Blood-soaked Ruby) plus 10× Mithril pro Stück. Edelsteine sind Drops aus den Hard-Mode-Versionen der Memorial-Dungeons.</p>
+      <p>Details: <a href="md-equip-grades.html#sec-hard-mode">Hard-Mode-Items</a> und <a href="md-equip-crafting.html#sec-hard-mode-crafting">Hard-Mode-Crafting</a>.</p>
+      
+      <!-- EMBED:START ov-hardmode -->
+            <div style="margin-top:32px;border-top:2px dashed var(--border);padding-top:16px">
+              <h4>💎 Hard-Mode-Accessoires (4 Items)</h4>
+              <p style="color:var(--text-dim);font-size:13px;margin-top:0">Slot-1-Accessoires aus Hard-Mode-Drops — eigenständig, nicht in der Subjugation→Conqueror-Kette.</p>
+              <div class="entry-grid">
+                <div class="entry-card" id="item-28570">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28570.png" alt="Ring of Blue Oath [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28570" target="_blank" rel="noopener">Ring of Blue Oath <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Left side</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-hard-mode-accessories">Hard-Mode Accessoires</a></div>
+  
+  
+  <div class="entry-card-foot"><span>kRO #28570</span><a href="https://divine-pride.net/database/item/28570" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28569">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28569.png" alt="Shiny Opal Earrings [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28569" target="_blank" rel="noopener">Shiny Opal Earrings <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Right side</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-hard-mode-accessories">Hard-Mode Accessoires</a></div>
+  
+  
+  <div class="entry-card-foot"><span>kRO #28569</span><a href="https://divine-pride.net/database/item/28569" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28571">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28571.png" alt="Ring of the Red Covenent [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28571" target="_blank" rel="noopener">Ring of the Red Covenent <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Left side</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-hard-mode-accessories">Hard-Mode Accessoires</a></div>
+  
+  
+  <div class="entry-card-foot"><span>kRO #28571</span><a href="https://divine-pride.net/database/item/28571" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+                <div class="entry-card" id="item-28568">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/equip/28568.png" alt="Cursed Emerald Earrings [1]" loading="lazy">
+    <a class="entry-name" href="https://divine-pride.net/database/item/28568" target="_blank" rel="noopener">Cursed Emerald Earrings <span class="entry-slot">[1]</span></a>
+    <span class="entry-type">Right side</span>
+  </div>
+  <div class="entry-set-line">🔗 Teil von <a href="items-md-equip.html#sec-hard-mode-accessories">Hard-Mode Accessoires</a></div>
+  
+  
+  <div class="entry-card-foot"><span>kRO #28568</span><a href="https://divine-pride.net/database/item/28568" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+              </div>
+            </div>
+      <!-- EMBED:END ov-hardmode -->
+    </section>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a>
+</footer>
+
+</body>
+</html>

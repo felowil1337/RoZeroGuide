@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klassische Rüstung — Activation (經典防具活化) — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html" class="active"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">經典防具活化 · Classic Armor</span>
+      <h1>Klassische Rüstung — Activation (經典防具活化)</h1>
+      <p class="lead">Die offiziellen Screenshots aller <strong>klassischen Rüstungen</strong>, die sich über das Activation-System aktivieren lassen — vollständige Bilderliste mit Update-Status.</p>
+    </div>
+
+    <section>
+      <span class="source-note">Offizielle Quelle: roz.gnjoy.com.tw · News ID 218186 · 10.02.2026</span>
+
+      <h2>🛡️ Worum geht's?</h2>
+      <p>Analog zum <a href="aktivierung-stern.html">Tier-2-★-Waffen-Activation</a> gibt es auch für <strong>klassische Rüstungen</strong> (經典防具) einen Activation-Pfad. Dieser Artikel listet die offiziellen Referenz-Screenshots aller aktivierbaren Rüstungen — mit Stand 10. Februar 2026.</p>
+
+      <div class="info-box note">
+        <strong>Kontext:</strong> Das generelle Activation-Konzept wird auf <a href="stern-grade.html">Aktivierung (Stern-Grade)</a> erklärt. Diese Seite ist rein eine Referenzliste.
+      </div>
+    </section>
+
+    <section>
+      <h2>📋 Activation-Liste</h2>
+      <p>Update 10.02.2026 — komplette offizielle Screenshots:</p>
+
+      <div class="image-gallery readable">
+        <figure>
+          <img src="images/activation/2026_02_09_4578742557514718acc4842ae61c59ee.png" alt="Classic Armor Activation #1">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Upgrade-Anforderungen und Boni für die ★Steel Chain Mail in Ragnarok Zero.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Item-Informationen</th><th>Upgrade-Materialien</th><th>Upgrade-Hinweise</th></tr></thead>
+<tbody>
+<tr><td>★Steel Chain Mail: MHP+300, DEF+40, MDEF+2. Refine +2: MHP+200, DEF+5. Refine +3: MHP+200, DEF+30. Refine +7: MHP+450, DEF+40. Refine +9: MHP+1000, MHP+7%, DEF+70. Type: Armor, DEF: 75, Weight: 250, Required Level: 1, Class: All.</td><td>★Steel Chain Mail Certificate x100, Goblin Shard x30</td><td>Refine -3. Bonus: Retained. Cards &amp; Enchants: Retained.</td></tr>
+<tr><td></td><td>★Steel Chain Mail Certificate x10, Goblin Shard x3</td><td>Refine -7. Bonus: Retained. Cards &amp; Enchants: Retained.</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Der Gegenstand ist bei Handelstransfers eingeschränkt.</em></p>
+</div>
+          <figcaption>Klassische Rüstung — Activation #1</figcaption>
+        </figure>
+        <figure>
+          <img src="images/activation/2026_02_09_8e68151c41384ea0bb34ad3558b36ee3.png" alt="Classic Armor Activation #2">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Gegenstandsinformationen sowie die erforderlichen Materialien und Bedingungen für die Modifikation des ★Long Coat.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Gegenstandsinformationen</th><th>Modifikationsmaterialien</th><th>Modifikationsbeschreibung</th></tr></thead>
+<tbody>
+<tr><td>★Long Coat: Ein warmer langer Mantel aus hochwertigem Stoff. MHP+150, MSP+50, DEF+40, MDEF+5. Bei jeder Refine-Stufe +2: MHP+200, MDEF+2. Ab Refine +3: MHP+100, MSP+20. Ab Refine +7: MHP+200, MSP+25. Ab Refine +9: MHP+400, MSP+35, MSP+5%. Typ: Armor, DEF: 60, Gewicht: 80, Benötigtes Level: 1, Ausrüstbar für: Alle Klassen. Gegenstand unterliegt Handelsbeschränkungen.</td><td>★Long Coat Casting Proof x100, Goblin Shard x30</td><td>Refine-Wert -3, Zusätzliche Fähigkeiten: beibehalten, Karten und Verzauberungen: beibehalten</td></tr>
+<tr><td></td><td>★Long Coat Casting Proof x10, Goblin Shard x3</td><td>Refine-Wert -7, Zusätzliche Fähigkeiten: beibehalten, Karten und Verzauberungen: beibehalten</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Modifikationsbeschreibung gibt an, dass bei der Durchführung die Refine-Stufe reduziert wird, während Karten und Verzauberungen des ursprünglichen Gegenstandes erhalten bleiben.</em></p>
+</div>
+          <figcaption>Klassische Rüstung — Activation #2</figcaption>
+        </figure>
+        <figure>
+          <img src="images/activation/2026_02_09_30953acfba4b4f82a6bf539a059dc47d.png" alt="Classic Armor Activation #3">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die für das Item 'Leather Jacket' erforderlichen Materialien und Bedingungen für zwei verschiedene Veredelungsstufen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Item Informationen</th><th>Veredelungsmaterialien</th><th>Veredelungsbeschreibung</th></tr></thead>
+<tbody>
+<tr><td>Leather Jacket: A leather jacket made of Milos skin instead of regular leather. MHP+250, MSP+20, FLEE+5. Every 2 Refine, MHP+100. If Refine +3 or higher, additional MHP+50, FLEE+3. If Refine +7 or higher, additional MHP+150, FLEE+5. If Refine +9 or higher, additional MHP+350, FLEE+12. Type: Armor, DEF: 50, Weight: 5, Req Level: 1, Class: All.</td><td>Leather Jacket Casting Certificate x100, Goblin Shard x30</td><td>Refine -3, Bonus abilities: Kept, Cards and Enchants: Kept</td></tr>
+<tr><td>Leather Jacket (Same stats as listed)</td><td>Leather Jacket Casting Certificate x10, Goblin Shard x3</td><td>Refine -7, Bonus abilities: Kept, Cards and Enchants: Kept</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die im Feld 'Item Informationen' aufgeführten Statistiken gelten für die Basis-Version des Items. Das Item ist für den Handel gesperrt.</em></p>
+</div>
+          <figcaption>Klassische Rüstung — Activation #3</figcaption>
+        </figure>
+        <figure>
+          <img src="images/activation/2026_02_09_0bf6748ca4b74aa0853d34b4779a3544.png" alt="Classic Armor Activation #4">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Gegenstandsinformationen sowie die erforderlichen Materialien und Bedingungen für die Aufwertung des ★Hooded Mantle.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Gegenstandsinformationen</th><th>Umwandlungsmaterialien</th><th>Umwandlungsdetails</th></tr></thead>
+<tbody>
+<tr><td>+3 ★Hooded Mantle
+Ein Mantel mit schöneren Mustern.
+MHP +100, HP-Regeneration +20%.
+Bei Refine +3 oder höher, zusätzlich MHP +200, MHP +1%.
+Bei Refine +7 oder höher, zusätzlich MHP +250, MHP +2%.
+Bei Refine +9 oder höher, zusätzlich MHP +450, MHP +4%.
+Typ: Garment, DEF: 8
+Gewicht: 10
+Benötigtes Level: 1
+Klasse: Alle Jobs
+Handelsbeschränkter Gegenstand</td><td>★Hooded Mantle Refinement Certificate x100
+Goblin Shard x30</td><td>Refine -3
+Zusätzliche Boni: beibehalten
+Karten und Verzauberungen: beibehalten</td></tr>
+<tr><td></td><td>★Hooded Mantle Refinement Certificate x10
+Goblin Shard x3</td><td>Refine -7
+Zusätzliche Boni: beibehalten
+Karten und Verzauberungen: beibehalten</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Tabelle beschreibt die Kosten für das 'Refinement' bzw. die Umwandlung des Gegenstandes ★Hooded Mantle.</em></p>
+</div>
+          <figcaption>Klassische Rüstung — Activation #4</figcaption>
+        </figure>
+        <figure>
+          <img src="images/activation/2026_02_12_d5198c999c1041ba837b290842b19864.png" alt="Classic Armor Activation #5 (12.02.2026)">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Anforderungen und Effekte für die Modifikation des ★Garment Gegenstandes.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Gegenstandsinformationen</th><th>Modifikationsmaterialien</th><th>Modifikationsbeschreibung</th></tr></thead>
+<tbody>
+<tr><td>★Garment: Hergestellt aus besserem Stoff als das ursprüngliche Garment, fühlt sich sehr warm an. MHP+100, SP Regeneration +20%. Bei Refine +3 oder höher, MHP+200, MSP+1%. Bei Refine +7 oder höher, MHP+250, MSP+2%. Bei Refine +9 oder höher, MHP+450, MSP+4%. Typ: Garment, DEF: 16, Gewicht: 20, Benötigtes Level: 1, Ausrüstbar für: Alle Klassen. (Gegenstand ist an den Account gebunden)</td><td>★Garment Proof of Forging x100, Goblin Shard x30</td><td>Refine -3, Bonus-Stats: behalten, Karten und Verzauberungen: behalten</td></tr>
+<tr><td></td><td>★Garment Proof of Forging x10, Goblin Shard x3</td><td>Refine -7, Bonus-Stats: behalten, Karten und Verzauberungen: behalten</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Modifikationsbeschreibung gibt an, dass der Refine-Wert um den angegebenen Betrag reduziert wird, während Karten, Verzauberungen und Bonus-Stats beim Prozess erhalten bleiben.</em></p>
+</div>
+          <figcaption>Klassische Rüstung — Activation #5 (Update 12.02.2026)</figcaption>
+        </figure>
+        <figure>
+          <img src="images/activation/2026_02_09_a96647c58fd44c33a66a4057006dd49b.png" alt="Classic Armor Activation #6">
+<div class="translated-table-block">
+<p class="translated-summary">Diese Tabelle zeigt die Gegenstandsinformationen für die Warrior Boots und die Anforderungen für deren zwei mögliche Modifikationsstufen.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Gegenstandsinformationen</th><th>Modifikationsmaterialien</th><th>Modifikationsbeschreibung</th></tr></thead>
+<tbody>
+<tr><td>Warrior Boots: MHP+100, HP Recovery +5%. Refine +3: MHP+200, HP Recovery +5%. Refine +7: MHP+350, HP Recovery +10%. Refine +9: MHP+8%, Heal effectiveness +10%. Type: Shoes, DEF: 25, Weight: 30, Required Level: 1, Class: All.</td><td>Warrior Boots Certificate x100, Goblin Shard x30</td><td>Refine -3, Bonus: Retained, Cards &amp; Enchants: Retained</td></tr>
+<tr><td>Warrior Boots: MHP+100, HP Recovery +5%. Refine +3: MHP+200, HP Recovery +5%. Refine +7: MHP+350, HP Recovery +10%. Refine +9: MHP+8%, Heal effectiveness +10%. Type: Shoes, DEF: 25, Weight: 30, Required Level: 1, Class: All.</td><td>Warrior Boots Certificate x10, Goblin Shard x3</td><td>Refine -7, Bonus: Retained, Cards &amp; Enchants: Retained</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Der Gegenstand kann nicht an andere Charaktere übertragen werden.</em></p>
+</div>
+          <figcaption>Klassische Rüstung — Activation #6</figcaption>
+        </figure>
+        <figure>
+          <img src="images/activation/2026_02_09_e726fd89de8e44f2a293f17be28a280e.png" alt="Classic Armor Activation #7">
+<div class="translated-table-block">
+<p class="translated-summary">Tabelle, die die benötigten Materialien und Modifikationen für das Upgrade der 'Light Shoes' in Ragnarok Zero zeigt.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Item-Informationen</th><th>Umwandlungsmaterialien</th><th>Umwandlungsdetails</th></tr></thead>
+<tbody>
+<tr><td>Light Shoes: MHP+100, SP recovery rate+5%. Refine +3: MHP+200, SP recovery rate+5%. Refine +7: MHP+350, SP recovery rate+10%. Refine +9: MHP+8%, Healing received+10%. Type: Shoes, DEF: 15, Weight: 10, Req Lvl: 1, Class: All.</td><td>Light Shoes Certificate x100, Goblin Shard x30</td><td>Refine value -3, Enchants: Kept, Cards/Refinements: Kept</td></tr>
+<tr><td>Light Shoes (Item stats listed in first row)</td><td>Light Shoes Certificate x10, Goblin Shard x3</td><td>Refine value -7, Enchants: Kept, Cards/Refinements: Kept</td></tr>
+</tbody></table></div>
+<p class="translated-notes"><em>Die Fußnote im Item-Fenster besagt, dass der Handel mit diesem Gegenstand eingeschränkt ist.</em></p>
+</div>
+          <figcaption>Klassische Rüstung — Activation #7</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>💡 Praxis-Tipps</h2>
+      <ul>
+        <li><strong>Mix mit Weapon Activation:</strong> Wenn du schon eine ★-Waffe trägst, lohnt sich die Aktivierung der passenden Rüstung als Gesamt-Setup</li>
+        <li><strong>Materialien sichern:</strong> Auch Armor Activation braucht Reagenzien — vor dem Start planen</li>
+        <li><strong>Re-Roll möglich:</strong> Wie bei Waffen-★-Activation kann auch hier gewürfelt werden — je nach Zielprofil Re-Roll nutzen</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>⚠️ Hinweise</h2>
+      <div class="info-box warning">
+        <ol>
+          <li>Items &amp; Bonuswerte richten sich nach den In-Game-Einstellungen.</li>
+          <li>Änderungen oder Ergänzungen stets auf der <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=218186" target="_blank">Originalseite</a> prüfen.</li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer">
+  Quelle: <a href="https://roz.gnjoy.com.tw/Notice/Notice_Info?id=218186" target="_blank">roz.gnjoy.com.tw — 經典防具活化</a> (News ID 218186) · Screenshots © Gravity / GNJOY TW
+</footer>
+
+</body>
+</html>

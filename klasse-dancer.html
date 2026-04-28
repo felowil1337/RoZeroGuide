@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klasse Dancer — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html" class="active">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+  <div class="page-hero">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+
+      <div>
+        <span class="eyebrow">Klassen · Comodo</span>
+        <h1>Dancer</h1>
+        <p class="lead">2nd Job aus dem Archer-Pfad (weiblich). Pendant zum Bard mit Whip-Skills, eigenen Solo-Songs (Service for You, Humming) und Ensemble-Hälfte.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Poem of Bragi / Support</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Der Herzschlag der Party</p>
+      <p>Das ist die wichtigste Support-Rolle in TWROZ. Mit A Poem of Bragi reduzierst du Cast-Time und After-Cast-Delay der gesamten Party drastisch. Der Damage-Output eines Wizards verdoppelt sich, wenn er in deinem Song steht.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>INT</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">70-80</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">50-70</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>A Poem of Bragi (Lv. 10)</strong> — Reduziert Cast-Time und After-Cast-Delay für alle Verbündeten in Reichweite.</li>
+  <li><strong>Assassin Cross of Sunset (Lv. 10)</strong> — Erhöht massiv die Party-ASPD. Pflicht für Knight/Assassin-Parties.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Die Wirksamkeit eines Songs wird im MOMENT des Castens berechnet. Hast du einen INT-Buff, warte, bis er proct, bevor du den Song startest.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Arrow Vulcan Burst</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">High-Tier Range-DPS</p>
+      <p>Arrow Vulcan ist das primäre DPS-Tool für Bards/Dancers in Zero. Es teilt Multi-Hit Range-Schaden mit hohem Multiplier aus. In TWROZ ist dieser Build eine beliebte Alternative zum Sniper für sicheres Farmen.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>DEX</strong> <span class="stat-val">99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">80-90</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">40-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Arrow Vulcan (Lv. 10)</strong> — Schießt eine Pfeilsalve für massiven Single-Target-Schaden.</li>
+  <li><strong>Musical Lesson (Lv. 10)</strong> — Erhöht passiv den Schaden mit Instrumenten.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Du kannst Arrow Vulcan mit einem Bogen ODER einem Instrument nutzen. Bögen machen mehr Roh-Schaden, mit Instrumenten kannst du sofort in Songs wechseln.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>PVP / Gypsy Kiss Control</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Anti-Magie und SP-Batterie</p>
+      <p>Fokussiert auf Service for You (Gypsy's Kiss) und Frost Joker. In TWROZ-WoE ist deine Aufgabe sicherzustellen, dass deiner Party nie die SP ausgehen, während du die gesamte Frontlinie der Gegner einfrierst.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>VIT</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">80-90</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">60-70</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>AGI</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Service for You / Gypsy's Kiss (Lv. 10)</strong> — Erhöht massiv Max-SP und reduziert den SP-Verbrauch der Party.</li>
+  <li><strong>Frost Joker / Scream (Lv. 5)</strong> — Großflächige Chance, alle Gegner in Reichweite einzufrieren oder zu stunnen.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Nutze 'Encore', um deine letzte Performance für die halben SP-Kosten neu zu starten. Essentiell für lange WoE-Belagerungen.
+    </div>
+  </section>
+
+  <section>
+    <h2>Komplette Skill-Liste</h2>
+    <p>Alle 26 Skills der Archer → Dancer Klasse. Quelle: ratemyserver.net.</p>
+
+    <h3>1. Job — Archer (7 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Owl&#x27;s Eye <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht DEX um 1*SkillLV.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Vulture&#x27;s Eye <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Owl&#x27;s Eye Lv 3</p>
+      <p class="skill-desc">Erhöht die Reichweite von Bögen um 1*SkillLV Zellen und HIT um 1 pro SkillLV.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Attention Concentrate <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Vulture&#x27;s Eye Lv 1</p>
+      <p class="skill-desc">Erhöht DEX und AGI des Casters um (2+1*SkillLV)%. Wirkt nur auf DEX/AGI aus Base-Stat, Job-Bonus, Rüstung und Owl's Eye. Karten werden nicht berücksichtigt. Deckt versteckte und gecloakte Charaktere im Umkreis von 3 Zellen auf.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Double Strafing <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Range-Angriff, der zwei Pfeile abfeuert und mit (180+20*SkillLV)% ATK trifft. Benötigt einen ausgerüsteten Bogen. Verbraucht nur 1 Pfeil.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Arrow Shower <span class="skill-tag">Offensive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Double Strafe Lv 5</p>
+      <p class="skill-desc">3x3 Zellen Range-Splash-Angriff mit (75+5*SkillLV)% ATK. Getroffene Gegner werden 2 Zellen zurückgestoßen. Benötigt einen ausgerüsteten Bogen. Verbraucht nur 1 Pfeil.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Making Arrow <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Stellt Pfeile aus einem Item her. Verschiedene Items ergeben unterschiedliche Mengen und Typen von Pfeilen. Nicht nutzbar bei über 50% Gewicht. Arrow Crafting Guide: Hier klicken</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Charge Arrow <span class="skill-tag">Offensive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Range-Angriff mit 150% ATK. Das Ziel wird 6 Zellen zurückgestoßen. Verbraucht nur 1 Pfeil.</p>
+    </div>
+    </div>
+
+    <h3>2. Job — Dancer (19 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block active">
+      <h5>Adaptation to Circumstances <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Bricht einen aktuellen Song oder Tanz ab. Derselbe Song kann nicht sofort erneut gespielt werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Encore <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Adaptation to Circumstances Lv 1</p>
+      <p class="skill-desc">Spielt den letzten Song oder Tanz erneut für die halben SP-Kosten.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Lullaby <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Verzaubert alle Gegner im Wirkungsbereich mit Sleep. Der Effekt tritt alle 6 Sekunden für 60 Sekunden auf (11 Mal) und wird vom INT des Casters beeinflusst, kann aber je nach Resistenz fehlschlagen. Kann nicht durch Dispell entfernt werden.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Mr. Kim A Rich Man <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht die EXP von Mobs, die im Wirkungsbereich getötet werden, um (125+11*SkillLV)%. Kann nicht durch Dispell entfernt werden.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Eternal Chaos <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Reduziert die DEF von Gegnern im Wirkungsbereich auf 0. Kann nicht durch Dispell entfernt werden.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>A Drum on the Battlefield <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht ATK um 25+25*SkillLV und DEF um 2+2*SkillLV aller Party-Mitglieder im Wirkungsbereich. Kann nicht durch Dispell entfernt werden.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>The Ring of Nibelungen <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den Schaden aller Level-4-Waffen im Wirkungsbereich um DEF-ignorierende +50+25*SkillLV. Kann nicht durch Dispell entfernt werden.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Loki&#x27;s Veil <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Blockiert jegliche Skill-Nutzung für alles (auch Spieler) im Wirkungsbereich. Kann nicht durch Dispell entfernt werden. Funktioniert nicht gegen Boss-Monster.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Into the Abyss <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Alle Party-Mitglieder im Wirkungsbereich können Spells ohne Edelsteine casten und Traps ohne Item legen. Kann nicht durch Dispell entfernt werden.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Invulnerable Siegfried <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht die Resistenz gegen elementare Angriffe und Status-Ailments für alle Spieler im Wirkungsbereich. Kann nicht durch Dispell entfernt werden.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Dancing Lesson <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht den Schaden von Whip-Waffen und die Effektivität von Tanz-Skills um 3 pro SkillLV. Dieser Skill kompensiert außerdem teilweise die Geh-Geschwindigkeitsreduktion während einer Performance.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Throw Arrow <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Dancing Lesson Lv 3</p>
+      <p class="skill-desc">Ermöglicht der Dancer, einen Pfeil mit ihrer Whip zu schleudern, als würde sie ihn aus einem Bogen schießen. Andere Tanz-Skills können in Kombination mit diesem Skill verwendet werden. Das Element des Angriffs hängt von den ausgerüsteten Pfeilen ab. ATK-Steigerung beträgt (125+25*SkillLV)%.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Ugly Dance <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Saugt SP von Gegnern im Wirkungsbereich. Saugt 5+5*SkillLV SP alle 3 Sekunden ab (insgesamt 11 Mal). Tritt auch dort auf, wo sich zwei Tänze überlappen.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Scream <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Encore Lv 1</p>
+      <p class="skill-desc">Verursacht Stun bei allem (auch Spielern) im Wirkungsbereich. In PvP- oder Guild-Siege-Bereichen wirkt der Skill auch auf den Caster selbst. Stun-Chance beträgt (25+5*SkillLV)% und die Dauer 5 Sekunden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Humming <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht HIT von Spielern im Wirkungsbereich um +2 pro SkillLV. Die durch diesen Skill erhöhte Trefferrate wird durch Dancing-Lesson-Level und DEX des Casters beeinflusst.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Please Don&#x27;t Forget Me <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Verringert ASPD um 3% pro SkillLV und Movement um 2% pro SkillLV aller Gegner im Wirkungsbereich. Hebt alle Skills auf, die Bewegung oder ASPD erhöhen. Die durch diesen Skill verringerte ASPD wird durch Dancing-Lesson-Level und DEX des Casters beeinflusst. Die verringerte Bewegungsgeschwindigkeit wird durch Dancing-Lesson-Level und AGI des Casters beeinflusst.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Fortune&#x27;s Kiss <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht die Critical Rate aller Spieler im Wirkungsbereich um 1% pro SkillLV. Die durch diesen Skill erhöhte Critical Rate wird durch Dancing-Lesson-Level und LUK des Casters beeinflusst.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Service for You <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erhöht Maximum-SP aller Spieler im Wirkungsbereich um (15+SkillLV)%. Reduziert den Verbrauch aller Skills im Wirkungsbereich um (20+3*SkillLV)%. Die durch diesen Skill erhöhte Maximum-SP wird durch Dancing-Lesson-Skill und INT des Casters beeinflusst. Die SP-Verbrauchsreduktion wird ebenfalls durch Dancing-Lesson-Skill und INT des Casters beeinflusst.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Wink of Charm <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Verzaubert ein Ziel mit einem verführerischen Augenzwinkern. Für 10 Sekunden wird das Zielmonster dich nicht angreifen. Je höher dein Level im Vergleich zum Monster, desto höher die Chance, dass dieser Skill funktioniert. Wird er auf einen Spieler angewendet, hat er eine geringe Chance, den Status 'Confusion' zu verursachen. Dieser Skill funktioniert nur auf DemiHuman-, Angel- und Demon-Monstern und natürlich nicht gegen Boss-Monster.</p>
+    </div>
+    </div>
+  </section>
+
+  <section><h2>Level-Milestones</h2><ul><li><strong>2nd Job 1–50:</strong> Party-Run mit Wizard/Hunter (Solo schwierig wegen niedrigem Damage).</li><li><strong>2nd Job 50–99:</strong> Glast Heim Party (Bragi-Support).</li></ul></section>
+
+  <p>Cross-Links: <a href="klassen.html">Klassen-Übersicht</a> · <a href="leveling.html">Level-Routen</a> · <a href="ausruestung.html">Ausrüstung</a> · <a href="md-equipment.html">MD-Equipment</a></p>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://ratemyserver.net/" target="_blank" rel="noopener">RateMyServer</a>
+</footer>
+
+</body>
+</html>

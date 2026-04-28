@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klasse Monk — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html" class="active">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+  <div class="page-hero">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      
+      <div>
+        <span class="eyebrow">Klassen · Prontera</span>
+        <h1>Monk</h1>
+        <p class="lead">2nd Job aus dem Acolyte-Pfad. Verwandelt INT in physischen Combo-Damage. Asura Strike als Burst-Kill, Combo-Skills für Sustained Damage.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Asura Strike BOSS Hunter</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Der ultimative MVP-Finisher</p>
+      <p>Das ist der definitive Monk-Build in Zero für MVP-Wettkämpfe. Durch Maximierung von STR und SP landest du einen einzigen katastrophalen Treffer, der die meisten BOSS-Verteidigungen umgeht. In Zero ist das deine Hauptrolle in High-End-Gilden.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>STR</strong> <span class="stat-val">99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">70-80</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">50-60</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Asura Strike (Lv. 10)</strong> — Verbraucht das gesamte SP und alle Spirit Spheres für einen einzigen massiven Schlag.</li>
+  <li><strong>Mental Sensing (Lv. 5)</strong> — Entscheidend für das Überleben. Setzt DEF/MDEF auf 90, kostet dafür Bewegung.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Nutze immer 'Dangerous Soul Collect' (Quest-Skill), um alle 5 Spheres sofort zu beschwören. Beschwöre Spheres in einem Bosskampf niemals manuell.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Combo Leveling Specialist</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Anhaltender Nahkampf-DPS</p>
+      <p>Der Combo Monk ist in Zero eine Leveling-Maschine. Durch das Verketten von Triple Attack, Chain Combo und Finish Combo legst du Mobs mit hoher HP bei minimalem SP-Verbrauch um. Perfekt zum Farmen von Orc Lady oder Magma Dungeon.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>AGI</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>STR</strong> <span class="stat-val">70-80</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">40-50</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>LUK</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Triple Attack (Lv. 10)</strong> — Passive Chance, einen 3-Hit-Schlag auszuführen und eine Combo zu starten.</li>
+  <li><strong>Finish Combo (Lv. 5)</strong> — Der finale schwere Schlag in deiner Combo-Kette.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> In Zero kann bestimmtes Shadow Gear automatisch 'Call Spirits' casten. Das ist ein Game-Changer für Combo-Monks – besorg es so früh wie möglich.
+    </div>
+  </section>
+
+  <section class="build-section">
+    <header style="border-left:4px solid var(--accent);padding-left:16px;margin-bottom:12px">
+      <h2>Spirit Sphere Sniper</h2>
+      <p style="text-transform:uppercase;letter-spacing:0.05em;font-size:13px;color:var(--accent);font-weight:700;margin:4px 0">Taktischer Fernkampf</p>
+      <p>Ein Nischen-Build, aber stark in der Zero-Meta. Durch den Einsatz von Spirit Sphere Absorption und Finger Offensive wirst du zum physischen Caster auf Distanz. Hervorragend, um Ziele mit hoher DEF aus sicherer Entfernung wegzusnipen.</p>
+    </header>
+
+    <h3>Optimaler Stat-Spread</h3>
+    <p class="stat-priority"><span class="stat-step"><strong>STR</strong> <span class="stat-val">90-99</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>DEX</strong> <span class="stat-val">80-90</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>INT</strong> <span class="stat-val">40-50</span></span> <span class="stat-arrow">→</span> <span class="stat-step"><strong>VIT</strong> <span class="stat-val">Remaining</span></span></p>
+
+    <h3>Priority-Skills für diesen Build</h3>
+    <ul class="priority-skills">
+  <li><strong>Finger Offensive (Lv. 5)</strong> — Schleudert Spirit Spheres auf Distanz. Der Schaden skaliert mit der Zahl der Spheres.</li>
+  <li><strong>Spirit Sphere Absorption (Lv. 1)</strong> — Stellt SP wieder her, indem du Spheres von dir selbst oder Gegnern absorbierst.</li>
+</ul>
+
+    <div class="info-box tip">
+      <strong>💡 Pro-Tipp:</strong> Nutze 'Spirit Sphere Absorption' auf Monstern, die Spheres beschwören (etwa andere Monks), um in PvP oder bestimmten Dungeons ihr SP zu stehlen.
+    </div>
+  </section>
+
+  <section>
+    <h2>Komplette Skill-Liste</h2>
+    <p>Alle 32 Skills der Acolyte → Monk Klasse. Quelle: ratemyserver.net.</p>
+
+    <h3>1. Job — Acolyte (15 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Divine Protection <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Reduziert Schaden von Monstern der Property Undead und der Familie Demon um (3*SkillLV)+[0.04*(BaseLV + 1)]. Der Schaden wird nach den DEF-Reduktionen abgezogen. Wirkt nicht gegen Spieler. Grundwert ohne BaseLV-Modifikation:</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Demon Bane <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Divine Protection Lv 3</p>
+      <p class="skill-desc">Erhöht den Schaden gegen Monster der Property Undead und der Familie Demon um (3*SkillLV)+[0.05*(BaseLV + 1)]. Der Schaden ignoriert DEF-Reduktion durch Rüstung, aber nicht durch VIT. Der Skill-Bonus steigt mit höherem BaseLV des Charakters. Wirkt nicht gegen Spieler. Grundwert ohne BaseLV-Modifikation:</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Ruwach <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Deckt Spieler und Monster mit Hiding oder Cloaking innerhalb der Reichweite auf. Aufgedeckte Ziele werden von einem Magieangriff mit Element Holy getroffen, Stärke MATK*1.45.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Pneuma <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Warp Portal Lv 4</p>
+      <p class="skill-desc">Erzeugt eine 3x3-Zellen-Wolke (obwohl die Animation nur die mittlere Zelle abdeckt!) um die Zielzelle, die alle Physical-Fernangriffe blockiert. Das blockiert auch die Bogenangriffe von Spielern, also vorsichtig, damit Hunter oder Bow Thieves in der Gruppe noch Schaden machen können! Monster gelten als &quot;ranged&quot;, wenn ihre Angriffsreichweite 4 oder mehr Zellen beträgt. Pneuma kann nicht gecastet werden, wenn es ein bestehendes Pneuma-Feld oder eine Safety-Wall-Zelle überlappt. Blockiert keinen Splash-Schaden und hebt die Flee-Reduzierung durch mehrere Angreifer nicht auf. Beachte: Auch wenn die Animation auf einem Land Protector zu sehen ist, hat Pneuma dort keine Wirkung.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Teleportation <span class="skill-tag">Active · Lv 2</span></h5>
+      <p class="skill-prereq">Voraussetzung: Ruwach Lv 1</p>
+      <p class="skill-desc">Auf Level 1 kannst du dich an eine zufällige Stelle auf derselben Map teleportieren. Auf Level 2 kannst du zusätzlich zu deinem Save Point teleportieren. Beim Casten erscheint ein Fenster mit den verfügbaren Optionen (inklusive Abbrechen). Du musst per Klick oder mit Pfeil hoch/runter und Enter eine Option auswählen, damit der Effekt eintritt. Nach dem Teleport zählst du, als wärst du gerade neu auf die Map gekommen. Das heißt: Aggressive Monster sehen dich für 3 Sekunden nicht, oder bis du dich bewegst.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Warp Portal <span class="skill-tag">Active · Lv 4</span></h5>
+      <p class="skill-prereq">Voraussetzung: Teleport Lv 2</p>
+      <p class="skill-desc">Erzeugt auf der Zielzelle ein Warp-Portal, nachdem ein Ziel aus einer Liste gewählt wurde. Der Zauber kann nicht unter einem Monster oder Spieler gecastet werden. Betritt jemand die Zielzelle, während das Ziel ausgewählt wird, schlägt der Zauber fehl. Nach erfolgreichem Cast wird jeder, der die betroffene Zelle betritt, an den gewählten Ort teleportiert. Die wählbaren Ziele werden mit dem /memo-Befehl an der gewünschten Stelle gesetzt sowie über deinen aktuellen Save Point. Auf Indoor-Maps (Dungeons und Innenräume in Städten) sowie auf einigen weit von Städten entfernten Maps lassen sich keine Memo-Points setzen. Setzt du auf einer Map einen neuen Memo-Point, wo bereits einer existiert, wird der alte ersetzt. Sind alle 3 Memo-Points belegt, ersetzt ein neuer den ältesten Memo-Point (den untersten in der Liste). Die Anzahl verfügbarer Memo-Points entspricht SkillLV - 1 (auf Level 1 hast du also keine Memo-Points und kannst nur ein Warp Portal zum Save Point casten). Die maximale Personenzahl, die der Caster gleichzeitig warpen kann, beträgt 8 – unabhängig vom Skill-Level. Es können nicht mehr als 3 Warp Portals desselben Casters gleichzeitig aktiv sein. Verlässt der Caster die Map, auf der das Portal gecastet wurde, verschwindet das Portal.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Heal <span class="skill-tag">Support / Buff · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Heilt das HP des Ziels um [(BaseLV+INT)/8]*(4+8*SkillLV). Eingesetzt gegen Monster der Property Undead ist es ein Holy-Angriff, der MDEF und INT ignoriert, aber nur halben Schaden anrichtet (also HealValue*ElementModifier/2). Um gegen ein Monster zu casten, musst du es mit Shift+Klick anklicken oder /noshift aktivieren.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Increase Agility <span class="skill-tag">Support / Buff · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Heal Lv 3</p>
+      <p class="skill-desc">Erhöht die AGI des Ziels um 2+SkillLV und steigert das Bewegungstempo um 25%. Beim Cast erscheint die Meldung &quot;AGI UP&quot; über dem Ziel. Hebt beim Cast Decrease Agility auf. Wird durch Decrease Agility und Quagmire aufgehoben. Ein Monster oder Spieler im Wirkungsbereich eines Quagmire-Zaubers kann nicht von Increase Agility profitieren. Dieser Skill verbraucht zusätzlich zu den SP-Kosten etwas HP.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Decrease Agility <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Increase Agility Lv 1</p>
+      <p class="skill-desc">Senkt die AGI des Ziels um 2+SkillLV und reduziert das Bewegungstempo um 25%. Der Skill kann fehlschlagen; der Erfolg wird durch den Text &quot;AGI down&quot; über dem Ziel zum Cast-Zeitpunkt angezeigt. Ein erfolgreicher Cast hebt Increase Agility, Adrenaline Rush, Two-Hand Quicken, Spear Quicken und Cart Boost auf. Die Effekte kombinieren sich mit Quagmire in der Form AGI/2-2+SkillLV. Die vermutete Erfolgsformel lautet SuccessRate = 40 + 2*SkillLV + (BaseLV + INT)/5 - Target MDEF, wobei SuccessRate in Prozent angegeben ist. Auf Spielern ist die Dauer halbiert. Wirkt nicht gegen Boss-Monster.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Aqua Benedicta <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Erzeugt 1 Holy Water. Der Caster muss im Wasser stehen, damit der Skill erfolgreich ist. Map-weite Überflutung (Undersea Tunnel Lv 4/5 oder Sunken Ship) funktioniert nicht.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Signum Crucis <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Demon Bane Lv 3</p>
+      <p class="skill-desc">Reduziert die DEF (nicht VIT-DEF) von Monstern der Property Undead und der Familie Demon im sichtbaren Bereich um (10+4*SkillLV)% (zusätzlich modifiziert durch die BaseLV von Ziel und Caster). Der Skill kann pro Monster fehlschlagen; die vermutete Erfolgsformel lautet SuccessRate in % = 23 + 4*SkillLV + BaseLV - TargetLV. Betroffene Monster werden durch den Schweißtropfen-Emote (/swt) angezeigt. Der Effekt von Signum Crucis stackt mit dem Effekt von Provoke.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Angelus <span class="skill-tag">Active · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Divine Protection Lv 3</p>
+      <p class="skill-desc">Erhöht die DEF aus VIT aller Gruppenmitglieder im sichtbaren Bereich um (5*SkillLV)%. Erhöht keine anderen VIT-bezogenen Werte.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Blessing <span class="skill-tag">Support / Buff · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Divine Protection Lv 5</p>
+      <p class="skill-desc">Erhöht STR, DEX und INT des Ziels um 1*SkillLV und entfernt jeden Curse-Effekt. Auf Monstern der Property Undead oder der Familie Demon halbiert es deren STR, DEX und INT – unabhängig vom Skill-Level. Dieser &quot;Bless Curse&quot; bzw. das &quot;Offensive Blessing&quot; senkt HIT und MATK eines Monsters, hat aber keinen Effekt auf ATK. Dieser Effekt wirkt nicht gegen Spieler oder Boss-Monster.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Cure <span class="skill-tag">Support / Buff · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Heal Lv 2</p>
+      <p class="skill-desc">Heilt Blind, Confusion und Silence (Einschränkung: Du kannst dich nicht selbst von Silence heilen, da du unter Silence nichts casten kannst). Wirkt nicht gegen Spieler.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Holy Light <span class="skill-tag">Offensive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Verursacht einen einzelnen Treffer mit Element Holy in Höhe von 125% deines MATK.</p>
+    </div>
+    </div>
+
+    <h3>2. Job — Monk (17 Skills)</h3>
+    <div class="skill-tree">
+    <div class="skill-block passive">
+      <h5>Iron Hand <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Demon Bane Lv 10 , Divine Protection Lv 10</p>
+      <p class="skill-desc">Erhöht die Angriffskraft von Fäusten und Waffen vom Typ Knuckle um 3 pro SkillLV.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Spirits Recovery <span class="skill-tag">Passive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Blade Stop Lv 2</p>
+      <p class="skill-desc">Regeneriert HP und SP alle 10 Sekunden im Sitzen (nicht im Stehen). Bei Overweight greift die Regeneration alle 20 Sekunden und funktioniert auch während der Erholungsphase nach Asura Strike, allerdings ohne die natürlichen Regenerations-Boni (z. B. regeneriert man auf Lv 2 nach Asura Strike nur +8/+4 pro 10 Sek., unabhängig von INT und VIT). Die Grund-HP-Regeneration beträgt 4 HP pro SkillLV, modifiziert durch Maximum HP/500. Die Grund-SP-Regeneration beträgt 2 SP pro SkillLV, modifiziert durch Maximum SP/100.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Call Spirits <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Iron Hand Lv 2</p>
+      <p class="skill-desc">Beschwört pro Cast eine Spirit Sphere. Spirit Spheres werden für einige Skills benötigt und dabei verbraucht. Die maximale Anzahl an Spheres richtet sich nach dem gelernten SkillLV. Jede aktive Sphere gibt +3 ATK mit Holy-Element, das nie verfehlt. Der Cast ist nicht unterbrechbar.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Absorb Spirits <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Verbraucht alle Spirit Spheres und stellt 10 SP pro Sphere wieder her. Kann im PvP auf die Spheres eines anderen Monks angewendet werden. Eingesetzt gegen ein Monster stiehlt es 2 SP pro Monsterlevel mit 20% Erfolgschance.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Triple Attack <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Dodge Lv 5</p>
+      <p class="skill-desc">Greift 3-mal mit erhöhtem Schaden an. Ein höheres Skill-Level SENKT die Auslösechance. Dieser Skill unterscheidet sich in vielen wichtigen Punkten vom Double Attack des Thiefs. Zunächst der Delay: Double Attack dauert genauso lange wie ein normaler Angriff, dieser Skill dagegen länger. Triple Attack (und Chain Combo) zählen für die Schadensberechnung tatsächlich als ein einzelner Schlag. Das bedeutet, dass Schadensboni durch Upgrades, Masteries, Star Crumbs und Spirit Spheres nur EINMAL angewendet und gleichmäßig auf die drei (bzw. vier) sichtbaren Hits verteilt werden. Daher sind diese &quot;Einzelhits&quot; selbst mit Lv 10 Triple Attack meist schwächer als ein einzelner Normalangriff. Positiv: Auch die VIT-Reduktion des Gegners wird nur einmal angewendet, sodass der Gesamtschaden gegen Ziele mit hoher VIT deutlich höher ausfallen kann als erwartet. Außerdem ruft ein Thief nicht &quot;Double Attack!!&quot; bei jedem zusätzlichen Hit, der Monk dagegen schon. Der Status Silence verhindert die Aktivierung dieses Skills nicht, und er kann gegen das Emperium eingesetzt werden (andere Combos hingegen nicht). Die Delay-Zeit hängt von der ASPD des Anwenders ab.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Body Relocation <span class="skill-tag">Active · Lv 1</span></h5>
+      <p class="skill-prereq">Voraussetzung: Asura Strike Lv 3 , Spirit Recovery Lv 2 , Steel Body Lv 3</p>
+      <p class="skill-desc">Teleportiert dich direkt auf eine beliebige Zielzelle. Du kannst dich so nicht auf oder über nicht-begehbare Zellen bewegen, z. B. auf eine Klippe. Verbraucht 1 Spirit Sphere. Im Critical-Explosion-Zustand kannst du diesen Skill ohne Spirit Spheres nutzen. Nach Einsatz dieses Skills kannst du in den folgenden 2 Sekunden Asura Strike nicht verwenden.</p>
+    </div>
+    <div class="skill-block passive">
+      <h5>Dodge <span class="skill-tag">Passive · Lv 10</span></h5>
+      <p class="skill-prereq">Voraussetzung: Iron Hand Lv 5 , Call Spirits Lv 5</p>
+      <p class="skill-desc">Erhöht die Flee-Rate um +1.5 pro SkillLV, abgerundet.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Investigate <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Call Spirits Lv 5</p>
+      <p class="skill-desc">Starker Physical-Fernangriff. Je mehr Verteidigung das Ziel hat, desto mehr Schaden richtet dieser Skill an. Verfehlt nie und verbraucht eine Spirit Sphere. Schaden = [ATK x (1 + 0.75*SkillLV) x (Enemy Armor+Enemy VIT)/50] x Card Effect.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Finger Offensive <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Investigate Lv 3</p>
+      <p class="skill-desc">Schleudert Spirit Spheres auf den Gegner. Das Skill-Level bestimmt die Anzahl der werfbaren Spheres; der Schaden beträgt (125+25*SkillLV)% ATK mit dem Element deiner aktuellen Waffe. Die Anzahl der geworfenen Spheres entspricht dem genutzten SkillLV und kann nach den normalen Trefferwahrscheinlichkeiten danebengehen. Der Cast ist nicht unterbrechbar, Pneuma blockiert diesen Skill jedoch.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Steel Body <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Combo Finish Lv 3</p>
+      <p class="skill-desc">Setzt DEF und MDEF auf 90%. ASPD wird um 25% reduziert und Skills können nicht eingesetzt werden. Benötigt 5 Spirit Spheres. Es handelt sich um DEF wie von Rüstung, der Schaden von Waffen und Zaubern wird also auf mindestens 10% reduziert (mit 1 VIT/INT) und kann sogar auf 1 Schadenspunkt sinken, wenn der Monk ausreichend VIT/INT besitzt.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Blade Stop <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Dodge Lv 5</p>
+      <p class="skill-desc">Dieser Skill funktioniert ähnlich wie Auto Counter des Knights, &quot;fängt&quot; aber stattdessen einen Angreifer ab und friert sowohl Monk als auch Ziel für kurze Zeit ein. Je nach Blade-Stop-Skill-Level stehen dir bestimmte Skills zum Angriff zur Verfügung. Beide bleiben gestoppt, bis der Monk einen Skill einsetzt, der Monk stirbt, der Angreifer stirbt oder die Dauer von Blade Stop abläuft. Anders als bei Freeze/Stone Curse behält der Angreifer seine vollen Flee- und DEF-Werte. Ist das Ziel zudem ein Monk, der ebenfalls Blade Stop besitzt, können beide ihre Skills frei nutzen (bestimmt durch das jeweils eigene Blade-Stop-Level). Dieser Skill kann nicht zum Kontern gegnerischer Skills verwendet werden. Wirkt nicht gegen Boss-Monster. Verbraucht 1 Spirit Sphere. Die Reichweite beträgt 1 Zelle barehand und 2 Zellen mit Waffe. Beide Charaktere können weiterhin Items nutzen und ihre Ausrüstung wechseln.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Critical Explosion <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Absorp Spirits Lv 1</p>
+      <p class="skill-desc">Erhöht die Critical Rate für die Skill-Dauer um 7.5+2.5*SkillLV. Die SP-Regeneration ist in dieser Zeit ausgesetzt. Benötigt 5 Spirit Spheres.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Asura Strike <span class="skill-tag">Offensive · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Explosion Spirits Lv 3 , Finger Offensive Lv 3</p>
+      <p class="skill-desc">Nur einsetzbar, wenn Critical Explosion aktiv ist. Verbraucht das gesamte SP, um dem Ziel massiven Schaden zuzufügen; HP/SP regenerieren nach Einsatz von Asura Strike 5 Minuten lang nicht natürlich. Beendet nach Einsatz Critical Explosion und benötigt alle verbleibenden Spirit Spheres (also alle 5 bei eigenständigem Cast). Schaden = [(Weapon ATK+Base ATK) x (8 + SP/10) + 250 + (150*SkillLV)] * Card Effects. Kann beim Festhalten eines Ziels mit Lv 5 Blade Stop oder ohne Cast-Time am Ende einer Combo-Kette (Triple Attack -&gt; Chain Combo -&gt; Combo Finish -&gt; Asura Strike) eingesetzt werden, die Anforderungen an Critical Explosion und Spheres bleiben in beiden Fällen bestehen (nutzbar mit den 4 nach Blade Stop/Combo Finish verbleibenden Spheres). Eine Erhöhung des Asura-Strike-Skill-Levels hat im Vergleich zu mehr SP, INT oder STR nur einen relativ kleinen Effekt auf den Gesamtschaden. Dieser Skill kann unterbrochen werden.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Chain Combo <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Triple Attack Lv 5</p>
+      <p class="skill-desc">Nur nach einer Triple Attack einsetzbar. Trifft den Gegner mit 4 kraftvollen Schlägen. Der Caster kann sich für kurze Zeit nicht bewegen. Schaden = (150+50*SkillLV)% ATK.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Combo Finish <span class="skill-tag">Active · Lv 5</span></h5>
+      <p class="skill-prereq">Voraussetzung: Chain Combo Lv 3</p>
+      <p class="skill-desc">Nur nach einem Chain Combo einsetzbar. Entfesselt einen finalen Angriff auf den Gegner. Benötigt 1 Spirit Sphere. Schaden = (240+60*SkillLV)% ATK.</p>
+    </div>
+    <div class="skill-block buff">
+      <h5>Ki Translation <span class="skill-tag">Supportive · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Überträgt eine deiner Spirit Spheres auf ein anderes Gruppenmitglied. Verbraucht 1 Spirit Sphere.</p>
+    </div>
+    <div class="skill-block active">
+      <h5>Ki Explosion <span class="skill-tag">Active · Lv —</span></h5>
+      <p class="skill-prereq">Voraussetzung: keine</p>
+      <p class="skill-desc">Bündelt deine inneren Energien und greift einen Gegner an, um Schaden zu verursachen und ihn zurückzustoßen. Das anvisierte Ziel erhält 300% ATK Schaden, umliegende Monster werden 2 Zellen zurückgestoßen und 2 Sekunden lang gestunnt. Verbraucht pro Anwendung eine geringe Menge HP.</p>
+    </div>
+    </div>
+  </section>
+
+  <section><h2>Level-Milestones</h2><ul><li><strong>2nd Job 1–50:</strong> Sphinx 4F (Anubis = INT-skaliertes Asura).</li><li><strong>2nd Job 50–99:</strong> Glast Heim Chivalry (Khalitzburg-Asura-Farm).</li></ul></section>
+
+  <p>Cross-Links: <a href="klassen.html">Klassen-Übersicht</a> · <a href="leveling.html">Level-Routen</a> · <a href="ausruestung.html">Ausrüstung</a> · <a href="md-equipment.html">MD-Equipment</a></p>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://ratemyserver.net/" target="_blank" rel="noopener">RateMyServer</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Craftable Equipment &amp; Items — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html" class="active"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>` block now.
+
+<main>
+    <div class="page-hero">
+      <span class="eyebrow">Crafting · Non-Memorial</span>
+      <h1>Craftable Items (außerhalb Memorial-Dungeons)</h1>
+      <p class="lead">Übersicht über alle klassischen Pre-Trans-Crafts, die nicht zur Memorial-Equipment-Kette gehören: Quivers für Hunter/Bard/Dancer, Blacksmith-Forging, Alchemist-Pharmacy, Cooking sowie populäre NPC-Headgears. Memorial-Items siehe <a href="crafting.html">Memorial-Crafting</a> bzw. <a href="md-equip-crafting.html">Crafting-Pfad</a>.</p>
+    </div>
+
+    <div class="entry-jump">
+      <a href="#sec-quivers">🏹 Quivers &amp; Arrows</a>
+      <a href="#sec-forging">🔨 Forging (Blacksmith)</a>
+      <a href="#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a>
+      <a href="#sec-cooking">🍳 Cooking</a>
+      <a href="#sec-headgears">🎩 Headgear-Crafts (23)</a>
+      <a href="crafting.html">🏰 Memorial-Crafting</a>
+      <a href="items.html">📦 Item-DB</a>
+      <a href="items-mats.html">🧪 Materialien</a>
+    </div>
+
+    <div class="info-box note">Diese Seite deckt nur Crafts ab, die <strong>klassenunabhängig</strong> oder über die Skills <em>Forging</em> bzw. <em>Pharmacy/Brewing</em> verfügbar sind. Memorial-Equipment-Rezepte (Subjugation → Expedition → Dispatching → Conqueror + Hard-Mode) liegen unter <a href="crafting.html">Memorial-Crafting</a>.</div>
+
+    <section id="sec-quivers">
+      <h2>🏹 Quivers &amp; Arrow-Crafting</h2>
+      <p>Quivers bündeln 500 Pfeile in einem einzelnen Stack — sehr nützlich, weil sich so 1× Stack = 500 Schuss tragen lässt, ohne den Inventar-Slot pro Pfeilsorte mehrfach zu belegen. Hergestellt werden sie beim <strong>Quiver-NPC im 1. Stock von Payon</strong> (Bogen-Laden), gegen 500× Pfeile + kleine Zeny-Gebühr (≈ 500z). Element-Quivers brauchen zusätzlich entsprechende Stones/Gems.</p>
+
+      <div class="info-box tip">Hunter, Bard und Dancer nutzen Quivers im Alltag intensiv — vor allem die <strong>Element-Quivers</strong> sind im Auto-Hunt-Setup pures Gold, weil sie Schwächen ausnutzen. Empfehlung: 1 Quiver pro Element fest im Cart bzw. Storage halten.</p></div>
+
+      <div class="entry-grid">
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Iron Arrow Quiver</span><span class="entry-type">Quiver</span></div>
+          <ul class="entry-meta">
+            <li>Inhalt: 500× Iron Arrow</li>
+            <li>Materialien: 500× Iron Arrow + ~500z</li>
+            <li>NPC: Payon Bogen-Laden, 1F</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Steel Arrow Quiver</span><span class="entry-type">Quiver</span></div>
+          <ul class="entry-meta">
+            <li>Inhalt: 500× Steel Arrow</li>
+            <li>Materialien: 500× Steel Arrow + ~500z</li>
+            <li>NPC: Payon Bogen-Laden, 1F</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Fire Arrow Quiver</span><span class="entry-type">Element-Quiver</span></div>
+          <ul class="entry-meta">
+            <li>Inhalt: 500× Fire Arrow</li>
+            <li>Stark gegen: Earth, Undead</li>
+            <li>Materialien: 500× Fire Arrow + ~500z</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Wind Arrow Quiver</span><span class="entry-type">Element-Quiver</span></div>
+          <ul class="entry-meta">
+            <li>Inhalt: 500× Arrow of Wind</li>
+            <li>Stark gegen: Water</li>
+            <li>Materialien: 500× Arrow of Wind + ~500z</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Water Arrow Quiver</span><span class="entry-type">Element-Quiver</span></div>
+          <ul class="entry-meta">
+            <li>Inhalt: 500× Crystal Arrow</li>
+            <li>Stark gegen: Fire</li>
+            <li>Materialien: 500× Crystal Arrow + ~500z</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Earth Arrow Quiver</span><span class="entry-type">Element-Quiver</span></div>
+          <ul class="entry-meta">
+            <li>Inhalt: 500× Stone Arrow</li>
+            <li>Stark gegen: Wind</li>
+            <li>Materialien: 500× Stone Arrow + ~500z</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Holy Arrow Quiver</span><span class="entry-type">Element-Quiver</span></div>
+          <ul class="entry-meta">
+            <li>Inhalt: 500× Holy Arrow</li>
+            <li>Stark gegen: Shadow, Undead</li>
+            <li>Materialien: 500× Holy Arrow + ~500z</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Shadow Arrow Quiver</span><span class="entry-type">Element-Quiver</span></div>
+          <ul class="entry-meta">
+            <li>Inhalt: 500× Shadow Arrow</li>
+            <li>Stark gegen: Holy</li>
+            <li>Materialien: 500× Shadow Arrow + ~500z</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="info-box note">Die Pfeile selbst (Iron, Steel, Fire, Crystal …) werden überwiegend bei <strong>Mali, der Pfeil-Händlerin in Payon</strong> oder per Skill <em>Arrow Crafting</em> beim Hunter aus Items/Loot hergestellt — etwa Stein → Stone Arrow, Skel-Knochen → Bone Arrow, Trunks → Wooden Arrow.</div>
+    </section>
+
+    <section id="sec-forging">
+      <h2>🔨 Forging (Blacksmith)</h2>
+      <p>Mit dem Skill <em>Weapon Forging</em> kann ein Blacksmith eigene Waffen herstellen — von einfachen Knives bis hin zu Element-Waffen mit Stern-Boni. Wer keinen Smith-Char hat, kann beim <strong>NPC-Smith</strong> in Geffen / Einbroch einfache Waffen schmieden lassen, allerdings ohne Slot-Bonus. Player-Smiths erreichen mit <em>Smith Mastery</em> + steigender Forging-Skill-Stufe deutlich höhere Slot-Raten und können Sterne (★/★★) auf die Waffe schmieden.</p>
+
+      <div class="entry-grid">
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Forging-Voraussetzungen</span><span class="entry-type">System</span></div>
+          <ul class="entry-meta">
+            <li>Skill: <em>Weapon Forging</em> Lv 1–5</li>
+            <li>Tool: Hammer of Blacksmith / Oridecon Hammer</li>
+            <li>Plus passenden Item-Stein im Inventar (Iron, Steel, Coal, Phracon, Emveretarcon)</li>
+            <li>Klassen-Guide: <a href="klasse-blacksmith.html">Blacksmith</a></li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Tier-1 Material — Iron</span><span class="entry-type">Material</span></div>
+          <ul class="entry-meta">
+            <li>Verwendung: Lv-1-Waffen (z.B. Knife, Sword)</li>
+            <li>Quelle: Iron Ore + Mini-Furnace beim NPC-Smith</li>
+            <li>Slot-Chance: gering, steigt mit Forging-Skill</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Tier-2 Material — Steel</span><span class="entry-type">Material</span></div>
+          <ul class="entry-meta">
+            <li>Verwendung: Lv-2-Waffen, viele Mid-Game-Klingen</li>
+            <li>Quelle: Iron + Coal + Mini-Furnace</li>
+            <li>Tipp: günstig in Massen craftbar mit Cart-Storage</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Phracon</span><span class="entry-type">Material</span></div>
+          <ul class="entry-meta">
+            <li>Verwendung: Verstärkt Lv-1-Waffen beim Forging</li>
+            <li>Quelle: NPC-Händler (Geffen Smith-Shop)</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Emveretarcon</span><span class="entry-type">Material</span></div>
+          <ul class="entry-meta">
+            <li>Verwendung: Verstärkt Lv-2-Waffen beim Forging</li>
+            <li>Quelle: NPC-Händler / Drops</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Element-Stones</span><span class="entry-type">Material</span></div>
+          <ul class="entry-meta">
+            <li>Fire / Wind / Water / Earth Star Crumb &amp; -Stone</li>
+            <li>Erlauben Element-Waffen-Forging (Fire-Sword etc.)</li>
+            <li>Drops aus Element-Mobs &amp; Mini-Bosse</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="info-box tip">Slot-Wahrscheinlichkeit hängt von <strong>Forging-Skill-Level + DEX/LUK + Material-Tier</strong> ab. Ein voll geskillter Smith mit Cart-Boost und gutem LUK-Stat erreicht zuverlässig Slot-Quoten, die NPC-Smithing nie liefert. Detail-Mechanik im <a href="klasse-blacksmith.html">Blacksmith-Guide</a>.</div>
+    </section>
+
+    <section id="sec-pharmacy">
+      <h2>⚗️ Pharmacy &amp; Brewing (Alchemist)</h2>
+      <p>Der Alchemist hat den vielleicht profitabelsten Craft-Pool des Spiels. Mit den Skills <em>Pharmacy</em> und <em>Prepare Potion</em> lassen sich Heil- und Buff-Tränke brauen, die im Auto-Hunt-Sustain unverzichtbar sind. Höchster Sustain-Trank ist der <strong>Condensed White Potion</strong>; das <strong>Embryo</strong> erschafft den <em>Homunculus</em>-Begleiter; <strong>Bottle Grenades / Acid Bottles</strong> sind die Munition für <em>Acid Demonstration</em> und <em>Demonstration</em>.</p>
+
+      <div class="entry-grid">
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Condensed Red Potion</span><span class="entry-type">Trank</span></div>
+          <ul class="entry-meta">
+            <li>Heilt ~ 45–65 HP</li>
+            <li>Materialien: 1× Red Potion + 1× Empty Test Tube + 1× Medicine Bowl</li>
+            <li>Skill: <em>Prepare Potion</em></li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Condensed Yellow Potion</span><span class="entry-type">Trank</span></div>
+          <ul class="entry-meta">
+            <li>Heilt ~ 175–235 HP</li>
+            <li>Materialien: 1× Yellow Potion + 1× Empty Test Tube + 1× Medicine Bowl</li>
+            <li>Skill: <em>Prepare Potion</em></li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Condensed White Potion</span><span class="entry-type">Trank</span></div>
+          <ul class="entry-meta">
+            <li>Heilt ~ 425–575 HP — Top-Sustain</li>
+            <li>Materialien: 1× White Potion + 1× Empty Test Tube + 1× Medicine Bowl</li>
+            <li>Skill: <em>Prepare Potion</em></li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Acid Bottle</span><span class="entry-type">Wurfbombe</span></div>
+          <ul class="entry-meta">
+            <li>Munition für <em>Acid Terror</em> / <em>Acid Demonstration</em></li>
+            <li>Materialien: 1× Empty Bottle + 1× Immortal Heart + 1× Karvodailnirol</li>
+            <li>Skill: <em>Prepare Potion</em></li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Bottle Grenade</span><span class="entry-type">Wurfbombe</span></div>
+          <ul class="entry-meta">
+            <li>Munition für <em>Demonstration</em> (Fire-Damage)</li>
+            <li>Materialien: 1× Empty Bottle + 1× Fabric + 1× Alcohol</li>
+            <li>Skill: <em>Prepare Potion</em></li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Embryo</span><span class="entry-type">Crafting</span></div>
+          <ul class="entry-meta">
+            <li>Wird verbraucht zum Beschwören des <em>Homunculus</em></li>
+            <li>Materialien: 1× Glass Tube + 1× Seed of Life + 1× Morning Dew of Yggdrasil + 1× Medicine Bowl</li>
+            <li>Skill: <em>Prepare Potion</em>, hohe INT empfohlen</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Berserk Potion</span><span class="entry-type">Buff-Trank</span></div>
+          <ul class="entry-meta">
+            <li>+ ASPD &amp; Atk-Boost auf Zeit</li>
+            <li>Materialien: 1× Drosera Tentacle + 1× Petite Tail + 1× Empty Potion Bottle + 1× Medicine Bowl</li>
+            <li>Skill: <em>Prepare Potion</em>, hoher Brewing-Skill für Quote</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Aloevera</span><span class="entry-type">Heil-Item</span></div>
+          <ul class="entry-meta">
+            <li>Erlaubt das Skill <em>Status Recovery</em> als Item</li>
+            <li>Materialien: 1× Aloe + 1× Empty Bottle + 1× Medicine Bowl</li>
+            <li>Skill: <em>Prepare Potion</em></li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Fruit of Mastela</span><span class="entry-type">Heil-Item</span></div>
+          <ul class="entry-meta">
+            <li>Heilt ~ 400–600 HP, kein Cooldown</li>
+            <li>Direkt-Drop aus Mastela-Pflanzenmobs (Comodo / Niflheim)</li>
+            <li>Kein Crafting nötig — als Vergleich gelistet</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="info-box warning"><strong>Pharmacy-Quote:</strong> Erfolg hängt von <em>Pharmacy-Skill-Lv + INT + DEX + LUK + Job-Level</em> ab. Bei Fail werden Materialien teilweise verbraucht. Plane Massen-Brewing mit Reserven von 20–30 % zusätzlichem Material. Detail-Formel im <a href="klasse-alchemist.html">Alchemist-Guide</a>.</div>
+    </section>
+
+    <section id="sec-cooking">
+      <h2>🍳 Cooking</h2>
+      <p>Cooking liefert <strong>Stat-Foods</strong> (kurzfristige +Stat-Boni) und <strong>Combat-Rationen</strong> (HP/SP-Restore). Klassenunabhängig nutzbar: jeder Charakter kann mit dem <strong>Cooking-Set</strong> aus Prontera/Comodo Rezepte ausführen, sofern die Zutaten im Inventar liegen. Höhere Tiers (Lv 3 + 4) brauchen seltenere Mob-Drops (Crab Nipper, Boitata-Filet, …).</p>
+
+      <div class="entry-grid">
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Cooking-Set (Lv 1–5)</span><span class="entry-type">Crafting-Tool</span></div>
+          <ul class="entry-meta">
+            <li>NPC: Cooking-Set-Händler (Prontera / Comodo)</li>
+            <li>Wird beim Cooken verbraucht — Vorrat nötig</li>
+            <li>Höheres Set = bessere Erfolgs-Quote &amp; höhere Tiers</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Steamed Crab Nippers</span><span class="entry-type">+STR-Food</span></div>
+          <ul class="entry-meta">
+            <li>+10 STR für 20 Min</li>
+            <li>Materialien: Crab Nipper, Cooking Wine, Spices, Cooking Oil</li>
+            <li>Tier 3 — Cooking-Set Lv 3+</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Steamed Tongue</span><span class="entry-type">+LUK-Food</span></div>
+          <ul class="entry-meta">
+            <li>+10 LUK für 20 Min</li>
+            <li>Materialien: Tongue, Cooking Wine, Spices</li>
+            <li>Tier 3</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Stew of Immortality</span><span class="entry-type">+VIT-Food</span></div>
+          <ul class="entry-meta">
+            <li>+10 VIT für 20 Min</li>
+            <li>Materialien: Immortal Heart + Gemüse-Mix</li>
+            <li>Tier 3</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Dragon Breath Cocktail</span><span class="entry-type">+INT-Food</span></div>
+          <ul class="entry-meta">
+            <li>+10 INT für 20 Min</li>
+            <li>Materialien: Dragon Scale, Cooking Wine, Garlic</li>
+            <li>Tier 3</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Hwergelmir's Tonic</span><span class="entry-type">+DEX-Food</span></div>
+          <ul class="entry-meta">
+            <li>+10 DEX für 20 Min</li>
+            <li>Materialien: Yggdrasilberry-Saft, Honig, Spices</li>
+            <li>Tier 3</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Cooked Nine Tail's Tails</span><span class="entry-type">+AGI-Food</span></div>
+          <ul class="entry-meta">
+            <li>+10 AGI für 20 Min</li>
+            <li>Materialien: Nine Tails (Drop), Cooking Oil, Gewürze</li>
+            <li>Tier 3</li>
+          </ul>
+        </div>
+        <div class="entry-card">
+          <div class="entry-card-head"><span class="entry-name">Combat Ration Boxes</span><span class="entry-type">HP/SP-Restore</span></div>
+          <ul class="entry-meta">
+            <li>Restore HP &amp; SP, oft im Auto-Hunt-Sustain</li>
+            <li>Bezugsquellen: Event-NPCs, Item-Mall, Quest-Rewards</li>
+            <li>Combat Ration A / B / C — verschiedene Mengen</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="info-box tip">Stat-Food-Boni stacken mit Buff-Skills (z.B. Blessing, Magnificat) und mit Cart-Boost / Aspersio. Vor Boss-Runs lohnt sich die +10-Variante des passenden Stats — günstig in Vorrat zu haben über AFK-Cooking-Sessions.</div>
+    </section>
+
+    <section id="sec-headgears">
+      <h2>🎩 Headgear-Crafts an NPCs</h2>
+      <p>23 klassische Pre-Trans-Headgears, craftbar bei spezialisierten NPCs in verschiedenen Städten. Materialien stammen aus Mob-Drops und NPC-Shops. Rezepte nach <a href="https://old.criatura-academy.com/updates/craftable-equipment/" target="_blank" rel="noopener">Criatura Academy ↗</a>. Stats und Refine-Boni in der <a href="items.html#sec-craftable-headgears">Item-DB</a>.</p>
+
+      <div class="entry-grid wide">
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/19358.png" alt="Black Witch's Hat [1]" loading="lazy">
+    <a class="entry-name" href="items.html#item-19358">Black Witch's Hat [1]</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/2252" target="_blank" rel="noopener">1× Wizard Hat</a> · <a href="https://divine-pride.net/database/item/1061" target="_blank" rel="noopener">500× Witch Starsand</a> · <a href="https://divine-pride.net/database/item/983" target="_blank" rel="noopener">5× Black Dyestuffs</a> · <a href="https://divine-pride.net/database/item/25506" target="_blank" rel="noopener">1× Cute Broom</a> · <a href="https://divine-pride.net/database/item/25429" target="_blank" rel="noopener">50× Mithril Ore</a></li></ul>
+  <p class="entry-desc">Hut mit rätselhafter Hexenmagie</p>
+  <ul class="entry-stats"><li>MATK +1 % pro 2 Refine</li><li>+7: MaxHP +50, MaxSP +100</li><li>+9: −5 % Variable Cast Time</li></ul>
+  <div class="entry-card-foot"><span>Atelier Manus</span><a href="https://divine-pride.net/database/item/19358" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/19356.png" alt="Alice Wig [1]" loading="lazy">
+    <a class="entry-name" href="items.html#item-19356">Alice Wig [1]</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/7047" target="_blank" rel="noopener">50× Alice's Apron</a> · <a href="https://divine-pride.net/database/item/1020" target="_blank" rel="noopener">200× Black Hair</a> · <a href="https://divine-pride.net/database/item/973" target="_blank" rel="noopener">1× Counteragent</a> · <a href="https://divine-pride.net/database/item/978" target="_blank" rel="noopener">5× Cobalt Blue Dyestuffs</a> · <a href="https://divine-pride.net/database/item/25429" target="_blank" rel="noopener">50× Mithril Ore</a></li></ul>
+  <p class="entry-desc">Perücke nach Alices Frisur modelliert</p>
+  <ul class="entry-stats"><li>Heal-Menge +3 % pro 2 Refine</li><li>+7: MaxHP +150, MaxSP +50</li><li>+9: −5 % Variable Cast Time</li></ul>
+  <div class="entry-card-foot"><span>Atelier Manus</span><a href="https://divine-pride.net/database/item/19356" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/19357.png" alt="Clark's Cap [1]" loading="lazy">
+    <a class="entry-name" href="items.html#item-19357">Clark's Cap [1]</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/1095" target="_blank" rel="noopener">100× Clock Hands</a> · <a href="https://divine-pride.net/database/item/7026" target="_blank" rel="noopener">5× Key of Clock Tower</a> · <a href="https://divine-pride.net/database/item/7027" target="_blank" rel="noopener">5× Key of Underground</a> · <a href="https://divine-pride.net/database/item/978" target="_blank" rel="noopener">3× Cobalt Blue Dyestuffs</a> · <a href="https://divine-pride.net/database/item/982" target="_blank" rel="noopener">3× White Dyestuffs</a> · <a href="https://divine-pride.net/database/item/25429" target="_blank" rel="noopener">50× Mithril Ore</a></li></ul>
+  <p class="entry-desc">Mütze des Aldebaran Clock-Tower-Reparateurs</p>
+  <ul class="entry-stats"><li>+1 % Physical Damage gegen Formless pro 2 Refine</li><li>+7: HIT +15</li><li>+9: MaxHP +250</li></ul>
+  <div class="entry-card-foot"><span>Atelier Manus</span><a href="https://divine-pride.net/database/item/19357" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/19359.png" alt="Lude Hood [1]" loading="lazy">
+    <a class="entry-name" href="items.html#item-19359">Lude Hood [1]</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/2282" target="_blank" rel="noopener">1× Halo</a> · <a href="https://divine-pride.net/database/item/2274" target="_blank" rel="noopener">1× Ghost Bandana</a> · <a href="https://divine-pride.net/database/item/982" target="_blank" rel="noopener">5× White Dyestuffs</a> · <a href="https://divine-pride.net/database/item/7212" target="_blank" rel="noopener">50× Hung Doll</a> · <a href="https://divine-pride.net/database/item/7225" target="_blank" rel="noopener">50× Pumpkin Lantern</a> · <a href="https://divine-pride.net/database/item/25429" target="_blank" rel="noopener">50× Mithril Ore</a></li></ul>
+  <p class="entry-desc">Kapuze nach Ludes Vorlage, mit Dämonenschaden-Skalierung</p>
+  <ul class="entry-stats"><li>Physical Damage gegen Demons +1 % pro 2 Refine</li><li>+7: HIT +15</li><li>+9: MaxHP +250</li></ul>
+  <div class="entry-card-foot"><span>Atelier Manus</span><a href="https://divine-pride.net/database/item/19359" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/19360.png" alt="Lude Mask" loading="lazy">
+    <a class="entry-name" href="items.html#item-19360">Lude Mask</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/2278" target="_blank" rel="noopener">1× Mr. Smile</a> · <a href="https://divine-pride.net/database/item/975" target="_blank" rel="noopener">2× Scarlet Dyestuffs</a> · <a href="https://divine-pride.net/database/item/25429" target="_blank" rel="noopener">20× Mithril Ore</a></li></ul>
+  <p class="entry-desc">Maske mit Ludes Gesicht als Motiv</p>
+  <ul class="entry-stats"><li>−2 % Shadow-Schaden erhalten</li></ul>
+  <div class="entry-card-foot"><span>Atelier Manus</span><a href="https://divine-pride.net/database/item/19360" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/19361.png" alt="Wanderer's Sakkat [1]" loading="lazy">
+    <a class="entry-name" href="items.html#item-19361">Wanderer's Sakkat [1]</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/2280" target="_blank" rel="noopener">1× Sakkat</a> · <a href="https://divine-pride.net/database/item/983" target="_blank" rel="noopener">5× Black Dyestuffs</a> · <a href="https://divine-pride.net/database/item/1059" target="_blank" rel="noopener">50× Fabric</a> · <a href="https://divine-pride.net/database/item/7005" target="_blank" rel="noopener">50× Skull</a> · <a href="https://divine-pride.net/database/item/25429" target="_blank" rel="noopener">40× Mithril Ore</a></li></ul>
+  <p class="entry-desc">Düster gefärbter Sonnenhut mit AGI/LUK- und ASPD-Skalierung</p>
+  <ul class="entry-stats"><li>AGI +1, LUK +1 pro 2 Refine</li><li>+7: ASPD +5 %</li><li>+9: ASPD +5 %, CRIT +5</li></ul>
+  <div class="entry-card-foot"><span>Atelier Manus</span><a href="https://divine-pride.net/database/item/19361" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/fever-glastheim/items/19332.png" alt="Khalitzburg's Helm [1]" loading="lazy">
+    <a class="entry-name" href="items.html#item-19332">Khalitzburg's Helm [1]</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/2229" target="_blank" rel="noopener">1× Helm [1]</a> · <a href="https://divine-pride.net/database/item/1004" target="_blank" rel="noopener">5× Chivalry Emblem</a> · <a href="https://divine-pride.net/database/item/978" target="_blank" rel="noopener">1× Cobalt Blue Dyestuffs</a> · <a href="https://divine-pride.net/database/item/25429" target="_blank" rel="noopener">50× Mithril Ore</a></li></ul>
+  <p class="entry-desc">Helm der ehrenwerten Khalitzburg-Ritter</p>
+  <ul class="entry-stats"><li>CRIT +3</li><li>+7: CRIT +2 zusätzlich</li><li>+9: +5 % Crit-Damage</li></ul>
+  <div class="entry-card-foot"><span>Atelier Manus</span><a href="https://divine-pride.net/database/item/19332" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/19362.png" alt="Dragon General Helm [1]" loading="lazy">
+    <a class="entry-name" href="items.html#item-19362">Dragon General Helm [1]</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/7153" target="_blank" rel="noopener">300× Worn-out Kimono</a> · <a href="https://divine-pride.net/database/item/25629" target="_blank" rel="noopener">10× Knotted Letter</a> · <a href="https://divine-pride.net/database/item/7159" target="_blank" rel="noopener">300× Tengu Nose</a> · <a href="https://divine-pride.net/database/item/7155" target="_blank" rel="noopener">500× Poisonous Toad Skin</a> · <a href="https://divine-pride.net/database/item/25628" target="_blank" rel="noopener">200× Spirit Stone</a> · <a href="https://divine-pride.net/database/item/7757" target="_blank" rel="noopener">5× Mithril</a></li></ul>
+  <p class="entry-desc">Langlebigkeitshelm mit ATK-Skalierung und ASPD-Bonus</p>
+  <ul class="entry-stats"><li>ATK +30, ATK +10 pro 2 Refine</li><li>+7: ASPD +7 %</li><li>+9: ATK +10 %</li></ul>
+  <div class="entry-card-foot"><span>A Foreign Minstrel (ama_in01 171, 17)</span><a href="https://divine-pride.net/database/item/19362" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/19363.png" alt="Charcoal Stove" loading="lazy">
+    <a class="entry-name" href="items.html#item-19363">Charcoal Stove</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/7150" target="_blank" rel="noopener">300× Piece of Bamboo</a> · <a href="https://divine-pride.net/database/item/7158" target="_blank" rel="noopener">150× Broken Liquor Jar</a> · <a href="https://divine-pride.net/database/item/7757" target="_blank" rel="noopener">1× Mithril</a> · <a href="https://divine-pride.net/database/item/7152" target="_blank" rel="noopener">200× Glossy Hair</a> · <a href="https://divine-pride.net/database/item/7156" target="_blank" rel="noopener">150× Broken Shuriken</a> · <a href="https://divine-pride.net/database/item/25628" target="_blank" rel="noopener">100× Spirit Stone</a></li></ul>
+  <p class="entry-desc">Kochbecken-Kopfschmuck mit 10 % mehr Heilwirkung</p>
+  <ul class="entry-stats"><li>Heal-Menge +10 %</li></ul>
+  <div class="entry-card-foot"><span>Object Head (ama_in01 180, 75)</span><a href="https://divine-pride.net/database/item/19363" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/19345.png" alt="Green Maiden's Bao Bao [1]" loading="lazy">
+    <a class="entry-name" href="items.html#item-19345">Green Maiden's Bao Bao [1]</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/5042" target="_blank" rel="noopener">1× Bao Bao</a> · <a href="https://divine-pride.net/database/item/7757" target="_blank" rel="noopener">1× Mithril</a> · <a href="https://divine-pride.net/database/item/25621" target="_blank" rel="noopener">50× Blue Scale</a> · <a href="https://divine-pride.net/database/item/7264" target="_blank" rel="noopener">500× Dry Sand</a> · <a href="https://divine-pride.net/database/item/25620" target="_blank" rel="noopener">100× Earth Dragon Stone</a> · <a href="https://divine-pride.net/database/item/7267" target="_blank" rel="noopener">300× Tiger Panty</a> · <a href="https://divine-pride.net/database/item/7268" target="_blank" rel="noopener">50× Little Ghost Doll</a></li></ul>
+  <p class="entry-desc">Bao Bao der Grünen Göttin mit AGI/LUK und CRIT-Skalierung</p>
+  <ul class="entry-stats"><li>AGI +3, LUK +3</li><li>CRIT +1 pro Refine</li></ul>
+  <div class="entry-card-foot"><span>Socheon (louyang 186, 54)</span><a href="https://divine-pride.net/database/item/19345" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/19346.png" alt="Bacsojin Doll Hat [1]" loading="lazy">
+    <a class="entry-name" href="items.html#item-19346">Bacsojin Doll Hat [1]</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/7268" target="_blank" rel="noopener">300× Little Ghost Doll</a> · <a href="https://divine-pride.net/database/item/25622" target="_blank" rel="noopener">10× White Snake's Tear</a> · <a href="https://divine-pride.net/database/item/7266" target="_blank" rel="noopener">300× Denture from Dragon Mask</a> · <a href="https://divine-pride.net/database/item/7264" target="_blank" rel="noopener">500× Dry Sand</a> · <a href="https://divine-pride.net/database/item/25620" target="_blank" rel="noopener">200× Earth Dragon Stone</a> · <a href="https://divine-pride.net/database/item/7757" target="_blank" rel="noopener">5× Mithril</a></li></ul>
+  <p class="entry-desc">Puppen-Abbild von Baek So-jin mit MATK-Skalierung und VCT-Reduktion</p>
+  <ul class="entry-stats"><li>MATK +30, MATK +10 pro Refine</li><li>+7: −7 % Variable Cast Time</li><li>+9: MATK +10 %</li></ul>
+  <div class="entry-card-foot"><span>Socheon (louyang 186, 54)</span><a href="https://divine-pride.net/database/item/19346" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/fever-clock-tower/items/19333.png" alt="Clock Tower Manager's Headset" loading="lazy">
+    <a class="entry-name" href="items.html#item-19333">Clock Tower Manager's Headset</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/25505" target="_blank" rel="noopener">1× Joker's Wild</a> · <a href="https://divine-pride.net/database/item/25506" target="_blank" rel="noopener">100× Cute Broom</a> · <a href="https://divine-pride.net/database/item/25507" target="_blank" rel="noopener">100× Colorful Coral</a> · <a href="https://divine-pride.net/database/item/25508" target="_blank" rel="noopener">100× Orc General Mark</a> · <a href="https://divine-pride.net/database/item/25509" target="_blank" rel="noopener">100× Shiny Round Shell</a> · <a href="https://divine-pride.net/database/item/7757" target="_blank" rel="noopener">10× Mithril</a></li></ul>
+  <p class="entry-desc">Headset des Clock-Tower-Managers mit MATK und VCT-Bonus per Karte</p>
+  <ul class="entry-stats"><li>MATK +20</li><li>Mit Clock Tower Manager Card: −15 % VCT, +Movement Speed</li></ul>
+  <div class="entry-card-foot"><span>Aldebaran (Eccentric Recruiter)</span><a href="https://divine-pride.net/database/item/19333" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/fever-clock-tower/items/19334.png" alt="Pocket Watch Hairpin" loading="lazy">
+    <a class="entry-name" href="items.html#item-19334">Pocket Watch Hairpin</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/25505" target="_blank" rel="noopener">1× Joker's Wild</a> · <a href="https://divine-pride.net/database/item/25506" target="_blank" rel="noopener">100× Cute Broom</a> · <a href="https://divine-pride.net/database/item/25507" target="_blank" rel="noopener">100× Colorful Coral</a> · <a href="https://divine-pride.net/database/item/25508" target="_blank" rel="noopener">100× Orc General Mark</a> · <a href="https://divine-pride.net/database/item/25509" target="_blank" rel="noopener">100× Shiny Round Shell</a> · <a href="https://divine-pride.net/database/item/7757" target="_blank" rel="noopener">10× Mithril</a></li></ul>
+  <p class="entry-desc">Haarnadel mit Taschenuhren-Motiv und ATK-Bonus</p>
+  <ul class="entry-stats"><li>ATK +20</li><li>Mit Clock Card: DEF +20, MaxSP +100</li><li>Mit Alarm Card: MaxHP +1000</li></ul>
+  <div class="entry-card-foot"><span>Aldebaran (Eccentric Recruiter)</span><a href="https://divine-pride.net/database/item/19334" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/5021.png" alt="Grief for Greed" loading="lazy">
+    <a class="entry-name" href="items.html#item-5021">Grief for Greed</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/2210" target="_blank" rel="noopener">1× Hair Band</a> · <a href="https://divine-pride.net/database/item/969" target="_blank" rel="noopener">1× Gold</a></li></ul>
+  <p class="entry-desc">Helm eines bankrotten Händlers — nur für Merchant-Klassen</p>
+  <ul class="entry-stats"><li>INT +1, DEX +1</li><li>Nur für Merchant-Klassen</li></ul>
+  <div class="entry-card-foot"><span>Bankrupt Merchant (yuno 65, 195)</span><a href="https://divine-pride.net/database/item/5021" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/5023.png" alt="Parcel Hat" loading="lazy">
+    <a class="entry-name" href="items.html#item-5023">Parcel Hat</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/1059" target="_blank" rel="noopener">15× Fabric</a> · <a href="https://divine-pride.net/database/item/907" target="_blank" rel="noopener">10× Resin</a> · <a href="https://divine-pride.net/database/item/978" target="_blank" rel="noopener">1× Cobalt Blue Dyestuffs</a></li></ul>
+  <p class="entry-desc">Hut von Frauen mittleren Alters zum Tragen von Gepäck — nur Merchant</p>
+  <ul class="entry-stats"><li>Merchant-exklusiver Kopfschmuck</li></ul>
+  <div class="entry-card-foot"><span>Bankrupt Merchant (yuno 65, 195)</span><a href="https://divine-pride.net/database/item/5023" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/5029.png" alt="Spore Hat" loading="lazy">
+    <a class="entry-name" href="items.html#item-5029">Spore Hat</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/7033" target="_blank" rel="noopener">50× Poison Spore</a> · <a href="https://divine-pride.net/database/item/1015" target="_blank" rel="noopener">1× Tongue</a></li></ul>
+  <p class="entry-desc">Pilzförmiger Sporen-Hut</p>
+  <ul class="entry-stats"><li>Pilzförmiger Headgear aus Spore-Material</li></ul>
+  <div class="entry-card-foot"><span>Eccentric Recruiter (aldebaran 78, 188)</span><a href="https://divine-pride.net/database/item/5029" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/5040.png" alt="Blush" loading="lazy">
+    <a class="entry-name" href="items.html#item-5040">Blush</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/7047" target="_blank" rel="noopener">100× Alice's Apron</a></li></ul>
+  <p class="entry-desc">Niedliches kosmetisches Mid-Headgear</p>
+  <ul class="entry-stats"><li>Kosmetisches Mid-Headgear</li></ul>
+  <div class="entry-card-foot"><span>Red-cheeked Old Man (prontera 96, 226)</span><a href="https://divine-pride.net/database/item/5040" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/5043.png" alt="Opera Phantom Mask" loading="lazy">
+    <a class="entry-name" href="items.html#item-5043">Opera Phantom Mask</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/2281" target="_blank" rel="noopener">1× Opera Masque</a> · 50.000× Zeny</li></ul>
+  <p class="entry-desc">Maske des tragischen Opern-Phantoms</p>
+  <ul class="entry-stats"><li>Kosmetischer Headgear</li></ul>
+  <div class="entry-card-foot"><span>Director Cameron (comodo 166, 178)</span><a href="https://divine-pride.net/database/item/5043" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/5050.png" alt="Wonder Nutshell" loading="lazy">
+    <a class="entry-name" href="items.html#item-5050">Wonder Nutshell</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/5037" target="_blank" rel="noopener">1× Nut Shell</a> · <a href="https://divine-pride.net/database/item/7053" target="_blank" rel="noopener">50× Cyfar</a></li></ul>
+  <p class="entry-desc">Mysteriöser Nussschalen-Helm, nicht refinierbar</p>
+  <ul class="entry-stats"><li>DEF +10 (nicht refinierbar)</li></ul>
+  <div class="entry-card-foot"><span>Blacksmith Shinbi (geffen 176, 148)</span><a href="https://divine-pride.net/database/item/5050" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/5083.png" alt="Red Ribbon" loading="lazy">
+    <a class="entry-name" href="items.html#item-5083">Red Ribbon</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/2244" target="_blank" rel="noopener">1× Big Ribbon</a> · <a href="https://divine-pride.net/database/item/10007" target="_blank" rel="noopener">1× Silk Ribbon</a> · <a href="https://divine-pride.net/database/item/2209" target="_blank" rel="noopener">1× Ribbon [1]</a></li></ul>
+  <p class="entry-desc">Große rote Schleife der naturverbundenen Schamanin</p>
+  <ul class="entry-stats"><li>MDEF +10</li></ul>
+  <div class="entry-card-foot"><span>Ribbon Grandma (yuno 114, 206)</span><a href="https://divine-pride.net/database/item/5083" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/5173.png" alt="Magistrate Hat [1]" loading="lazy">
+    <a class="entry-name" href="items.html#item-5173">Magistrate Hat [1]</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/2220" target="_blank" rel="noopener">1× Hat</a> · <a href="https://divine-pride.net/database/item/954" target="_blank" rel="noopener">300× Shining Scale</a> · <a href="https://divine-pride.net/database/item/733" target="_blank" rel="noopener">5× Cracked Diamond</a> · <a href="https://divine-pride.net/database/item/983" target="_blank" rel="noopener">5× Black Dyestuffs</a></li></ul>
+  <p class="entry-desc">Hut alter ostasiatischer Beamter</p>
+  <ul class="entry-stats"><li>Eastasiatischer Beamtenhut mit 1 Kartenschlitz</li></ul>
+  <div class="entry-card-foot"><span>Hanbok Scholar (payon 109, 250)</span><a href="https://divine-pride.net/database/item/5173" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/5174.png" alt="Ayam [1]" loading="lazy">
+    <a class="entry-name" href="items.html#item-5174">Ayam [1]</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/954" target="_blank" rel="noopener">300× Shining Scale</a> · <a href="https://divine-pride.net/database/item/733" target="_blank" rel="noopener">5× Cracked Diamond</a> · <a href="https://divine-pride.net/database/item/975" target="_blank" rel="noopener">5× Scarlet Dyestuffs</a> · <a href="https://divine-pride.net/database/item/1059" target="_blank" rel="noopener">50× Fabric</a></li></ul>
+  <p class="entry-desc">Prächtig verzierter Damenhat aus roter Seide</p>
+  <ul class="entry-stats"><li>Koreanischer Hanbok-Kopfschmuck mit 1 Kartenschlitz</li></ul>
+  <div class="entry-card-foot"><span>Hanbok Scholar (payon 109, 250)</span><a href="https://divine-pride.net/database/item/5174" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+<div class="entry-card is-recipe">
+  <div class="entry-card-head">
+    <img class="entry-icon" src="images/crafted/5436.png" alt="Bride's Corolla" loading="lazy">
+    <a class="entry-name" href="items.html#item-5436">Bride's Corolla</a>
+    <span class="entry-type">Rezept</span>
+  </div>
+  <ul class="entry-meta"><li><a href="https://divine-pride.net/database/item/10007" target="_blank" rel="noopener">1× Silk Ribbon</a> · <a href="https://divine-pride.net/database/item/1032" target="_blank" rel="noopener">50× Maneater Blossom</a></li></ul>
+  <p class="entry-desc">Hochzeitskrone mit flauschiger Seidenschleife</p>
+  <ul class="entry-stats"><li>LUK +3, MDEF +2</li></ul>
+  <div class="entry-card-foot"><span>Wedding Planner (aldebaran 95, 110)</span><a href="https://divine-pride.net/database/item/5436" target="_blank" rel="noopener">Divine Pride ↗</a></div>
+</div>
+
+      </div>
+
+      <div class="info-box note">NPC-Standorte und Koordinaten sind dem jeweiligen Rezept angegeben. Im Zweifel das Item auf <a href="https://divine-pride.net/" target="_blank" rel="noopener">Divine Pride</a> nachschlagen.</div>
+    </section>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a> · <a href="https://www.rozskill.me/" target="_blank" rel="noopener">rozskill.me</a>
+</footer>
+
+</body>
+</html>

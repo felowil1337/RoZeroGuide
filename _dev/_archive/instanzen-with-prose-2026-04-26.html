@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memorial-Dungeons — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li><a href="basics.html"><span class="emoji">📖</span>Game Basics</a></li>
+        <li><a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a></li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen, Skills &amp; Leveln</li>
+        <li><a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a></li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li><a href="quests.html"><span class="emoji">📜</span>Quest-Walkthroughs</a></li>
+        <li><a href="fever.html"><span class="emoji">🔥</span>Fever-Felder (Lv-Boost)</a></li>
+        <li><a href="skills.html"><span class="emoji">✨</span>Skill-Datenbank</a></li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li><a href="instanzen.html" class="active"><span class="emoji">🏰</span>Dungeons-Übersicht (DE-Guide)</a></li>
+        <li>
+          <details class="nav-sub" open>
+            <summary><span class="emoji">📖</span>Detail-Seiten pro MD</summary>
+            <ul>
+              <li><a href="md-poring-village.html">Poring Village</a></li>
+              <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+              <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+              <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+              <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+              <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+            </ul>
+          </details>
+        </li>
+        <li><a href="items-md-equip.html"><span class="emoji">🛡️</span>Memorial-Set Items</a></li>
+        <li><a href="crafting.html"><span class="emoji">🔨</span>Memorial-Crafting</a></li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options 附加能力</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★ 活化</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>Tier-2 ★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>Tier-2 ★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet (附魔)</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        document.querySelectorAll('.sidebar details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Pre-Trans · Aktuell spielbar</span>
+      <h1>Memorial-Dungeons (Instanzen)</h1>
+      <p class="lead">Alle Pre-Trans-Instanzen mit Boss-Mechaniken, Drop-Tables und dem Memorial-Equipment-Crafting-Flow.</p>
+    </div>
+
+    <div class="entry-jump">
+      <a href="monster.html">👾 Monster-Datenbank</a>
+      <a href="items.html">📦 Item-Datenbank</a>
+      <a href="items-md-equip.html">🛡️ Memorial-Set-Items</a>
+      <a href="crafting.html">🔨 Memorial-Equipment-Crafting</a>
+    </div>
+
+    <section>
+      <h2>🏰 Memorial-Dungeons — Pre-Trans</h2>
+      <p>Memorial-Dungeons sind <strong>instanzierte Kopien pro Party</strong>, typischerweise mit 1h Time-Limit und 24h Cooldown (Reset um 4 AM Server-Zeit). Dieser Abschnitt deckt die Instanzen ab, die ohne Trans-Class spielbar sind.</p>
+
+      <div class="info-box note">
+        <strong>🎁 Party-Bonus:</strong> Mit <strong>7+ Spielern</strong> triggert der offizielle Memorial-Reward-Bonus → deutlich höhere Drop-Rate für Crystals und Gear-Boxes.
+      </div>
+    </section>
+
+    <section>
+      <h2>📋 Verfügbare Instanzen</h2>
+      <div class="table-wrap">
+      <table>
+        <thead><tr><th>Instanz</th><th>Min Lv</th><th>Cooldown</th><th>Modi</th><th>Besonderheit</th></tr></thead>
+        <tbody>
+          <tr><td>Poring Village</td><td>30–60</td><td>1×/Tag (4 AM)</td><td>Normal</td><td>Day-of-Week-Loot, Lower Headgear</td></tr>
+          <tr><td>Prontera Culvert</td><td>60</td><td>1×/Tag</td><td>Normal / Hard</td><td>Subjugation Ring/Boots, Mithril im Hard</td></tr>
+          <tr><td>Orc's Memory</td><td>60</td><td>1×/Tag</td><td>Normal / Hard</td><td>Subjugation Sash/Armor</td></tr>
+          <tr><td>Ant Hell 1F</td><td>70</td><td>1×/Tag</td><td>Normal / Hard</td><td>Cannibal Maya · Crystals + Jello Box</td></tr>
+          <tr><td>Izlude Dungeon 2F</td><td>80</td><td>1×/Tag</td><td>Normal / Hard</td><td>Deepsea Coelacanth · Crimson Crystal</td></tr>
+          <tr><td>Sunken Ship</td><td>99</td><td>1×/Tag</td><td>Normal / Hard</td><td>Stormy Drake · Mimic-Bonus-Chest</td></tr>
+          <tr><td>Endless Tower</td><td>50</td><td><strong>1×/Woche</strong></td><td>Normal</td><td>100 Stockwerke · Naght Sieger MVP · 4h Zeit</td></tr>
+          <tr><td>Geffen Magic Tournament</td><td>90</td><td>Daily · SOLO</td><td>Normal</td><td>110 GMT Coins/Run</td></tr>
+          <tr><td>Octopus Cave</td><td>80</td><td>Daily</td><td>Normal</td><td>Malangdo</td></tr>
+          <tr><td>Malangdo Culvert</td><td>80</td><td>Daily</td><td>Normal</td><td>Daily Cleanup</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section id="poring-village">
+      <h2>🍬 Poring Village (Lv 30–60)</h2>
+      <p>Map 1 west von Prontera, NPC: <strong>Emily</strong> @ porin_vil. Party erforderlich. Reset 4 AM.</p>
+      <p><strong>Mechanik:</strong> Blue Pillars anklicken → Transformation + ATK-Buff. Bosse: <em>Amering, Goldring, King Poring</em>.</p>
+
+      <h4>Treasure Chest Rewards</h4>
+      <ul>
+        <li><strong>Consumables:</strong> Red/Blue/Orange/Yellow/White/Green Potions (Not For Sale)</li>
+        <li><strong>Lower Headgear</strong> (alle Klassen, Lv 30+, kein Slot, enchantable, Gewicht 10):
+          <ul>
+            <li>🥬 <em>Poring Village Leek</em> — bei Phys-Attack-Treffer: Chance auf Smokie-Form für 5s</li>
+            <li>🥕 <em>Poring Village Carrot</em> — bei Phys-Attack: Chance auf Lunatic-Form für 5s</li>
+          </ul>
+        </li>
+        <li><strong>Day-of-Week Jello Fragment:</strong> Mo: Poring · Di: Poporing · Mi: Drops · Do: Deviling · Fr: Angeling · Sa/So: Jello Fragment Box</li>
+      </ul>
+
+      <h4>Headgear-Enchant</h4>
+      <ul>
+        <li>50× Jellopy + 20.000z (30% Fail-Risk, Item zerstört bei Fail)</li>
+        <li>Mögliche Boni: STR/INT/AGI/DEX/VIT/LUK +1, SP +10/+25/+50, HP +100/+200</li>
+        <li>Reset: 200.000z (30% Fail)</li>
+      </ul>
+    
+      
+    
+      <!-- MD_CARDS:START poring-village -->
+      <a href="md-poring-village.html" class="md-detail-link">
+        <span class="md-detail-link-arrow">📖</span>
+        <span class="md-detail-link-text">
+          <strong>Komplette Detail-Seite öffnen</strong>
+          <span class="md-detail-link-meta">7 Monster mit Stats, Icons und Bildern aus criatura-academy</span>
+        </span>
+        <span class="md-detail-link-chev">→</span>
+      </a>
+      <!-- MD_CARDS:END poring-village -->
+    </section>
+
+    <section id="prontera-culvert">
+      <h2>🪲 Prontera Culvert (Lv 60+)</h2>
+      <p>Map: <code>prt_fild05 264,208</code>. NPC: Culvert Manager. Party erforderlich.</p>
+
+      <h4>Mechanik</h4>
+      <ul>
+        <li>Alle Thief Bug Eggs killen → Boss spawnt</li>
+        <li><strong>Vor</strong> dem Boss: alle umliegenden Eggs killen für <strong>Bonus-Chest</strong></li>
+        <li>Boss: <em>Ancient Golden Thief Bug</em> (Insect, Fire 1, 1,2M HP, Reflect Shield aktiv → Range/Magic empfohlen!)</li>
+      </ul>
+
+      <h4>Normal-Mode Rewards</h4>
+      <ul>
+        <li>Shimmering Crystal: 1–3</li>
+        <li>Subjugation Ring [1]: 0–2 (1–3 mit 7+ Party)</li>
+        <li>Subjugation Boots [1]: 0–2 (1–3 mit 7+ Party)</li>
+      </ul>
+
+      <h4>Hard-Mode Rewards</h4>
+      <ul>
+        <li>Shimmering Crystal: 6–10 · Shiny Opal: 0–3</li>
+        <li>Mithril Ore: 1–4 · Elunium: 1–3 · Oridecon: 1–3</li>
+        <li>Rough Elunium/Oridecon: 2–8 · Wind of Verdure / Red Blood / Green Live: 1–3</li>
+      </ul>
+    
+      
+    
+      <!-- MD_CARDS:START prontera-culvert -->
+      <a href="md-prontera-culvert.html" class="md-detail-link">
+        <span class="md-detail-link-arrow">📖</span>
+        <span class="md-detail-link-text">
+          <strong>Komplette Detail-Seite öffnen</strong>
+          <span class="md-detail-link-meta">4 Monster · 3 Normal-Drops · 10 Hard-Drops mit Stats, Icons und Bildern aus criatura-academy</span>
+        </span>
+        <span class="md-detail-link-chev">→</span>
+      </a>
+      <!-- MD_CARDS:END prontera-culvert -->
+    </section>
+
+    <section id="orcs-memory">
+      <h2>🐗 Orc's Memory (Lv 60+)</h2>
+      <p>Map: Orc Village. NPC: Scientist (folge dem Pfeil am Eingang). Party erforderlich.</p>
+      <p><strong>Mechanik:</strong> Beim Final-Boss <em>Fallen Orc Hero</em> (Demi-human, Earth 2, 2,1M HP) <strong>NICHT die Shaman's Flowers ignorieren</strong> — sie buffen den Boss!</p>
+
+      <h4>Normal-Mode</h4>
+      <ul>
+        <li>Shimmering Crystal: 1–3</li>
+        <li>Subjugation Sash [1]: 0–2 (1–3 mit 7+ Party)</li>
+        <li>Subjugation Armor [1]: 0–2 (1–3 mit 7+ Party)</li>
+      </ul>
+
+      <h4>Hard-Mode</h4>
+      <ul>
+        <li>Shimmering Crystal: 6–10 · Cursed Emerald: 0–3</li>
+        <li>Mithril Ore: 1–4 · Elunium/Oridecon: 1–3 · Rough-Varianten: 2–8</li>
+        <li>Wind of Verdure / Red Blood / Green Live: 1–3</li>
+      </ul>
+    
+      
+    
+      <!-- MD_CARDS:START orcs-memory -->
+      <a href="md-orcs-memory.html" class="md-detail-link">
+        <span class="md-detail-link-arrow">📖</span>
+        <span class="md-detail-link-text">
+          <strong>Komplette Detail-Seite öffnen</strong>
+          <span class="md-detail-link-meta">5 Monster · 3 Normal-Drops · 10 Hard-Drops mit Stats, Icons und Bildern aus criatura-academy</span>
+        </span>
+        <span class="md-detail-link-chev">→</span>
+      </a>
+      <!-- MD_CARDS:END orcs-memory -->
+    </section>
+
+    <section id="ant-hell-1f">
+      <h2>🐜 Ant Hell 1F (Lv 70+)</h2>
+      <p>Map: 1 ost von Prontera. NPC + Dimensional Rift NPC.</p>
+      <p><strong>Mechanik:</strong> Toxic Geysers stoppen + Boss <em>Cannibal Maya</em> (Insect, Earth 4, 2,2M HP) killen.</p>
+
+      <h4>Rewards</h4>
+      <ul>
+        <li><strong>Normal:</strong> Shimmering Crystal · Azure Crystal · Jello Fragment Box</li>
+        <li><strong>Hard:</strong> Shimmering Crystal · Blood-soaked Ruby · Mithril Ore · Elunium · Oridecon · Rough-Varianten · Wind of Verdure · Red Blood · Green Live</li>
+      </ul>
+    
+      
+    
+      <!-- MD_CARDS:START ant-hell-1f -->
+      <a href="md-ant-hell-1f.html" class="md-detail-link">
+        <span class="md-detail-link-arrow">📖</span>
+        <span class="md-detail-link-text">
+          <strong>Komplette Detail-Seite öffnen</strong>
+          <span class="md-detail-link-meta">5 Monster · 3 Normal-Drops · 10 Hard-Drops mit Stats, Icons und Bildern aus criatura-academy</span>
+        </span>
+        <span class="md-detail-link-chev">→</span>
+      </a>
+      <!-- MD_CARDS:END ant-hell-1f -->
+    </section>
+
+    <section id="izlude-2f">
+      <h2>🐟 Izlude Dungeon 2F (Lv 80+)</h2>
+      <p>Map: 1 ost von Prontera. NPC + Dimensional Rift NPC.</p>
+      <p><strong>Mechanik:</strong> Je mehr Mobs kill, desto stärker werden die verbleibenden. Boss: <em>Deepsea Coelacanth</em> (Fish, Water 2, 2,2M HP).</p>
+
+      <h4>Rewards</h4>
+      <ul>
+        <li><strong>Normal:</strong> Shimmering Crystal · <strong>Crimson Crystal</strong> · Jello Fragment Box</li>
+        <li><strong>Hard:</strong> Shimmering Crystal · Sea Sapphire · Mithril Ore · Elunium/Oridecon · Rough-Varianten · Wind of Verdure · Red Blood · Green Live</li>
+      </ul>
+    
+      
+    
+      <!-- MD_CARDS:START izlude-2f -->
+      <a href="md-izlude-2f.html" class="md-detail-link">
+        <span class="md-detail-link-arrow">📖</span>
+        <span class="md-detail-link-text">
+          <strong>Komplette Detail-Seite öffnen</strong>
+          <span class="md-detail-link-meta">5 Monster · 3 Normal-Drops · 10 Hard-Drops mit Stats, Icons und Bildern aus criatura-academy</span>
+        </span>
+        <span class="md-detail-link-chev">→</span>
+      </a>
+      <!-- MD_CARDS:END izlude-2f -->
+    </section>
+
+    <section id="sunken-ship">
+      <h2>⚓ Sunken Ship (Lv 99)</h2>
+      <p>Map: 1 ost von Prontera. Boss: <em>Stormy Drake</em> (Undead 1, 7,2M HP).</p>
+      <p><strong>Mechanik:</strong> Stormy Drake wird stärker je nach Dungeon-Bedingungen — vorsichtig spielen! <strong>Stormy Mimic-Spawn</strong> hat Chance auf <strong>Bonus-Chest</strong> mit zusätzlichen Reinforcement-Materialien.</p>
+
+      <h4>Rewards</h4>
+      <ul>
+        <li><strong>Normal:</strong> Shimmering / Azure / Crimson Crystal · Jello Fragment Box · Mithril Ore · Elunium · Oridecon · Rough-Varianten · Wind of Verdure · Red Blood · Green Live</li>
+        <li><strong>Hard:</strong> Shimmering Crystal · Blood-soaked Ruby · Mithril Ore · Elunium/Oridecon · Rough-Varianten · Wind of Verdure · Red Blood · Green Live</li>
+      </ul>
+    
+      
+    
+      <!-- MD_CARDS:START sunken-ship -->
+      <a href="md-sunken-ship.html" class="md-detail-link">
+        <span class="md-detail-link-arrow">📖</span>
+        <span class="md-detail-link-text">
+          <strong>Komplette Detail-Seite öffnen</strong>
+          <span class="md-detail-link-meta">5 Monster · 12 Normal-Drops · 10 Hard-Drops mit Stats, Icons und Bildern aus criatura-academy</span>
+        </span>
+        <span class="md-detail-link-chev">→</span>
+      </a>
+      <!-- MD_CARDS:END sunken-ship -->
+    </section>
+
+    <section id="endless-tower">
+      <h2>🗼 Endless Tower (Lv 50, wöchentlich)</h2>
+      <p><strong>Entry:</strong> Captain Janssen @ <code>alberta 214,77</code> (10.000z Donation). 100 Stockwerke · 4h Zeit · Wöchentlicher Reset.</p>
+      <p>F25/F50/F75/F100 geben <em>Ashes of Darkness</em>. Final-Boss F100: <strong>Entweihen Knothen</strong> → <strong>Naght Sieger MVP</strong>.</p>
+
+      <h4>Rewards</h4>
+      <ul>
+        <li>Ashes of Darkness</li>
+        <li>MVP Cards (Naght Sieger, Entweihen)</li>
+        <li>Random Equipment drops pro Floor</li>
+      </ul>
+    </section>
+
+    <section id="geffen-magic-tournament">
+      <h2>🎩 Geffen Magic Tournament (Lv 90 SOLO, Daily)</h2>
+      <p>Entry: Dimensional Gap (dali). 2h Time / 23h Cooldown. <strong>Nur SOLO!</strong></p>
+      <p><strong>Reward:</strong> <strong>110 Magic Contest Coins</strong> pro vollständiger Run.</p>
+
+      <h4>Coin-Shop</h4>
+      <ul>
+        <li>Magic Reflect [1] — 900 Coins</li>
+        <li>Revised Encyclopedia [1] — 900</li>
+        <li>Physical Enhancer Ring [1] — 1350</li>
+        <li>Magic Intensifier Ring [1] — 1350</li>
+        <li>Anti-Magic Suit [1] — 1800</li>
+        <li>Geffen Magic Robe [1] — 1800</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🛠️ Memorial-Equipment-Crafting (Pre-Trans)</h2>
+      <p><strong>NPCs:</strong> Stone Refiner + Mysterious Craftsman @ <code>prontera 50,227</code>.</p>
+
+      <h4>Jello-Fragment → Jello-Stone (3 Tage Craft, beschleunigbar mit Gel Star)</h4>
+      <ul>
+        <li>Mo: Poring Jello Fragment → <strong>Red Lotus Stone</strong> (Poring Village)</li>
+        <li>Di: Poporing Jello Fragment → <strong>Breeze Stone</strong> (Prontera Culvert)</li>
+        <li>Mi: Drops Jello Fragment → <strong>Dusk Stone</strong> (Orcs Memory)</li>
+        <li>Do: Deviling Jello Fragment → <strong>Chaotic Stone</strong> (Ant Hell 1F)</li>
+        <li>Fr: Angeling Jello Fragment → <strong>Holy Stone</strong> (Sunken Ship)</li>
+      </ul>
+
+      <h4>Tier-Upgrade-Flow</h4>
+      <pre><code>Subjugation IV (Treasure-Box-Drop) — Starter, 1 Enchant
+    + 50× Shimmering Crystal + 2× Red Lotus Stone
+  → Expedition III (1 Enchant)
+    + 50× Azure Crystal + 4× Red Lotus Stone
+  → Guardian II (2 Enchants)   [benötigt Trans-Class für optimal]
+    + 50× Crimson Crystal + 6–10× Holy Stone
+  → Conqueror I (3 Enchants)   [Trans-Endgame]</code></pre>
+
+      <p><strong>Enchant-NPC</strong> (Enchant Association Employee) @ <code>prontera 50,227</code>:</p>
+      <ul>
+        <li>Enchant-Versuch: 100.000z</li>
+        <li>Reset: 200.000z (30% Zerstörungsrisiko!) — <strong>sicher mit Gel Star</strong></li>
+        <li>Job Essence I/II werden im letzten Slot angewendet (bei +9 Refine)</li>
+      </ul>
+
+      <div class="info-box future">
+        <strong>🔮 Guardian/Conqueror-Tier benötigen Trans-Level-Content.</strong> Für den aktuellen Pre-Trans-Play-Loop stoppst du bei <strong>Expedition III</strong>. Siehe <a href="endgame-ausruestung.html">Endgame-Ausrüstung</a>.
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank">Project Zero Wiki</a> · <a href="https://www.rozskill.me/" target="_blank">rozskill.me</a>
+</footer>
+
+</body>
+</html>

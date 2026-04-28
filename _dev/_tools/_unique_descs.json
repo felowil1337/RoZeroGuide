@@ -1,0 +1,1130 @@
+[
+  {
+    "name": "Enlarge Weight Limit",
+    "desc": "Increases maximum carrying capacity by 200*SkillLV."
+  },
+  {
+    "name": "Discount",
+    "desc": "Allows buying items at reduced prices from NPC shops. Deals, vending shops, and chat-selling NPCs (e.g. Upgrade stone NPC) are not affected. The final price is always rounded down and has a minimum value of 1z."
+  },
+  {
+    "name": "Overcharge",
+    "desc": "Allows selling items at increased prices to NPC shops. Deals are not affected. The final price is always rounded down and has a minimum value of 0z."
+  },
+  {
+    "name": "Pushcart",
+    "desc": "Allows the character to equip and use a pushcart. Movement speed with a Pushcart equipped is (50+5*SkillLV)% (yes, you move much slower at the beginning). The pushcart can hold 8000 Weight and a maximum of 100 distinct items(some items stack, so count as only 1 distinct item). Pushcarts must be bought from a Kafra Employee and there is at least one present in every town and some may be found in other locations. Cost varies depending on which Kafra Employee you go to. If the pushcart is removed, it disappears and a new one must be bought. Any items in the pushcart at the time it is removed are not lost, but cannot be retrieved until you buy a new cart. To access the cart directly use Alt+W"
+  },
+  {
+    "name": "Identify",
+    "desc": "Identifies an unidentified item. Unidentified item must be in inventory (not cart). A Magnifier duplicates the effect of this skill."
+  },
+  {
+    "name": "Vending",
+    "desc": "Allows the character to set up a shop at his current location. The items you want to sell must be in the characters pushcart, and the character must have his pushcart equipped. Be very careful to set the correct price! The limit on distinct items that can be sold at one time is 2+SkillLV. Players cannot sell items to a vending shop, and the Discount skill does not apply. It will close automatically if all items are sold or if the character is killed."
+  },
+  {
+    "name": "Mammonite",
+    "desc": "Uses 100z*SkillLV to increase ATK to (100+50*SkillLV)% for the next attack."
+  },
+  {
+    "name": "Cart Revolution",
+    "desc": "Does ATK*150% neutral-property damage to 3x3 area around your target. Enemies hit by the attack are pushed back 2 cells. The appearance is just like Magnum Break, except you also see your cart go flying over your head and hitting the ground in front of you. Putting items in your cart increases the damage by up to 100% more (1% per 80 weight as it has 8000 weight max). So the total you could do is 250% damage."
+  },
+  {
+    "name": "Change Cart",
+    "desc": "Lets you change the appearance of your cart. A &quot;for fun&quot; skill, but because the appearances you can pick is restricted by the characters base level, you can tell a high level merchant or blacksmith just by looking at their cart. Level 1-40: Normal cart only. Level 41-65: A Wooden cart. Level 66-80: Covered cart with flowers and ferns on it. Level 81-90: Wooden cart with a Panda doll on the back. Level 91-99: The normal cart, but with bigger wheels, a roof and a banner on the back."
+  },
+  {
+    "name": "Loud Exclamation",
+    "desc": "Adds +4 STR."
+  },
+  {
+    "name": "Buying Store",
+    "desc": "Enables the ability to open a purchase stall to buy various kinds of items. Must have atleast 1 item you are buying."
+  },
+  {
+    "name": "Cart Decoration",
+    "desc": "Change Pushcart appearance."
+  },
+  {
+    "name": "Axe Mastery",
+    "desc": "Raises Attack Power that ignores Def by +3 per SkillLV when using Axe type weapons. This damage ignores modification from Armor and VIT defense, but not from Elemental and Card modifiers and applies to all hits for multi hit attacks."
+  },
+  {
+    "name": "Learning Potion",
+    "desc": "Increases effectiveness of healing items by 5% per SkillLV and potion creation chance by 1% per SkillLV."
+  },
+  {
+    "name": "Pharmacy",
+    "desc": "Allows the creation of potions. Requires a Product Manual and uses up a Medicine Bowl and different ingredients for each potion to be made. Increases the chance of a successful creation by +3% per SkillLV. As an important note to remember, an adopted Alchemist will have -30% success rates! Brewing Guide: Click Here Brewing Calculator: Click Here"
+  },
+  {
+    "name": "Demonstration",
+    "desc": "Throws a Molotov Cocktail, setting a 3x3 area ablaze. Has a (1*SkillLV)% chance to damage the targets Weapon. Can not be cast directly under an enemy or directly next to yourself. Damage is (100+20*SkillLV)% ATK which is not increased via +% cards, +ATK cards however, do help. Status inflicting cards have no effect. It can&#x27;t be placed next to other Bombs or stacked on top of another Bomb."
+  },
+  {
+    "name": "Acid Terror",
+    "desc": "Throw an Acid Bottle at your opponent with a small chance to break their armor, and inflict the external bleeding status. This skill ignores armor defense, and hits regardless of Flee. VIT defense is calculated in, however. While the damage can be blocked by Pneuma, the chance to break armor remains. Kyrie, however, blocks both the damage and the chance of breaking armor, as well as a Crusader with Auto Guard. A successful armor break calculation makes the target use the /omg emoticon. That doesn&#x27;t automatically mean they had their armor broken; even when using the Chemical Protection Armor skill or wearing an Immortal armor, the /omg will display itself so long as the attack was considered a success. Just like Demonstration, the damage is increased via +ATK cards, and status and +% cards have no effect. It&#x27;s also unaffected by elements. The Acid Bottle is consumed at the beginning of the cast, as opposed to the end like the other potion skills. This means that if you are interrupted while casting, the bottle is lost with nothing to show for it. Damage is (100+40*SkillLV)% ATK."
+  },
+  {
+    "name": "Potion Pitcher",
+    "desc": "Allows you to throw a potion at yourself, another party or guild member with increased healing efficiency. Higher skill levels allow the use of more potent potions and the selected level determines the potion type that is used. Learned SkillLV also increases the impact potency by 10% per SkillLV which stacks with existing bonuses like Learning Potion, VIT and INT, Increase Recuperative Power and Increase Spiritual Power (yes, with maxed Increase Recuperative Power the healed amount is doubled). It uses up one Potion of the thrown type. It will not damage Undead when you use a healing potion on them."
+  },
+  {
+    "name": "Bio Cannibalize",
+    "desc": "Summon various plants to attack monsters or players. The level you have determines the HP of the plant, while the level you use determines the type of plant summoned, the duration, and the amount of Plant Bottles consumed. The HP formula is 2230+200*Possessed SkillLV per plant (yes, these have significantly more HP than normal ones), all other stats remain the same. If you have less than the total amount of bottles required for the Skill Level you used, it will take the rest of the bottles, and summon that many plants. So if you have three plant bottles, and use level one, you?ll end up with three Mandragora instead of the typical five. When used during the War of Emperium, the defense value of the castle the plants are in raises the defense of the plants themselves. Their attacks are considered extensions of your own when it comes to a single thing: auto-cast spells granted by weapons or cards. Status effects and damage increasing cards do not carry over to the plants. You can only summon more plants once your first plants have died, or gone through their duration time. So long as you remain on screen with them, you will get the experience for their kills. An effective strategy for all the plants is to summon them, hit/target a monster, and then use a Hiding accessory once the monster is in range of your plants. Monsters will not attack your plants, thus rendering them sitting ducks until your plants have had their way with them, provided they?re not insect or demon type monsters. The attacks are of neutral element with the occasional elemental attack corresponding to the plants element. The HIT/Flee stats below are what&#x27;s required of players to hit/dodge them, not the HIT or Flee of the plant itself. LV 1: 5 Mandragoras, 5 Plant Bottle ATK: 26-35 Element/size: Earth 3/medium. HIT: 44 Flee: 123 ASPD: Fairly slow. Tip: Long lasting, use them with autocast weapons and to decrease Flee. Blocked by Pneuma. LV 2: 4 Hydras^, 4 Plant Bottle ATK: 22-28 Element/size: Water 2/small. HIT: 48 Flee: 129 ASPD: Quite fast. Tip: Use them with autocast weapons. Blocked by Pneuma. LV 3: 3 Floras, 3 Plant Bottle ATK: 242-273 Element/size: Earth 1/large. HIT: 72 Flee: 144 ASPD: Average. Tip: randomly casts HP drain to replenish its HP. LV 4: 2 Parasites, 2 Plant Bottle ATK: 215-430 Element/size: Wind 2/medium. HIT: 109 Flee: 214 ASPD: Somewhat fast. Tip: High Range. Blocked by Pneuma. LV 5: 1 Geographer, 1 Plant Bottle ATK: 467-621 Element/size: Earth 3/medium. HIT: 143 Flee: 199 ASPD: Average."
+  },
+  {
+    "name": "Sphere Mine",
+    "desc": "Summons a Marine Sphere with twice the normal HP. After being hit, it starts a 5 second countdown and moves away from the attacker. When the countdown reaches 0 it explodes and inflicts damage to anyone (party members, enemies and guild members) equal to its remaining HP. You can not summon more than 3 in a 9x9 area. The Spheres Maximum HP is based on your skill level (2000+400*SkillLV HP). When used in WoE, the defense value of the castle the Sphere is in will raise the defense of the Sphere itself."
+  },
+  {
+    "name": "Chemical Protection Weapon",
+    "desc": "Causes an equipped weapon to become unbreakable for the skill&#x27;s duration, also protects against Rogue skill Strip Weapon."
+  },
+  {
+    "name": "Chemical Protection Shield",
+    "desc": "Causes an equipped shield to become unbreakable for the skill&#x27;s duration, also protects against Rogue skill Strip Shield."
+  },
+  {
+    "name": "Chemical Protection Armor",
+    "desc": "Causes an equipped armor to become unbreakable for the skill&#x27;s duration, also protects against Rogue skill Strip Armor."
+  },
+  {
+    "name": "Chemical Protection Helm",
+    "desc": "Causes an equipped helm to become indestructible for the skill&#x27;s duration. Protects against Rogue skill Strip Helm."
+  },
+  {
+    "name": "Bioethics",
+    "desc": "Allows Alchemist to begin learning the Homunculus Skill Tree."
+  },
+  {
+    "name": "Call Homunculus",
+    "desc": "Summon or recall an already created Homunculus using an &#x27;Embryo&#x27; item. When used for the first time the Embryo gives one of the 4 possible types at random, if you don&#x27;t like the Homunculus, destroy it and make a new one. You can see its state by right-clicking on it, then order it to either - attack, move, stay, feed, name change, and delete. [Status] This shows variety of information about your Homunculus. This is where variety of command can be given to your Homunculus. [Attack] Select an enemy via Alt + Right click, then press Alt + Right click one more time to set the Homunculus to attack that target. To cancel, simply give it order to move or stay. [Move] Click Alt + Right click on ground to let it move there. This command overrides all other commands. Homunculus cannot move too far away from you. [Stay] While doing other motion - [Move] or [Attack] - right click on the Homunculus to bring out the menu. Choose [Stay], then it will cancel all it was doing and stay by your side in idle state. [Feed] Select this, or click [Feed] in Homunculus status window, then you will feed the Homunculus with appropriate food. Homunculus eats following food: Lif: Pet Food Amistr: Zargon Filir: Garlet Vanilmirth: Scell Warning: Homunculus is an artificial life form. If you do not feed it periodically, it will simply disappear. So, take extra care in its feeding time! Every Homunculus has different Skills, depending on its type: - Lif (Dryad): -support caster Touch of Heal - heals the master Emergency Avoid Brain Surgery Mental Change (unknown) - Amistr (Sheep): -defensive melee Castling Defense Adamantium Skin Blood Lust (unknown) - Filir (Bird): -offensive melee Moonlight Fleet Move Over Speed S.B.R.44 (unknown) - Vanilmirth (Mutant Jelly): -offensive spellcaster Caprice Chaotic Benediction Change Instruction Bio Explosion (unknown) Leveling For Homunculus - Exp acquire by Homunculus depends on the damage it deals to the monster. - No matter how many monsters the player kill, the Homunculus will not gain any exp. - Let the Homunculus attack in order to level up Homunculus [no special effect when Homunculus Level Up]. - Whether the exp obtained by the Homunculus will be shared by the player or not is still not confirmed. - Max level of Homunculus is LV 99 - There is an equipment section in the status window of the Homunculus, therefore there might be special equipment for the Homunculus in the future. - Currently the only way to recover the Homunculus&#x27;s HP is to let it rest. Potion Pitcher, Heal, etc, all of them have no effect."
+  },
+  {
+    "name": "Rest",
+    "desc": "Destroys a currently created Homunculus."
+  },
+  {
+    "name": "Resurrect Homunculus",
+    "desc": "Resurrect a killed Homunculus."
+  },
+  {
+    "name": "Berserk Pitcher",
+    "desc": "Throws a Berserk Potion at the target, that takes effect ignoring class restrictions, but the target still needs to be BaseLV 85 or more."
+  },
+  {
+    "name": "Twilight Alchemy I",
+    "desc": "Make 200 attempts to create a White Potion every 0.005 seconds. This skill has the same success rate as the Pharmacy skill. If there are not enough ingredients to create all 200 at once, the skill will fail. Check the Potion Creation Guide for the necessary ingredients."
+  },
+  {
+    "name": "Twilight Alchemy II",
+    "desc": "Make 200 attempts to create a Condensed White Potion every 0.005 seconds. This skill has the same success rate as the Pharmacy skill. If there are not enough ingredients to create all 200 at once, the skill will fail. Check the Condensed Potion Creation Guide for the necessary ingredients. Note: You need a Soul Linker and Super novice on your party to this skill to work."
+  },
+  {
+    "name": "Twilight Alchemy III",
+    "desc": "Creates 100 Alcohol, 50 Acid Bottle and 50 Bottle Grenade. Each cast requires 50 Fabric, 50 Empty Bottle and enough materials to craft the produced items. If there are not enough ingredients to create them all at once, the skill will fail. Check the Alcohol Creation Guide, Acid Bottle Creation Guide and Bottle Grenade Creation Guide for the necessary ingredients. Note: You need a Taekwon Boy on your party to this skill to work."
+  },
+  {
+    "name": "Double Attack",
+    "desc": "Gives chance to double swing a Dagger class weapon with a chance equal to (5*SkillLV)%, and adds +1 HIT per SkillLV (that only applies in double attacks). In the case of an Assassin wielding two Dagger class weapons, it applies to the right-hand weapon only. It also boosts the off-hand (left hand) damage of a Katar weapon by (1+2*SkillLV)% ATK."
+  },
+  {
+    "name": "Increase Dodge",
+    "desc": "Increases Flee Rate by +3*SkillLV. This skill boosts the walking speed for Assassins by 1% per SkillLV and gives an additional +1 Flee Rate per SkillLV when you are an Assassin or Rogue. The walking speed bonus does not add to the walking speed increase when using Cloaking."
+  },
+  {
+    "name": "Steal",
+    "desc": "Attempts to &quot;steal&quot; an item from the targeted monster. Only items dropped by the monster can be stolen. A successful Steal attempt will not affect what is dropped when the monster dies. After success, it is not possible to Steal again from the same monster. Boss, Frozen and Stone Cursed monsters cannot be robed. The formula for stealing is: DropRatio*(DEX - MonsterDEX + 10 + 3*SkillLV + )/100 where DropRatio is the percent chance of a particular item being dropped. If the result of the steal check is lower than the AdjustedDropRatio for an item, then it is possible that item will be stolen."
+  },
+  {
+    "name": "Hiding",
+    "desc": "Toggles the hide effect on the character on/off. Hidden characters cannot move, attack or use any skill (except certain Rogue skills) and do not regenerate HP or SP. The hide effect makes a character invisible to other players and monsters. This stops skills and spells that are targeted at you from working and anything attacking you stops (assuming that their last hit doesn&#x27;t hit you and reveal you!). Attention Concentrate, Ruwach, Detecting and Sight are all capable of revealing hidden characters. Insects, Demons and Boss monsters are able to see hidden targets. Consumes 10 SP for casting and continually drains certain amount of SP while hiding. Toggling the hide effect off consumes no SP."
+  },
+  {
+    "name": "Envenom",
+    "desc": "An attack that adds 15*SkillLV to your ATK (unmodified by Armor and VIT Def) to your normal damage. This bonus damage is always inflicted, whether your character lands a normal hit or not. Envenom has a (10+4*SkillLV)% chance to inflict poison status on target. Poisoned targets have their DEF reduced by 25% and lose 3% of Maximum HP every 3 seconds unless that would cause HP to drop below 25% of Maximum HP. The entire screen turns purple for the poisoned individual. Undead property and Boss monsters cannot be poisoned."
+  },
+  {
+    "name": "Detoxify",
+    "desc": "Cures poison status on target."
+  },
+  {
+    "name": "Sprinkle Sand",
+    "desc": "An attack with 130% normal ATK and with a 20% chance to cause blind effect. Although it has no Cast Time or Cool Down it can&#x27;t be spamed."
+  },
+  {
+    "name": "Back Sliding",
+    "desc": "Moves you backwards 5 cells (depends on the direction you are facing)."
+  },
+  {
+    "name": "Pick Stone",
+    "desc": "Adds one Stone item to your inventory. Will not work if you are overweight (more than 50% of total weight capacity)."
+  },
+  {
+    "name": "Throw Stone",
+    "desc": "An attack that always does 50 points of damage (but does not ignore damage reduction cards) and has a 3% chance of causing the stun effect on the target. Consumes one stone per use. Useful for luring monsters link monsters away from a pack and other such sneaky thief-like tricks."
+  },
+  {
+    "name": "Right-Hand Mastery",
+    "desc": "Damage on the right-hand weapon while equipping two weapons is (50+10*SkillLV)%. DOES NOT WORK FOR KATARS AS THESE COUNT AS 2-HANDED WEAPONS."
+  },
+  {
+    "name": "Left-Hand Mastery",
+    "desc": "Damage on the left-hand weapon while equipping two weapons is (30+10*SkillLV)%. DOES NOT WORK FOR KATARS AS THESE COUNT AS 2-HANDED WEAPONS."
+  },
+  {
+    "name": "Katar Mastery",
+    "desc": "Increases damage with Katar class weapons by 3*SkillLV. This damage ignores modification from Armor and VIT defense, but not from Elemental and Card modifiers and applies to all hits for multi hit attacks."
+  },
+  {
+    "name": "Cloaking",
+    "desc": "Gives character the Cloaked effect, it makes the user invisible to players and monsters but you don&#x27;t lose the ability to move. Cloaked characters do not regenerate HP or SP, they can attack but this uncloaks them. Attacking while being cloaked doubles the critical rate for that hit. Insects, Demons and Boss monsters see through this invisibility. The Cloaked effect may be cancelled at any time by using the skill again (no SP Cost), by getting hit, reaching SP 0 or by coming into the area of effect of Attention Concentrate, Ruwach or Sight. Lower Skill Levels don?t let you attack or use skills and require a wall next to you to allow movement. The movement speed increase does not stack with the one from Improve Dodge."
+  },
+  {
+    "name": "Sonic Blow",
+    "desc": "A series of 8 fast hits for a total modified ATK of (400+40*SkillLV)% with a (10+2*SkillLV)% chance to stun the target. The damage is applied instantly, even though the animation takes some time. The skill can miss and can only be used with Katars."
+  },
+  {
+    "name": "Grimtooth",
+    "desc": "A ranged attack that hits a 3x3 area around the target for (100+20*SkillLV)% ATK. Skill only be used while Hiding (Cloaked isn&#x27;t good enough). Can only be used with Katar class weapons."
+  },
+  {
+    "name": "Enchant Poison",
+    "desc": "Gives equipped weapons the Poison property. Changing or removing either weapon cancels the effect for every weapon affected. Every hit while the Enchant Poison effect is running has a (2.5+0.5*SkillLV)% chance of causing the Poison effect to the target."
+  },
+  {
+    "name": "Poison React",
+    "desc": "Attempts to counter 1~6 attacks that damage you (using level 5 Envenom) OR 1 attack from a poison property monster (using boosted damage) while the skill is active. The success rate is 100% for Boosted Counter and 50% for Envenom Counter. Adding levels in this skill gives a damage increase on boosted counter of +(30*SkillLV)% and increase the number of Envenom Counters."
+  },
+  {
+    "name": "Venom Dust",
+    "desc": "Creates a poison cloud covering cells vertically and horizontally adjacent to target cell. Anything except a Boss monster that stands on the cloud will be Poisened."
+  },
+  {
+    "name": "Venom Splasher",
+    "desc": "Turns target into a poison bomb. Target must and have less than 3/4 HP in order to be effected. When the skill is used, a timer appears above the target. If the skill is successful, and the timer reaches 0 the target explodes and takes a poison property hit at an ATK of (500+50*SkillLV)%, the Poison React skill passively adds (30*SkillLV)% to this. The surrounding 5x5 area takes splash damage which is the original damage divided by the number of mobs including the exploding mob. Finally, weapon elements and weapon cards do not improve the damage. The skill uses weapon element. If you successfully setup a bomb there&#x27;s a 7.5 + 0.5*SkillLV second delay in which you cannot setup another bomb."
+  },
+  {
+    "name": "Sonic Acceleration",
+    "desc": "Increases the Sonic Blow HIT by +50 and Damage by +10%"
+  },
+  {
+    "name": "Throw Venom Knife",
+    "desc": "Throws a poisoned Dagger with a high chance of poisoning the target. This Skill requires you to have a Dagger equipped and uses up this item when executed."
+  },
+  {
+    "name": "Owl&#x27;s Eye",
+    "desc": "Increases DEX by 1*SkillLV."
+  },
+  {
+    "name": "Vulture&#x27;s Eye",
+    "desc": "Increases range with bows by 1*SkillLV cells and increases HIT by 1 per SkillLV."
+  },
+  {
+    "name": "Attention Concentrate",
+    "desc": "Increases DEX and AGI of the casting character by (2+1*SkillLV)%. Only affects DEX/AGI from base stat, job bonus, armor and Owl&#x27;s Eye. Does not include cards. Detects hidden and cloaked characters within a 3 cells range."
+  },
+  {
+    "name": "Double Strafing",
+    "desc": "Ranged attack, that fires two arrows and hits with an ATK of (180+20*SkillLV)%. Requires an equipped bow. Only 1 arrow is consumed."
+  },
+  {
+    "name": "Arrow Shower",
+    "desc": "3x3 cells, ranged splash attack with an ATK of (75+5*SkillLV)%. Enemies hit by the attack are pushed back 2 cells. Requires an equipped bow. Only 1 arrow is consumed."
+  },
+  {
+    "name": "Making Arrow",
+    "desc": "Creates arrows from an item. Different items give different amounts and types of arrows. Cannot be used if above 50% weight. Arrow Crafting Guide: Click Here"
+  },
+  {
+    "name": "Charge Arrow",
+    "desc": "Ranged attack at 150% ATK. The target is pushed back 6 cells. Only 1 arrow is consumed."
+  },
+  {
+    "name": "Adaptation to Circumstances",
+    "desc": "Cancels a current song or dance. The same song may not be performed again immediately."
+  },
+  {
+    "name": "Encore",
+    "desc": "Performs the last song or dance again at half SP cost."
+  },
+  {
+    "name": "Lullaby",
+    "desc": "Casts sleep on all enemies within area of effect. Effect will occur every 6 seconds for 60 seconds (11 times) and is affected by INT of the caster, but it has a chance to fail depending on resistances. Cannot be canceled by Dispell."
+  },
+  {
+    "name": "Mr. Kim A Rich Man",
+    "desc": "Increases gained exp from mobs killed within the area of effect by (125+11*SkillLV)%. Cannot be canceled by Dispell."
+  },
+  {
+    "name": "Eternal Chaos",
+    "desc": "Reduces the DEF of enemies to 0 within the area of effect. Cannot be canceled by Dispell."
+  },
+  {
+    "name": "A Drum on the Battlefield",
+    "desc": "Increase ATK by 25+25*SkillLV and DEF by 2+2*SkillLV of all party members within area of effect. Cannot be canceled by Dispell."
+  },
+  {
+    "name": "The Ring of Nibelungen",
+    "desc": "Increases damage of all Level 4 Weapons within area of effect by DEF-ignoring +50+25*SkillLV. Cannot be canceled by Dispell."
+  },
+  {
+    "name": "Loki&#x27;s Veil",
+    "desc": "Blocks all skill use for everything (including players) within area of effect. Can not be canceled by Dispell. Does not work against Boss monsters."
+  },
+  {
+    "name": "Into the Abyss",
+    "desc": "All party members within the area of effect are able to cast spells without gemstones and lay traps without using an item. Cannot be canceled by Dispell."
+  },
+  {
+    "name": "Invulnerable Siegfried",
+    "desc": "Increases resistance against elemental attacks and status ailments for all players in area of effect. Cannot be canceled by Dispell."
+  },
+  {
+    "name": "Musical Lesson",
+    "desc": "Raises Attack Power of instruments by 3 per SkillLV, and increases effects of songs. This skill also partially counters the walking speed reduction while performing."
+  },
+  {
+    "name": "Musical Strike",
+    "desc": "Fires a powerful arrow at the enemy, and may be used during songs. Element type of attack is dependent on equipped arrows. ATK increase is (125+25*SkillLV)%."
+  },
+  {
+    "name": "Dissonance",
+    "desc": "Hits enemies in area with a slow sonic attack, piercing their defense. Deals 30+10*SkillLV damage every 3 seconds for 30 seconds (11 attacks). Also occurs where two Bard songs overlap."
+  },
+  {
+    "name": "Frost Joker",
+    "desc": "Causes frozen status on everything (including players) within the area of effect. In PvP or Guild siege area, this skill works on caster as well. Freezing chance (15+5*SkillLV)%."
+  },
+  {
+    "name": "A Whistle",
+    "desc": "Raises Flee Rate by SkillLV and Perfect Dodge by SkillLV/2 rounded down of all players in the area of effect. The Flee Rate is affected by AGI, and Musical Lesson skill of the caster. The Perfect Dodge rate is affected by LUK, and Musical Lesson of the caster."
+  },
+  {
+    "name": "Assassin Cross of Sunset",
+    "desc": "Increases attack rate of all players in the area of effect by (10+SkillLV)%. Sacks with Speed Potions but not with Adrenaline Rush or Weapon Quicken."
+  },
+  {
+    "name": "A Poem of Bragi",
+    "desc": "Reduces casting time by 3% per SkillLV and Cool Down by 5% per SkillLV (on LV10 - 50%) of all spells used in the area of effect. The amount of casting time reduced by this skill is affected by DEX and Musical Lesson skill level of the caster. The amount of delay after skill use is affected by INT and Musical Lesson skill level of the caster. Suffragium, the Priest skill, doesn&#x27;t associate in this skill."
+  },
+  {
+    "name": "The Apple of Idun",
+    "desc": "Increases Maximum HP of all players in the area by (5+2*SkillLV)%. Also creates a healing zone, restoring 30+5*SkillLV HP every 6 seconds in the area of effect for up to 3 minutes (31 times total)."
+  },
+  {
+    "name": "Pang Voice",
+    "desc": "You scream out at a single target, causing the &#x27;Confusion&#x27; status ailment. Does not work against Boss monsters."
+  },
+  {
+    "name": "Iron Tempering",
+    "desc": "Allows character to refine 1 Iron Ore into 1 Iron using 1 Mini-Furnace. Skill value is (40+5*SkillLV)%. JobLV, DEX and LUK (in this order) further increase this chance. Forging formula: Success chance in %: Skill Value + JobLV * 0.2 + DEX * 0.1 + LUK * 0.1 Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here"
+  },
+  {
+    "name": "Steel Tempering",
+    "desc": "Allows character to refine 5 Iron and 1 Coal into 1 Steel using a Mini-furnace. Skill value is (30+5*SkillLV)%. JobLV, DEX and LUK (in this order) further increase this chance. Forging formula: Success chance in %: Skill Value + JobLV * 0.2 + DEX * 0.1 + LUK * 0.1 Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here"
+  },
+  {
+    "name": "Enchanted Stone Craft",
+    "desc": "Allows character to refine 10 Green Live/Wind of Verdure/Red Blood/Crystal Blue/Star Dust into 1 Great Nature/Rough Wind/Flame Heart/Mystic Frozen/Star Crumb using a Mini-furnace. The skill value is (10+5*SkillLV)%. JobLV, DEX and LUK (in this order) further increase this chance Forging formula: Success chance in %: Skill Value + JobLV * 0.2 + DEX * 0.1 + LUK * 0.1 Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here"
+  },
+  {
+    "name": "Research Oridecon",
+    "desc": "Enchanted Stone Craft strictly applies only to the creation of Level 3 Weapons. Increasing this skill`s level raises the success rate of forging Level 3 Weapons by (1%+SkillLV)."
+  },
+  {
+    "name": "Smith Dagger",
+    "desc": "Allows character to forge Daggers using a hammer. You can only forge Daggers of a level equal to or less than the level in this skill. Skill value is (5*SkillLV)%. Anvil, JobLV, DEX and LUK (in this order) further increase this chance. To start forging, double-click the respective Hammer from the ingredients list in your inventory. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here"
+  },
+  {
+    "name": "Smith Sword",
+    "desc": "Allows character to forge one-handed Swords using a hammer. You can only forge Swords of a level equal to or less than the level in this skill. Skill value is (5*SkillLV)%. Anvil, JobLV, DEX and LUK (in this order) further increase this chance. To start forging, double-click the respective Hammer from the ingredients list in your inventory. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here"
+  },
+  {
+    "name": "Smith Two-Handed Sword",
+    "desc": "Allows character to forge two-handed Swords using a hammer. You can only forge Swords of a level equal to or less than the level in this skill. Skill value is (5*SkillLV)%. Anvil, JobLV, DEX and LUK (in this order) further increase this chance. To start forging, double-click the respective Hammer from the ingredients list in your inventory. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here"
+  },
+  {
+    "name": "Smith Axe",
+    "desc": "Allows character to forge Axes using a hammer. You can only forge Axes of a level equal to or less than the level in this skill. Skill value is (5*SkillLV)%. Anvil, JobLV, DEX and LUK (in this order) further increase this chance. To start forging, double-click the respective Hammer (on the ingredients list) in your inventory. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here"
+  },
+  {
+    "name": "Smith Mace",
+    "desc": "Allows character to forge Maces using a hammer. You can only forge Maces of a level equal to or less than the level in this skill. Skill value is (5*SkillLV)%. Anvil, JobLV, DEX and LUK (in this order) further increase this chance. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here"
+  },
+  {
+    "name": "Smith Brass Knuckle",
+    "desc": "Allows character to forge Claws using a hammer. You can only forge Claws of a level equal to or less than the level in this skill. Skill value is (5*SkillLV)%. Anvil, JobLV, DEX and LUK (in this order) further increase this chance. To start forging, double-click the respective Hammer from the ingredients list in your inventory. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here"
+  },
+  {
+    "name": "Smith Spear",
+    "desc": "Allows character to forge Spears using a hammer. You can only forge Spears of a level equal to or less than the level in this skill. Skill Value is (5*SkillLV)%. Anvil, JobLV, DEX and LUK (in this order) further increase this chance. Weapon Forging Guide: Click Here Weapon Forging Calculator: Click Here"
+  },
+  {
+    "name": "Hilt Binding",
+    "desc": "Gives a +1 bonus to STR and +4 ATK. Increases Adrenaline Rush, Over Thrust and Weapon Perfection duration by 10%. DOES NO LONGER prevent you from dropping the equipped weapon upon death. The chance of items dropping on death is only implemented in Nightmare mode PvP currently."
+  },
+  {
+    "name": "Finding Ore",
+    "desc": "Adds a pretty low chance of monsters dropping any Ore or Refining Item."
+  },
+  {
+    "name": "Weaponry Research",
+    "desc": "Increases character&#x27;s HIT by +2 per SkillLV, ATK by +2 per SkillLV and weapon forging success rate by +1% per SkillLV. The damage applies even on a missed attack and is affected by elemental properties and card modifiers. Contrary to some rumor, this skill DOES NOT improve upgrading chances at an Upgrade NPC."
+  },
+  {
+    "name": "Repair Weapon",
+    "desc": "Enables character to repair broken weapons or armors. No anvils or hammers are required. Expendable extra requirements: LV 1 weapon: Iron Ore LV 2 weapon: Iron LV 3 weapon: Steel LV 4 weapon: Rough Oridecon Armors: Steel"
+  },
+  {
+    "name": "Skin Tempering",
+    "desc": "Increases character&#x27;s resistance to Fire element by (4*SkillLV)% and reduces non-elemental damage by (1*SkillLV)%."
+  },
+  {
+    "name": "Hammer Fall",
+    "desc": "Attempts to stun targets in 5x5 area surrounding the targeted cell. Stun duration is 5 seconds (reduced by VIT). Base success chance is (20+10*SkillLV)%. Can only be used with maces and axes. Does not work against Boss monsters."
+  },
+  {
+    "name": "Adrenaline Rush",
+    "desc": "Increase your attack speed with Mace and Axe type weapons by 30%. Increases attack speed of nearby party member with Mace and Axe type weapons by 20%. The skill effect does not stacked, a recast of the skill or recast by other party member will reset the duration of the skill. Changing from a Mace or Axe to any other type of weapons (including bare fists) will cancel the effect."
+  },
+  {
+    "name": "Weapon Perfection",
+    "desc": "Changes all weapon size modifiers for the character and all Party members in range to 100% for the skill&#x27;s duration."
+  },
+  {
+    "name": "Over Thrust",
+    "desc": "Increases ATK by (5*SkillLV)% for all nearby characters in the party. There is a 0.1% chance of breaking the equipped weapon with each swing."
+  },
+  {
+    "name": "Maximize Power",
+    "desc": "The character does maximum damage on all attacks THAT HIT, as if having unlimited DEX."
+  },
+  {
+    "name": "Full Adrenaline Rush",
+    "desc": "Decreases character&#x27;s attack delay with all weapons, including ranged by 30%. Decreases nearby party menbers attack delay with all weapons except ranged by 20%. These two effects are supposed to stack with each other when used by more than one Smith in a party. Changing from a mace/axe to any other weapon (including bare fists) cancels the effect. Does not stack with other skills that directly increase ASPD."
+  },
+  {
+    "name": "Unfair Trick",
+    "desc": "Reduces the Zeny cost of Mammonite by 10%."
+  },
+  {
+    "name": "Greed",
+    "desc": "When you use this skill, all items within 2 cells of the Blacksmith will straight go to his inventory. It is not possible to use this skill during the War of Emperium or in PvP. Do note this skill does not bypass the order of who gets an item first, so you cannot use this skill to snatch an item when another player has the first priority over the item dropped."
+  },
+  {
+    "name": "Sword Mastery",
+    "desc": "Increases damage with Daggers and Swords (1-handed only) by 4*SkillLV. This damage ignores modification from Armor and VIT defense, but not from Elemental and Card modifiers and applies to all hits for multi hit attacks."
+  },
+  {
+    "name": "Two-Handed Sword Mastery",
+    "desc": "Increases damage with Two-Handed Swords by 4*SkillLV. This damage ignores modification from Armor and VIT defense, but not from Elemental and Card modifiers and applies to all hits for multi hit attacks."
+  },
+  {
+    "name": "Increase Recuperative Power",
+    "desc": "Heals ((5*SkillLV) + (Maximum HP*0.002*SkillLV)) HP per 10 full seconds spent standing on one cell. Increases the effect of healing items by (10*SkillLV)% (cumulative with the increase from VIT)."
+  },
+  {
+    "name": "Bash",
+    "desc": "A melee attack with ATK equal to (100+30*SkillLV)%. There is a HIT bonus of 5*SkillLV. If the character has the Fatal Blow skill as well, levels 6-10 will add a chance to Stun of 5%*(Bash SkillLV - 5) plus a bonus depending on BaseLV."
+  },
+  {
+    "name": "Provoke",
+    "desc": "Lowers the enemy DEF and VIT DEF by (5+5*SkillLV)% and increases their ATK by (2+3*SkillLV)%. Undead property and Boss monsters are not affected."
+  },
+  {
+    "name": "Magnum Break",
+    "desc": "5x5 cells, Fire property splash attack with ATK of (100+20*SkillLV)% and a +10*SkillLV bonus to HIT. Enemies hit by the attack are pushed back 2 cells. Drains 15 HP per use, but cannot kill character. After usage, it adds a 20% Fire-elemental bonus to ATK that lasts for 10 seconds. After the cast the attack sequence is not interrupted."
+  },
+  {
+    "name": "Endure",
+    "desc": "Makes character skip &quot;flinch&quot; animation when hit, thus preventing &quot;stun lock&quot;. You still take full damage from hits, but you keep on doing whatever you were doing without pause. A sitting character does not stand up when hit while affected by Endure. The effect cancels out after 7 monster hits. However there is NO maximum for Players hitting the caster. Provides a +1*SkillLV bonus to MDEF. After the first cast you have to wait 10 seconds to cast this skill again. The Endure effect doesn&#x27;t work during War of Emperium. You only get MDEF bonus."
+  },
+  {
+    "name": "Moving HP Recovery",
+    "desc": "Character regenerates HP while walking. Rate is 50% of standing recovery, and not affected by Increase Recuperative Power skill."
+  },
+  {
+    "name": "Fatal Blow",
+    "desc": "Adds chance of causing stun on target when using Bash level 6 or above. Base Stun Chance is 5%*(Bash SkillLV - 5) with a further modifier from character BaseLV and a minimum chance of 0%. [Bash LV 6] 5% Stun Chance [Bash LV 7] 10% Stun Chance [Bash LV 8] 15% Stun Chance [Bash LV 9] 20% Stun Chance [Bash LV 10] 25% Stun Chance"
+  },
+  {
+    "name": "Auto Berserk",
+    "desc": "When your HP goes below 25%, you gain the effect of Provoke L10 on yourself. That means +32% ATK and -55% VIT DEF. The effect lasts until the character returns to more than 25% HP. The skill can be set to activate or not. The skill will even function after it has drained all your SP."
+  },
+  {
+    "name": "Divine Protection",
+    "desc": "Reduces damage from Undead property and Demon family monsters by (3*SkillLV)+[0.04*(BaseLV + 1)]. Damage is subtracted after DEF reductions. Does not work against Players. Base increment without BaseLV modification:"
+  },
+  {
+    "name": "Demon Bane",
+    "desc": "Increases damage against Undead property and Demon family monsters by (3*SkillLV)+[0.05*(BaseLV + 1)]. Damage ignores DEF reduction from armor, but not from VIT. The skill bonus increases with higher character BaseLV. Does not work against Players. Base increment without BaseLV modification:"
+  },
+  {
+    "name": "Heal",
+    "desc": "Heals a target&#x27;s HP for [(BaseLV+INT)/8]*(4+8*SkillLV). When used against Undead property monsters, it is a holy attack that ignores MDEF and INT, but deals only half damage (that is, HealValue*ElementModifier/2). To use against a monster, you must shift-click it or turn on /noshift."
+  },
+  {
+    "name": "Cure",
+    "desc": "Cures Blind, Confusion and Silence (limitation: you can&#x27;t cure yourself from Silence since you can&#x27;t cast while Silenced). Does not work against Players."
+  },
+  {
+    "name": "Spear Mastery",
+    "desc": "Increases damage with all Spears by +4*SkillLV. If riding a Peco Peco, then the damage improvement is +5*SkillLV. This damage ignores modification from Armor and VIT defense, but not from Elemental and Card modifiers and applies to all hits for multi hit attacks."
+  },
+  {
+    "name": "Riding",
+    "desc": "This skill allows the character to ride a Peco Peco. Mounted characters gain an additional 25% walking speed (cumulative with AGI UP) and the maximum weight limit a character can carry is increased by 1000. Mounted characters also attack at half the normal speed, but this penalty can be reduced or offset by levels in Cavalry Mastery. While mounted, the size modifier of spear vs. medium size is 100% instead of 75%. The Peco Peco must be hired from Peco Peco Breeder in Prontera (55/350) at a cost of 2500z. If the character dismounts (by clicking on the &quot;OFF&quot; button in the equipment window), then the Peco Peco disappears and a new one must be hired."
+  },
+  {
+    "name": "Cavalry Mastery",
+    "desc": "Helps return weapon swinging speed to normal while riding a Peco Peco. The swinging speed while riding a Peco Peco is (50+10*SkillLV)% based on unmounted ASPD. This can be incorporated into ASPD as Weapon Delay*(2 - 0.2*SkillLV)*(250 - AGI - [DEX/4])/250."
+  },
+  {
+    "name": "Faith",
+    "desc": "Increases Maximum HP by 200 and Resistance to Holy attacks by 5% per SkillLV."
+  },
+  {
+    "name": "Auto Guard",
+    "desc": "Gives you the ability to completely block attacks. Requires an equipped Shield. When you block an attack, you will be unable to move for 0.3 seconds for SkillLV 1-5. SkillLV 6-9 delays your movement for 0.2 sec and SkillLV 10 for 0.1 sec."
+  },
+  {
+    "name": "Shield Charge",
+    "desc": "Hits enemy with shield. Knocks back and has a chance of stunning. Requires an equipped shield and ignores size modifications. Damage is (100+20*SkillLV)% ATK, Stun Chance is (15+5*SkillLV)%, Knock back is 4+SkillLV cells."
+  },
+  {
+    "name": "Shield Boomerang",
+    "desc": "Throw shield at enemy. Heavier and higher refined shields do more damage. Damage is 100%+30*SkillLV. Requires an equipped shield and ignores size modifications."
+  },
+  {
+    "name": "Reflect Shield",
+    "desc": "Returns some damage dealt to you back to the enemy. Melee attacks only. Reflected Damage is (10+3*SkillLV)% of received damage. Requires an equipped shield and ignores size modifications."
+  },
+  {
+    "name": "Holy Cross",
+    "desc": "Hit an enemy with a cross shaped, strong, holy element attack. Has a chance of causing Blind. Damage is (100+35*SkillLV)%, Blind chance is (3*SkillLV)%."
+  },
+  {
+    "name": "Grand Cross",
+    "desc": "Do 3 holy element, cross shaped, splash attacks with the area of effect centered on yourself. Enemies of Undead property and Demon family type will be blinded (but not players). Damage is (100+40*SkillLV)%*(ATK+MATK)*holy_property_fix per hit, where: - ATK is the damage that you would cause to the monster using a normal (neutral property) attack (Masteries don&#x27;t cont, weapon cards that increase ATK or STR work but cards that gives % more damage do NOT) - MATK is the damage that you would cause to the monster using a neutral property spell (and this value CAN BE negative, like when a mob that has higher INT than your MATK, cards/weapons that add additional INT work) During the cast process your defense will be reduced by 1/3. After casting is finished, you will receive 20% of current HP+([(100+40*SkillLV)%*(ATK+MATK)]/2)*holy_property_fix damage per hit yourself, where: - ATK is the damage that you would cause to YOURSELF using a normal attack (Thara Frog Card works and decrease damage. The &#x27;20% of current HP&#x27; rant can NOT be avoided or reduced!) - MATK is the damage that you would cause to YOURSELF using a neutral property spell Damage (on yourself) is reduced TWICE - first because of &#x27;half damage to yourself&#x27;, second because of the Faith skill (that reduces holy damage by half) so players actually get 1/4 damage. You may not change the equipped shield while you cast this spell. Casting can not be interrupted and the damage ignores size modifications."
+  },
+  {
+    "name": "Devotion",
+    "desc": "Protect party members by taking the full damage that they are receiving. They must be in range to benefit from this, once they leave the skill is canceled and needs to be recasted. Damage taken is based on the DEF of the person who gets hit, not the Crusader that takes the hit. If the caster has any self casted, class native enhancements on him, e.g. Endure (Endure transfer is disabled in WoE), Providence or Reflect Shield, the party member(s) will share these benefits, too. This skill cannot be used on other Crusaders. The level difference between the caster and the target must be equal or less than 10 (within normal EXP share range). The number of possible protected party members is 1*SkillLV. Should the HP of Crusader drop below 25%, Devotion will be canceled."
+  },
+  {
+    "name": "Providence",
+    "desc": "Increase DEF against holy and demon type attacks by 5% per SkillLV."
+  },
+  {
+    "name": "Defender",
+    "desc": "Decreases the ATK of ranged attacks against the caster by (5+15*SkillLV)%, but also lowers ASPD by (25-5*SkillLV)% and walking speed by 1/3 while active. The higher the level the lower the values, up to SkillLV 5 which has no speed reductions. Can be shared with party members when the Devotion skill is casted on them, but the movement reduction will affect them too. Caster must have a shield equipped."
+  },
+  {
+    "name": "Spear Quicken",
+    "desc": "Increases ASPD of two-handed spear type weapons by (20+SkillLV)%."
+  },
+  {
+    "name": "Shrink",
+    "desc": "This skill activates when used and deactivates if used again or the duration expires. If you successfully defend using Auto Guard, there is a (5*Auto Guard LV)% chance to push the defended enemy 2 cells away."
+  },
+  {
+    "name": "Dancing Lesson",
+    "desc": "Increases whip type weapon damage and effectiveness of dancing skills by 3 per SkillLV. This skill also partially counters the walking speed reduction while performing."
+  },
+  {
+    "name": "Throw Arrow",
+    "desc": "Allows the dancer to throw an arrow with her whip as if she were firing it from a bow. May use other dancing skills in conjunction with this skill. The element of the attack depends on the equipped arrows. ATK increase is (125+25*SkillLV)%."
+  },
+  {
+    "name": "Ugly Dance",
+    "desc": "Drains SP from enemies in the area of effect. Drains 5+5*SkillLV SP every 3 seconds (11 times total). Also occurs where two Dances overlap."
+  },
+  {
+    "name": "Scream",
+    "desc": "Inflicts everything (including players) with stun within area of effect. In PvP or Guild siege area, this skill works on caster as well. Stun chance is (25+5*SkillLV)% and the duration is 5 seconds."
+  },
+  {
+    "name": "Humming",
+    "desc": "Increase HIT of players in the area of effect by +2 per SkillLV. The accuracy rate increased by this skill is affected by Dancing Lesson skill level and DEX of the caster."
+  },
+  {
+    "name": "Please Don&#x27;t Forget Me",
+    "desc": "Decreases ASPD by 3% per SkillLV and Movement rate by 2% per SkillLV of all enemies in the area of effect. Cancels any skills that increase movement or ASPD. The amount of ASPD decreased by this skill is affected by Dancing Lesson skill level and DEX of the caster. The amount of moving speed decreased by this skill is affected by Dancing Lesson skill level and AGI of the caster."
+  },
+  {
+    "name": "Fortune&#x27;s Kiss",
+    "desc": "Increases Critical Rate of all players in the area of effect by 1% per SkillLV. The amount of Critical Rate increased by this skill is affected by Dancing Lesson skill level and LUK of the caster."
+  },
+  {
+    "name": "Service for You",
+    "desc": "Increase Maximum SP of all players in the area of effect by (15+SkillLV)%. Reduces consumption of all skills within area of effect by (20+3*SkillLV)%. The amount of Maximum SP increased by this skill is affected by Dancing Lesson skill and INT of the caster. The amount of SP consumption reduced by this skill is affected by Dancing Lesson skill and INT of the caster."
+  },
+  {
+    "name": "Wink of Charm",
+    "desc": "Charm a target by sending them a sexy wink. For those 10 seconds, the target monster will not attack you. The higher your level is when compared to the monster, the higher the chance of this skill working. If this skill is used on a player, it has low chance of causing the &#x27;Confusion&#x27; status ailment. This skill only works on DemiHuman, Angel and Demon type monsters and, obviously, does not work against Boss monsters."
+  },
+  {
+    "name": "Skid Trap",
+    "desc": "A Skid Trap is a trap that activates when someone comes within SkillLV cells of it. When activated, the affected target is pushed back 5+SkillLV cells (10 cells if the skill is at level 5). Skid Traps are invisible, but any player who can see the Hunter laying the trap will be able to see the trap until they move out of sight of it. Use of any Hide revealing skill will reveal the trap. This trap will affect Players in PVP zones, including the user. Does not work on Boss and Plant monsters. If not tripped by the end of the duration, the Skid Trap will turn back into a Trap item on the floor and can be reclaimed."
+  },
+  {
+    "name": "Land Mine",
+    "desc": "A Land Mine is a visible trap that explodes when stepped on, hitting the monster or player (in PvP only) that triggered it for [(DEX+75)*(1+INT/100)*SkillLV] damage. This skill ignores DEF and MDEF and damage modification cards for size and family, but not elemental property. There is also a (5*SkillLV+30)% chance to stun targets for 5 seconds. This trap will affect Players in PVP zones, including the user. If not tripped by the end of the duration, the Land Mine will turn back into a Trap item on the floor and can be reclaimed."
+  },
+  {
+    "name": "Ankle Snare",
+    "desc": "Creates an Ankle Snare in the targeted cell. Any monster that steps within 1 cell of the trap will become snared for 5*SkillLV/(Target AGI*0.1) seconds (minimum of 3 seconds). In PvP zones, players may be snared too (including the creator of the trap!). Boss monsters are snared for 1/5th of the normal time and will teleport almost certainly when snared. A snared target cannot sit, stand or move away from the cell on which they are snared, but can use skills and items and make attacks on anyone within range. The skill Remove Trap can be used to cancel an Ankle Snare that has already caught a player. Ankle Snare traps are invisible in PvP, but any player who can see the Hunter laying the trap will be able to see the trap until they move out of sight of it. The use of any invisibility detection skill will reveal the trap. If not tripped by the end of the duration, the Ankle Snare will turn back into a Trap item on the floor and can be reclaimed."
+  },
+  {
+    "name": "Shockwave Trap",
+    "desc": "A Shockwave Trap is a trap that activates when stepped on. Whoever trips the trap will lose (5+15*SkillLV)% of their SP. Shockwave Traps are invisible, but any player who can see the Hunter laying the trap will be able to see the trap until they move out of sight of it. Use of any Hide revealing skill will reveal the trap. This trap will affect Players in PVP zones, including the user. If not tripped by the end of the duration, the Shockwave Trap will turn back into a Trap item on the floor and can be reclaimed."
+  },
+  {
+    "name": "Sandman",
+    "desc": "A Sandman is a trap that activates when stepped on. All targets in a 3x3 area around the trap will have an (40+10*SkillLV)% chance of being affected by &quot;Sleep&quot; (duration depends on SkillLV). A Sandman is invisible, but any player who can see the Hunter laying the trap will be able to see the trap until they move out of sight of it. Use of any invisibility revealing skill will reveal the trap. This trap will affect Players in PVP zones, including the user. If not tripped by the end of the duration, the Sandman will turn back into a Trap item on the floor and can be reclaimed."
+  },
+  {
+    "name": "Flasher",
+    "desc": "A Flasher is a trap that activates when stepped on. When activated it will have an unknown chance to blind all within a 3x3 area around the trap. Flashers are invisible, but any player who can see the Hunter laying the trap will be able to see the trap until they move out of sight of it. Use of any invisibility revealing skill will reveal the trap. This trap will affect Players in PVP zones, including the user. This trap is ineffective against Plant family and MVP monsters. If not tripped by the end of the duration, the Flasher will turn back into a Trap item on the floor and can be reclaimed."
+  },
+  {
+    "name": "Freezing Trap",
+    "desc": "A Freezing Trap is a trap that activates when stepped on. When activated, it will hit all in the area with a Frost Nova style attack. Damage is (25+25*SkillLV)% of your normal ATK. Chance to Freeze is Unknown and does not work against Boss monsters. Freezing Traps are invisible, but any player who can see the Hunter laying the trap will be able to see the trap until they move out of sight of it. Use of any invisibility revealing skill will reveal the trap. This trap will affect Players in PVP zones, including the user. If not tripped by the end of the duration, the Freezing Trap will turn back into a Trap item on the floor and can be reclaimed."
+  },
+  {
+    "name": "Blast Mine",
+    "desc": "A Blast mine is a visible trap that explodes 30 - 5*SkillLV seconds after it is set or when an enemy steps on it, hits a 3x3 area around the target cell for [(50+DEX/2)*(1+INT/100)*SkillLV] damage. This skill ignores DEF and MDEF and damage modification cards for size and family, but not elemental property. This trap will affect Players in PVP zones, including the user. The caster can move the trap before it&#x27;s activated."
+  },
+  {
+    "name": "Claymore Trap",
+    "desc": "A Claymore Trap is a visible trap that explodes when stepped on, hitting a 5x5 area around the target cell for [(75+DEX/2)*(1+INT/100)*SkillLV] damage. This skill ignores DEF and MDEF and damage modification cards for size and family, but not elemental property. This trap will affect Players in PVP zones, including the user. If not tripped by the end of the duration, the Claymore Trap will turn back into a Trap item on the floor and can be reclaimed."
+  },
+  {
+    "name": "Remove Trap",
+    "desc": "Turns one set trap back into a Trap item. You only get one trap even if you needed two for setting it. Can be used with an Ankle Snare that has already caught a target, but in this case you will not get a Trap item. Only works with your own traps."
+  },
+  {
+    "name": "Talkie Box",
+    "desc": "Repeats a message input at casting time in blue text (does not appear in chat window)."
+  },
+  {
+    "name": "Beast Bane",
+    "desc": "Increases damage to Brute and Insect family monsters by +4*SkillLV. This damage ignores modification from Armor and VIT defense, but not from Elemental and Card modifiers and applies to all hits for multi hit attacks."
+  },
+  {
+    "name": "Falconry Mastery",
+    "desc": "Allows you to hire a Falcon from the Falcon Master in the Hunter Guild in Hugel. Cost to hire is around 800z to normal Falcons, but may change for Scarf Falcons and Baby Falcons. If a Falcon is released, a new one must be hired."
+  },
+  {
+    "name": "Steel Crow",
+    "desc": "Adds 6*SkillLV damage to each hit with Blitz Beat. Note that Blitz Beat can do up to 5 hits."
+  },
+  {
+    "name": "Blitz Beat",
+    "desc": "Orders your Falcon to attack, delivering SkillLV hits to all enemies in a 3x3 area around the target for a total of ([DEX/10] + [INT/2] + 3*Steel Crow SkillLV + 40)*2) using Neutral Element. This skill ignores Def and MDEF and damage modification cards for size and family, but not elemental property. In addition, there is a 0.3%*LUK chance of Blitz Beat occurring automatically per shot with a bow. This so called auto-blitz beat is less effective than a manual one and the full damage is split evenly between all targets affected. For example, an auto-blitz beat that hits 3 targets will do 1/3 of the normal damage to each. Also, the total number of hits it delivers is based on the users job level and is equal to [(Job Level-1)/10]+1."
+  },
+  {
+    "name": "Detecting",
+    "desc": "Reveals any invisible traps, monsters or players in a 3x3 cell area around the target cell."
+  },
+  {
+    "name": "Spring Trap",
+    "desc": "A trap visible to the user and within range is destroyed. No trap item is recovered. This skill can work on enemy traps (unlike Remove Trap)."
+  },
+  {
+    "name": "Beast Strafing",
+    "desc": "If the target is a Beast-type and you used Double Strafing, you can use this skill to do extra Double Strafing on the target. Only usable right after using Double Strafing, and its power is heavily affected by STR."
+  },
+  {
+    "name": "Phantasmic Arrow",
+    "desc": "Launches an arrow of illusion from your bow. It has 150% ATK, and if it hits the enemy, it pushes them back 3 cells. You can use this skill even if you have no Arrows equipped."
+  },
+  {
+    "name": "Pierce",
+    "desc": "Hits for an ATK of (100+10*SkillLV)%. Number of hits depends on the size of the target. Small = 1, Medium = 2, Large = 3. Players are considered to be medium. Can only be used with spears. [Small] 1 Hit [Medium] 2 Hits [Big] 3 Hits"
+  },
+  {
+    "name": "Brandish Spear",
+    "desc": "An area attack with an ATK of (100+20*SkillLV)%. Can only be used while mounted and wielding a Spear class weapon. During the Cast Time, character DEF is reduced to 2/3. The affected area varies with level as follows: Level 1-3: Area A Level 4-6: Area A+B Level 7-9: Area A+B+C Level 10: Area A+B+C+D. As shown by the following diagram: .DDD. CCCCC BBBBB AAAAA AAXAA where X is the knight&#x27;s position."
+  },
+  {
+    "name": "Spear Stab",
+    "desc": "One Cell splash (yes, only 1x1) melee attack with an ATK of (100+20*SkillLV)%. Targets are knocked back 6 cells. This skill can only be used with Spear class weapons."
+  },
+  {
+    "name": "Spear Boomerang",
+    "desc": "A ranged attack with an ATK of (100+50*SkillLV)%. This skill can only be used with Spear class weapons."
+  },
+  {
+    "name": "Two-Hand Quicken",
+    "desc": "Decreases weapon swing delay (increases attack speed) with two-handed swords by 30%. This skill only works with a Two-Handed Sword class weapon. The effect will cancel when the weapon is unequipped."
+  },
+  {
+    "name": "Auto Counter",
+    "desc": "Puts character into the counter stance until duration expires. If attacked from the front while in counter stance, character will block the attack and counterattack. While in the counter stance, the character cannot move. The counterattack doubles Critical Rate but that doesn&#x27;t mean the user can hit the target without failure."
+  },
+  {
+    "name": "Bowling Bash",
+    "desc": "Hits one enemy with an ATK of (100+40*SkillLV)%. The enemy is knocked back up to 5 cells. If that enemy hits any other enemies, then the hit becomes a 3x3 cell melee splash attack at that point with additional damage to these secondary targets. During cast, character&#x27;s DEF is reduced to 2/3."
+  },
+  {
+    "name": "One-Hand Quicken",
+    "desc": "Decreases weapon swing delay with one-handed swords by 30%. Cancels the effect of any ASPD Potion when used, however you may use any such potion after casting. This skill only works with One-Hand Sword class weapons and the effect cancels when switching to any other type."
+  },
+  {
+    "name": "Charge Attack",
+    "desc": "Charge at the single enemy that&#x27;s away from you at range immediately. Further the enemy is from you, higher your ATK will be, but also increase your casting time of this skill."
+  },
+  {
+    "name": "Ruwach",
+    "desc": "Reveals Hiding and Cloaking players and monsters within range. Revealed players and monsters are hit with a holy element Magic attack with a strength of MATK*1.45."
+  },
+  {
+    "name": "Pneuma",
+    "desc": "Creates a 3x3 cell cloud (although the animation only appears to cover the center cell!) around the target cell that blocks all ranged Physical attacks. This means that it also blocks the bow attacks of players, so take care not to prevent any Hunters or Bow Thieves in the party from being able to do damage! Monsters count as being &quot;ranged&quot; if their attack has a range of 4 or more cells. Pneuma cannot be cast if it is targeted to overlap an already existing Pneuma area or a Safety Wall cell. Does not block splash damage or negate the Flee reducing effects of having multiple targets attacking you. Do note that although you can see the animation on top of a Land Protector, Pneuma will have no effect."
+  },
+  {
+    "name": "Teleportation",
+    "desc": "At level 1, you can teleport to a random spot on the same map. At level 2, you can also choose to teleport to your save point. When Teleportation is actually cast, a window will appear showing the available options (including cancel). You must actually select an option by clicking or with the up/down arrow keys and pressing enter for the effect to occur. Once you actually teleport, you will count as having &quot;just entered the map&quot;. This means that Aggressive monsters won&#x27;t see you for 3 seconds or until you move."
+  },
+  {
+    "name": "Warp Portal",
+    "desc": "Creates a warp portal at the targeted cell after a destination is selected from a list. This spell cannot be cast under a monster or player. If anyone steps onto the targeted cell while the destination is being selected, the spell will fail. After successful casting, anyone stepping onto the affected cell will be teleported to the selected destination. The destinations that may be selected are set by the use of the /memo command while standing in the desired location and by your current Save Point. You may not set a memo point on Indoors map (dungeons and inside buildings in cities) and some maps that are far away from cities. If you make a new Memo Point on a map where you already have a Memo Point, that Memo Point will be replaced. After filling all 3 possible Memo Points, setting a new Memo Point will replace the oldest current Memo Point (the bottom one on the list). The number of Memo Points available to you is equal to the SkillLV - 1 (therefore, at level 1 you have no memo points available and can only cast a Warp Portal to your Save Point). The maximum capacity of people that the caster can warp at a time is 8 regardless of its skill level. No more than 3 Warp Portals cast by the one caster can be in effect at the same time. If the caster leaves the map where the portal has been cast, the portal disappears."
+  },
+  {
+    "name": "Increase Agility",
+    "desc": "Increases AGI of target by 2+SkillLV and increases movement speed by 25%. Casting is accompanied by the &quot;AGI UP&quot; message over the target. Dispels Decrease Agility when cast. Dispelled by Decrease Agility and Quagmire. A monster or player in the area of effect of a Quagmire spell cannot receive the benefits of Increase Agility. This skill consumes some HP along with the SP cost."
+  },
+  {
+    "name": "Decrease Agility",
+    "desc": "Decreases AGI of target by 2+SkillLV and reduces movement speed by 25%. The skill can fail and success is indicated by the text &quot;AGI down&quot; on the target at the time of casting. A successful cast will dispel Increase Agility, Adrenaline Rush, Two-Hand Quicken, Spear Quicken and Cart Boost. The effects of this skill combine with Quagmire in the form AGI/2-2+SkillLV. The formula for success is believed to be SuccessRate = 40 + 2*SkillLV + (BaseLV + INT)/5 - Target MDEF where SuccessRate is expressed as a percentage. Duration is halved on players. Does not work against Boss monsters."
+  },
+  {
+    "name": "Aqua Benedicta",
+    "desc": "Creates 1 Holy Water. Caster must stand in water for the skill to succeed. Map-wide submersion (Undersea Tunnel LV 4/5 or Sunken Ship) does not work."
+  },
+  {
+    "name": "Signum Crucis",
+    "desc": "Reduces the DEF (not VIT DEF) of Undead property and Demon family monsters on screen by (10+4*SkillLV)% (further modified by target- and caster base levels). The skill can fail on a monster, the formula for success is believed to be SuccessRate in %= 23 + 4*SkillLV + BaseLV - TargetLV. The monsters affected are indicated by the sweat drop emotion (/swt). The effect of Signum Crucis stacks with the effects of Provoke."
+  },
+  {
+    "name": "Angelus",
+    "desc": "Increases the DEF from VIT of all party members on screen by (5*SkillLV)%. Does not increase anything else that has to do with VIT at all."
+  },
+  {
+    "name": "Blessing",
+    "desc": "Increases STR, DEX and INT of the target by 1*SkillLV and removes any Curse effect. If used on Undead property or Demon family monsters, it halves their STR, DEX and INT, regardless of skill level. This &quot;Bless Curse&quot; or &quot;Offensive Blessing&quot; will lower the HIT and MATK of a monster, but has no effect on ATK. This effect does not work against Players or Boss monsters."
+  },
+  {
+    "name": "Holy Light",
+    "desc": "Does a single Holy element hit for 125% of your MATK."
+  },
+  {
+    "name": "Iron Hand",
+    "desc": "Increases Attack Power of fists and knuckle type weapons by 3 per SkillLV."
+  },
+  {
+    "name": "Spirits Recovery",
+    "desc": "Recovers HP and SP every 10 seconds while sitting (not while standing). Recovery is every 20 seconds when overweight and it works even when recuperating from Asura Strike, but without the natural recuperation bonuses (e.g. at LV 2 you will only regenerate at +8/+4 per 10 sec after an Asura Strike, regardless of INT and VIT). Base HP recovery is 4 HP per SkillLV, modified by Maximum HP/500. Base SP recovery is 2 SP per SkillLV modified by Maximum SP/100."
+  },
+  {
+    "name": "Call Spirits",
+    "desc": "Summons one Spirit Sphere each cast. Spirit Spheres are required and used up by some skills. The maximum number of Spheres you can have is determined by the learned SkillLV. Each active Sphere gives +3 ATK with holy element that never misses. The cast is uninterruptable."
+  },
+  {
+    "name": "Absorb Spirits",
+    "desc": "Uses up all Spirit Spheres and regains 10 SP per sphere. Can be used on another Monk&#x27;s Spheres in PVP. If used against a monster it steals 2 SP per monster level with a success chance of 20%."
+  },
+  {
+    "name": "Triple Attack",
+    "desc": "Attacks 3 times with increased damage. Higher skill level DECREASES chance of occurrence. This skill differs from the Thief&#x27;s Double Attack in many key regards. First of course the delay, as Double Attack takes the same amount of time as a normal attack while this skill takes longer. Triple Attack (and Chain Combo) actually counts for damage as a single strike. This means that damage bonuses from upgrades, masteries, Star Crumbs, and Spirit Spheres are only applied ONCE and divided evenly among the three (four) visible hits. Therefore even with LV10 Triple Attack these &quot;individual hits&quot; will usually be weaker than a single normal attack. On the positive side enemy VIT reduction is also only applied once, so against high-VIT targets the total damage may be much higher than expected. Also, a Thief does not say &quot;Double Attack!!&quot; to every extra hit, while the Monk does. The Silence status does not stop this skill from activating, and it can be used against the Emperium (though other combos cannot). The delay time is affected by ASPD of the user."
+  },
+  {
+    "name": "Body Relocation",
+    "desc": "Directly teleport to any chosen cell. You can not move to or over non movable cells this way, e.g. up a cliff. Uses up 1 Spirit Sphere. If under Critical Explosion state, you can use this skill without the need for Spirit Spheres. After using this skill, you cannot use Asura Strike for the following 2 seconds."
+  },
+  {
+    "name": "Dodge",
+    "desc": "Increases Flee Rate by +1.5 per SkillLV rounded down."
+  },
+  {
+    "name": "Investigate",
+    "desc": "Strong ranged Physical attack. The more defense the target has the more damage this skill will do. It never misses and uses up one Spirit Sphere. Damage is [ATK x (1 + 0.75*SkillLV) x (Enemy Armor+Enemy VIT)/50] x Card Effect."
+  },
+  {
+    "name": "Finger Offensive",
+    "desc": "Throws Spirit Spheres at enemy. Skill level affects number of spheres that can be thrown, damage is (125+25*SkillLV)% ATK using the element of your current weapon. Number of thrown Spirits equals to used SkillLV and may miss depending on normal hit probabilities. It has uninterruptible cast but Pneuma will block this skill."
+  },
+  {
+    "name": "Steel Body",
+    "desc": "Set Def and MDEF to 90%. ASPD is reduced by 25% and skills cannot be used. Requires 5 Spirit Spheres to use. This is DEF as from armor so damage from weapons and spells is reduced to at least 10% (with 1 VIT/INT) and even as little as 1 damage if the Monk has enough VIT/INT."
+  },
+  {
+    "name": "Blade Stop",
+    "desc": "This skill operates like the Knight&#x27;s Auto Counter, but instead &quot;catches&quot; an attacker, freezing both Monk and target for a few moments. Certain skills are available for you to attack with depending on Blade Stop skill level. Both Monk and attacker are stopped until the Monk uses a skill, the Monk dies, the attacker dies, or Blade Stop&#x27;s duration expires. Unlike Freeze/Stone Curse status the attacker still has all Flee and DEF. Further, if the target is a Monk who also has the Blade Stop skill then both are free to use their skills (determined by their own Blade Stop skill level). This skill can not be used to counter enemy skills. Does not work against Boss monsters. Uses up 1 Spirit Sphere. Skill range is 1 cell for barehand and 2 cells for armed. Both characters are still able to use items and change equipment."
+  },
+  {
+    "name": "Critical Explosion",
+    "desc": "Raises Critical Rate by 7.5+2.5*SkillLV for skill&#x27;s duration. SP regeneration is suspended during this time. 5 Spirit Spheres required."
+  },
+  {
+    "name": "Asura Strike",
+    "desc": "Usable only when Critical Explosion is active. Uses all SP to do massive damage to the target, HP/SP will not regenerate naturally for 5 minutes after Asura Strike is used. Cancels Critical Explosion after use and requires all remaining Spirit Spheres (that is all 5 if cast independently). Damage is [(Weapon ATK+Base ATK) x (8 + SP/10) + 250 + (150*SkillLV)]*Card Effects. Can be used while catching someone using LV 5 Blade Stop or with no Cast Time at the end of a combo attack (Triple Attack -&gt; Chain Combo -&gt; Combo Finish -&gt; Asura Strike) but the Critical Explosion and Sphere requirements remain in both cases (usable with the 4 spheres remaining after activating Blade Stop/Combo Finish). Increasing the Asura Strike skill level has a relatively small effect on total damage compared to increasing SP, INT or STR. This skill can be interrupted."
+  },
+  {
+    "name": "Chain Combo",
+    "desc": "Usable only after a Triple Attack. Hits the enemy, dealing 4 powerful strikes. The Caster can not move for a short period. Damage is (150+50*SkillLV)% ATK."
+  },
+  {
+    "name": "Combo Finish",
+    "desc": "Usable only after a Chain Combo. Unleashes a final attack on the enemy. Requires 1 Spirit Sphere to use. Damage is (240+60*SkillLV)% ATK."
+  },
+  {
+    "name": "Ki Translation",
+    "desc": "Transfer one of your Spirit Spheres to another party member. Uses up 1 Spirit Sphere."
+  },
+  {
+    "name": "Ki Explosion",
+    "desc": "Focus your inner energies and attack an enemy to deal damage and push them away. The targeted enemy receives 300% ATK damage, and nearby monsters will be pushed away 2 cells and stunned for 2 sec. Drains a small amount of HP per use."
+  },
+  {
+    "name": "Increase Spiritual Power",
+    "desc": "Recovers (Maximum SP/500 + 3)*SkillLV SP per 10 full seconds when standing still and increases the efficiency of SP recovering items by +2% per SkillLV."
+  },
+  {
+    "name": "Safety Wall",
+    "desc": "Creates a Safety Wall effect in 1 cell. The effect will protect anyone standing on that cell from 1+SkillLV Physical attacks. The attacks do not have to hit to count against the total number of protected hits. Multiple Safety Walls do not stack on one cell. Skills from monsters closer than 4 cells are considered as melee attacks."
+  },
+  {
+    "name": "Resurrection",
+    "desc": "Returns a dead character to life with the indicated percentage of HP restored (see list below). When used on Undead property monsters, it has a chance to instantly kill or at least damage in the same way as Turn Undead at the same level."
+  },
+  {
+    "name": "Mace Mastery",
+    "desc": "Increases damage with Maces by +3*SkillLV. This damage ignores modification from Armor and VIT defense, but not from Elemental and Card modifiers and applies to all hits for multi hit attacks."
+  },
+  {
+    "name": "Impositio Manus",
+    "desc": "Gives the Impositio Manus effect to the target. This effect increases the targets minimum and maximum weapon ATK (even with bare hand) by 5*SkillLV. This means the damage is modified by Size and reduced by DEF (both Armor and VIT). Can be used on self. You can change weapons at any time during the effect of this spell without disrupting it. When a second instance is cast on a target, then it will replace the first instance."
+  },
+  {
+    "name": "Suffragium",
+    "desc": "Reduces Cast Time of the next spell cast by target (if started within the duration). Has no effect on a spell that is already being cast (will effect the next spell instead). The casting of a 0 Cast Time spell will use up the effect with no benefit. Cannot be cast on self. When a second instance is cast on a target, then it will replace the first instance."
+  },
+  {
+    "name": "Aspersio",
+    "desc": "Aspersio changes your own or an Allies weapon property to Holy. Changing or removing the weapon will cancel the effect prematurely. When a second weapon enchanting spell effect (from Enchant Poison or Aspersio currently) is cast on a target, then it will replace the first spell effect. Aspersio can also be used as a weak attack. Using shift-click, you can target an Undead property or Demon family monsters and inflict 40 points of Holy property damage that ignores all defenses. Against other kinds of monsters, it does no damage, but consumes the Holy Water and SP anyway."
+  },
+  {
+    "name": "Benedictio Sanctissimi Sacramenti",
+    "desc": "This skill changes the elemental property of all characters in a 3x3 area around the targeted cell to Holy1. It also does an amount of Holy damage equal to half the power of a Heal of the same Skill Level to Undead property and Demon family monsters in the area of effect. It requires one Priest, Acolyte or Monk in the cells on the right and left side of the caster to work (yes, that means the caster and 2 extra characters)."
+  },
+  {
+    "name": "Sanctuary",
+    "desc": "Creates a 5x5 area sanctuary effect around the targeted cell. Characters and non-undead/demon monsters within the sanctuary are healed (see amount below) once a second unless at Maximum HP. Undead property and Demon family monsters take Holy property damage equal to half the sanctuary&#x27;s heal, rounded down and are knocked back out of the effect each time. The maximum number of valid healing targets is equal to 6+2*SkillLV, the maximum number of valid damage targets is equal to 3+SkillLV. The spell affecting one player or monster once is counted as 1 target. If it affects a player or monster more than once, then it will count as a valid target more than once. If the maximum number of valid targets is exceeded, the spell will come to an end prematurely. Valid targets are determined by the following priority: 1/ Player with Current HP less than Maximum HP. 2/ Non-Undead property/Demon family monsters with Current HP less than Maximum HP. 3/ Undead property and Demon family monsters. Multiple Sanctuaries can be stacked on each other and as long as the maximum number of valid targets is not exceeded, each will last to their full duration. Note: Sanctuary is the one of the two only means of healing the Emperium in the War of Emperium battles. While it is a skill that is by no means essential to have in a War of Emperium priest, have one or more priests with a high level of the skill in a guild could be very useful."
+  },
+  {
+    "name": "Slow Poison",
+    "desc": "Stops damage from a Poison effect and allows you to recover HP/SP normally. However, does not actually cancel the Poison effect, so the DEF reduction effect is still a problem."
+  },
+  {
+    "name": "Recovery",
+    "desc": "Cures Frozen and Stunned effects on players. Causes non-Undead property monsters to lose their target. Passive monsters will stop attacking, while aggressive monsters will choose a new target. Recovery may inflict Blind effect on Undead property monsters. The chance of this occurring is equal to (100 - (MonsterINT/2 + MonsterVIT/3 + MonsterLUK/10)) %. A successful blinding will be accompanied by the usual chirping sound. The duration of the Blind effect is believed to be 30 * (100 - (MonsterINT + MonsterVIT)/2)/100 seconds. One Blind effect cannot overlap another."
+  },
+  {
+    "name": "Kyrie Eleison",
+    "desc": "Creates a Kyrie Eleison effect on the target character. This effect will block MaxHPofTarget*(10+2*SkillLV)% damage OR (5+SkillLV/2) hits, whichever is reached first. Damage in excess of the amount blocked will transfer through and count as a hit of lowered damage. Hits are only assessed when a blow would normally land and not for every swing by a monster (despite showing an &quot;Auto Guard&quot; graphic with every swing for the effected player and a miss for every other player). Any Magic attack will do full damage to the affected target, while still counting against the maximum damage and number of hits of Kyrie Eleison. Casting Holy Light or Assumptio on someone with this effect will cancel it entirely. When a second instance is cast on a target, then it will replace the first instance."
+  },
+  {
+    "name": "Magnificat",
+    "desc": "Increases the natural HP and natural SP recovery speed to 200% for all affected party members. This does not affect the Increase Recuperative and Spiritual Power skills. When a second instance is cast, then it will replace the first instance on any affected targets."
+  },
+  {
+    "name": "Gloria",
+    "desc": "Gives the Gloria effect to all characters in party near the caster. The Gloria effect adds LUK +30. When a second instance is cast, then it will replace the first instance on any affected targets."
+  },
+  {
+    "name": "Lex Divina",
+    "desc": "This skill has a chance of inflicting the Silence status on the selected target. Does not work against Boss monsters. The chance is equal to 100 - (TargetVIT + TargetLUK/8) + INT/15 %. Casting this spell on a target that is already silenced will remove the silence status."
+  },
+  {
+    "name": "Turn Undead",
+    "desc": "This skill only works on Undead property monsters, although it will cast on other types of monsters. Has a [(20*SkillLV) + LUK + INT + BaseLV + (1 - TargetHP/TargetMaxHP)*200]/1000 % (with a max 70%) chance to do holy damage equal to current HP on an Undead property monster. On failure, an Undead property monster will take Holy property damage equal to [BaseLV + INT + 10*SkillLV]. Does not work against Boss monsters."
+  },
+  {
+    "name": "Lex Aeterna",
+    "desc": "The target will take double damage from the next damage source. Healing, misses and status effects do not trigger the effect. Cannot be cast on a Frozen or Stone Cursed target."
+  },
+  {
+    "name": "Magnus Exorcismus",
+    "desc": "Calls down a Grand Cross in a 7x7 area around the targeted cell. Any Demon family and Undead property monsters entering the area of the effect suffer Holy property damage of MATK*SkillLV per wave. Waves occur approximately every 3 seconds and each wave appears to hit SkillLV times. Therefore, there is a certain maximum number of waves than any one monster can be affected during the duration of the spell (there will be less waves if the monster enters late or is knocked back out for any reason). As it creates an effect on the ground, Magnus Exorcismus cannot stack with other ground effect skills (e.g. Pneuma and Safety Wall)."
+  },
+  {
+    "name": "Redemptio",
+    "desc": "Kill yourself (and receive EXP penalty), but revive all other dead party members near you. All revived players will have recovered 50% of their HP. The more party members you revive, the less EXP penalty you get. Casting time is 4 seconds, and this skill ignores DEX for casting time reduction. Will not work if your current EXP is below 1%. Editor&#x27;s Note: I speculate the EXP loss to be (1-Resurrected Members)*0.01%"
+  },
+  {
+    "name": "Snatcher",
+    "desc": "Steals from the enemy while attacking normally. Steal success chance is based on the Thief Steal Skill."
+  },
+  {
+    "name": "Steal Coin",
+    "desc": "Steals Zeny from a monster, affected by DEX, LUK, and SkillLV, amount stolen is based on monsters level. Can only be used to steal Zeny once, however it is possible to steal Zeny from monsters that the user stole items before. (1*SkillLV)% chance to steal."
+  },
+  {
+    "name": "Back Stab",
+    "desc": "Powerful attack that can only be used from behind the enemy. Cannot miss and will turn the target to face the caster, thus preventing repeated use. Damage is (320+40*SkillLV)% ATK (halved if used with a bow type weapon)."
+  },
+  {
+    "name": "Tunnel Drive",
+    "desc": "Upgrades the Hide skill to allow slow movement while hiding. Not restricted to walls like the Assassins Cloaking Skill. Movement Speed:"
+  },
+  {
+    "name": "Raid",
+    "desc": "Attacks and deals damage to all enemies in the targeted area. Has a chance to cause Stun and Blind on targets that are hit by this skill. The caster must be in Hiding status to use this skill."
+  },
+  {
+    "name": "Strip Weapon",
+    "desc": "On player in PVP: Takes equipped weapon off player and prevents a reequip of ANY weapon for a certain time. On monster: reduces Attack by 25% for skill&#x27;s duration. Chemical Protection avoids this skill. Success Chance is (5+2*SkillLV)%."
+  },
+  {
+    "name": "Strip Shield",
+    "desc": "On player in PVP: Takes equipped shield off player and prevents a reequip of ANY shield for a certain time. On monster: Reduces DEF by 15% for skill&#x27;s duration. Chemical Protection avoids this skill. Success Chance is (5+2*SkillLV)%."
+  },
+  {
+    "name": "Strip Armor",
+    "desc": "On player in PVP: Takes equipped armor off player and prevents a reequip of ANY armor for a certain time. On monster: Reduces VIT by 40% for skill&#x27;s duration. Chemical Protection avoids this skill. Success Chance is (5+2*SkillLV)%."
+  },
+  {
+    "name": "Strip Helm",
+    "desc": "On player in PVP: Takes equipped helm off player and prevents a reequip of ANY helm for a certain time. On monster: Reduces INT by 40% for skill&#x27;s duration. Chemical Protection avoids this skill. Success Chance is (5+2*SkillLV)%."
+  },
+  {
+    "name": "Intimidate",
+    "desc": "This skill teleports you and the target to a random area on the same map and attacks the target. The damage is (100+30*SkillLV)%. Does not work against Boss monsters."
+  },
+  {
+    "name": "Graffiti",
+    "desc": "Creates a user defined text message on the ground."
+  },
+  {
+    "name": "Flag Graffiti",
+    "desc": "Creates a spray of your Guild Icon on the ground. (Not implemented by Gravity yet)."
+  },
+  {
+    "name": "Cleaner",
+    "desc": "Cleans graffiti from the ground. (Not implemented by Gravity yet)."
+  },
+  {
+    "name": "Gangster&#x27;s Paradise",
+    "desc": "When 2 or more Rogues sit next to each other (all must have this skill) aggressive monsters, except Boss monsters, won&#x27;t attack."
+  },
+  {
+    "name": "Compulsion Discount",
+    "desc": "Enable to purchase items at a Lower Price in NPC Shops. Discount rates are better than Merchant Discount."
+  },
+  {
+    "name": "Plagiarism",
+    "desc": "Allows the last offensive skill used on you to be used as a skill you have gained. Only one skill may be copied at a time in this fashion, maximum copied skill level equals the Plagiarism SkillLV."
+  },
+  {
+    "name": "Close Confine",
+    "desc": "For 10 seconds, you grab a single enemy, preventing you and the target to move. While you grab onto someone, you will have +10 bonus to Flee Rate. If either the victim or you die, or should any of them teleport away, this skill is cancelled."
+  },
+  {
+    "name": "Sight",
+    "desc": "Nullifies the Hide, Tunnel Drive and Cloaking effects within range."
+  },
+  {
+    "name": "Napalm Beat",
+    "desc": "Hits every Enemy in a 3x3 area around the target for an MATK of (70+10*SkillLV)% using Ghost Element. This damage is spread equally between all targets. For example, if 3 monsters are hit, then each takes 1/3rd of the damage a single target would take."
+  },
+  {
+    "name": "Soul Strike",
+    "desc": "Hits the target with (1+SkillLV/2) bolts for 1*MATK using Ghost Element. Does extra 5% damage per SkillLV to Undead property Monsters."
+  },
+  {
+    "name": "Cold Bolt",
+    "desc": "Hits the targeted enemy with 1 Water property Bolt per SkillLV for 1*MATK damage each."
+  },
+  {
+    "name": "Frost Diver",
+    "desc": "Hits the target for an MATK of (100+10*SkillLV)% Water Element. In addition, has a (35+3*SkillLV)% chance of causing the Frozen status to the target. Undead property and Boss monsters cannot be Frozen. Water and Fire element monsters have a greatly reduced chance of being Frozen. The MDEF of the target affects the success chance and status duration. While frozen, the target cannot move, attack or use skill and counts as having Water1 element. Lex Aeterna cannot be used on such a target. The Frozen status lasts until the target receives any damage or the duration ends."
+  },
+  {
+    "name": "Stone Curse",
+    "desc": "Has a (20+4*SkillLV)% chance of causing the Stone Curse effect to the targeted enemy. The Stone Curse effect changes the targets element into Earth 1, gives +25% MDEF and -50% Def and reduces the targets HP by 1% of Maximum HP every 5 seconds (cannot drop below 25% of Maximum HP). Boss monsters cannot be Stone Cursed. Lex Aeterna and Steal cannot be used on a Stone Cursed target. Range is 2!! cells. From LV 6 on it no longer uses up a Gemstone if it fails."
+  },
+  {
+    "name": "Fire Ball",
+    "desc": "Hits every enemy in a 5x5 area around the target with an MATK of (70+10*SkillLV)% and Fire Element. After SkillLV 6, it has a reduced cast / after-Cool Down."
+  },
+  {
+    "name": "Fire Wall",
+    "desc": "Creates 3 cells of the Fire Wall effect in a line perpendicular to the line between the caster and the targeted cell. Each cell can deliver up to 4+SkillLV Fire Element hits at MATK*0.5 before its effect is drained. When cast diagonal a wall of two rows cells will appear with 3 cells in the first and 2 cells in the last row."
+  },
+  {
+    "name": "Fire Bolt",
+    "desc": "Hits the targeted enemy with 1 Fire Element Bolt per SkillLV for 1*MATK each."
+  },
+  {
+    "name": "Lightning Bolt",
+    "desc": "Hits the targeted enemy with 1 Wind Element Bolt per SkillLV for 1*MATK each."
+  },
+  {
+    "name": "Thunder Storm",
+    "desc": "Hits every Enemy in a 5x5 area around the targeted cell with 1 Wind Element Bolt per level at a rate of 1 bolt every 0.2 seconds. Each bolt does 0.8*MATK Wind element damage."
+  },
+  {
+    "name": "Energy Coat",
+    "desc": "Reduces damage from Physical attacks (punching, weapons and skills using weapons) by draining SP. Damage reduction is better and SP lost is higher with higher SP, according to the following table: % of SP Remaining, % of Damage Reduction, % of SP Used. 1-20, 6, 1 21-40, 12, 1.5 41-60, 18, 2 61-80, 25, 2.5 81-100, 30, 3"
+  },
+  {
+    "name": "Earth Spike",
+    "desc": "Hits the targeted enemy with 1 Earth Element Spike per SkillLV for 100%*MATK damage each. Technically this is a normal Bolt-type spell using the Earth element."
+  },
+  {
+    "name": "Heaven&#x27;s Drive",
+    "desc": "Hits every enemy in a 5x5 cell area around the target cell with 1 Spike per SkillLV for 1*MATK damage each."
+  },
+  {
+    "name": "Monster Property",
+    "desc": "Brings up a window with information about the targeted monster such as HP, element, level, etc at the time the spell is cast. Party members also see this window."
+  },
+  {
+    "name": "Advanced Book",
+    "desc": "Raises ATK by 3 and ASPD by 0.5% per SkillLV when using book type weapons."
+  },
+  {
+    "name": "Cast Cancel",
+    "desc": "Cancels your own spell before it finishes casting. SP Cost of the interrupted spell is reduced based on skill level."
+  },
+  {
+    "name": "Magic Rod",
+    "desc": "This skill is able to absorb skills with Cast Time and whose damage is MATK based. Does not work on Area Spells. If an enemy Sage casts Spell Breaker and is countered with Magic Rod, the enemy will take 20% damage to their SP and those SP will be given to the caster. This is like the Knight&#x27;s Auto Counter, except it works on skills and not Physical attacks. The enemy skill must impact within the Active period for the counter to work, also moving ends the active period."
+  },
+  {
+    "name": "Spell Breaker",
+    "desc": "This skill lets you cancel any skill with Cast Time (ANY skill). When an enemy spell is canceled, the target gets 2% of its Maximum HP as damage and the Sage absorbs a percentage of the SP used for the broken spell, also if the SkillLV is 5, the sage will also absorb half the Physical damage done to the target. The success rate of this skill against Boss monsters is 10%. If this Spell is cast on an other Sage that uses Magic Rod, Magic Rod is not broken and the Spell Breaker caster loses 20% SP."
+  },
+  {
+    "name": "Free Cast",
+    "desc": "Allows movement and attack while casting spells. Unlike claimed on official websites, this skill gives no attack speed penalty on official servers."
+  },
+  {
+    "name": "Auto Spell",
+    "desc": "Every time the caster does a melee attack (which does NOT have to hit) there is a chance that he automatically casts a certain spell. The Sage must know the autocasted spell, and the SP Cost for them is 2/3 the normal cost. If a chosen skill is level 3, Auto Spell casts the skill with a level of 1 to 3 randomly with a chance of casting the level 1 version 50% of the time, the level 2 version 35% of the time, and the level 3 version 15% of the time."
+  },
+  {
+    "name": "Flame Launcher",
+    "desc": "Enchants a weapon with the fire element. There is a chance of weapon breakage upon enchantment. You will need a Blacksmith or a Repair NPC to repair the weapon. Requires 1 Red Blood to use."
+  },
+  {
+    "name": "Frost Weapon",
+    "desc": "Enchants a weapon with the ice element. There is a chance of weapon breakage upon enchantment. You will need a Blacksmith or a Repair NPC to repair the weapon. Requires 1 Crystal Blue to use."
+  },
+  {
+    "name": "Lightning Loader",
+    "desc": "Enchants a weapon with the wind element. There is a chance of weapon breakage upon enchantment. You will need a Blacksmith or a Repair NPC to repair the weapon. Requires 1 Wind of Verdure to use."
+  },
+  {
+    "name": "Seismic Weapon",
+    "desc": "Enchants a weapon with the earth element. There is a chance of weapon breakage upon enchantment. You will need a Blacksmith or a Repair NPC to repair the weapon. Requires 1 Green Live to use."
+  },
+  {
+    "name": "Dragonology",
+    "desc": "Increases Attack Power, MATK and DEF against Dragon type monsters by 4% per SkillLV. Also passively increases your INT depending on SkillLV."
+  },
+  {
+    "name": "Volcano",
+    "desc": "This skill enchants an area and buffs up all Fire elemental attacks inside of it and the attacks of those who are Fire elemental, i.e. wearing Pasana carded armor. This skill (like the others) cannot be cast over one another or double cast on top of it. You can only have one area enchantment out. Ice Wall can&#x27;t be cast on a Volcano. It will last 1*SkillLV minutes. The skill level determines the % Fire elemental attacks get amplified, the amount of ATK Fire elemental armor wearers get. Requires 1 Yellow Gemstone to use."
+  },
+  {
+    "name": "Deluge",
+    "desc": "In the area of effect all Water elemental attacks are amplified and the Maximum HP of anyone who is wearing water armor (i.e. Swordfish carded) is increased. You can only have one area enchantment out. Waterball and Aqua Benedicta can be cast on a Deluge. Also note that using these skills on Deluge will deplete the cells of water in it. This skill (like the others) cannot be cast over one another or double cast on top of itself. Ice Wall cannot be cast on a Deluge. Requires 1 Yellow Gemstone to use."
+  },
+  {
+    "name": "Violent Gale",
+    "desc": "In a Violent Gale, all Wind elemental attacks get amplified and the Flee Rate of Wind elemental players (i.e. Dokebi carded armor wearers) is increased. Also, Fire Wall lasts 150% longer in a Violent Gale. You can&#x27;t cast Ice Wall on a Violent Gale. You can only have one area enchantment out. This skill (like the others) cannot be cast over one another or double cast on top of itself. Requires 1 Yellow Gemstone to use."
+  },
+  {
+    "name": "Land Protector",
+    "desc": "Shields an area from all area spells. Any skills that target the ground do not deal damage or do their effect. Skills such as Storm Gust, Fire Wall, etc. will do nothing. Also removes any area spells already placed in the area. Requires 1 Yellow Gemstone and 1 Blue Gemstone to use."
+  },
+  {
+    "name": "Dispell",
+    "desc": "Cancel all magical effects on target. Success chance based on skill level and enemy MDEF with a base chance of (50+10*SkillLV)%. Requires 1 Yellow Gemstone to use."
+  },
+  {
+    "name": "Abracadabra",
+    "desc": "Casts a random skill (can be ANY player skill e.g. Auto Counter or Hide and some special skills) at your own skill level. May produce some odd and funny effects. Requires 2 Yellow Gemstones to use, and anything the produced skill would require e.g. Trap, Blue Gem or Red Gem. The produced skill will change in a random pattern with each cast. Even with catalyst reducing items (Mistress Card) or buffs (Bard/Dancer Into the Abyss) the cost will not drop below 1 Yellow Gemstone. A For-Fun-Skill."
+  },
+  {
+    "name": "Create Elemental Converter",
+    "desc": "Create an &quot;Elemental Converter&quot; item. Create Elemental Converter Creation Guide: Click Here"
+  },
+  {
+    "name": "Elemental Change (Water)",
+    "desc": "Change the target monster&#x27;s elemental property to Water, uses up a Frost Elemental Converter."
+  },
+  {
+    "name": "Elemental Change (Earth)",
+    "desc": "Change the target monster&#x27;s elemental property to Earth, uses up a Seismic Elemental Converter."
+  },
+  {
+    "name": "Elemental Change (Fire)",
+    "desc": "Change the target monster&#x27;s elemental property to Fire, uses up a Flame Elemental Converter."
+  },
+  {
+    "name": "Elemental Change (Wind)",
+    "desc": "Change the target monster&#x27;s elemental property to Wind, uses up a Lightning Elemental Converter."
+  },
+  {
+    "name": "Fire Pillar",
+    "desc": "Creates a Fire Pillar trap effect on the targeted cell. Tripped when any monster (or player in a PvP area) walks over it. When tripped, the trap delivers Fire property damage equal to (50+MATK/5)*(2+SkillLV) on a 3x3 area around the tripped cell. This damage ignores MDEF and INT. While the target is taking damage from Fire Pillar, it will not be able to move until all the hits have been dealt (0.2*Hits sec). You can not have more than 5 Pillars active at any time."
+  },
+  {
+    "name": "Sightrasher",
+    "desc": "Can only be cast when Sight is active. Shoots fire in all 8 directions away from the caster, each Fireball does (100+20*SkillLV)% MATK and pushes the target back."
+  },
+  {
+    "name": "Meteor Storm",
+    "desc": "Summons Meteors that randomly strike cells in the target area and do Fire Element damage in the 7x7 area they impact for each hit and have a (3*SkillLV)% chance to stun the target."
+  },
+  {
+    "name": "Jupitel Thunder",
+    "desc": "Hits the target for 2+SkillLV times using Wind Element and pushes it back the same number of cells up to a maximum of 8. Improved Lightning Bolt spell."
+  },
+  {
+    "name": "Lord of Vermillion",
+    "desc": "Hits the target area with a strong lightning attack that does 4 sets of hits with 10 hits each set (total 40 hits) and each hit doing (8+(2*SkillLV))% MATK damage. It also has a (4*SkillLV)% chance to blind the targets."
+  },
+  {
+    "name": "Water Ball",
+    "desc": "Hits the target up to LV*LV-1 times with a Water elemental attack of (100+30*SkillLV)% MATK. You must stand on water or on a Deluge (Sage skill) cell to successfully use this spell. The damage for each hit is calculated individually and the damage numbers do not show as adding up, also casting Lex Aeterna (Priest Skill) on the target will only affect the first hit. This is the strongest single target spell in-game. The number of water balls that you are actually able cast also depends on the amount of water you are standing in. In any given X by X grid, the game determines that you are surrounded by (X*X)-1 cells. So, at level 4/5 Waterball, you can cast up to (5*5)-1, or 24 water balls. However, if you&#x27;re only standing in a 3x3 pool, you will only cast 8 water balls. If you&#x27;re standing in a freaky grid (like a partially-used Deluge), the number of balls cast is equal to the number of water-occupied cells in your grid, so if you&#x27;re in a cell like this: O = empty X = water * = player OOOOO OOOOO XX*XX OOOOO OOOOO You&#x27;ll only cast 4 water balls with level 4/5. With level 2/3, you&#x27;ll only cast 2 water balls, since only 2 are in the 3x3 grid surrounding you. This is particularly useful to keep in mind when you&#x27;re with a Deluge Sage, since Waterball uses up the Deluge cells. You can determine which cells are used by how you stand in the cast area (every cast will wipe out the respective grid section around you, centered on you), and maximize the effectiveness of the water ball spells you cast."
+  },
+  {
+    "name": "Ice Wall",
+    "desc": "Creates a row of 5 Ice Wall cells perpendicular to the line between the caster and the target cell and centered on the target cell. An Ice Wall cell cannot be entered, but it may be attacked. Ice Wall cells have 200+200*SkillLV HP that lowers at a rate of 50 per second until it reaches 0 and then the wall disappears. If the wall is attacked the HP also lower by the damage dealt to the wall. You can not have more than 5 Ice Walls active at the same time."
+  },
+  {
+    "name": "Frost Nova",
+    "desc": "Hits every enemy in a 5x5 area around the Caster with a Water Element frost attack. The freeze chance is higher than of Frost Diver (33+5*SkillLV %). The magic damage to each target is 66+7*SkillLV %, but if a monster is frozen it won&#x27;t receive damage. The caster is of course immune to his/her own Frost Nova."
+  },
+  {
+    "name": "Storm Gust",
+    "desc": "Summons an icy Water Element storm that hits targets in the area of effect every 0.5 seconds (for damage per hit see below) and pushes them around randomly. Monsters hit 3 times will freeze and not receive further hits, except undead and MVP which won&#x27;t be frozen and thus will receive more hits. The maximum number of possible hits is 10. Damage per hit is (100+40*SkillLV)% MATK"
+  },
+  {
+    "name": "Quagmire",
+    "desc": "Decreases the AGI and DEX of the Enemies within the area of effect by 10% per SkillLV. In PvP maps is only 5% per SkillLV. Does not work against Boss monsters."
+  },
+  {
+    "name": "Sight Blaster",
+    "desc": "Summons a fireball that circles around you and hits enemies attempting to attack you at close range. When an enemy steps next to you, he will be hit by a MATK Fire Element attack and pushed back. The Fireball disappears after hitting an enemy."
+  }
+]

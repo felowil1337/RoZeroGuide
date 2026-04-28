@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md Equip Grades — RO Zero Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-title">Ragnarok Zero</span>
+      <span class="brand-subtitle">Global Guide · Deutsch</span>
+    </a>
+  </div>
+</header>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<div class="layout">
+  <label for="nav-toggle" class="nav-toggle-label">Navigation</label>
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li class="nav-group-label info">Start</li>
+        <li><a href="index.html"><span class="emoji">📘</span>Einführung</a></li>
+        <li class="nav-with-anchors">
+          <a href="basics.html"><span class="emoji">📖</span>Game Basics</a>
+          <ul class="nav-sub-list">
+            <li><a href="basics.html#neueste-ui">🆕 Neueste UI</a></li>
+            <li><a href="basics.html#zero-notes">📌 Zero-Besonderheiten</a></li>
+            <li><a href="basics.html#menu">🍑 MENU-Poring</a></li>
+            <li><a href="basics.html#stats">📊 Stat-Effekte</a></li>
+            <li><a href="basics.html#element">🌪️ Elementar-Tabelle</a></li>
+            <li><a href="basics.html#waffen-groesse">⚔️ Waffe vs Größe</a></li>
+            <li><a href="basics.html#hint">💡 Praxis-Tipps</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="auto-hunt.html"><span class="emoji">🤖</span>Auto-Hunt &amp; Auto-Pot</a>
+          <ul class="nav-sub-list">
+            <li><a href="auto-hunt.html#mechanik">⚙️ Grundmechanik</a></li>
+            <li><a href="auto-hunt.html#target">🎯 Target-Handling</a></li>
+            <li><a href="auto-hunt.html#autopot">💊 Auto-Pot</a></li>
+            <li><a href="auto-hunt.html#autopot-config" class="anchor-l2">⚙️ Konfiguration</a></li>
+            <li><a href="auto-hunt.html#autopot-items" class="anchor-l2">🧪 Unterstützte Items</a></li>
+            <li><a href="auto-hunt.html#autopot-sustain" class="anchor-l2">🛡️ Sustain-Optionen</a></li>
+            <li><a href="auto-hunt.html#autopot-class-tricks" class="anchor-l2">🎭 Class-Tricks</a></li>
+            <li><a href="auto-hunt.html#afk">🔄 Länger AFK farmen</a></li>
+            <li><a href="auto-hunt.html#tier-job1">🏆 Tier-List 1. Job</a></li>
+            <li><a href="auto-hunt.html#tier-job2">🏆 Tier-List 2. Job</a></li>
+          </ul>
+        </li>
+        <li><a href="taiwan.html"><span class="emoji">🇹🇼</span>Taiwan-Vorschau</a></li>
+
+        <li class="nav-group-label now">Klassen &amp; Leveln</li>
+        <li class="nav-with-sub">
+          <a href="klassen.html"><span class="emoji">⚔️</span>Klassen &amp; Builds</a>
+          <ul class="nav-sub-list">
+            <li><a href="klasse-knight.html">Knight</a></li>
+            <li><a href="klasse-crusader.html">Crusader</a></li>
+            <li><a href="klasse-wizard.html">Wizard</a></li>
+            <li><a href="klasse-sage.html">Sage</a></li>
+            <li><a href="klasse-hunter.html">Hunter</a></li>
+            <li><a href="klasse-bard.html">Bard</a></li>
+            <li><a href="klasse-dancer.html">Dancer</a></li>
+            <li><a href="klasse-assassin.html">Assassin</a></li>
+            <li><a href="klasse-rogue.html">Rogue</a></li>
+            <li><a href="klasse-priest.html">Priest</a></li>
+            <li><a href="klasse-monk.html">Monk</a></li>
+            <li><a href="klasse-blacksmith.html">Blacksmith</a></li>
+            <li><a href="klasse-alchemist.html">Alchemist</a></li>
+          </ul>
+        </li>
+        <li><a href="leveling.html"><span class="emoji">📈</span>Level-Routen 1–99</a></li>
+        <li><a href="exp.html"><span class="emoji">📊</span>EXP-Tabellen</a></li>
+        <li class="nav-with-sub">
+          <a href="fever.html"><span class="emoji">🔥</span>Fever-Felder</a>
+          <ul class="nav-sub-list">
+            <li><a href="fever-payon-forest.html">Payon Forest</a></li>
+            <li><a href="fever-geffen.html">Geffen</a></li>
+            <li><a href="fever-sograt-desert.html">Sograt Desert</a></li>
+            <li><a href="fever-glast-heim.html">Glast Heim</a></li>
+            <li><a href="fever-magma-dungeon-3.html">Magma Dungeon 3</a></li>
+            <li><a href="fever-abyss-lake-4.html">Abyss Lake 4</a></li>
+            <li><a href="fever-clock-tower.html">Clock Tower</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Memorial-Dungeons (Pfad)</li>
+        <li class="nav-with-sub">
+          <a href="instanzen.html"><span class="emoji">🏰</span>Dungeons-Übersicht</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-poring-village.html">Poring Village</a></li>
+            <li><a href="md-prontera-culvert.html">Prontera Culvert</a></li>
+            <li><a href="md-orcs-memory.html">Orc's Memory</a></li>
+            <li><a href="md-ant-hell-1f.html">Ant Hell 1F</a></li>
+            <li><a href="md-izlude-2f.html">Izlude Dungeon 2F</a></li>
+            <li><a href="md-sunken-ship.html">Sunken Ship</a></li>
+          </ul>
+        </li>
+        <li class="nav-with-anchors">
+          <a href="md-equipment.html"><span class="emoji">🛡️</span>Memorial-Equipment</a>
+          <ul class="nav-sub-list">
+            <li><a href="md-equip-overview.html">📖 Überblick</a></li>
+            <li><a href="md-equip-grades.html" class="active">🛡️ Alle Grades (48 Items)</a></li>
+            <li><a href="md-equip-crafting.html">🔨 Crafting (44 Rezepte)</a></li>
+            <li><a href="md-equip-enchanting.html">🔮 Enchanting</a></li>
+          </ul>
+        </li>
+        <li><a href="enchant-subjugation.html"><span class="emoji">🗡️</span>60MD Subjugation-Enchant</a></li>
+        <li><a href="enchant-expedition.html"><span class="emoji">🗡️</span>70MD Expedition-Enchant</a></li>
+        <li><a href="enchant-annihilation.html"><span class="emoji">🗡️</span>80MD Annihilation-Enchant</a></li>
+        <li><a href="guild-dungeon.html"><span class="emoji">🏯</span>Guild-Dungeon</a></li>
+        <li class="nav-with-anchors">
+          <a href="crafting-non-md.html"><span class="emoji">⚒️</span>Crafting (Non-MD)</a>
+          <ul class="nav-sub-list">
+            <li><a href="crafting-non-md.html#sec-quivers">🏹 Quivers &amp; Arrows</a></li>
+            <li><a href="crafting-non-md.html#sec-forging">🔨 Forging (Blacksmith)</a></li>
+            <li><a href="crafting-non-md.html#sec-pharmacy">⚗️ Pharmacy (Alchemist)</a></li>
+            <li><a href="crafting-non-md.html#sec-cooking">🍳 Cooking</a></li>
+            <li><a href="crafting-non-md.html#sec-headgears">🎩 Headgear-Crafts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-group-label now">Ausrüstung</li>
+        <li><a href="ausruestung.html"><span class="emoji">🛡️</span>Ausrüstungs-Übersicht</a></li>
+        <li><a href="kostueme.html"><span class="emoji">👗</span>Kostüm-System</a></li>
+
+        <li class="nav-group-label now">Random Options</li>
+        <li><a href="optionen.html"><span class="emoji">🎲</span>Random-Options-System</a></li>
+
+        <li class="nav-group-label now">Aktivierung ★ / ★★</li>
+        <li><a href="stern-grade.html"><span class="emoji">⭐</span>System-Übersicht</a></li>
+        <li><a href="stern-waffen-optionen.html"><span class="emoji">🎯</span>★-Waffen Random Options</a></li>
+        <li><a href="aktivierung-stern.html"><span class="emoji">⭐</span>★-Waffenliste</a></li>
+        <li><a href="aktivierung-stern-stern.html"><span class="emoji">🌟</span>★★-Waffenliste</a></li>
+        <li><a href="klassische-ruestung-aktivierung.html"><span class="emoji">🛡️</span>Classic-Rüstung Aktivierung</a></li>
+
+        <li class="nav-group-label now">Datenbanken</li>
+        <li><a href="items.html"><span class="emoji">📦</span>Alle Items</a></li>
+        <li><a href="items-mats.html"><span class="emoji">🧪</span>Materialien</a></li>
+        <li><a href="monster.html"><span class="emoji">👾</span>Monster-Datenbank</a></li>
+      </ul>
+
+      <details class="nav-future">
+        <summary>
+          <span class="nav-future-label">🔮 Zukunfts-Updates</span>
+          <span class="nav-future-hint">noch nicht im Global-Release</span>
+        </summary>
+        <ul>
+          <li class="nav-group-label future">Roadmap</li>
+          <li><a href="zukunft.html"><span class="emoji">🔮</span>Übersicht</a></li>
+          <li><a href="trans-klassen.html"><span class="emoji">⚡</span>Trans-Klassen</a></li>
+          <li><a href="skills.html"><span class="emoji">✨</span>Trans-Skill-Datenbank</a></li>
+          <li><a href="high-instanzen.html"><span class="emoji">🏰</span>High-Lv Instanzen</a></li>
+          <li><a href="endgame-ausruestung.html"><span class="emoji">🛡️</span>Endgame-Ausrüstung</a></li>
+          <li><a href="endgame-npc.html"><span class="emoji">💰</span>Endgame-Währungen</a></li>
+
+          <li class="nav-group-label future">Enchant &amp; Pet</li>
+          <li><a href="enchant-system.html"><span class="emoji">🔮</span>Enchant-System</a></li>
+          <li><a href="pet-enchant.html"><span class="emoji">🐾</span>Pet-Enchant</a></li>
+          <li><a href="lucky-hairband.html"><span class="emoji">🎀</span>Lucky Hairband</a></li>
+
+          <li class="nav-group-label future">MVP &amp; Kampfpuppen</li>
+          <li><a href="mvp.html"><span class="emoji">👹</span>MVP-System</a></li>
+          <li><a href="battle-doll.html"><span class="emoji">🎎</span>Kampfpuppen-System</a></li>
+          <li><a href="kampfpuppen-normal.html"><span class="emoji">🎎</span>Normal Dolls (30)</a></li>
+          <li><a href="kampfpuppen-mvp.html"><span class="emoji">🎎</span>MVP Dolls (34)</a></li>
+
+          <li class="nav-group-label future">NPCs &amp; Exchange</li>
+          <li><a href="npc.html"><span class="emoji">💰</span>NPC-Übersicht</a></li>
+          <li><a href="npc-golem.html"><span class="emoji">💰</span>Flight-Seeking Golem</a></li>
+          <li><a href="npc-lucy.html"><span class="emoji">💰</span>Lucy (MVP-Box)</a></li>
+          <li><a href="npc-fo-langji.html"><span class="emoji">💰</span>Fo-Langji (Card-Coin)</a></li>
+
+          <li class="nav-group-label future">Weitere Systeme</li>
+          <li><a href="fishing.html"><span class="emoji">🎣</span>Angel-System</a></li>
+          <li><a href="pvp.html"><span class="emoji">⚔️</span>PvP-Karten</a></li>
+          <li><a href="relikte.html"><span class="emoji">🔮</span>Reliquien</a></li>
+          <li><a href="jahres-coin.html"><span class="emoji">🪙</span>Jahres-Coin</a></li>
+        </ul>
+      </details>
+
+      <ul class="nav-bottom">
+        <li class="nav-group-label info">Links</li>
+        <li><a href="quellen.html"><span class="emoji">🔗</span>Quellen</a></li>
+      </ul>
+    </nav>
+    <script>
+      (function () {
+        var sidebar = document.querySelector('.sidebar');
+        if (!sidebar) return;
+
+        // 1. Auto-open the section containing the active link (incl. <details>).
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          if (d.querySelector('a.active')) d.open = true;
+        });
+        sidebar.querySelectorAll('li.nav-with-anchors, li.nav-with-sub').forEach(function (li) {
+          if (li.querySelector('a.active')) li.classList.add('is-open');
+        });
+
+        // 2. Accordion: click on a parent link toggles its section open
+        //    and closes all other open sections. Modifier-clicks (Ctrl/Cmd/middle)
+        //    skip the toggle so users can open the page in a new tab as expected.
+        function closeAllOthers(except) {
+          sidebar.querySelectorAll('li.nav-with-anchors.is-open, li.nav-with-sub.is-open').forEach(function (li) {
+            if (li !== except) li.classList.remove('is-open');
+          });
+          sidebar.querySelectorAll('details[open]').forEach(function (d) {
+            if (d !== except && !d.contains(except)) d.open = false;
+          });
+        }
+
+        sidebar.querySelectorAll('li.nav-with-anchors > a, li.nav-with-sub > a').forEach(function (a) {
+          a.addEventListener('click', function (ev) {
+            if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button === 1) return;
+            var li = a.parentElement;
+            // If section is closed, open it and let the navigation continue.
+            // If it's already open, allow navigation as a normal link.
+            if (!li.classList.contains('is-open')) {
+              li.classList.add('is-open');
+              closeAllOthers(li);
+            } else {
+              closeAllOthers(li);
+            }
+          });
+        });
+
+        sidebar.querySelectorAll('details').forEach(function (d) {
+          d.addEventListener('toggle', function () {
+            if (d.open) closeAllOthers(d);
+          });
+        });
+      })();
+    </script>
+  </aside>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow">Memorial-Equipment · alle Items</span>
+      <h1>Memorial-Equipment — alle Grades</h1>
+      <p class="lead">48 Items aus den vier Grade-Sets plus 4 Hard-Mode-Accessoires. Vollständige Stats, Set-Boni und Refine-Schwellen.</p>
+    </div>
+
+    <div class="entry-jump">
+      <a href="md-equipment.html">← Hub</a>
+      <a href="md-equip-overview.html">📖 Überblick</a>
+      <a href="md-equip-crafting.html">🔨 Crafting</a>
+      <a href="md-equip-enchanting.html">🔮 Enchanting</a>
+      <a href="#sec-subjugation-grade-iv">Grade IV</a>
+      <a href="#sec-expedition-grade-iii">Grade III</a>
+      <a href="#sec-dispatching-grade-ii">Grade II</a>
+      <a href="#sec-conqueror-grade-i">Grade I</a>
+      <a href="#sec-hard-mode">Hard Mode</a>
+    </div>
+
+    <section id="sec-subjugation-grade-iv">
+      <h2>🛡️ Grade IV — Subjugation Set</h2>
+      <p>Basis-Drop aus den Pre-Trans-Memorial-Dungeons. 4 Teile, je 1 Slot. Drop-Rate 0–2 pro Clear.</p>
+      <div class="info-box note"><strong>Set-Bonus (Sash + Boots + Ring):</strong> ATK +15, MATK +15. <strong>Total-Refine &gt; +17:</strong> −3 % After-Attack-Delay, −5 % Variable Cast.</div>
+      <div class="entry-grid">
+        <div class="entry-card" id="item-15220">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/15220.png" alt="Subjugation Armor [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-15220">Subjugation Armor <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Drop:</strong> <a href="md-orcs-memory.html">Orc's Memory</a> (0–2)</li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 46</li></ul>
+          <ul class="entry-stats"><li>MaxHP +300, MaxSP +20, MDEF +5, DEF +20</li><li>Set-Trigger: Sash + Boots + Ring → ATK +15, MATK +15</li><li>Total-Refine &gt; +17: −3 % After-Attack-Delay, −5 % Variable Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #15220</span></div>
+        </div>
+        <div class="entry-card" id="item-20867">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/20867.png" alt="Subjugation Sash [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-20867">Subjugation Sash <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Drop:</strong> <a href="md-orcs-memory.html">Orc's Memory</a> (0–2)</li><li><strong>Gewicht:</strong> 20 · <strong>DEF:</strong> 12</li></ul>
+          <ul class="entry-stats"><li>+7 % Neutral-Resistenz</li><li>FLEE +10</li></ul>
+          <div class="entry-card-foot"><span>kRO #20867</span></div>
+        </div>
+        <div class="entry-card" id="item-22150">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/22150.png" alt="Subjugation Boots [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-22150">Subjugation Boots <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Drop:</strong> <a href="md-prontera-culvert.html">Prontera Culvert</a> (0–2)</li><li><strong>Gewicht:</strong> 25 · <strong>DEF:</strong> 12</li></ul>
+          <ul class="entry-stats"><li>+5 % HP-Recovery</li><li>+3 % SP-Recovery</li></ul>
+          <div class="entry-card-foot"><span>kRO #22150</span></div>
+        </div>
+        <div class="entry-card" id="item-28539">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28539.png" alt="Subjugation Ring [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28539">Subjugation Ring <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Drop:</strong> <a href="md-prontera-culvert.html">Prontera Culvert</a> (0–2)</li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+          <ul class="entry-stats"><li>STR +2</li><li>INT +2</li></ul>
+          <div class="entry-card-foot"><span>kRO #28539</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sec-expedition-grade-iii">
+      <h2>🛡️ Grade III — Expedition Set</h2>
+      <p>Erste Crafting-Stufe. 8 Teile (zwei Armors, zwei Garments, zwei Shoes, zwei Accessories). Hier beginnt die Aufteilung in physisch- und magisch-orientierte Varianten.</p>
+      <div class="info-box note"><strong>Physisches Sub-Set (Armor + Manteau + Boots + Ring):</strong> ATK +20. <strong>Magisches Sub-Set (Robe + Muffler + Shoes + Magic Ring):</strong> MATK +20. <strong>Total-Refine &gt; +21:</strong> ASPD-Boost und Cast-Reduktion (Wert je nach Sub-Set).</div>
+      <div class="entry-grid">
+        <div class="entry-card" id="item-15221">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/15221.png" alt="Expedition Armor [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-15221">Expedition Armor <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-15220">Subjugation Armor</a></li><li><strong>Gewicht:</strong> 50 · <strong>DEF:</strong> 56</li></ul>
+          <ul class="entry-stats"><li>MaxHP +500, MaxSP +30, MDEF +5, DEF +30</li><li>Set-Trigger: Manteau + Boots + Ring → ATK +20</li><li>Total-Refine &gt; +21: −5 % After-Attack-Delay, −5 % Variable Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #15221</span></div>
+        </div>
+        <div class="entry-card" id="item-15222">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/15222.png" alt="Expedition Robe [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-15222">Expedition Robe <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-15220">Subjugation Armor</a></li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 51</li></ul>
+          <ul class="entry-stats"><li>MaxHP +400, MaxSP +50, MDEF +5, DEF +30</li><li>Set-Trigger: Muffler + Shoes + Magic Ring → MATK +20</li><li>Total-Refine &gt; +21: −5 % Variable &amp; Fixed Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #15222</span></div>
+        </div>
+        <div class="entry-card" id="item-20868">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/20868.png" alt="Expedition Manteau [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-20868">Expedition Manteau <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-20867">Subjugation Sash</a></li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 14</li></ul>
+          <ul class="entry-stats"><li>+8 % Neutral-Resistenz</li><li>FLEE +15</li><li>Refine ≥ +3: zusätzlich FLEE +3</li></ul>
+          <div class="entry-card-foot"><span>kRO #20868</span></div>
+        </div>
+        <div class="entry-card" id="item-20869">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/20869.png" alt="Expedition Muffler [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-20869">Expedition Muffler <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-20867">Subjugation Sash</a></li><li><strong>Gewicht:</strong> 25 · <strong>DEF:</strong> 13</li></ul>
+          <ul class="entry-stats"><li>+9 % Neutral-Resistenz</li><li>FLEE +12</li><li>Refine ≥ +3: +1 % zusätzliche Neutral-Resistenz</li></ul>
+          <div class="entry-card-foot"><span>kRO #20869</span></div>
+        </div>
+        <div class="entry-card" id="item-22151">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/22151.png" alt="Expedition Boots [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-22151">Expedition Boots <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-22150">Subjugation Boots</a></li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 16</li></ul>
+          <ul class="entry-stats"><li>+15 % HP-Recovery</li><li>+5 % SP-Recovery</li><li>Refine ≥ +3: AGI +1</li></ul>
+          <div class="entry-card-foot"><span>kRO #22151</span></div>
+        </div>
+        <div class="entry-card" id="item-22152">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/22152.png" alt="Expedition Shoes [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-22152">Expedition Shoes <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-22150">Subjugation Boots</a></li><li><strong>Gewicht:</strong> 25 · <strong>DEF:</strong> 14</li></ul>
+          <ul class="entry-stats"><li>+10 % HP-Recovery</li><li>+7 % SP-Recovery</li><li>Refine ≥ +3: VIT +1</li></ul>
+          <div class="entry-card-foot"><span>kRO #22152</span></div>
+        </div>
+        <div class="entry-card" id="item-28540">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28540.png" alt="Expedition Ring [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28540">Expedition Ring <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-28539">Subjugation Ring</a></li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+          <ul class="entry-stats"><li>STR +3</li></ul>
+          <div class="entry-card-foot"><span>kRO #28540</span></div>
+        </div>
+        <div class="entry-card" id="item-28541">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28541.png" alt="Expedition Magic Ring [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28541">Expedition Magic Ring <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-28539">Subjugation Ring</a></li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+          <ul class="entry-stats"><li>INT +3</li></ul>
+          <div class="entry-card-foot"><span>kRO #28541</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sec-dispatching-grade-ii">
+      <h2>🛡️ Grade II — Dispatching Set</h2>
+      <p>Verzweigung auf 16 Teile. Vier vollständige Sub-Sets mit jeweils eigenem 3-Teile-Bonus: <strong>Melee-Phys</strong> (Chain Mail + Manteau + Greaves + Ring), <strong>Ranged-Phys</strong> (Cloth + Scouting Manteau + Boots + Glove), <strong>Magic-DD</strong> (Robe + Muffler + Shoes + Magic Ring), <strong>Magic-Support</strong> (Garment + Cape + Magic Shoes + Necklace).</p>
+      <div class="info-box note"><strong>Total-Refine &gt; +25:</strong> sub-set-spezifische Boni (ASPD-Boost für phys, MATK % bzw HP-Recovery für magic). Per-Item ab Refine ≥ +5 zusätzlich DEF/HP/SP.</div>
+      <div class="entry-grid">
+        <div class="entry-card" id="item-15223">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/15223.png" alt="Dispatching Chain Mail [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-15223">Dispatching Chain Mail <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-15221">Expedition Armor</a></li><li><strong>Gewicht:</strong> 60 · <strong>DEF:</strong> 66</li></ul>
+          <ul class="entry-stats"><li>STR +1, AGI +1, MaxHP +700, MaxSP +50, MDEF +5, DEF +40</li><li>Refine ≥ +5: DEF +15, MaxHP +100</li><li>Set-Trigger: Manteau + Greaves + Ring → ATK +25</li><li>Total-Refine &gt; +25: −7 % After-Attack-Delay, +2 % CRIT-Damage, −10 % Fixed Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #15223</span></div>
+        </div>
+        <div class="entry-card" id="item-15224">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/15224.png" alt="Dispatching Cloth [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-15224">Dispatching Cloth <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-15221">Expedition Armor</a></li><li><strong>Gewicht:</strong> 60 · <strong>DEF:</strong> 63</li></ul>
+          <ul class="entry-stats"><li>DEX +1, AGI +1, MaxHP +500, MaxSP +60, MDEF +5, DEF +40</li><li>Refine ≥ +5: DEF +15, MaxSP +20</li><li>Set-Trigger: Scouting Manteau + Boots + Glove → ATK +25</li><li>Total-Refine &gt; +25: −7 % After-Attack-Delay, +2 % Ranged-Phys-Damage, −10 % Fixed Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #15224</span></div>
+        </div>
+        <div class="entry-card" id="item-15225">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/15225.png" alt="Dispatching Robe [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-15225">Dispatching Robe <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-15222">Expedition Robe</a></li><li><strong>Gewicht:</strong> 55 · <strong>DEF:</strong> 61</li></ul>
+          <ul class="entry-stats"><li>INT +1, DEX +1, MaxHP +500, MaxSP +70, MDEF +5, DEF +40</li><li>Refine ≥ +5: DEF +10, MaxSP +20</li><li>Set-Trigger: Muffler + Shoes + Magic Ring → MATK +25</li><li>Total-Refine &gt; +25: MATK +2 %, −7 % Variable Cast, −10 % Fixed Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #15225</span></div>
+        </div>
+        <div class="entry-card" id="item-15226">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/15226.png" alt="Dispatching Garment [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-15226">Dispatching Garment <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-15222">Expedition Robe</a></li><li><strong>Gewicht:</strong> 50 · <strong>DEF:</strong> 59</li></ul>
+          <ul class="entry-stats"><li>INT +1, VIT +1, MaxHP +600, MaxSP +60, MDEF +5, DEF +40</li><li>Refine ≥ +5: DEF +10, MaxHP +100</li><li>Set-Trigger: Cape + Magic Shoes + Necklace → MATK +25</li><li>Total-Refine &gt; +25: +2 % HP-Recovery, −7 % Variable Cast, −10 % Fixed Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #15226</span></div>
+        </div>
+        <div class="entry-card" id="item-20870">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/20870.png" alt="Dispatching Manteau [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-20870">Dispatching Manteau <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-20868">Expedition Manteau</a></li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 16</li></ul>
+          <ul class="entry-stats"><li>−5 % After-Attack-Delay (ASPD-Boost)</li><li>FLEE +15</li><li>Refine ≥ +5: AGI +1</li></ul>
+          <div class="entry-card-foot"><span>kRO #20870</span></div>
+        </div>
+        <div class="entry-card" id="item-20871">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/20871.png" alt="Dispatching Scouting Manteau [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-20871">Dispatching Scouting Manteau <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-20868">Expedition Manteau</a></li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 15</li></ul>
+          <ul class="entry-stats"><li>−3 % After-Attack-Delay</li><li>FLEE +20</li><li>Refine ≥ +5: zusätzlich −2 % After-Attack-Delay</li></ul>
+          <div class="entry-card-foot"><span>kRO #20871</span></div>
+        </div>
+        <div class="entry-card" id="item-20872">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/20872.png" alt="Dispatching Muffler [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-20872">Dispatching Muffler <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-20869">Expedition Muffler</a></li><li><strong>Gewicht:</strong> 35 · <strong>DEF:</strong> 14</li></ul>
+          <ul class="entry-stats"><li>−3 % Variable Cast</li><li>FLEE +16</li><li>Refine ≥ +5: zusätzlich −4 % Variable Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #20872</span></div>
+        </div>
+        <div class="entry-card" id="item-20873">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/20873.png" alt="Dispatching Cape [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-20873">Dispatching Cape <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-20869">Expedition Muffler</a></li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 13</li></ul>
+          <ul class="entry-stats"><li>−5 % Variable Cast</li><li>FLEE +12</li><li>Refine ≥ +5: +3 % Neutral-Resistenz</li></ul>
+          <div class="entry-card-foot"><span>kRO #20873</span></div>
+        </div>
+        <div class="entry-card" id="item-22153">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/22153.png" alt="Dispatching Greaves [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-22153">Dispatching Greaves <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-22151">Expedition Boots</a></li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 20</li></ul>
+          <ul class="entry-stats"><li>+18 % HP-Recovery</li><li>+5 % SP-Recovery</li><li>Refine ≥ +5: STR +2</li></ul>
+          <div class="entry-card-foot"><span>kRO #22153</span></div>
+        </div>
+        <div class="entry-card" id="item-22154">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/22154.png" alt="Dispatching Boots [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-22154">Dispatching Boots <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-22151">Expedition Boots</a></li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 18</li></ul>
+          <ul class="entry-stats"><li>+15 % HP-Recovery</li><li>+7 % SP-Recovery</li><li>Refine ≥ +5: DEX +2</li></ul>
+          <div class="entry-card-foot"><span>kRO #22154</span></div>
+        </div>
+        <div class="entry-card" id="item-22155">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/22155.png" alt="Dispatching Shoes [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-22155">Dispatching Shoes <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-22152">Expedition Shoes</a></li><li><strong>Gewicht:</strong> 35 · <strong>DEF:</strong> 16</li></ul>
+          <ul class="entry-stats"><li>+12 % HP-Recovery</li><li>+10 % SP-Recovery</li><li>Refine ≥ +5: INT +2</li></ul>
+          <div class="entry-card-foot"><span>kRO #22155</span></div>
+        </div>
+        <div class="entry-card" id="item-22156">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/22156.png" alt="Dispatching Magic Shoes [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-22156">Dispatching Magic Shoes <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-22152">Expedition Shoes</a></li><li><strong>Gewicht:</strong> 30 · <strong>DEF:</strong> 15</li></ul>
+          <ul class="entry-stats"><li>+15 % HP-Recovery</li><li>+7 % SP-Recovery</li><li>Refine ≥ +5: +2 % Heal-Effektivität</li></ul>
+          <div class="entry-card-foot"><span>kRO #22156</span></div>
+        </div>
+        <div class="entry-card" id="item-28542">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28542.png" alt="Dispatching Ring [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28542">Dispatching Ring <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-28540">Expedition Ring</a></li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+          <ul class="entry-stats"><li>STR +3</li><li>AGI +1</li></ul>
+          <div class="entry-card-foot"><span>kRO #28542</span></div>
+        </div>
+        <div class="entry-card" id="item-28543">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28543.png" alt="Dispatching Glove [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28543">Dispatching Glove <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-28540">Expedition Ring</a></li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+          <ul class="entry-stats"><li>DEX +3</li><li>AGI +1</li></ul>
+          <div class="entry-card-foot"><span>kRO #28543</span></div>
+        </div>
+        <div class="entry-card" id="item-28544">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28544.png" alt="Dispatching Magic Ring [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28544">Dispatching Magic Ring <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-28541">Expedition Magic Ring</a></li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+          <ul class="entry-stats"><li>INT +3</li><li>DEX +1</li></ul>
+          <div class="entry-card-foot"><span>kRO #28544</span></div>
+        </div>
+        <div class="entry-card" id="item-28545">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28545.png" alt="Dispatching Necklace [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28545">Dispatching Necklace <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-28541">Expedition Magic Ring</a></li><li><strong>Gewicht:</strong> 0 · <strong>DEF:</strong> 0</li></ul>
+          <ul class="entry-stats"><li>INT +3</li><li>VIT +1</li></ul>
+          <div class="entry-card-foot"><span>kRO #28545</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sec-conqueror-grade-i">
+      <h2>🛡️ Grade I — Conqueror Set</h2>
+      <p>Endgame der Memorial-Equipment-Kette. 16 Teile in den gleichen vier Sub-Sets wie Dispatching, aber mit deutlich höheren Stats und drei Refine-Schwellen pro Item (+5, +7, plus Total-Refine).</p>
+      <div class="info-box note"><strong>Total-Refine &gt; +27:</strong> sehr starke Sub-Set-Boni — Melee-Phys: −10 % After-Attack-Delay, +4 % CRIT-Damage, −15 % Fixed Cast. Magic-DD: MATK +4 %, −10 % Variable Cast, −15 % Fixed Cast. Per-Item Refine ≥ +5 und ≥ +7 geben zusätzliche Stats.</div>
+      <div class="entry-grid">
+        <div class="entry-card" id="item-15227">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/15227.png" alt="Conqueror Chain Mail [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-15227">Conqueror Chain Mail <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-15223">Dispatching Chain Mail</a></li><li><strong>Gewicht:</strong> 70 · <strong>DEF:</strong> 76</li></ul>
+          <ul class="entry-stats"><li>STR +2, AGI +2, MaxHP +900, MaxSP +60, MDEF +5, DEF +50</li><li>Refine ≥ +5: DEF +20, MaxHP +100</li><li>Refine ≥ +7: zusätzlich AGI +2</li><li>Set-Trigger: Manteau + Greaves + Ring → ATK +30</li><li>Total-Refine &gt; +27: −10 % After-Attack-Delay, +4 % CRIT-Damage, −15 % Fixed Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #15227</span></div>
+        </div>
+        <div class="entry-card" id="item-15228">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/15228.png" alt="Conqueror Cloth [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-15228">Conqueror Cloth <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-15224">Dispatching Cloth</a></li><li><strong>Gewicht:</strong> 65 · <strong>DEF:</strong> 71</li></ul>
+          <ul class="entry-stats"><li>DEX +2, AGI +2, MaxHP +700, MaxSP +80, MDEF +5, DEF +50</li><li>Refine ≥ +5: DEF +20, MaxSP +20</li><li>Refine ≥ +7: DEX +2</li><li>Set-Trigger: Scouting Manteau + Boots + Glove → ATK +30</li><li>Total-Refine &gt; +27: −10 % After-Attack-Delay, +4 % Ranged-Phys-Damage, −15 % Fixed Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #15228</span></div>
+        </div>
+        <div class="entry-card" id="item-15229">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/15229.png" alt="Conqueror Robe [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-15229">Conqueror Robe <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-15225">Dispatching Robe</a></li><li><strong>Gewicht:</strong> 65 · <strong>DEF:</strong> 66</li></ul>
+          <ul class="entry-stats"><li>INT +2, DEX +2, MaxHP +600, MaxSP +90, MDEF +5, DEF +50</li><li>Refine ≥ +5: DEF +15, MaxSP +20</li><li>Refine ≥ +7: DEX +2</li><li>Set-Trigger: Muffler + Shoes + Magic Ring → MATK +30</li><li>Total-Refine &gt; +27: MATK +4 %, −10 % Variable Cast, −15 % Fixed Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #15229</span></div>
+        </div>
+        <div class="entry-card" id="item-15230">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/15230.png" alt="Conqueror Garment [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-15230">Conqueror Garment <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Armor</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-15226">Dispatching Garment</a></li><li><strong>Gewicht:</strong> 60 · <strong>DEF:</strong> 65</li></ul>
+          <ul class="entry-stats"><li>INT +2, VIT +2, MaxHP +800, MaxSP +70, MDEF +5, DEF +50</li><li>Refine ≥ +5: DEF +15, MaxHP +100</li><li>Refine ≥ +7: VIT +2</li><li>Set-Trigger: Cape + Magic Shoes + Necklace → MATK +30</li><li>Total-Refine &gt; +27: +4 % Heal-Effektivität, −10 % Variable Cast, −15 % Fixed Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #15230</span></div>
+        </div>
+        <div class="entry-card" id="item-20874">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/20874.png" alt="Conqueror Manteau [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-20874">Conqueror Manteau <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-20870">Dispatching Manteau</a></li><li><strong>Gewicht:</strong> 50 · <strong>DEF:</strong> 20</li></ul>
+          <ul class="entry-stats"><li>−7 % After-Attack-Delay</li><li>FLEE +18</li><li>Refine ≥ +5: AGI +1</li><li>Refine ≥ +7: +4 % CRIT-Damage</li></ul>
+          <div class="entry-card-foot"><span>kRO #20874</span></div>
+        </div>
+        <div class="entry-card" id="item-20875">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/20875.png" alt="Conqueror Scouting Manteau [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-20875">Conqueror Scouting Manteau <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-20871">Dispatching Scouting Manteau</a></li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 18</li></ul>
+          <ul class="entry-stats"><li>−5 % After-Attack-Delay</li><li>FLEE +25</li><li>Refine ≥ +5: zusätzlich −2 % After-Attack-Delay</li><li>Refine ≥ +7: +3 % Ranged-Phys-Damage</li></ul>
+          <div class="entry-card-foot"><span>kRO #20875</span></div>
+        </div>
+        <div class="entry-card" id="item-20876">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/20876.png" alt="Conqueror Muffler [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-20876">Conqueror Muffler <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-20872">Dispatching Muffler</a></li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 16</li></ul>
+          <ul class="entry-stats"><li>−5 % Variable Cast</li><li>FLEE +16</li><li>Refine ≥ +5: zusätzlich −4 % Variable Cast</li><li>Refine ≥ +7: zusätzlich −3 % Variable Cast</li></ul>
+          <div class="entry-card-foot"><span>kRO #20876</span></div>
+        </div>
+        <div class="entry-card" id="item-20877">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/20877.png" alt="Conqueror Cape [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-20877">Conqueror Cape <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Garment</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-20873">Dispatching Cape</a></li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 15</li></ul>
+          <ul class="entry-stats"><li>−7 % Variable Cast</li><li>FLEE +12</li><li>Refine ≥ +5: +3 % Neutral-Resistenz</li><li>Refine ≥ +7: zusätzlich +4 % Neutral-Resistenz</li></ul>
+          <div class="entry-card-foot"><span>kRO #20877</span></div>
+        </div>
+        <div class="entry-card" id="item-22157">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/22157.png" alt="Conqueror Greaves [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-22157">Conqueror Greaves <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-22153">Dispatching Greaves</a></li><li><strong>Gewicht:</strong> 50 · <strong>DEF:</strong> 24</li></ul>
+          <ul class="entry-stats"><li>+20 % HP-Recovery</li><li>+7 % SP-Recovery</li><li>Refine ≥ +5: STR +2</li><li>Refine ≥ +7: ATK +20</li></ul>
+          <div class="entry-card-foot"><span>kRO #22157</span></div>
+        </div>
+        <div class="entry-card" id="item-22158">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/22158.png" alt="Conqueror Boots [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-22158">Conqueror Boots <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-22154">Dispatching Boots</a></li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 22</li></ul>
+          <ul class="entry-stats"><li>+18 % HP-Recovery</li><li>+9 % SP-Recovery</li><li>Refine ≥ +5: DEX +2</li><li>Refine ≥ +7: FLEE +20</li></ul>
+          <div class="entry-card-foot"><span>kRO #22158</span></div>
+        </div>
+        <div class="entry-card" id="item-22159">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/22159.png" alt="Conqueror Shoes [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-22159">Conqueror Shoes <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-22155">Dispatching Shoes</a></li><li><strong>Gewicht:</strong> 45 · <strong>DEF:</strong> 18</li></ul>
+          <ul class="entry-stats"><li>+15 % HP-Recovery</li><li>+12 % SP-Recovery</li><li>Refine ≥ +5: INT +2</li><li>Refine ≥ +7: MATK +20</li></ul>
+          <div class="entry-card-foot"><span>kRO #22159</span></div>
+        </div>
+        <div class="entry-card" id="item-22160">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/22160.png" alt="Conqueror Magic Shoes [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-22160">Conqueror Magic Shoes <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Shoes</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-22156">Dispatching Magic Shoes</a></li><li><strong>Gewicht:</strong> 40 · <strong>DEF:</strong> 17</li></ul>
+          <ul class="entry-stats"><li>+17 % HP-Recovery</li><li>+10 % SP-Recovery</li><li>Refine ≥ +5: +2 % Heal-Effektivität</li><li>Refine ≥ +7: zusätzlich +4 % Heal-Effektivität</li></ul>
+          <div class="entry-card-foot"><span>kRO #22160</span></div>
+        </div>
+        <div class="entry-card" id="item-28546">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28546.png" alt="Conqueror Ring [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28546">Conqueror Ring <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-28542">Dispatching Ring</a></li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+          <ul class="entry-stats"><li>STR +3</li><li>AGI +2</li></ul>
+          <div class="entry-card-foot"><span>kRO #28546</span></div>
+        </div>
+        <div class="entry-card" id="item-28547">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28547.png" alt="Conqueror Glove [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28547">Conqueror Glove <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-28543">Dispatching Glove</a></li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+          <ul class="entry-stats"><li>DEX +3</li><li>AGI +2</li></ul>
+          <div class="entry-card-foot"><span>kRO #28547</span></div>
+        </div>
+        <div class="entry-card" id="item-28548">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28548.png" alt="Conqueror Magic Ring [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28548">Conqueror Magic Ring <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-28544">Dispatching Magic Ring</a></li><li><strong>Gewicht:</strong> 10 · <strong>DEF:</strong> 0</li></ul>
+          <ul class="entry-stats"><li>INT +3</li><li>DEX +2</li></ul>
+          <div class="entry-card-foot"><span>kRO #28548</span></div>
+        </div>
+        <div class="entry-card" id="item-28549">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28549.png" alt="Conqueror Necklace [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28549">Conqueror Necklace <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Accessory</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> <a href="items.html#item-28545">Dispatching Necklace</a></li><li><strong>Gewicht:</strong> 0 · <strong>DEF:</strong> 0</li></ul>
+          <ul class="entry-stats"><li>INT +3</li><li>VIT +2</li></ul>
+          <div class="entry-card-foot"><span>kRO #28549</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sec-hard-mode">
+      <h2>💎 Hard-Mode-Accessoires</h2>
+      <p>Vier Slot-1-Accessoires, gecraftet aus Edelsteinen der Hard-Mode-Memorial-Dungeons. Zwei Right-side, zwei Left-side. Gehören <em>nicht</em> zur Subjugation→Conqueror-Kette — eigenständiger Pfad. Edelsteine droppen nur in den Hard-Mode-Versionen der jeweiligen Memorial-Dungeons.</p>
+      <div class="info-box note">Stat-Daten für die Hard-Mode-Accessoires sind in der Quelle nicht veröffentlicht. Für die finalen Boni siehe <a href="https://www.divine-pride.net" target="_blank" rel="noopener">Divine Pride</a>.</div>
+      <div class="entry-grid">
+        <div class="entry-card" id="item-28568">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28568.png" alt="Cursed Emerald Earrings [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28568">Cursed Emerald Earrings <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Right side</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> 15× <a href="items.html#item-25457">Cursed Emerald</a> + 10× <a href="items.html#item-25430">Mithril</a></li></ul>
+          <div class="entry-card-foot"><span>kRO #28568</span></div>
+        </div>
+        <div class="entry-card" id="item-28569">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28569.png" alt="Shiny Opal Earrings [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28569">Shiny Opal Earrings <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Right side</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> 15× <a href="items.html#item-25458">Shiny Opal</a> + 10× <a href="items.html#item-25430">Mithril</a></li></ul>
+          <div class="entry-card-foot"><span>kRO #28569</span></div>
+        </div>
+        <div class="entry-card" id="item-28570">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28570.png" alt="Ring of Blue Oath [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28570">Ring of Blue Oath <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Left side</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> 15× <a href="items.html#item-25459">Sea Sapphire</a> + 10× <a href="items.html#item-25430">Mithril</a></li></ul>
+          <div class="entry-card-foot"><span>kRO #28570</span></div>
+        </div>
+        <div class="entry-card" id="item-28571">
+          <div class="entry-card-head">
+            <img class="entry-icon" src="images/equip/28571.png" alt="Ring of the Red Covenent [1]" loading="lazy">
+            <a class="entry-name" href="items.html#item-28571">Ring of the Red Covenent <span class="entry-slot">[1]</span></a>
+            <span class="entry-type">Left side</span>
+          </div>
+          <ul class="entry-meta"><li><strong>Crafted aus:</strong> 15× <a href="items.html#item-25460">Blood-soaked Ruby</a> + 10× <a href="items.html#item-25430">Mithril</a></li></ul>
+          <div class="entry-card-foot"><span>kRO #28571</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</div>
+
+<footer class="footer">
+  Quellen: <a href="https://www.midgardhub.com/" target="_blank" rel="noopener">Midgard Hub</a> · <a href="https://old.criatura-academy.com/" target="_blank" rel="noopener">Criatura Academy</a> · <a href="https://wiki.playragnarokzero.com/" target="_blank" rel="noopener">Project Zero Wiki</a>
+</footer>
+
+</body>
+</html>
